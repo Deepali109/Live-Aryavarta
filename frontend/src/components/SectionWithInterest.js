@@ -20,8 +20,10 @@ export default function SectionBasedInterest() {
               src={"/images/interestSection/mountain.jpg"}
               className="object-cover rounded-xl"
             />
-            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-3 rounded-b-lg">
-              <h3 className="text-white text-xl font-semibold">Hill Station</h3>
+            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/100 to-transparent p-3 rounded-b-lg">
+              <h3 className="text-white text-2xl font-semibold">
+                Hill Station
+              </h3>
             </div>
           </div>
         </div>
