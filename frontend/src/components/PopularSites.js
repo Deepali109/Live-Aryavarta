@@ -21,10 +21,10 @@ export default function HeroSection() {
         </div>
 
         {/* RIGHT SIDE - CARDS */}
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 gap-4">
           {/* Card */}
 
-          <div className="relative aspect-[5/6] rounded-xl shadow-md overflow-hidden group">
+          <div className="relative aspect-[7/8] rounded-xl shadow-md overflow-hidden group">
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
               style={{ backgroundImage: "url('/images/taj-mahal.jpg')" }}
@@ -38,7 +38,7 @@ export default function HeroSection() {
           </div>
 
           {/* Card */}
-          <div className="mt-12 relative aspect-[5/6] rounded-xl shadow-md overflow-hidden group">
+          <div className="mt-12 relative aspect-[7/8] rounded-xl shadow-md overflow-hidden group">
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
               style={{ backgroundImage: "url('/images/golden-temple.jpg')" }}
@@ -52,7 +52,7 @@ export default function HeroSection() {
           </div>
 
           {/* Card */}
-          <div className="relative aspect-[5/6] rounded-xl shadow-md overflow-hidden group">
+          <div className="relative aspect-[7/8] rounded-xl shadow-md overflow-hidden group">
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
               style={{ backgroundImage: "url('/images/bada-bagh.jpg')" }}
@@ -66,7 +66,7 @@ export default function HeroSection() {
           </div>
 
           {/* Card */}
-          <div className="mt-12 relative aspect-[5/6] rounded-xl shadow-md overflow-hidden group">
+          <div className="mt-12 relative aspect-[7/8] rounded-xl shadow-md overflow-hidden group">
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
               style={{ backgroundImage: "url('/images/kashiviswanath.jpg')" }}
