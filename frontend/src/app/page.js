@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import PopularSites from "@/components/PopularSites";
 import OurServices from "@/components/OurServices";
+import SectionBasedInterest from "@/components/SectionWithInterest";
 const Home = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Home = () => {
         <HeroSection />
         <OurServices />
         <PopularSites />
+        <SectionBasedInterest />
       </div>
     </>
   );
