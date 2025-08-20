@@ -1,7 +1,7 @@
 "use client";
 import TiltCard from "./TiltCardAnimation";
 
-export default function HeroSection() {
+export default function PopularSites() {
   return (
     <section className="w-full min-h-screen flex items-center justify-center bg-gray-50 px-8 py-16">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
