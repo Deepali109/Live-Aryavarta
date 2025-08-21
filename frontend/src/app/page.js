@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import PopularSites from "@/components/PopularSites";
 import OurServices from "@/components/OurServices";
 import SectionBasedInterest from "@/components/SectionWithInterest";
+import ExploreStates from "@/components/SectionWithState";
 const Home = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home = () => {
         <OurServices />
         <PopularSites />
         <SectionBasedInterest />
+        <ExploreStates />
       </div>
     </>
   );
