@@ -1,0 +1,4055 @@
+{
+  "categories": {
+    "hill_station": {
+      "category_id": "hill-station",
+      "category_name": "Hill Stations",
+      "category_description": "Scenic mountain retreats offering cool climate and breathtaking views",
+      "destinations": [
+        {
+          "id": "shimla_001",
+          "name": "Shimla",
+          "state": "Himachal Pradesh",
+          "location": {
+            "coordinates": {
+              "latitude": 31.1048,
+              "longitude": 77.1734
+            },
+            "altitude": "2205 meters",
+            "district": "Shimla",
+            "nearest_airport": "Shimla Airport (23 km)",
+            "nearest_railway": "Kalka Railway Station (96 km)"
+          },
+          "images": {
+            "main_image": "https://images.unsplash.com/photo-1610178009236-02461f18b272?q=80&w=962&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "gallery": [
+              "https://plus.unsplash.com/premium_photo-1697729733902-f8c92710db07?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://plus.unsplash.com/premium_photo-1697729626072-d3d3e418c443?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://images.unsplash.com/photo-1600065755981-a7f7f560ab04?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ]
+          },
+          "description": {
+            "overview": "Known as the 'Queen of Hills', Shimla is the capital of Himachal Pradesh and was the summer capital of British India. Famous for its Victorian architecture, pleasant climate, and scenic beauty.",
+            "famous_for": [
+              "Colonial architecture",
+              "Mall Road shopping",
+              "Toy train ride",
+              "Ridge and Christ Church",
+              "Jakhu Temple"
+            ],
+            "best_time_to_visit": {
+              "season": "March to June, September to November",
+              "peak_season": "April to June",
+              "weather": "Pleasant summers (15-25°C), cold winters (-2 to 10°C)"
+            }
+          },
+          "activities": [
+            {
+              "name": "Toy Train Ride",
+              "description": "UNESCO World Heritage Kalka-Shimla Railway",
+              "duration": "5-6 hours",
+              "cost_range": "₹500-2000",
+              "difficulty": "Easy"
+            },
+            {
+              "name": "Mall Road Shopping",
+              "description": "Shopping and cafes on the famous pedestrian street",
+              "duration": "2-3 hours",
+              "cost_range": "₹1000-5000",
+              "difficulty": "Easy"
+            },
+            {
+              "name": "Trekking to Jakhu Temple",
+              "description": "Trek to highest peak of Shimla",
+              "duration": "2-3 hours",
+              "cost_range": "Free",
+              "difficulty": "Moderate"
+            }
+          ],
+          "famous_food": {
+            "local_specialties": [
+              {
+                "dish": "Sidu",
+                "description": "Traditional steamed bread stuffed with poppy seeds or walnut",
+                "where_to_find": "Local dhabas and Himachali restaurants",
+                "price_range": "₹100-200"
+              },
+              {
+                "dish": "Chana Madra",
+                "description": "Chickpea curry in yogurt gravy with spices",
+                "where_to_find": "Himachali restaurants",
+                "price_range": "₹200-300"
+              },
+              {
+                "dish": "Babru",
+                "description": "Himachali version of kachori with black gram filling",
+                "where_to_find": "Street vendors on Mall Road",
+                "price_range": "₹50-100"
+              }
+            ],
+            "popular_restaurants": [
+              {
+                "name": "Ashiana Restaurant",
+                "address": "The Ridge, Shimla",
+                "cuisine": "North Indian, Chinese",
+                "rating": 4.2,
+                "price_range": "₹800-1500 for two"
+              },
+              {
+                "name": "Indian Coffee House",
+                "address": "Mall Road, Shimla",
+                "cuisine": "Indian, Continental",
+                "rating": 4.0,
+                "price_range": "₹400-800 for two"
+              }
+            ]
+          },
+          "accommodation": {
+            "budget_hotels": [
+              {
+                "name": "Hotel Surya",
+                "price_range": "₹1500-2500 per night",
+                "rating": 3.8,
+                "amenities": ["WiFi", "Room Service", "Hot Water"]
+              }
+            ],
+            "mid_range_hotels": [
+              {
+                "name": "Hotel Combermere",
+                "price_range": "₹4000-6000 per night",
+                "rating": 4.2,
+                "amenities": ["Restaurant", "WiFi", "Valley View"]
+              }
+            ],
+            "luxury_hotels": [
+              {
+                "name": "Oberoi Cecil",
+                "price_range": "₹12000-20000 per night",
+                "rating": 4.8,
+                "amenities": ["Spa", "Fine Dining", "Heritage Property"]
+              }
+            ]
+          },
+          "famous_spots": [
+            {
+              "name": "Mall Road",
+              "description": "Main shopping and entertainment hub",
+              "entry_fee": "Free",
+              "timings": "24/7"
+            },
+            {
+              "name": "The Ridge",
+              "description": "Open space in heart of Shimla with Christ Church",
+              "entry_fee": "Free",
+              "timings": "24/7"
+            },
+            {
+              "name": "Jakhu Temple",
+              "description": "Hanuman temple at highest point of Shimla",
+              "entry_fee": "Free",
+              "timings": "6:00 AM - 9:00 PM"
+            }
+          ],
+          "transportation": {
+            "how_to_reach": {
+              "by_air": "Nearest airport is Shimla Airport (23 km), limited flights",
+              "by_train": "Kalka Railway Station (96 km) connected to toy train",
+              "by_road": "Well connected by NH5, regular buses from Delhi (7 hours)"
+            },
+            "local_transport": [
+              "Local buses",
+              "Shared taxis",
+              "Private cabs",
+              "Walking on Mall Road"
+            ]
+          },
+          "rating": {
+            "overall": 4.3,
+            "scenery": 4.5,
+            "activities": 4.2,
+            "food": 4.0,
+            "accommodation": 4.1,
+            "accessibility": 4.0
+          },
+          "tips": [
+            "Book hotels in advance during peak season",
+            "Carry warm clothes even in summer",
+            "Mall Road is pedestrian-only, park vehicles at designated areas",
+            "Try the toy train ride for scenic journey"
+          ]
+        },
+        {
+          "id": "manali_002",
+          "name": "Manali",
+          "state": "Himachal Pradesh",
+          "location": {
+            "coordinates": {
+              "latitude": 32.2396,
+              "longitude": 77.1887
+            },
+            "altitude": "2050 meters",
+            "district": "Kullu",
+            "nearest_airport": "Bhuntar Airport (50 km)",
+            "nearest_railway": "Joginder Nagar (165 km)"
+          },
+          "images": {
+            "main_image": "https://example.com/images/manali_main.jpg",
+            "gallery": [
+              "https://example.com/images/manali_rohtang.jpg",
+              "https://example.com/images/manali_solang.jpg",
+              "https://example.com/images/manali_hadimba.jpg"
+            ]
+          },
+          "description": {
+            "overview": "A popular hill station in Himachal Pradesh, known for its scenic beauty, snow-capped mountains, and adventure activities. Gateway to Lahaul and Spiti valleys.",
+            "famous_for": [
+              "Rohtang Pass",
+              "Adventure sports",
+              "Hadimba Temple",
+              "Apple orchards",
+              "Solang Valley"
+            ],
+            "best_time_to_visit": {
+              "season": "October to June",
+              "peak_season": "April to June",
+              "weather": "Pleasant summers (10-25°C), very cold winters (-15 to 5°C)"
+            }
+          },
+          "activities": [
+            {
+              "name": "Paragliding in Solang Valley",
+              "description": "Tandem paragliding with experienced pilots",
+              "duration": "15-30 minutes flight",
+              "cost_range": "₹2500-4000",
+              "difficulty": "Moderate"
+            },
+            {
+              "name": "River Rafting in Beas",
+              "description": "White water rafting in Beas river",
+              "duration": "2-3 hours",
+              "cost_range": "₹1500-2500",
+              "difficulty": "Moderate"
+            },
+            {
+              "name": "Trekking to Bhrigu Lake",
+              "description": "High altitude alpine lake trek",
+              "duration": "2-3 days",
+              "cost_range": "₹3000-5000",
+              "difficulty": "Difficult"
+            }
+          ],
+          "famous_food": {
+            "local_specialties": [
+              {
+                "dish": "Dham",
+                "description": "Traditional festive meal served on special occasions",
+                "where_to_find": "Local homes during festivals, some restaurants",
+                "price_range": "₹300-500"
+              },
+              {
+                "dish": "Trout Fish",
+                "description": "Fresh river trout cooked in local style",
+                "where_to_find": "Restaurants near Beas river",
+                "price_range": "₹500-800"
+              }
+            ],
+            "popular_restaurants": [
+              {
+                "name": "Johnson's Cafe",
+                "address": "Circuit House Road, Old Manali",
+                "cuisine": "Continental, Italian",
+                "rating": 4.4,
+                "price_range": "₹1000-1800 for two"
+              },
+              {
+                "name": "Cafe 1947",
+                "address": "Old Manali",
+                "cuisine": "Israeli, Continental",
+                "rating": 4.3,
+                "price_range": "₹800-1200 for two"
+              }
+            ]
+          },
+          "rating": {
+            "overall": 4.5,
+            "scenery": 4.8,
+            "activities": 4.7,
+            "food": 4.2,
+            "accommodation": 4.3,
+            "accessibility": 3.8
+          }
+        }
+      ]
+    },
+  "wildlife": {
+    "category_id": "wildlife",
+    "category_name": "Wildlife Sanctuaries & National Parks",
+    "category_description": "Protected areas showcasing India's rich biodiversity and wildlife",
+    "destinations": [
+      {
+        "id": "ranthambore_001",
+        "name": "Ranthambore National Park",
+        "state": "Rajasthan",
+        "location": {
+          "coordinates": {
+            "latitude": 26.0173,
+            "longitude": 76.5026
+          },
+          "area": "1,334 sq km",
+          "district": "Sawai Madhopur",
+          "nearest_airport": "Jaipur Airport (180 km)",
+          "nearest_railway": "Sawai Madhopur Railway Station (11 km)"
+        },
+        "images": {
+          "main_image": "https://wordzz.com/wp-content/uploads/2023/04/Ranthambore-National-Park.jpeg",
+          "gallery": [
+            "https://i0.wp.com/wordzz.com/wp-content/uploads/2023/04/Ranthambore-National-Park-Rajasthan.jpeg?w=1200&ssl=1",
+            "https://i0.wp.com/wordzz.com/wp-content/uploads/2023/04/Ranthambore-National-Park-India.jpeg?w=1500&ssl=1",
+            "https://i0.wp.com/wordzz.com/wp-content/uploads/2023/04/Spotted-deer-Ranthambore-National-Park-Rajasthan.jpeg?w=853&ssl=1"
+          ]
+        },
+        "description": {
+          "overview": "One of India's premier tiger reserves, famous for its tiger population and the historic Ranthambore Fort. Offers excellent tiger spotting opportunities.",
+          "famous_for": [
+            "Royal Bengal Tigers",
+            "Ranthambore Fort (UNESCO World Heritage Site)",
+            "Leopards and sloth bears",
+            "Bird watching",
+            "Photography safaris"
+          ],
+          "best_time_to_visit": {
+            "season": "October to April",
+            "peak_season": "December to March",
+            "weather": "Hot summers (up to 45°C), pleasant winters (5-25°C)"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 70-75",
+              "best_spotting_time": "Early morning and late evening",
+              "zones": ["Zone 1-5"]
+            },
+            {
+              "animal": "Indian Leopard",
+              "population": "Approximately 35-40",
+              "best_spotting_time": "Early morning",
+              "zones": ["Zone 6-10"]
+            },
+            {
+              "animal": "Sloth Bear",
+              "population": "Approximately 25-30",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["Zone 2, 3, 5"]
+            }
+          ],
+          "bird_species": [
+            "Indian Peafowl",
+            "Crested Serpent Eagle",
+            "Painted Stork",
+            "Great Horned Owl",
+            "Kingfisher"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Tiger Safari",
+            "description": "Jeep safari in different zones to spot tigers",
+            "duration": "3-4 hours",
+            "cost_range": "₹1800-3500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Canter Safari",
+            "description": "Shared safari vehicle for larger groups",
+            "duration": "3-4 hours",
+            "cost_range": "₹800-1200 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Fort Exploration",
+            "description": "Visit historic Ranthambore Fort within the park",
+            "duration": "2-3 hours",
+            "cost_range": "Included in safari",
+            "difficulty": "Moderate"
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Zone 1",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Mixed forest and grassland",
+              "highlights": ["Ranthambore Fort", "Padam Talao"]
+            },
+            {
+              "zone_number": "Zone 2",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Dense forest",
+              "highlights": ["Lahpur valley", "Nal Ghati"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 10:00 AM (Oct-Jan), 6:00 AM - 9:30 AM (Feb-May)",
+            "evening_safari": "2:30 PM - 6:00 PM (Oct-Jan), 3:30 PM - 7:00 PM (Feb-May)"
+          },
+          "closed_period": "July to September (Monsoon)"
+        },
+        "accommodation": {
+          "jungle_resorts": [
+            {
+              "name": "The Oberoi Vanyavilas",
+              "price_range": "₹35000-50000 per night",
+              "rating": 4.9,
+              "amenities": ["Luxury Tents", "Spa", "Wildlife Library"]
+            }
+          ],
+          "wildlife_lodges": [
+            {
+              "name": "Ranthambore Regency",
+              "price_range": "₹6000-10000 per night",
+              "rating": 4.2,
+              "amenities": ["Pool", "Multi-cuisine Restaurant", "Safari Booking"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.6,
+          "wildlife_spotting": 4.8,
+          "safari_experience": 4.7,
+          "accommodation": 4.4,
+          "accessibility": 4.2,
+          "conservation_efforts": 4.5
+        },
+        "conservation_status": {
+          "established": "1980",
+          "tiger_reserve_since": "1973",
+          "conservation_success": "Tiger population increased from 26 in 2005 to 75+ in 2023",
+          "challenges": "Human-wildlife conflict, tourism pressure"
+        }
+      },
+      {
+        "id": "kaziranga_002",
+        "name": "Kaziranga National Park",
+        "state": "Assam",
+        "location": {
+          "coordinates": {
+            "latitude": 26.5775,
+            "longitude": 93.1714
+          },
+          "area": "858 sq km",
+          "district": "Golaghat and Nagaon",
+          "nearest_airport": "Jorhat Airport (97 km)",
+          "nearest_railway": "Furkating Railway Station (75 km)"
+        },
+        "images": {
+          "main_image": "https://im.rediff.com/getahead/2013/oct/16travel-kaziranga-national-park.jpg",
+          "gallery": [
+            "https://rhinos.org/wp-content/uploads/2024/07/1720542345016.jpeg",
+            "https://www.tigersafariindia.com/wp-content/uploads/2023/11/elephants-playing-in-kaziranga-national-park.jpg",
+            "https://www.tripsavvy.com/thmb/hloxTK789ZhuEbyFuLsQ2I_QFKI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/125213427-56a3bfaa5f9b58b7d0d39685.jpg"
+          ]
+        },
+        "description": {
+          "overview": "UNESCO World Heritage Site famous for the Great One-horned Rhinoceros. Two-thirds of the world's great one-horned rhinoceros population lives here.",
+          "famous_for": [
+            "Great One-horned Rhinoceros",
+            "Royal Bengal Tigers",
+            "Asian Elephants",
+            "Bird watching",
+            "Brahmaputra River ecosystem"
+          ],
+          "best_time_to_visit": {
+            "season": "November to April",
+            "peak_season": "December to March",
+            "weather": "Mild winters, flooded during monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Great One-horned Rhinoceros",
+              "population": "Approximately 2400+",
+              "best_spotting_time": "Early morning",
+              "zones": ["Central Range", "Eastern Range"]
+            },
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 120+",
+              "best_spotting_time": "Early morning and evening",
+              "zones": ["All ranges"]
+            },
+            {
+              "animal": "Asian Elephant",
+              "population": "Approximately 1800+",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All ranges"]
+            }
+          ],
+          "bird_species": [
+            "Greater Adjutant Stork",
+            "Bengal Florican",
+            "Great Indian Hornbill",
+            "Spot-billed Pelican",
+            "White-winged Duck"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Elephant Safari",
+            "description": "Traditional elephant back safari through grasslands",
+            "duration": "1-2 hours",
+            "cost_range": "₹800-1200 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Jeep Safari",
+            "description": "4WD safari through different ranges",
+            "duration": "3-4 hours",
+            "cost_range": "₹1500-2500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "ranges": [
+            {
+              "range_name": "Central Range (Kohora)",
+              "area": "Core area",
+              "rhino_density": "Highest",
+              "terrain": "Grasslands and water bodies",
+              "highlights": ["Dense rhino population", "Water bodies"]
+            },
+            {
+              "range_name": "Eastern Range (Agoratoli)",
+              "area": "Core area",
+              "bird_diversity": "Highest",
+              "terrain": "Grasslands and wetlands",
+              "highlights": ["Bird watching", "Tiger spotting"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "7:00 AM - 11:00 AM",
+            "afternoon_safari": "1:30 PM - 5:30 PM"
+          },
+          "closed_period": "May to October (Monsoon and flooding)"
+        },
+        "accommodation": {
+          "eco_lodges": [
+            {
+              "name": "Wild Grass Lodge",
+              "price_range": "₹12000-18000 per night",
+              "rating": 4.6,
+              "amenities": ["Organic Food", "Cultural Programs", "Bird Watching"]
+            }
+          ],
+          "forest_rest_houses": [
+            {
+              "name": "Kaziranga Forest Lodge",
+              "price_range": "₹4000-7000 per night",
+              "rating": 4.0,
+              "amenities": ["Basic Accommodation", "Safari Booking", "Local Cuisine"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.7,
+          "wildlife_spotting": 4.9,
+          "safari_experience": 4.6,
+          "accommodation": 4.3,
+          "accessibility": 3.9,
+          "conservation_efforts": 4.8
+        },
+        "conservation_status": {
+          "established": "1974",
+          "world_heritage_since": "1985",
+          "conservation_success": "Rhino population increased from 366 in 1966 to 2400+ in 2023",
+          "challenges": "Flooding, poaching, human encroachment"
+        }
+      },
+      {
+        "id": "gir_003",
+        "name": "Gir National Park",
+        "state": "Gujarat",
+        "location": {
+          "coordinates": {
+            "latitude": 21.1728,
+            "longitude": 70.7729
+          },
+          "area": "1,412 sq km",
+          "district": "Junagadh and Gir Somnath",
+          "nearest_airport": "Rajkot Airport (160 km)",
+          "nearest_railway": "Junagadh Railway Station (65 km)"
+        },
+        "images": {
+          "main_image": "https://static.tripzilla.in/media/5385/conversions/1266799a-9bff-44c5-b8f0-1202ac66c037-w1024.webp",
+          "gallery": [
+            "https://static.tripzilla.in/media/5387/conversions/a395bfe1-7b4c-4394-8496-6a833259e032-w1024.webp",
+            "https://static.tripzilla.in/media/5388/conversions/1c03e9f0-0c6e-4be8-bd27-ee266490356e-w1024.webp",
+            "https://static.tripzilla.in/media/5391/conversions/3001feb7-ca87-4ea6-a32b-de9c0c482dac-w1024.webp"
+          ]
+        },
+        "description": {
+          "overview": "The last abode of the Asiatic Lions in the world. Home to over 650 lions and diverse wildlife in dry deciduous forests.",
+          "famous_for": [
+            "Asiatic Lions",
+            "Only home of Asiatic Lions worldwide",
+            "Indian Leopards",
+            "Crocodiles",
+            "Bird watching"
+          ],
+          "best_time_to_visit": {
+            "season": "October to June",
+            "peak_season": "December to March",
+            "weather": "Hot summers, pleasant winters, closed during monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Asiatic Lion",
+              "population": "Approximately 674",
+              "best_spotting_time": "Early morning and evening",
+              "zones": ["All zones"]
+            },
+            {
+              "animal": "Indian Leopard",
+              "population": "Approximately 200+",
+              "best_spotting_time": "Early morning",
+              "zones": ["All zones"]
+            },
+            {
+              "animal": "Mugger Crocodile",
+              "population": "Approximately 300+",
+              "best_spotting_time": "Daytime",
+              "zones": ["Near water bodies"]
+            }
+          ],
+          "bird_species": [
+            "Paradise Flycatcher",
+            "Bonnelli's Eagle",
+            "Crested Serpent Eagle",
+            "Jungle Cat",
+            "Brown Fish Owl"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Lion Safari",
+            "description": "Jeep safari to spot Asiatic lions",
+            "duration": "3-4 hours",
+            "cost_range": "₹2000-3500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Devalia Park",
+            "description": "Interpretation zone safari",
+            "duration": "2 hours",
+            "cost_range": "₹800-1200 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Gir East",
+              "area": "Core area",
+              "lion_density": "High",
+              "terrain": "Dry deciduous forest",
+              "highlights": ["Lion prides", "Kamleshwar Dam"]
+            },
+            {
+              "zone_number": "Gir West",
+              "area": "Core area",
+              "lion_density": "Medium",
+              "terrain": "Mixed forest",
+              "highlights": ["Leopard sightings", "Hiran River"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 10:30 AM",
+            "evening_safari": "3:00 PM - 6:30 PM"
+          },
+          "closed_period": "June 16 to October 15 (Monsoon)"
+        },
+        "accommodation": {
+          "forest_lodges": [
+            {
+              "name": "Gir Jungle Lodge",
+              "price_range": "₹8000-12000 per night",
+              "rating": 4.3,
+              "amenities": ["Authentic Gujarati Cuisine", "Cultural Programs", "Nature Walks"]
+            }
+          ],
+          "eco_resorts": [
+            {
+              "name": "Asiatic Lion Lodge",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.6,
+              "amenities": ["Luxury Tents", "Pool", "Wildlife Library"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "wildlife_spotting": 4.8,
+          "safari_experience": 4.4,
+          "accommodation": 4.3,
+          "accessibility": 4.4,
+          "conservation_efforts": 4.7
+        },
+        "conservation_status": {
+          "established": "1965",
+          "sanctuary_since": "1975",
+          "conservation_success": "Lion population increased from 177 in 1968 to 674 in 2020",
+          "challenges": "Human-lion conflict, limited habitat expansion"
+        }
+      },
+      {
+        "id": "kanha_004",
+        "name": "Kanha National Park",
+        "state": "Madhya Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 22.2734,
+            "longitude": 80.6511
+          },
+          "area": "2,074 sq km",
+          "district": "Mandla and Balaghat",
+          "nearest_airport": "Jabalpur Airport (175 km)",
+          "nearest_railway": "Gondia Railway Station (145 km)"
+        },
+        "images": {
+          "main_image": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2015/08/bheema-Tiger.jpg",
+          "gallery": [
+            "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2015/08/Umarpani-Female.jpg",
+            "https://www.kanhanationalparkonline.in/uploads/safari-in-kanha.jpg",
+            "https://www.india-a2z.com/images/Kanha-National-Park.jpg",
+            "https://media2.thrillophilia.com/images/photos/000/140/250/original/1545388993_1533210008_1-4.jpg.png?width=975&height=600"
+          ]
+        },
+        "description": {
+          "overview": "Part of the Nilgiri Biosphere Reserve, known for its large tiger and elephant populations. Connected to Nagarhole, Mudumalai, and Wayanad.",
+          "famous_for": [
+            "Tigers and elephants",
+            "Nilgiri Biosphere Reserve",
+            "Sandalwood forests",
+            "Indian Bison",
+            "Bird watching"
+          ],
+          "best_time_to_visit": {
+            "season": "October to May",
+            "peak_season": "December to March",
+            "weather": "Pleasant winters, hot summers, closed during monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 140+",
+              "best_spotting_time": "Early morning and evening",
+              "zones": ["All zones"]
+            },
+            {
+              "animal": "Asian Elephant",
+              "population": "Approximately 2000+",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All zones"]
+            },
+            {
+              "animal": "Indian Bison (Gaur)",
+              "population": "Approximately 800+",
+              "best_spotting_time": "Morning",
+              "zones": ["Grassland areas"]
+            }
+          ],
+          "bird_species": [
+            "Malabar Trogon",
+            "Great Indian Hornbill",
+            "Brown Fish Owl",
+            "Crested Hawk Eagle",
+            "Indian Roller"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Tiger Safari",
+            "description": "Jeep safari through forest zones",
+            "duration": "3-4 hours",
+            "cost_range": "₹1800-3000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Bird Watching",
+            "description": "Early morning bird watching tours",
+            "duration": "2-3 hours",
+            "cost_range": "₹800-1200 per person",
+            "difficulty": "Easy",
+            "booking_required": false
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Bandipur Core",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Deciduous forest",
+              "highlights": ["Tiger sightings", "Elephant herds"]
+            },
+            {
+              "zone_number": "Buffer Zone",
+              "area": "Buffer area",
+              "wildlife_diversity": "High",
+              "terrain": "Mixed forest",
+              "highlights": ["Bison herds", "Bird watching"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 9:30 AM",
+            "evening_safari": "4:00 PM - 6:30 PM"
+          },
+          "closed_period": "June to September (Monsoon)"
+        },
+        "accommodation": {
+          "forest_lodges": [
+            {
+              "name": "Bandipur Safari Lodge",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.2,
+              "amenities": ["Forest Location", "Campfire", "Local Cuisine"]
+            }
+          ],
+          "eco_resorts": [
+            {
+              "name": "Country Club Wildlife Resort",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.4,
+              "amenities": ["Pool", "Spa", "Adventure Activities"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "wildlife_spotting": 4.5,
+          "safari_experience": 4.2,
+          "accommodation": 4.1,
+          "accessibility": 4.5,
+          "conservation_efforts": 4.4
+        },
+        "conservation_status": {
+          "established": "1974",
+          "tiger_reserve_since": "1973",
+          "conservation_success": "Part of successful tiger corridor, stable populations",
+          "challenges": "Road traffic through park, tourism pressure"
+        }
+      },
+      {
+        "id": "nagarhole_007",
+        "name": "Nagarhole National Park",
+        "state": "Karnataka",
+        "location": {
+          "coordinates": {
+            "latitude": 12.0000,
+            "longitude": 76.1000
+          },
+          "area": "643 sq km",
+          "district": "Kodagu and Mysore",
+          "nearest_airport": "Mysore Airport (93 km)",
+          "nearest_railway": "Mysore Railway Station (93 km)"
+        },
+        "images": {
+          "main_image": "https://www.noblehousetours.com/wp-content/uploads/2018/02/nagarhole-national-park-karnataka.jpg",
+          "gallery": [
+            "https://karnatakatourism.org/wp-content/uploads/2020/10/Nagarhole.jpg",
+            "https://karnatakatourism.org/wp-content/uploads/2020/10/Nagarahole.jpg",
+            "https://www.noblehousetours.com/wp-content/uploads/2018/02/flora.jpg"
+            
+          ]
+        },
+        "description": {
+          "overview": "Also known as Rajiv Gandhi National Park. Famous for its boat safaris on Kabini River and large elephant gatherings.",
+          "famous_for": [
+            "Kabini River boat safaris",
+            "Large elephant congregations",
+            "Tigers and leopards",
+            "Bird watching",
+            "Luxury wildlife resorts"
+          ],
+          "best_time_to_visit": {
+            "season": "October to May",
+            "peak_season": "December to April",
+            "weather": "Pleasant winters, hot summers, closed during monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Asian Elephant",
+              "population": "Approximately 800+",
+              "best_spotting_time": "Evening near Kabini River",
+              "zones": ["Kabini backwaters"]
+            },
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 70+",
+              "best_spotting_time": "Early morning",
+              "zones": ["Dense forest areas"]
+            },
+            {
+              "animal": "Indian Leopard",
+              "population": "Approximately 45+",
+              "best_spotting_time": "Dawn and dusk",
+              "zones": ["All zones"]
+            }
+          ],
+          "bird_species": [
+            "Malabar Pied Hornbill",
+            "River Tern",
+            "Kingfisher",
+            "Cormorant",
+            "Fish Eagle"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Boat Safari",
+            "description": "Safari on Kabini River to spot elephants",
+            "duration": "2 hours",
+            "cost_range": "₹1200-2000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Jeep Safari",
+            "description": "Land safari through forest areas",
+            "duration": "3-4 hours",
+            "cost_range": "₹2000-3500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Kabini Zone",
+              "area": "Core area",
+              "elephant_density": "Very High",
+              "terrain": "River and grasslands",
+              "highlights": ["Elephant herds", "Water birds"]
+            },
+            {
+              "zone_number": "Forest Zone",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Dense forest",
+              "highlights": ["Tiger tracking", "Leopard sightings"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 9:30 AM",
+            "evening_safari": "4:00 PM - 6:30 PM",
+            "boat_safari": "6:00 AM - 6:00 PM"
+          },
+          "closed_period": "June to September (Monsoon)"
+        },
+        "accommodation": {
+          "luxury_resorts": [
+            {
+              "name": "The Serai Kabini",
+              "price_range": "₹25000-40000 per night",
+              "rating": 4.7,
+              "amenities": ["Riverside Location", "Spa", "Fine Dining"]
+            }
+          ],
+          "jungle_lodges": [
+            {
+              "name": "Kabini River Lodge",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.5,
+              "amenities": ["Heritage Property", "River Views", "Wildlife Programs"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.6,
+          "wildlife_spotting": 4.7,
+          "safari_experience": 4.8,
+          "accommodation": 4.7,
+          "accessibility": 4.3,
+          "conservation_efforts": 4.4
+        },
+        "conservation_status": {
+          "established": "1988",
+          "tiger_reserve_since": "1999",
+          "conservation_success": "Successful elephant conservation, community involvement",
+          "challenges": "Human-elephant conflict, tourism management"
+        }
+      },
+      {
+        "id": "mudumalai_008",
+        "name": "Mudumalai National Park",
+        "state": "Tamil Nadu",
+        "location": {
+          "coordinates": {
+            "latitude": 11.5833,
+            "longitude": 76.5333
+          },
+          "area": "321 sq km",
+          "district": "Nilgiris",
+          "nearest_airport": "Coimbatore Airport (160 km)",
+          "nearest_railway": "Ooty Railway Station (64 km)"
+        },
+        "images": {
+          "main_image": "https://www.hlimg.com/images/things2do/738X538/ttd_1511165562m1.jpg",
+          "gallery": [
+            "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/the-mudumalai-national-park-1654765717_d22e0b942953b6a4357f.webp",
+            "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/the-mudumalai-national-park-1654765939_446aa19cb18c9121d124.webp",
+             "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/mudumalai-wildlife-sanctuary-1657708020_65d643f2416ea958d5f3.webp"
+            
+          ]
+        },
+        "description": {
+          "overview": "Part of Nilgiri Biosphere Reserve. Famous for its elephant camp and diverse wildlife in Western Ghats ecosystem.",
+          "famous_for": [
+            "Elephant training camp",
+            "Tigers and leopards",
+            "Western Ghats biodiversity",
+            "Nilgiri Biosphere Reserve",
+            "Tribal heritage"
+          ],
+          "best_time_to_visit": {
+            "season": "October to June",
+            "peak_season": "December to March",
+            "weather": "Pleasant throughout the year due to hill location"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Asian Elephant",
+              "population": "Approximately 900+",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All zones"]
+            },
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 50+",
+              "best_spotting_time": "Early morning",
+              "zones": ["Dense forest areas"]
+            },
+            {
+              "animal": "Indian Bison (Gaur)",
+              "population": "Approximately 2000+",
+              "best_spotting_time": "Morning",
+              "zones": ["Grassland areas"]
+            }
+          ],
+          "bird_species": [
+            "Malabar Whistling Thrush",
+            "Nilgiri Flycatcher",
+            "White-bellied Treepie",
+            "Grey Junglefowl",
+            "Crested Goshawk"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Elephant Camp Visit",
+            "description": "Visit to elephant training camp",
+            "duration": "1-2 hours",
+            "cost_range": "₹50-100 per person",
+            "difficulty": "Easy",
+            "booking_required": false
+          },
+          {
+            "name": "Jeep Safari",
+            "description": "Safari through forest zones",
+            "duration": "3 hours",
+            "cost_range": "₹1500-2500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Theppakadu",
+              "area": "Core area",
+              "elephant_density": "High",
+              "terrain": "Mixed forest",
+              "highlights": ["Elephant camp", "Reception center"]
+            },
+            {
+              "zone_number": "Masinagudi",
+              "area": "Buffer zone",
+              "tiger_density": "Medium",
+              "terrain": "Grassland and forest",
+              "highlights": ["Tiger sightings", "Bison herds"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 9:30 AM",
+            "evening_safari": "4:00 PM - 6:00 PM"
+          },
+          "closed_period": "June to September (Monsoon)"
+        },
+        "accommodation": {
+          "forest_rest_houses": [
+            {
+              "name": "Forest Rest House Theppakadu",
+              "price_range": "₹2000-4000 per night",
+              "rating": 3.8,
+              "amenities": ["Basic Facilities", "Forest Location", "Dining Hall"]
+            }
+          ],
+          "eco_resorts": [
+            {
+              "name": "Jungle Retreat",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.2,
+              "amenities": ["Eco-friendly", "Tribal Culture Programs", "Nature Walks"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.1,
+          "wildlife_spotting": 4.3,
+          "safari_experience": 4.0,
+          "accommodation": 3.9,
+          "accessibility": 4.4,
+          "conservation_efforts": 4.2
+        },
+        "conservation_status": {
+          "established": "1940",
+          "sanctuary_since": "1940",
+          "conservation_success": "Elephant conservation pioneer, habitat protection",
+          "challenges": "Human-animal conflict, fragmented habitat"
+        }
+      },
+      {
+        "id": "sundarbans_009",
+        "name": "Sundarbans National Park",
+        "state": "West Bengal",
+        "location": {
+          "coordinates": {
+            "latitude": 21.9497,
+            "longitude": 88.4019
+          },
+          "area": "4,264 sq km",
+          "district": "South 24 Parganas",
+          "nearest_airport": "Netaji Subhas Chandra Bose Airport, Kolkata (105 km)",
+          "nearest_railway": "Canning Railway Station (48 km)"
+        },
+        "images": {
+          "main_image": "https://www.asparkholidays.com/uploads/52658_sundarbans-national-park-animal.jpg",
+          "gallery": [
+            "https://www.luxurytrailsofindia.com/wp-content/uploads/2016/08/white-bengal-tigers-768x504-1.jpg",
+            "https://nationalparks-15bc7.kxcdn.com/images/parks/sundarbans/20211002180042-Tiger%20drinking%20water%20in%20Sundarban%20National%20Park.jpg",
+            "https://www.luxurytrailsofindia.com/wp-content/uploads/2016/08/Sundarban-National-Park.jpg"
+          ]
+        },
+        "description": {
+          "overview": "UNESCO World Heritage Site featuring the world's largest mangrove forest. Home to the famous swimming tigers and unique delta ecosystem.",
+          "famous_for": [
+            "Swimming tigers",
+            "World's largest mangrove forest",
+            "Saltwater crocodiles",
+            "Royal Bengal tigers",
+            "Unique delta ecosystem"
+          ],
+          "best_time_to_visit": {
+            "season": "November to February",
+            "peak_season": "December to January",
+            "weather": "Pleasant winters, hot humid summers, heavy monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 100+",
+              "best_spotting_time": "Early morning and evening",
+              "zones": ["Core area accessible by boat"]
+            },
+            {
+              "animal": "Saltwater Crocodile",
+              "population": "Approximately 200+",
+              "best_spotting_time": "Daytime",
+              "zones": ["River channels"]
+            },
+            {
+              "animal": "Spotted Deer",
+              "population": "Abundant",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All accessible areas"]
+            }
+          ],
+          "bird_species": [
+            "White-bellied Sea Eagle",
+            "Brown-winged Kingfisher",
+            "Masked Finfoot",
+            "Mangrove Pitta",
+            "Oriental Darter"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Boat Safari",
+            "description": "Motorboat safari through mangrove channels",
+            "duration": "6-8 hours",
+            "cost_range": "₹3000-5000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Mangrove Walk",
+            "description": "Guided walk on wooden boardwalks",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Village Tour",
+            "description": "Visit local fishing villages",
+            "duration": "3-4 hours",
+            "cost_range": "₹800-1200 per person",
+            "difficulty": "Easy",
+            "booking_required": false
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Sajnekhali",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Mangrove waterways",
+              "highlights": ["Watchtower", "Crocodile park"]
+            },
+            {
+              "zone_number": "Sudhanyakhali",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Dense mangroves",
+              "highlights": ["Tiger tracking", "Bird watching"]
+            }
+          ],
+          "timings": {
+            "boat_safari": "7:00 AM - 5:00 PM",
+            "mangrove_walk": "8:00 AM - 4:00 PM"
+          },
+          "closed_period": "Open throughout the year (weather dependent)"
+        },
+        "accommodation": {
+          "eco_resorts": [
+            {
+              "name": "Sundarban Tiger Camp",
+              "price_range": "₹8000-12000 per night",
+              "rating": 4.1,
+              "amenities": ["River Location", "Cultural Programs", "Local Cuisine"]
+            }
+          ],
+          "forest_lodges": [
+            {
+              "name": "Sajnekhali Forest Lodge",
+              "price_range": "₹3000-5000 per night",
+              "rating": 3.7,
+              "amenities": ["Basic Facilities", "Forest Department", "Boat Arrangements"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "wildlife_spotting": 3.8,
+          "safari_experience": 4.0,
+          "accommodation": 3.9,
+          "accessibility": 3.5,
+          "conservation_efforts": 4.8
+        },
+        "conservation_status": {
+          "established": "1984",
+          "world_heritage_since": "1987",
+          "conservation_success": "Mangrove ecosystem protection, community involvement",
+          "challenges": "Climate change, cyclones, human pressure"
+        }
+      },
+      {
+        "id": "bharatpur_010",
+        "name": "Bharatpur Bird Sanctuary",
+        "state": "Rajasthan",
+        "location": {
+          "coordinates": {
+            "latitude": 27.2152,
+            "longitude": 77.5186
+          },
+          "area": "29 sq km",
+          "district": "Bharatpur",
+          "nearest_airport": "Delhi Airport (184 km)",
+          "nearest_railway": "Bharatpur Junction (5 km)"
+        },
+        "images": {
+          "main_image": "https://tripsmantra.com/wp-content/uploads/2024/01/Bharatpur-Bird-Sanctuary.webp",
+          "gallery": [
+            "https://arounddelhi.com/wp-content/uploads/2020/11/bharatpur-bird-sanctuary-1.jpg",
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2d/01/4e.jpg",
+            "https://www.rajasthantourplanner.com/images/bharatpur-keoladeo.jpg"
+          ]
+        },
+        "description": {
+          "overview": "UNESCO World Heritage Site and premier bird sanctuary. Famous for migratory birds, especially waterfowl during winter months.",
+          "famous_for": [
+            "Migratory birds",
+            "Siberian Cranes (historical)",
+            "400+ bird species",
+            "Wetland ecosystem",
+            "Photography paradise"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "peak_season": "December to February",
+            "weather": "Pleasant winters ideal for bird watching"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Spotted Deer",
+              "population": "Abundant",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All areas"]
+            },
+            {
+              "animal": "Nilgai",
+              "population": "Common",
+              "best_spotting_time": "Early morning",
+              "zones": ["Grassland areas"]
+            },
+            {
+              "animal": "Sambar Deer",
+              "population": "Common",
+              "best_spotting_time": "Dawn and dusk",
+              "zones": ["Forest patches"]
+            }
+          ],
+          "bird_species": [
+            "Bar-headed Goose",
+            "Greylag Goose",
+            "Common Teal",
+            "Painted Stork",
+            "Sarus Crane",
+            "White Ibis",
+            "Spoonbill",
+            "Pelican"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Bird Watching",
+            "description": "Walking or cycling through bird trails",
+            "duration": "3-4 hours",
+            "cost_range": "₹200-500 per person",
+            "difficulty": "Easy",
+            "booking_required": false
+          },
+          {
+            "name": "Boat Safari",
+            "description": "Boat ride in wetland areas",
+            "duration": "1-2 hours",
+            "cost_range": "₹400-800 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Photography Tour",
+            "description": "Specialized bird photography tours",
+            "duration": "5-6 hours",
+            "cost_range": "₹1500-2500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Wetland Area",
+              "area": "Core area",
+              "bird_density": "Very High",
+              "terrain": "Marshes and water bodies",
+              "highlights": ["Migratory waterfowl", "Photography spots"]
+            },
+            {
+              "zone_number": "Dry Land Area",
+              "area": "Mixed habitat",
+              "wildlife_diversity": "Medium",
+              "terrain": "Grassland and scrub",
+              "highlights": ["Raptors", "Ground birds"]
+            }
+          ],
+          "timings": {
+            "park_hours": "6:30 AM - 6:00 PM",
+            "boat_safari": "7:00 AM - 5:00 PM"
+          },
+          "closed_period": "Open throughout the year"
+        },
+        "accommodation": {
+          "heritage_hotels": [
+            {
+              "name": "The Bagh Resort",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.3,
+              "amenities": ["Heritage Property", "Bird Watching Guide", "Garden Restaurant"]
+            }
+          ],
+          "budget_options": [
+            {
+              "name": "Forest Lodge Bharatpur",
+              "price_range": "₹2000-4000 per night",
+              "rating": 3.8,
+              "amenities": ["Basic Facilities", "Near Park", "Bicycle Rental"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "wildlife_spotting": 4.7,
+          "safari_experience": 4.1,
+          "accommodation": 4.2,
+          "accessibility": 4.8,
+          "conservation_efforts": 4.3
+        },
+        "conservation_status": {
+          "established": "1981",
+          "world_heritage_since": "1985",
+          "conservation_success": "Wetland restoration, bird population recovery",
+          "challenges": "Water scarcity, agricultural pressure"
+        }
+      },
+      {
+        "id": "manas_011",
+        "name": "Manas National Park",
+        "state": "Assam",
+        "location": {
+          "coordinates": {
+            "latitude": 26.7019,
+            "longitude": 90.9622
+          },
+          "area": "500 sq km",
+          "district": "Chirang, Baksa, and Udalguri",
+          "nearest_airport": "Guwahati Airport (176 km)",
+          "nearest_railway": "Barpeta Road Railway Station (40 km)"
+        },
+        "images": {
+          "main_image": "https://www.taleof2backpackers.com/wp-content/uploads/2019/01/Wildlife-of-Assam.jpg",
+          "gallery": [
+            "https://www.adotrip.com/public/images/areas/master_images/5f363f5f882d6-Manas_National_Park_Attractions.jpg",
+            "https://www.bontravelindia.com/wp-content/uploads/2024/01/Rhino-at-Manas-National-Park-Assam.jpg",
+            "https://img.traveltriangle.com/blog/wp-content/uploads/2018/09/Royal-Manas-National-Park.jpg"
+          ]
+        },
+        "description": {
+          "overview": "UNESCO World Heritage Site and biosphere reserve. Known for rare and endemic wildlife including the Assam Roofed Turtle and Hispid Hare.",
+          "famous_for": [
+            "Assam Roofed Turtle",
+            "Hispid Hare",
+            "Royal Bengal Tigers",
+            "Asian Elephants",
+            "River rafting on Manas River"
+          ],
+          "best_time_to_visit": {
+            "season": "November to April",
+            "peak_season": "December to March",
+            "weather": "Pleasant winters, hot summers, heavy monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 30+",
+              "best_spotting_time": "Early morning",
+              "zones": ["Core forest areas"]
+            },
+            {
+              "animal": "Asian Elephant",
+              "population": "Approximately 900+",
+              "best_spotting_time": "Evening",
+              "zones": ["All ranges"]
+            },
+            {
+              "animal": "Indian Rhinoceros",
+              "population": "Approximately 40+",
+              "best_spotting_time": "Morning",
+              "zones": ["Grassland areas"]
+            }
+          ],
+          "bird_species": [
+            "Bengal Florican",
+            "Great Indian Hornbill",
+            "Wreathed Hornbill",
+            "Blue-bearded Bee Eater",
+            "Scarlet Minivet"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Elephant Safari",
+            "description": "Elephant back safari through grasslands",
+            "duration": "2 hours",
+            "cost_range": "₹1200-2000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "River Rafting",
+            "description": "White water rafting on Manas River",
+            "duration": "3-4 hours",
+            "cost_range": "₹2000-3500 per person",
+            "difficulty": "Moderate",
+            "booking_required": true
+          },
+          {
+            "name": "Jeep Safari",
+            "description": "4WD safari through different ranges",
+            "duration": "3-4 hours",
+            "cost_range": "₹1800-3000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "ranges": [
+            {
+              "range_name": "Bansbari Range",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Dense forest",
+              "highlights": ["Tiger tracking", "Elephant herds"]
+            },
+            {
+              "range_name": "Bhuiyangpara Range",
+              "area": "Core area",
+              "rhino_density": "High",
+              "terrain": "Grasslands",
+              "highlights": ["Rhino sightings", "River views"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "7:00 AM - 11:00 AM",
+            "evening_safari": "2:00 PM - 5:00 PM"
+          },
+          "closed_period": "May to September (Monsoon)"
+        },
+        "accommodation": {
+          "eco_lodges": [
+            {
+              "name": "Manas Maozigendri Eco-camp",
+              "price_range": "₹6000-10000 per night",
+              "rating": 4.2,
+              "amenities": ["Eco-friendly", "River Location", "Local Community Run"]
+            }
+          ],
+          "forest_lodges": [
+            {
+              "name": "Forest Rest House Mathanguri",
+              "price_range": "₹2000-4000 per night",
+              "rating": 3.9,
+              "amenities": ["Basic Facilities", "Forest Department", "River Views"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "wildlife_spotting": 4.1,
+          "safari_experience": 4.4,
+          "accommodation": 3.8,
+          "accessibility": 3.7,
+          "conservation_efforts": 4.6
+        },
+        "conservation_status": {
+          "established": "1990",
+          "world_heritage_since": "1985",
+          "conservation_success": "Recovery from insurgency period, community conservation",
+          "challenges": "Human-animal conflict, border area security"
+        }
+      },
+      {
+        "id": "sariska_012",
+        "name": "Sariska Tiger Reserve",
+        "state": "Rajasthan",
+        "location": {
+          "coordinates": {
+            "latitude": 27.3389,
+            "longitude": 76.3833
+          },
+          "area": "866 sq km",
+          "district": "Alwar",
+          "nearest_airport": "Delhi Airport (200 km)",
+          "nearest_railway": "Alwar Railway Station (37 km)"
+        },
+        "images": {
+          "main_image": "https://sariskapark.com/wp-content/uploads/2024/04/sariska-blog01.jpg",
+          "gallery": [
+            "https://www.indiatourismpoint.com/wp-content/uploads/2018/07/Sariska-Tiger-Reserve-Stills-800x540.jpg",
+            "https://www.indiatourismpoint.com/wp-content/uploads/2018/07/Sariska-Tiger-Reserve-Wallpaper-300x201.jpg",
+            "https://www.indiatourismpoint.com/wp-content/uploads/2018/07/Sariska-Tiger-Reserve-Pictures-300x201.png"
+          ]
+        },
+        "description": {
+          "overview": "Famous for successful tiger reintroduction program and ancient temples. Part of the Aravalli hill range with dry deciduous forests.",
+          "famous_for": [
+            "Tiger reintroduction success",
+            "Ancient Neelkanth Temples",
+            "Leopards and jungle cats",
+            "Historical ruins",
+            "Bird watching"
+          ],
+          "best_time_to_visit": {
+            "season": "October to June",
+            "peak_season": "November to March",
+            "weather": "Pleasant winters, hot summers, closed during monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 20+",
+              "best_spotting_time": "Early morning and evening",
+              "zones": ["Core areas"]
+            },
+            {
+              "animal": "Indian Leopard",
+              "population": "Approximately 50+",
+              "best_spotting_time": "Dawn",
+              "zones": ["Rocky terrain"]
+            },
+            {
+              "animal": "Striped Hyena",
+              "population": "Approximately 15+",
+              "best_spotting_time": "Night safari",
+              "zones": ["All zones"]
+            }
+          ],
+          "bird_species": [
+            "Grey Partridge",
+            "White-throated Kingfisher",
+            "Indian Peafowl",
+            "Golden-backed Woodpecker",
+            "Crested Serpent Eagle"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Tiger Safari",
+            "description": "Jeep safari to spot reintroduced tigers",
+            "duration": "3-4 hours",
+            "cost_range": "₹1500-2800 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Temple Visit",
+            "description": "Visit ancient Neelkanth temples",
+            "duration": "2-3 hours",
+            "cost_range": "₹300-500 per person",
+            "difficulty": "Moderate",
+            "booking_required": false
+          },
+          {
+            "name": "Night Safari",
+            "description": "Special night safari for nocturnal animals",
+            "duration": "3 hours",
+            "cost_range": "₹2500-4000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Zone 1",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Dry deciduous forest",
+              "highlights": ["Tiger territory", "Ancient temples"]
+            },
+            {
+              "zone_number": "Zone 2",
+              "area": "Buffer area",
+              "leopard_density": "High",
+              "terrain": "Rocky hills",
+              "highlights": ["Leopard sightings", "Hanuman temple"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 10:30 AM",
+            "evening_safari": "2:30 PM - 6:30 PM",
+            "night_safari": "8:00 PM - 11:00 PM"
+          },
+          "closed_period": "July to September (Monsoon)"
+        },
+        "accommodation": {
+          "heritage_hotels": [
+            {
+              "name": "Sariska Palace",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.5,
+              "amenities": ["Heritage Property", "Royal Architecture", "Cultural Programs"]
+            }
+          ],
+          "forest_lodges": [
+            {
+              "name": "Tiger Den Resort",
+              "price_range": "₹5000-8000 per night",
+              "rating": 4.1,
+              "amenities": ["Comfortable Stay", "Restaurant", "Safari Arrangements"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "wildlife_spotting": 4.0,
+          "safari_experience": 4.3,
+          "accommodation": 4.4,
+          "accessibility": 4.6,
+          "conservation_efforts": 4.5
+        },
+        "conservation_status": {
+          "established": "1982",
+          "tiger_reserve_since": "1978",
+          "conservation_success": "Successful tiger reintroduction from Ranthambore",
+          "challenges": "Limited core area, human settlements nearby"
+        }
+      }
+]
+    },
+  
+  "heritage": {
+    "category_id": "heritage",
+    "category_name": "Heritage Sites",
+    "category_description": "UNESCO World Heritage Sites and historical monuments showcasing India's rich cultural heritage",
+    "destinations": [
+      {
+        "id": "taj_mahal_001",
+        "name": "Taj Mahal",
+        "state": "Uttar Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 27.1751,
+            "longitude": 78.0421
+          },
+          "city": "Agra",
+          "district": "Agra",
+          "nearest_airport": "Kheria Airport, Agra (12 km)",
+          "nearest_railway": "Agra Cantt Railway Station (6 km)"
+        },
+        "images": {
+          "main_image": "https://trvlr.fr/wp-content/uploads/2022/07/trvlr-visiter-le-taj-mahal-en-inde-symetrie-1536x1021.jpg",
+          "gallery": [
+            "https://seoimgak.mmtcdn.com/blog/sites/default/files/images/Taj%20Mahal(1).jpg",
+            "https://www.airpano.com/files/vr-taj-mahal_01_big.jpg",
+            "https://i.natgeofe.com/n/a5eab73c-e9f5-4646-a23e-071c49703121/93082.jpg"
+          ]
+        },
+        "description": {
+          "overview": "An ivory-white marble mausoleum on the south bank of the Yamuna river, commissioned by Mughal emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal.",
+          "historical_significance": "Built between 1631-1648, symbol of eternal love, finest example of Mughal architecture",
+          "architectural_style": "Indo-Islamic architecture with Persian, Islamic, and Indian influences",
+          "famous_for": [
+            "Symbol of love",
+            "Marble inlay work",
+            "Perfect symmetry",
+            "Changing colors throughout the day",
+            "UNESCO World Heritage Site since 1983"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Sunrise and sunset for magical lighting",
+            "weather": "Pleasant winters (8-25°C), avoid hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹50",
+            "foreign_tourists": "₹1100",
+            "saarc_bimstec_citizens": "₹540"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:30 PM",
+            "closed_on": "Fridays (except for prayers)",
+            "night_viewing": "Full moon nights (limited entry)"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended, especially for foreign tourists"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Main Dome",
+            "description": "Central onion-shaped dome flanked by four smaller domes",
+            "materials": "White marble"
+          },
+          {
+            "feature": "Minarets",
+            "description": "Four minarets of 40 meters height each",
+            "special_note": "Slightly tilted outward for earthquake protection"
+          },
+          {
+            "feature": "Inlay Work",
+            "description": "Pietra dura technique with precious stones",
+            "materials": "Lapis lazuli, jade, crystal, turquoise"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Photography Tour",
+            "description": "Capture the monument from different angles and times",
+            "duration": "2-3 hours",
+            "cost_range": "Included in entry fee",
+            "best_time": "Early morning and late afternoon"
+          },
+          {
+            "name": "Audio Guide Tour",
+            "description": "Detailed historical commentary",
+            "duration": "1-2 hours",
+            "cost_range": "₹200-300",
+            "languages": "Hindi, English, multiple foreign languages"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Agra Fort",
+            "distance": "2.5 km",
+            "description": "UNESCO World Heritage Site, Red sandstone fort",
+            "visit_time": "2-3 hours"
+          },
+          {
+            "name": "Lotus Temple",
+            "distance": "8 km",
+            "description": "Modern Bahai temple with lotus-shaped architecture",
+            "visit_time": "1-2 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Leela Palace New Delhi",
+              "price_range": "₹18000-30000 per night",
+              "rating": 4.7,
+              "amenities": ["Luxury amenities", "Spa", "Fine dining"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Shanti Palace",
+              "price_range": "₹3000-5000 per night",
+              "rating": 4.0,
+              "amenities": ["Near metro", "Restaurant", "Budget friendly"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Delhi Chaat",
+              "description": "Street food including gol gappa, aloo tikki",
+              "where_to_find": "Mehrauli market",
+              "price_range": "₹50-150"
+            },
+            {
+              "dish": "Butter Chicken",
+              "description": "Famous Delhi curry",
+              "where_to_find": "Moti Mahal Restaurant",
+              "price_range": "₹300-600"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "architectural_beauty": 4.6,
+          "historical_significance": 4.8,
+          "maintenance": 4.2,
+          "visitor_facilities": 4.1,
+          "accessibility": 4.3
+        },
+        "tips": [
+          "Combine with other South Delhi monuments",
+          "Visit early morning to avoid crowds",
+          "Don't miss the Iron Pillar",
+          "Use Delhi Metro for easy access",
+          "Respect the historical significance of the site"
+        ]
+      },
+      {
+        "id": "red_fort_002",
+        "name": "Red Fort (Lal Qila)",
+        "state": "Delhi",
+        "location": {
+          "coordinates": {
+            "latitude": 28.6562,
+            "longitude": 77.2410
+          },
+          "city": "New Delhi",
+          "district": "Central Delhi",
+          "nearest_airport": "Indira Gandhi International Airport (22 km)",
+          "nearest_railway": "Old Delhi Railway Station (1 km)"
+        },
+        "images": {
+          "main_image": "https://wallpaperaccess.com/full/2399199.jpg",
+          "gallery": [
+            "https://rare-gallery.com/uploads/posts/1221192-agra-fort.jpg",
+            "http://www.thehistoryhub.com/wp-content/uploads/2014/04/Agra-Fort-Pictures.jpg",
+            "https://www.thehistoryhub.com/wp-content/uploads/2014/04/Inside-of-Agra-Fort-Sheesh-Mahal.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A historic fortified palace of the Mughal emperors that served as the main residence of the Mughal dynasty for nearly 200 years.",
+          "historical_significance": "Built by Shah Jahan in 1648, symbol of Mughal power, site of Indian Independence Day celebrations",
+          "architectural_style": "Mughal architecture with Indo-Islamic influences",
+          "famous_for": [
+            "Independence Day celebrations",
+            "Mughal architecture",
+            "Red sandstone walls",
+            "Diwan-i-Khas and Diwan-i-Aam",
+            "UNESCO World Heritage Site since 2007"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning or late afternoon",
+            "weather": "Pleasant winters, avoid summer heat"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹35",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹35"
+          },
+          "timings": {
+            "sunrise_to_sunset": "9:30 AM - 4:30 PM",
+            "closed_on": "Mondays",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended during peak season"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Lahori Gate",
+            "description": "Main entrance gate facing Lahore",
+            "materials": "Red sandstone"
+          },
+          {
+            "feature": "Diwan-i-Khas",
+            "description": "Hall of private audience with intricate inlay work",
+            "special_note": "Famous for the Peacock Throne"
+          },
+          {
+            "feature": "Rang Mahal",
+            "description": "Palace of colors with beautiful water channels",
+            "materials": "Marble and precious stones"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Sound and Light Show",
+            "description": "Evening show depicting Mughal history",
+            "duration": "1 hour",
+            "cost_range": "₹100-200",
+            "best_time": "7:00 PM onwards"
+          },
+          {
+            "name": "Heritage Walk",
+            "description": "Guided tour of the fort complex",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "languages": "Hindi, English, Urdu"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Jama Masjid",
+            "distance": "1 km",
+            "description": "Largest mosque in India",
+            "visit_time": "1-2 hours"
+          },
+          {
+            "name": "Chandni Chowk",
+            "distance": "0.5 km",
+            "description": "Historic market street",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Imperial New Delhi",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.7,
+              "amenities": ["Heritage hotel", "Spa", "Multiple restaurants"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Broadway",
+              "price_range": "₹3000-5000 per night",
+              "rating": 4.0,
+              "amenities": ["Old Delhi location", "Restaurant", "24/7 service"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Paranthe Wali Gali",
+              "description": "Famous stuffed parathas from nearby lane",
+              "where_to_find": "Gali Paranthe Wali, Chandni Chowk",
+              "price_range": "₹50-150 per plate"
+            },
+            {
+              "dish": "Kulfi",
+              "description": "Traditional Indian ice cream",
+              "where_to_find": "Kuremal Mahavir Prasad Kulfi Wale",
+              "price_range": "₹80-200"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "architectural_beauty": 4.7,
+          "historical_significance": 5.0,
+          "maintenance": 4.2,
+          "visitor_facilities": 4.0,
+          "accessibility": 4.1
+        },
+        "tips": [
+          "Visit early morning to avoid crowds",
+          "Attend the sound and light show",
+          "Combine with Chandni Chowk market visit",
+          "Wear comfortable walking shoes",
+          "Check for Independence Day closure"
+        ]
+      },
+      {
+        "id": "khajuraho_003",
+        "name": "Khajuraho Group of Monuments",
+        "state": "Madhya Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 24.8318,
+            "longitude": 79.9199
+          },
+          "city": "Khajuraho",
+          "district": "Chhatarpur",
+          "nearest_airport": "Khajuraho Airport (5 km)",
+          "nearest_railway": "Khajuraho Railway Station (8 km)"
+        },
+        "images": {
+          "main_image": "https://as2.ftcdn.net/v2/jpg/02/85/43/37/1000_F_285433744_iUcC83UYSfOuJjtXIiWiUbjWezGWlTbJ.jpg",
+          "gallery": [
+            "https://www.asparkholidays.com/uploads/47429_khajuraho-india.jpg",
+            "https://www.building.am/buildingimages/bigimages/189/2.jpg",
+            "https://www.building.am/buildingimages/bigimages/189/3.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A group of Hindu and Jain temples famous for their stunning architecture and intricate sculptures depicting various aspects of life.",
+          "historical_significance": "Built by Chandela dynasty between 950-1050 CE, represents medieval Indian art at its peak",
+          "architectural_style": "Nagara style of temple architecture",
+          "famous_for": [
+            "Erotic sculptures",
+            "Intricate stone carvings",
+            "Medieval temple architecture",
+            "Cultural heritage",
+            "UNESCO World Heritage Site since 1986"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning and late afternoon",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Kandariya Mahadeva Temple",
+            "description": "Largest and most ornate temple in the complex",
+            "materials": "Sandstone"
+          },
+          {
+            "feature": "Erotic Sculptures",
+            "description": "Famous sculptures depicting various aspects of human life",
+            "special_note": "Only 10% of total sculptures are erotic"
+          },
+          {
+            "feature": "Shikhara Architecture",
+            "description": "Tall spire-like structures characteristic of North Indian temples",
+            "materials": "Local sandstone"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Temple Hopping Tour",
+            "description": "Visit multiple temples in the complex",
+            "duration": "4-5 hours",
+            "cost_range": "₹1000-1500",
+            "best_time": "Early morning"
+          },
+          {
+            "name": "Archaeological Museum Visit",
+            "description": "Learn about temple history and artifacts",
+            "duration": "1-2 hours",
+            "cost_range": "₹25",
+            "languages": "Hindi, English"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Panna National Park",
+            "distance": "32 km",
+            "description": "Tiger reserve and wildlife sanctuary",
+            "visit_time": "Full day"
+          },
+          {
+            "name": "Raneh Falls",
+            "distance": "20 km",
+            "description": "Canyon and waterfall on Ken River",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Lalit Temple View Khajuraho",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.5,
+              "amenities": ["Temple view", "Pool", "Spa"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Chandela",
+              "price_range": "₹3000-5000 per night",
+              "rating": 4.0,
+              "amenities": ["Garden view", "Restaurant", "Cultural shows"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Bundeli Cuisine",
+              "description": "Traditional regional cuisine with dal bafla",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹200-400 per meal"
+            },
+            {
+              "dish": "Kheer",
+              "description": "Sweet rice pudding dessert",
+              "where_to_find": "Raja Cafe, local sweet shops",
+              "price_range": "₹80-150"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.6,
+          "architectural_beauty": 5.0,
+          "historical_significance": 4.8,
+          "maintenance": 4.3,
+          "visitor_facilities": 4.2,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Hire a knowledgeable guide for better understanding",
+          "Visit during Khajuraho Dance Festival (February)",
+          "Wear modest clothing",
+          "Carry water and sun protection",
+          "Allow full day for comprehensive visit"
+        ]
+      },
+      {
+        "id": "hampi_004",
+        "name": "Hampi",
+        "state": "Karnataka",
+        "location": {
+          "coordinates": {
+            "latitude": 15.3350,
+            "longitude": 76.4600
+          },
+          "city": "Hampi",
+          "district": "Vijayanagara",
+          "nearest_airport": "Hubli Airport (144 km)",
+          "nearest_railway": "Hospet Junction (13 km)"
+        },
+        "images": {
+          "main_image": "https://karnatakatourism.org/wp-content/uploads/2020/05/Hampi.jpg",
+          "gallery": [
+            "https://imgcld.yatra.com/ytimages/image/upload/v1462942329/Hampi_History.jpg",
+            "https://www.team-bhp.com/forum/attachments/travelogues/1132946d1378135413-hampi-visit-story-crafted-stones-hampi-ruins-vijaya-vittal-temple-4.jpg",
+            "https://karnatakatourism.org/wp-content/uploads/2020/11/hampi-8.jpg"
+          ]
+        },
+        "description": {
+          "overview": "The ruins of the magnificent Vijayanagara Empire, featuring ancient temples, royal structures, and stunning boulder landscapes.",
+          "historical_significance": "Capital of Vijayanagara Empire (1336-1565 CE), one of the richest cities of its time",
+          "architectural_style": "Vijayanagara architecture with Dravidian influences",
+          "famous_for": [
+            "Stone chariot at Vittala Temple",
+            "Virupaksha Temple",
+            "Ancient ruins and boulders",
+            "Royal enclosures",
+            "UNESCO World Heritage Site since 1986"
+          ],
+          "best_time_to_visit": {
+            "season": "October to February",
+            "best_viewing_time": "Early morning and sunset",
+            "weather": "Pleasant winters, extremely hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Limited at some temples"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Stone Chariot",
+            "description": "Iconic stone sculpture at Vittala Temple",
+            "materials": "Granite"
+          },
+          {
+            "feature": "Musical Pillars",
+            "description": "Pillars that produce musical notes when tapped",
+            "special_note": "Located in Vittala Temple"
+          },
+          {
+            "feature": "Lotus Mahal",
+            "description": "Indo-Islamic architecture in royal enclosure",
+            "materials": "Stone with Islamic arches"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Coracle Ride",
+            "description": "Traditional round boat ride on Tungabhadra River",
+            "duration": "30-45 minutes",
+            "cost_range": "₹100-200",
+            "best_time": "Evening"
+          },
+          {
+            "name": "Rock Climbing",
+            "description": "Boulder climbing in unique landscape",
+            "duration": "2-4 hours",
+            "cost_range": "₹1500-3000",
+            "languages": "English, Hindi, Kannada"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Anegundi",
+            "distance": "8 km",
+            "description": "Ancient village with temples and heritage sites",
+            "visit_time": "Half day"
+          },
+          {
+            "name": "Daroji Bear Sanctuary",
+            "distance": "20 km",
+            "description": "Sloth bear sanctuary",
+            "visit_time": "3-4 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "Evolve Back Hampi",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.6,
+              "amenities": ["Heritage property", "Pool", "Cultural programs"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Clarks Inn Hampi",
+              "price_range": "₹3500-6000 per night",
+              "rating": 4.1,
+              "amenities": ["Modern amenities", "Restaurant", "Travel desk"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "South Indian Thali",
+              "description": "Complete meal with rice, sambar, rasam, vegetables",
+              "where_to_find": "Mango Tree Restaurant",
+              "price_range": "₹150-300"
+            },
+            {
+              "dish": "Masala Dosa",
+              "description": "Crispy crepe with potato filling",
+              "where_to_find": "Local restaurants near temples",
+              "price_range": "₹80-150"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "architectural_beauty": 4.8,
+          "historical_significance": 4.9,
+          "maintenance": 4.0,
+          "visitor_facilities": 4.2,
+          "accessibility": 3.8
+        },
+        "tips": [
+          "Rent a bicycle or scooter for easier exploration",
+          "Start early to avoid heat",
+          "Carry plenty of water",
+          "Stay overnight to see sunset points",
+          "Respect temple rules and dress codes"
+        ]
+      },
+      {
+        "id": "ajanta_005",
+        "name": "Ajanta Caves",
+        "state": "Maharashtra",
+        "location": {
+          "coordinates": {
+            "latitude": 20.5519,
+            "longitude": 75.7033
+          },
+          "city": "Ajanta",
+          "district": "Aurangabad",
+          "nearest_airport": "Aurangabad Airport (106 km)",
+          "nearest_railway": "Jalgaon Railway Station (59 km)"
+        },
+        "images": {
+          "main_image": "http://www.qualitytravel.it/wp-content/uploads/2018/03/ajanta-cave-Buddha-1.jpg",
+          "gallery": [
+            "https://cdn.britannica.com/71/153471-050-5E35C7F0/stupa-pillars-state-Ajanta-Caves-India-Maharashtra.jpg",
+            "http://www.journeytoexplore.com/wp-content/uploads/2018/11/1__b_2qpzlNxq9q4Ac0Lxlkg.jpeg",
+            "https://www.ancient-origins.net/sites/default/files/field/image/Ajanta-caves.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient Buddhist cave monuments famous for their rock-cut caves, exquisite paintings, and sculptures dating from 2nd century BCE to 6th century CE.",
+          "historical_significance": "Represents the golden age of Buddhist art in India, masterpiece of ancient craftsmanship",
+          "architectural_style": "Rock-cut Buddhist architecture with Hinayana and Mahayana influences",
+          "famous_for": [
+            "Ancient Buddhist paintings",
+            "Rock-cut caves",
+            "Buddha sculptures",
+            "Bodhisattva frescoes",
+            "UNESCO World Heritage Site since 1983"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Morning hours for better lighting",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "9:00 AM - 5:30 PM",
+            "closed_on": "Mondays",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended during peak season"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Cave 1 Paintings",
+            "description": "Beautiful frescoes of Bodhisattva Padmapani",
+            "materials": "Natural pigments on rock surface"
+          },
+          {
+            "feature": "Cave 26 Sculptures",
+            "description": "Magnificent reclining Buddha sculpture",
+            "special_note": "Depicts Buddha's Parinirvana"
+          },
+          {
+            "feature": "Chaitya Halls",
+            "description": "Prayer halls with stupas",
+            "materials": "Carved from solid rock"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Cave Exploration Tour",
+            "description": "Guided tour of major caves with art explanation",
+            "duration": "4-5 hours",
+            "cost_range": "₹800-1200",
+            "best_time": "Morning"
+          },
+          {
+            "name": "Photography Workshop",
+            "description": "Learn to photograph ancient art and architecture",
+            "duration": "3-4 hours",
+            "cost_range": "₹2000-3000",
+            "languages": "English, Hindi, Marathi"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Ellora Caves",
+            "distance": "100 km",
+            "description": "UNESCO World Heritage Site with Hindu, Buddhist, Jain caves",
+            "visit_time": "Full day"
+          },
+          {
+            "name": "Aurangabad",
+            "distance": "106 km",
+            "description": "Historic city with Bibi Ka Maqbara",
+            "visit_time": "1-2 days"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "MTDC Holiday Resort Ajanta",
+              "price_range": "₹4000-7000 per night",
+              "rating": 3.8,
+              "amenities": ["Near caves", "Restaurant", "Government run"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Kailas",
+              "price_range": "₹2000-3500 per night",
+              "rating": 3.5,
+              "amenities": ["AC rooms", "Restaurant", "Travel assistance"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Maharashtrian Thali",
+              "description": "Traditional meal with bhakri, dal, vegetables",
+              "where_to_find": "MTDC Restaurant",
+              "price_range": "₹200-350"
+            },
+            {
+              "dish": "Puran Poli",
+              "description": "Sweet flatbread with jaggery filling",
+              "where_to_find": "Local sweet shops",
+              "price_range": "₹100-200"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "architectural_beauty": 4.9,
+          "historical_significance": 5.0,
+          "maintenance": 4.0,
+          "visitor_facilities": 3.8,
+          "accessibility": 3.9
+        },
+        "tips": [
+          "Carry a torch or use mobile flashlight for cave interiors",
+          "Don't use flash photography to preserve paintings",
+          "Wear comfortable walking shoes",
+          "Take the shuttle bus from parking to caves",
+          "Combine visit with Ellora Caves"
+        ]
+      },
+      {
+        "id": "konark_006",
+        "name": "Konark Sun Temple",
+        "state": "Odisha",
+        "location": {
+          "coordinates": {
+            "latitude": 19.8876,
+            "longitude": 86.0944
+          },
+          "city": "Konark",
+          "district": "Puri",
+          "nearest_airport": "Biju Patnaik International Airport, Bhubaneswar (65 km)",
+          "nearest_railway": "Puri Railway Station (35 km)"
+        },
+        "images": {
+          "main_image": "https://www.tripvaani.com/wp-content/uploads/2020/05/Konark-Sun-Temple-or-Black-Pagoda-The-Chariot-of-Sun.jpg",
+          "gallery": [
+            "https://www.trawell.in/admin/images/upload/403298207Konark_Sun_Temple.jpg",
+            "http://1.bp.blogspot.com/-KozBLaFvrWo/Un4Cs3MgyNI/AAAAAAAAD_A/Bqwm6ee_BF0/s1600/Konark-sun-temple1.jpg",
+            "https://www.tripsavvy.com/thmb/pj3i8_yomPi0LlLy-taTrDv9iqY=/3660x2441/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-521720746-988256f732e64eed8d03788cd3cb2cce.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A 13th-century Sun Temple designed as a gigantic chariot with elaborately carved stone wheels, pillars, and walls, dedicated to the Hindu Sun God Surya.",
+          "historical_significance": "Built by King Narasimhadeva I of Eastern Ganga dynasty in 1250 CE, architectural marvel of medieval India",
+          "architectural_style": "Kalinga architecture with intricate stone carvings",
+          "famous_for": [
+            "Stone chariot design",
+            "Intricate wheel sculptures",
+            "Erotic sculptures",
+            "Sun worship traditions",
+            "UNESCO World Heritage Site since 1984"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Sunrise and sunset",
+            "weather": "Pleasant winters, hot and humid summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹25",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹25"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 8:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Available with special lighting"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Stone Wheels",
+            "description": "24 intricately carved wheels representing hours",
+            "materials": "Khondalite rock"
+          },
+          {
+            "feature": "War Horses",
+            "description": "Seven horses pulling the sun chariot",
+            "special_note": "Each horse represents a day of the week"
+          },
+          {
+            "feature": "Erotic Sculptures",
+            "description": "Detailed carvings depicting various aspects of life",
+            "materials": "Local stone with fine craftsmanship"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Konark Dance Festival",
+            "description": "Annual classical dance festival",
+            "duration": "3 days",
+            "cost_range": "₹200-500",
+            "best_time": "December"
+          },
+          {
+            "name": "Heritage Walk",
+            "description": "Guided tour with archaeological insights",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "languages": "Hindi, English, Odia"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Chandrabhaga Beach",
+            "distance": "3 km",
+            "description": "Beautiful beach with golden sand",
+            "visit_time": "2-3 hours"
+          },
+          {
+            "name": "Jagannath Temple, Puri",
+            "distance": "35 km",
+            "description": "Famous Hindu pilgrimage site",
+            "visit_time": "Half day"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "Lotus Eco Beach Resort",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.3,
+              "amenities": ["Beach location", "Eco-friendly", "Spa"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Yatri Nivas Konark",
+              "price_range": "₹2500-4000 per night",
+              "rating": 3.8,
+              "amenities": ["Government run", "Restaurant", "Near temple"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Odia Thali",
+              "description": "Traditional meal with rice, dal, fish curry, vegetables",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹180-300"
+            },
+            {
+              "dish": "Rasagola",
+              "description": "Spongy cottage cheese balls in syrup",
+              "where_to_find": "Sweet shops in Puri",
+              "price_range": "₹150-250 per kg"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "architectural_beauty": 4.8,
+          "historical_significance": 4.7,
+          "maintenance": 3.9,
+          "visitor_facilities": 4.0,
+          "accessibility": 4.1
+        },
+        "tips": [
+          "Visit during sunrise for magical lighting",
+          "Combine with Puri temple visit",
+          "Attend Konark Dance Festival if possible",
+          "Wear sun protection and comfortable shoes",
+          "Respect temple traditions and dress modestly"
+        ]
+      },
+      {
+        "id": "mahabalipuram_007",
+        "name": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "location": {
+          "coordinates": {
+            "latitude": 12.6269,
+            "longitude": 80.1933
+          },
+          "city": "Mahabalipuram",
+          "district": "Chengalpattu",
+          "nearest_airport": "Chennai International Airport (56 km)",
+          "nearest_railway": "Chengalpattu Railway Station (29 km)"
+        },
+        "images": {
+          "main_image": "https://img.onmanorama.com/content/dam/mm/en/travel/outside-kerala/images/2021/8/2/mahabalipuram.jpg",
+          "gallery": [
+            "https://www.trawell.in/blog/wp-content/uploads/2021/11/Monolithic_Monuments_Main.jpg",
+            "https://www.trawell.in/blog/wp-content/uploads/2021/11/Pancha_Rathas_Main.jpg",
+            "https://www.trawell.in/blog/wp-content/uploads/2021/11/Bass_relief_Main.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient port city known for its rock-cut temples, monolithic sculptures, and shore temple, showcasing Pallava dynasty's architectural brilliance.",
+          "historical_significance": "7th-8th century Pallava architecture, ancient maritime trading center",
+          "architectural_style": "Dravidian architecture with rock-cut and structural temple styles",
+          "famous_for": [
+            "Shore Temple",
+            "Pancha Rathas",
+            "Arjuna's Penance relief",
+            "Stone sculptures",
+            "UNESCO World Heritage Site since 1984"
+          ],
+          "best_time_to_visit": {
+            "season": "November to March",
+            "best_viewing_time": "Early morning and sunset",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Shore Temple",
+            "description": "Structural temple facing the Bay of Bengal",
+            "materials": "Granite blocks"
+          },
+          {
+            "feature": "Pancha Rathas",
+            "description": "Five monolithic temple structures",
+            "special_note": "Each carved from single granite boulder"
+          },
+          {
+            "feature": "Arjuna's Penance",
+            "description": "World's largest bas-relief sculpture",
+            "materials": "Natural rock face carving"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Sculpture Workshop",
+            "description": "Learn traditional stone carving techniques",
+            "duration": "Half day",
+            "cost_range": "₹1500-2500",
+            "best_time": "Morning"
+          },
+          {
+            "name": "Beach Photography",
+            "description": "Capture temples against seashore backdrop",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-1000",
+            "languages": "English, Hindi, Tamil"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Tiger Cave",
+            "distance": "5 km",
+            "description": "Rock-cut temple complex",
+            "visit_time": "1-2 hours"
+          },
+          {
+            "name": "Crocodile Bank",
+            "distance": "14 km",
+            "description": "Reptile conservation center",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "InterContinental Chennai Mahabalipuram Resort",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.6,
+              "amenities": ["Beach resort", "Multiple restaurants", "Spa"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Radisson Blu Resort Temple Bay",
+              "price_range": "₹6000-10000 per night",
+              "rating": 4.2,
+              "amenities": ["Sea view", "Pool", "Heritage theme"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "South Indian Seafood",
+              "description": "Fresh fish curry, prawn fry, crab masala",
+              "where_to_find": "Moonrakers Restaurant",
+              "price_range": "₹300-600"
+            },
+            {
+              "dish": "Filter Coffee",
+              "description": "Traditional South Indian coffee",
+              "where_to_find": "Local coffee shops",
+              "price_range": "₹30-60"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "architectural_beauty": 4.7,
+          "historical_significance": 4.6,
+          "maintenance": 4.2,
+          "visitor_facilities": 4.1,
+          "accessibility": 4.3
+        },
+        "tips": [
+          "Combine temple visit with beach time",
+          "Best photography during golden hour",
+          "Watch local sculptors at work",
+          "Try fresh seafood at coastal restaurants",
+          "Wear comfortable walking shoes for rock surfaces"
+        ]
+      },
+      {
+        "id": "fatehpur_sikri_008",
+        "name": "Fatehpur Sikri",
+        "state": "Uttar Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 27.0937,
+            "longitude": 77.6615
+          },
+          "city": "Fatehpur Sikri",
+          "district": "Agra",
+          "nearest_airport": "Kheria Airport, Agra (40 km)",
+          "nearest_railway": "Fatehpur Sikri Railway Station (1 km)"
+        },
+        "images": {
+          "main_image": "https://www.tripsavvy.com/thmb/ge1Ew_bKisTT9SVd3DZQZP0EsRU=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/fatehpur-sikri--agra--india-578549431-5c50b071c9e77c00014afd58.jpg",
+          "gallery": [
+            "https://www.tripsavvy.com/thmb/CWHjtdJHoMgoZWyzUXbwM2XE_vM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-692142248-4175bae74835410d8ad630be9cd22e23.jpg",
+            "https://www.adotrip.com/public/images/areas/master_images/5c3f12df60cea-Fatehpur_Sikri_Attractions.jpg",
+            "https://wallpapercave.com/wp/wp8609937.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A magnificent Mughal city built by Emperor Akbar, served as the capital of the Mughal Empire from 1571 to 1585.",
+          "historical_significance": "Capital of Akbar's empire, example of Mughal urban planning and architecture",
+          "architectural_style": "Mughal architecture blending Islamic, Hindu, and Persian elements",
+          "famous_for": [
+            "Buland Darwaza",
+            "Jama Masjid",
+            "Panch Mahal",
+            "Diwan-i-Khas",
+            "UNESCO World Heritage Site since 1986"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning and late afternoon",
+            "weather": "Pleasant winters, extremely hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹35",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹35"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended during peak season"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Buland Darwaza",
+            "description": "Victory gate, one of the largest in the world",
+            "materials": "Red sandstone, 54 meters high"
+          },
+          {
+            "feature": "Panch Mahal",
+            "description": "Five-story palace with decreasing stories",
+            "special_note": "Wind tower for natural cooling"
+          },
+          {
+            "feature": "Diwan-i-Khas",
+            "description": "Hall of private audience with central pillar",
+            "materials": "Red sandstone with intricate carvings"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Heritage Walk",
+            "description": "Guided tour of the ghost city",
+            "duration": "3-4 hours",
+            "cost_range": "₹800-1200",
+            "best_time": "Early morning"
+          },
+          {
+            "name": "Architecture Photography",
+            "description": "Capture Mughal architectural elements",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-1000",
+            "languages": "Hindi, English, Urdu"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Taj Mahal",
+            "distance": "40 km",
+            "description": "World's most famous mausoleum",
+            "visit_time": "Half day"
+          },
+          {
+            "name": "Agra Fort",
+            "distance": "37 km",
+            "description": "Mughal fortress and palace",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "ITC Mughal, Agra",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.5,
+              "amenities": ["Mughal architecture", "Spa", "Multiple dining"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Goverdhan",
+              "price_range": "₹2500-4000 per night",
+              "rating": 3.9,
+              "amenities": ["Heritage style", "Restaurant", "Travel assistance"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Mughlai Cuisine",
+              "description": "Biryani, kebabs, rich curries",
+              "where_to_find": "Peshawri at ITC Mughal",
+              "price_range": "₹800-1500 per person"
+            },
+            {
+              "dish": "Agra Ka Petha",
+              "description": "Famous sweet made from ash gourd",
+              "where_to_find": "Panchi Petha shops",
+              "price_range": "₹200-400 per kg"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "architectural_beauty": 4.6,
+          "historical_significance": 4.8,
+          "maintenance": 4.0,
+          "visitor_facilities": 3.9,
+          "accessibility": 4.1
+        },
+        "tips": [
+          "Combine with Agra sightseeing",
+          "Start early to avoid crowds and heat",
+          "Hire knowledgeable local guide",
+          "Carry water and sun protection",
+          "Allow 3-4 hours for complete visit"
+        ]
+      },
+      {
+        "id": "sanchi_009",
+        "name": "Sanchi Stupa",
+        "state": "Madhya Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 23.4793,
+            "longitude": 77.7394
+          },
+          "city": "Sanchi",
+          "district": "Raisen",
+          "nearest_airport": "Raja Bhoj Airport, Bhopal (46 km)",
+          "nearest_railway": "Vidisha Railway Station (10 km)"
+        },
+        "images": {
+          "main_image": "https://travelandtrekking.com/wp-content/uploads/2018/01/Sanchi-Stupa-Madhya-Pradesh-picsc.jpg",
+          "gallery": [
+            "https://cdn.shortpixel.ai/spai/q_glossy+w_1157+ret_img/www.timetravelturtle.com/wp-content/uploads/2019/03/Bhopal-2018-13_new.jpg",
+            "https://cdn.shortpixel.ai/spai/q_glossy+w_1157+ret_img/www.timetravelturtle.com/wp-content/uploads/2019/03/Bhopal-2018-16_new.jpg",
+            "https://cdn.shortpixel.ai/spai/q_glossy+w_1157+ret_img/www.timetravelturtle.com/wp-content/uploads/2019/03/Bhopal-2018-31_new.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient Buddhist complex featuring the Great Stupa, one of the oldest stone structures in India and a significant pilgrimage site for Buddhists worldwide.",
+          "historical_significance": "Built by Ashoka in 3rd century BCE, important center of Buddhism for over 1000 years",
+          "architectural_style": "Early Buddhist architecture with Mauryan and later period additions",
+          "famous_for": [
+            "Great Stupa",
+            "Ornate toranas (gateways)",
+            "Ancient Buddhist sculptures",
+            "Ashoka's edicts",
+            "UNESCO World Heritage Site since 1989"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning and evening",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹25",
+            "foreign_tourists": "₹300",
+            "saarc_bimstec_citizens": "₹25"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Great Stupa",
+            "description": "Hemispherical dome containing Buddha's relics",
+            "materials": "Stone and brick construction"
+          },
+          {
+            "feature": "Toranas",
+            "description": "Four ornately carved gateways",
+            "special_note": "Depict Jataka tales and Buddha's life"
+          },
+          {
+            "feature": "Monastic Complex",
+            "description": "Remains of ancient monasteries and temples",
+            "materials": "Stone construction from different periods"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Buddhist Heritage Tour",
+            "description": "Learn about Buddhism and ancient history",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "best_time": "Morning"
+          },
+          {
+            "name": "Meditation Session",
+            "description": "Practice meditation in peaceful surroundings",
+            "duration": "1 hour",
+            "cost_range": "Free",
+            "languages": "Hindi, English"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Vidisha",
+            "distance": "10 km",
+            "description": "Ancient city with historical significance",
+            "visit_time": "Half day"
+          },
+          {
+            "name": "Udaigiri Caves",
+            "distance": "13 km",
+            "description": "Rock-cut caves with Gupta period sculptures",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "Gateway Retreat Sanchi",
+              "price_range": "₹4000-7000 per night",
+              "rating": 4.0,
+              "amenities": ["Peaceful location", "Garden", "Restaurant"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Tourist Facilitation Centre",
+              "price_range": "₹1500-2500 per night",
+              "rating": 3.5,
+              "amenities": ["Government run", "Basic amenities", "Near stupa"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Bhopal Cuisine",
+              "description": "Poha, kebabs, biryani",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹150-300"
+            },
+            {
+              "dish": "Malpua",
+              "description": "Sweet pancake dessert",
+              "where_to_find": "Sweet shops in Vidisha",
+              "price_range": "₹80-150"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "architectural_beauty": 4.3,
+          "historical_significance": 4.9,
+          "maintenance": 4.0,
+          "visitor_facilities": 3.8,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Visit during Buddhist festivals for special atmosphere",
+          "Combine with Bhopal city tour",
+          "Respect Buddhist traditions and maintain silence",
+          "Early morning visit for peaceful experience",
+          "Hire guide for detailed historical context"
+        ]
+      },
+      {
+        "id": "elephanta_010",
+        "name": "Elephanta Caves",
+        "state": "Maharashtra",
+        "location": {
+          "coordinates": {
+            "latitude": 18.9633,
+            "longitude": 72.9318
+          },
+          "city": "Mumbai",
+          "district": "Mumbai",
+          "nearest_airport": "Chhatrapati Shivaji Maharaj International Airport (45 km)",
+          "nearest_railway": "Chhatrapati Shivaji Maharaj Terminus (20 km to ferry point)"
+        },
+        "images": {
+          "main_image": "https://www.visittnt.com/blog/wp-content/uploads/2018/09/Elephanta-Caves.jpeg",
+          "gallery": [
+            "https://im.indiatimes.in/facebook/2016/Jun/rtr1lfpn_1464856966_1464856979.jpg",
+            "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_694433434_20191213110339_20191213110412.png",
+            "https://www.mapsofindia.com/mumbai/places-of-interest/images/elephanta-caves/magnificent-hall-at-the-elephanta-caves.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient cave temples on Elephanta Island in Mumbai Harbor, famous for magnificent rock-cut sculptures dedicated to Lord Shiva.",
+          "historical_significance": "6th-8th century rock-cut temples, masterpiece of ancient Indian sculpture",
+          "architectural_style": "Rock-cut Hindu temple architecture",
+          "famous_for": [
+            "Trimurti sculpture",
+            "Shiva cave temples",
+            "Rock-cut architecture",
+            "Island boat journey",
+            "UNESCO World Heritage Site since 1987"
+          ],
+          "best_time_to_visit": {
+            "season": "November to March",
+            "best_viewing_time": "Morning hours",
+            "weather": "Pleasant winters, monsoons affect ferry service"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "9:00 AM - 5:30 PM",
+            "closed_on": "Mondays",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter on island",
+            "advance_booking": "Not required, but ferry tickets needed"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Trimurti",
+            "description": "Three-faced sculpture of Shiva",
+            "materials": "Carved from solid rock"
+          },
+          {
+            "feature": "Main Cave",
+            "description": "Large hall with sculptured panels",
+            "special_note": "Contains various forms of Shiva"
+          },
+          {
+            "feature": "Linga Shrine",
+            "description": "Sacred chamber with Shiva linga",
+            "materials": "Rock-cut architecture"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Ferry Ride",
+            "description": "Boat journey from Gateway of India",
+            "duration": "1 hour each way",
+            "cost_range": "₹200-300",
+            "best_time": "Morning departure"
+          },
+          {
+            "name": "Cave Exploration",
+            "description": "Guided tour of rock-cut temples",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "languages": "Hindi, English, Marathi"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Gateway of India",
+            "distance": "Ferry point",
+            "description": "Iconic Mumbai monument",
+            "visit_time": "1 hour"
+          },
+          {
+            "name": "Marine Drive",
+            "distance": "25 km from ferry point",
+            "description": "Famous seafront promenade",
+            "visit_time": "2 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Taj Mahal Palace, Mumbai",
+              "price_range": "₹20000-35000 per night",
+              "rating": 4.8,
+              "amenities": ["Heritage hotel", "Harbor view", "Multiple restaurants"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Apollo",
+              "price_range": "₹4000-7000 per night",
+              "rating": 4.1,
+              "amenities": ["Near Gateway", "Restaurant", "City center"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Mumbai Street Food",
+              "description": "Vada pav, bhel puri, pav bhaji",
+              "where_to_find": "Colaba Causeway, Mohammed Ali Road",
+              "price_range": "₹50-200"
+            },
+            {
+              "dish": "Bombay Duck",
+              "description": "Local fish preparation",
+              "where_to_find": "Seafood restaurants",
+              "price_range": "₹300-600"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.1,
+          "architectural_beauty": 4.5,
+          "historical_significance": 4.4,
+          "maintenance": 3.8,
+          "visitor_facilities": 3.9,
+          "accessibility": 3.7
+        },
+        "tips": [
+          "Check ferry schedule before planning",
+          "Avoid monsoon season for ferry safety",
+          "Carry water and snacks for island visit",
+          "Wear comfortable shoes for cave walking",
+          "Combine with Mumbai city sightseeing"
+        ]
+      }
+     ]
+  },
+    "beach": {
+      "category_id": "beach",
+      "category_name": "Beach Destinations",
+      "category_description": "Pristine beaches offering sun, sand, and sea experiences along India's coastline",
+      "destinations": [
+        {
+          "id": "goa_beaches_001",
+          "name": "Goa Beaches",
+          "state": "Goa",
+          "location": {
+            "coordinates": {
+              "latitude": 15.2993,
+              "longitude": 74.1240
+            },
+            "coastline_length": "101 km",
+            "nearest_airport": "Dabolim Airport (30 km from Panaji)",
+            "nearest_railway": "Madgaon Railway Station"
+          },
+          "description": {
+            "overview": "India's most popular beach destination with pristine sandy beaches, vibrant nightlife, Portuguese colonial architecture, and water sports.",
+            "famous_for": [
+              "Water sports and activities",
+              "Vibrant nightlife",
+              "Portuguese architecture",
+              "Seafood cuisine",
+              "Beach shacks and cafes"
+            ]
+          },
+          "popular_beaches": [
+            {
+              "name": "Baga Beach",
+              "type": "Party beach",
+              "activities": ["Parasailing", "Jet skiing", "Banana boat rides"],
+              "nightlife": "Excellent",
+              "crowd_level": "High"
+            },
+            {
+              "name": "Calangute Beach",
+              "type": "Family beach",
+              "activities": ["Swimming", "Beach volleyball", "Shopping"],
+              "nightlife": "Moderate",
+              "crowd_level": "High"
+            },
+            {
+              "name": "Anjuna Beach",
+              "type": "Hippie culture",
+              "activities": ["Flea market", "Live music", "Beach parties"],
+              "nightlife": "Excellent",
+              "crowd_level": "Moderate"
+            }
+          ],
+          "water_sports": [
+            {
+              "activity": "Parasailing",
+              "cost_range": "₹1500-3000",
+              "duration": "10-15 minutes",
+              "difficulty": "Easy"
+            },
+            {
+              "activity": "Scuba Diving",
+              "cost_range": "₹3500-6000",
+              "duration": "3-4 hours",
+              "difficulty": "Moderate"
+            }
+          ],
+          "rating": {
+            "overall": 4.4,
+            "beaches": 4.6,
+            "nightlife": 4.7,
+            "food": 4.5,
+            "water_sports": 4.3,
+            "accessibility": 4.2
+          }
+        }
+      ]
+    },
+    "pilgrimage": {
+      "category_id": "pilgrimage",
+      "category_name": "Pilgrimage Sites",
+      "category_description": "Sacred destinations of spiritual significance for various religions",
+      "destinations": [
+        {
+          "id": "varanasi_001",
+          "name": "Varanasi (Kashi)",
+          "state": "Uttar Pradesh",
+          "location": {
+            "coordinates": {
+              "latitude": 25.3176,
+              "longitude": 82.9739
+            },
+            "district": "Varanasi",
+            "nearest_airport": "Lal Bahadur Shastri Airport (25 km)",
+            "nearest_railway": "Varanasi Junction"
+          },
+          "description": {
+            "overview": "One of the world's oldest continuously inhabited cities and holiest city for Hindus, situated on the banks of river Ganges.",
+            "spiritual_significance": "Believed that dying here leads to moksha (liberation from cycle of rebirth)",
+            "famous_for": [
+              "Ganges Aarti ceremony",
+              "Ancient ghats",
+              "Kashi Vishwanath Temple",
+              "Silk weaving",
+              "Classical music and dance"
+            ]
+          },
+          "major_temples": [
+            {
+              "name": "Kashi Vishwanath Temple",
+              "deity": "Lord Shiva",
+              "significance": "One of 12 Jyotirlingas",
+              "entry_fee": "Free",
+              "special_rituals": "Ganga Aarti"
+            }
+          ],
+          "famous_ghats": [
+            {
+              "name": "Dashashwamedh Ghat",
+              "significance": "Main ghat for Ganga Aarti",
+              "activities": ["Evening Aarti", "Boat rides", "Religious ceremonies"]
+            },
+            {
+              "name": "Manikarnika Ghat",
+              "significance": "Main cremation ghat",
+              "activities": ["Funeral rites", "Spiritual observance"]
+            }
+          ],
+          "spiritual_activities": [
+            {
+              "activity": "Ganga Aarti",
+              "time": "Evening (around 7 PM)",
+              "location": "Dashashwamedh Ghat",
+              "duration": "45 minutes",
+              "cost": "Free viewing, donations welcome"
+            },
+            {
+              "activity": "Boat Ride on Ganges",
+              "time": "Early morning or evening",
+              "duration": "1-2 hours",
+              "cost": "₹200-500 per person",
+              "highlights": ["Sunrise/sunset views", "Ghat darshan"]
+            },
+            {
+              "activity": "Temple Hopping",
+              "duration": "Full day",
+              "cost": "₹500-1000 (guide + transport)",
+              "temples_covered": ["Kashi Vishwanath", "Sankat Mochan", "Durga Temple"]
+            }
+          ],
+          "famous_food": {
+            "local_specialties": [
+              {
+                "dish": "Banarasi Paan",
+                "description": "Betel leaf preparation with sweet and savory fillings",
+                "where_to_find": "Keshav Paan Bhandar, Vishwanath Gali",
+                "price_range": "₹20-100 per paan"
+              },
+              {
+                "dish": "Kachori Sabzi",
+                "description": "Spicy fried bread with potato curry",
+                "where_to_find": "Street vendors near ghats",
+                "price_range": "₹30-60"
+              },
+              {
+                "dish": "Malaiyo",
+                "description": "Frothy winter dessert made from milk",
+                "where_to_find": "Winter season vendors",
+                "price_range": "₹50-100"
+              }
+            ],
+            "famous_sweet_shops": [
+              {
+                "name": "Kashi Chaat Bhandar",
+                "speciality": "Chaat and sweets",
+                "location": "Godowlia Market",
+                "must_try": "Tamatar chaat"
+              }
+            ]
+          },
+          "accommodation": {
+            "heritage_hotels": [
+              {
+                "name": "Suryauday Haveli",
+                "price_range": "₹8000-12000 per night",
+                "rating": 4.3,
+                "amenities": ["Heritage property", "Ganges view", "Ayurvedic spa"]
+              }
+            ],
+            "budget_options": [
+              {
+                "name": "Zostel Varanasi",
+                "price_range": "₹800-2000 per night",
+                "rating": 4.0,
+                "amenities": ["Hostel", "Rooftop cafe", "Budget friendly"]
+              }
+            ]
+          },
+          "cultural_experiences": [
+            {
+              "experience": "Classical Music Concert",
+              "venues": ["Sankat Mochan Temple", "Various ghats"],
+              "season": "October to March",
+              "cost": "Free to ₹500"
+            },
+            {
+              "experience": "Silk Weaving Workshop",
+              "duration": "2-3 hours",
+              "cost": "₹1000-2000",
+              "location": "Traditional weaver homes"
+            }
+          ],
+          "rating": {
+            "overall": 4.6,
+            "spiritual_significance": 5.0,
+            "cultural_richness": 4.8,
+            "food": 4.5,
+            "accommodation": 4.2,
+            "cleanliness": 3.8
+          }
+        },
+        {
+          "id": "golden_temple_002",
+          "name": "Golden Temple (Harmandir Sahib)",
+          "state": "Punjab",
+          "location": {
+            "coordinates": {
+              "latitude": 31.6200,
+              "longitude": 74.8765
+            },
+            "city": "Amritsar",
+            "district": "Amritsar",
+            "nearest_airport": "Sri Guru Ram Dass Jee International Airport (11 km)",
+            "nearest_railway": "Amritsar Railway Station (2 km)"
+          },
+          "description": {
+            "overview": "The most sacred gurdwara of Sikhism, known for its stunning gold-plated architecture and the largest free kitchen in the world.",
+            "spiritual_significance": "Central place of worship for Sikhs worldwide",
+            "famous_for": [
+              "Gold-plated architecture",
+              "Langar (free community kitchen)",
+              "Sacred pool (Amrit Sarovar)",
+              "Guru Granth Sahib",
+              "Sikh heritage and culture"
+            ]
+          },
+          "visit_information": {
+            "entry_fee": "Free for all",
+            "timings": "24/7 open",
+            "dress_code": "Head covering mandatory, no shoes inside complex",
+            "facilities": ["Free accommodation", "Free meals", "Storage lockers"]
+          },
+          "activities": [
+            {
+              "activity": "Darshan (Holy visit)",
+              "duration": "1-2 hours",
+              "best_time": "Early morning or evening",
+              "cost": "Free"
+            },
+            {
+              "activity": "Langar (Community meal)",
+              "description": "Free meal served to all visitors",
+              "timing": "Throughout the day",
+              "capacity": "100,000+ people daily"
+            },
+            {
+              "activity": "Kirtan (Devotional music)",
+              "timing": "Throughout the day",
+              "special_sessions": "Early morning and evening"
+            }
+          ],
+          "rating": {
+            "overall": 4.9,
+            "spiritual_experience": 5.0,
+            "architecture": 4.9,
+            "hospitality": 5.0,
+            "facilities": 4.7,
+            "accessibility": 4.6
+          }
+        }
+      ]
+    },
+    "adventure": {
+      "category_id": "adventure",
+      "category_name": "Adventure Destinations",
+      "category_description": "Thrilling destinations for adventure sports and outdoor activities",
+      "destinations": [
+        {
+          "id": "rishikesh_001",
+          "name": "Rishikesh",
+          "state": "Uttarakhand",
+          "location": {
+            "coordinates": {
+              "latitude": 30.0869,
+              "longitude": 78.2676
+            },
+            "altitude": "372 meters",
+            "district": "Dehradun",
+            "nearest_airport": "Jolly Grant Airport, Dehradun (35 km)",
+            "nearest_railway": "Rishikesh Railway Station"
+          },
+          "description": {
+            "overview": "Known as the 'Adventure Capital of India' and 'Yoga Capital of the World', situated on the banks of holy river Ganges in the foothills of Himalayas.",
+            "famous_for": [
+              "White water rafting",
+              "Bungee jumping",
+              "Yoga and meditation",
+              "Suspension bridges",
+              "Spiritual ashrams"
+            ],
+            "best_time_to_visit": {
+              "season": "September to November, February to May",
+              "adventure_season": "September to June",
+              "avoid": "Monsoon season (July-August) for water sports"
+            }
+          },
+          "adventure_activities": [
+            {
+              "activity": "White Water Rafting",
+              "difficulty_levels": [
+                {
+                  "level": "Grade I-II (Brahmapuri to Rishikesh)",
+                  "distance": "9 km",
+                  "duration": "1-2 hours",
+                  "cost": "₹800-1200",
+                  "suitable_for": "Beginners and families"
+                },
+                {
+                  "level": "Grade III-IV (Shivpuri to Rishikesh)",
+                  "distance": "16 km",
+                  "duration": "2-3 hours",
+                  "cost": "₹1500-2500",
+                  "suitable_for": "Experienced rafters"
+                },
+                {
+                  "level": "Grade IV-V (Kaudiyala to Rishikesh)",
+                  "distance": "36 km",
+                  "duration": "6-7 hours",
+                  "cost": "₹3000-4500",
+                  "suitable_for": "Expert rafters"
+                }
+              ],
+              "season": "September to June",
+              "rapids": ["Roller Coaster", "Golf Course", "Club House", "Return to Sender"]
+            },
+            {
+              "activity": "Bungee Jumping",
+              "height": "83 meters",
+              "location": "Jumpin Heights, Mohan Chatti",
+              "cost": "₹3500-4000",
+              "duration": "30 minutes (including briefing)",
+              "age_limit": "12-45 years",
+              "weight_limit": "40-110 kg"
+            },
+            {
+              "activity": "Flying Fox (Zip Line)",
+              "length": "1 km",
+              "height": "83 meters",
+              "cost": "₹1800-2200",
+              "duration": "90 seconds ride",
+              "location": "Jumpin Heights"
+            },
+            {
+              "activity": "Rock Climbing & Rappelling",
+              "locations": ["Shivpuri", "Marine Drive"],
+              "cost": "₹1000-2000",
+              "duration": "2-3 hours",
+              "difficulty": "Beginner to advanced"
+            },
+            {
+              "activity": "Kayaking",
+              "locations": ["Ganges River", "Shivpuri"],
+              "cost": "₹1500-2500",
+              "duration": "2-3 hours",
+              "season": "October to June"
+            }
+          ],
+          "spiritual_activities": [
+            {
+              "activity": "Yoga Classes",
+              "locations": ["Parmarth Niketan", "Sivananda Ashram"],
+              "cost": "₹500-2000 per session",
+              "duration": "1-2 hours",
+              "types": ["Hatha Yoga", "Ashtanga Yoga", "Meditation"]
+            },
+            {
+              "activity": "Ganga Aarti",
+              "location": "Triveni Ghat",
+              "timing": "Evening (6:00-7:00 PM)",
+              "cost": "Free",
+              "duration": "1 hour"
+            }
+          ],
+          "famous_spots": [
+            {
+              "name": "Laxman Jhula",
+              "description": "Iconic suspension bridge over Ganges",
+              "length": "450 feet",
+              "height": "70 feet above river",
+              "activities": ["Photography", "Shopping nearby"]
+            },
+            {
+              "name": "Ram Jhula",
+              "description": "Another famous suspension bridge",
+              "length": "750 feet",
+              "built": "1986",
+              "nearby_attractions": ["Beatles Ashram", "Swarg Ashram"]
+            },
+            {
+              "name": "Beatles Ashram (Chaurasi Kutia)",
+              "description": "Where Beatles stayed in 1968",
+              "entry_fee": "₹150 for Indians, ₹600 for foreigners",
+              "highlights": ["Graffiti art", "Meditation caves", "Beatles memorabilia"]
+            }
+          ],
+          "accommodation": {
+            "luxury_resorts": [
+              {
+                "name": "Ananda in the Himalayas",
+                "price_range": "₹25000-45000 per night",
+                "rating": 4.8,
+                "amenities": ["Spa", "Yoga", "Adventure activities", "Palace hotel"]
+              }
+            ],
+            "mid_range_hotels": [
+              {
+                "name": "Ganga Kinare",
+                "price_range": "₹4000-8000 per night",
+                "rating": 4.2,
+                "amenities": ["River view", "Yoga hall", "Ayurveda center"]
+              }
+            ],
+            "ashrams": [
+              {
+                "name": "Parmarth Niketan",
+                "price_range": "₹1000-3000 per night",
+                "rating": 4.5,
+                "amenities": ["Yoga classes", "Meditation", "Vegetarian meals"]
+              }
+            ],
+            "adventure_camps": [
+              {
+                "name": "Red Chilli Adventure",
+                "price_range": "₹2000-4000 per night",
+                "rating": 4.0,
+                "amenities": ["River camping", "Bonfire", "Adventure packages"]
+              }
+            ]
+          },
+          "food_specialties": [
+            {
+              "dish": "Chole Bhature",
+              "where_to_find": "Local restaurants in Tapovan",
+              "price_range": "₹100-200"
+            },
+            {
+              "dish": "Aloo Puri",
+              "where_to_find": "Ashram canteens",
+              "price_range": "₹50-100"
+            }
+          ],
+          "safety_guidelines": {
+            "rafting": [
+              "Always wear provided safety gear",
+              "Follow guide instructions",
+              "Don't raft during monsoon season",
+              "Check weather conditions"
+            ],
+            "bungee_jumping": [
+              "Medical fitness certificate required",
+              "Follow weight restrictions",
+              "No heart conditions or pregnancy"
+            ]
+          },
+          "rating": {
+            "overall": 4.5,
+            "adventure_activities": 4.8,
+            "safety_standards": 4.3,
+            "spiritual_experience": 4.7,
+            "accommodation": 4.2,
+            "accessibility": 4.1
+          }
+        },
+        {
+          "id": "ladakh_002",
+          "name": "Ladakh",
+          "state": "Union Territory of Ladakh",
+          "location": {
+            "coordinates": {
+              "latitude": 34.1526,
+              "longitude": 77.5771
+            },
+            "altitude": "3500+ meters",
+            "region": "Trans-Himalayan",
+            "nearest_airport": "Kushok Bakula Rimpochee Airport, Leh (4 km from Leh city)",
+            "road_access": "Manali-Leh Highway, Srinagar-Leh Highway"
+          },
+          "description": {
+            "overview": "High-altitude desert region known as 'Land of High Passes', offering extreme adventure activities, Buddhist culture, and stunning landscapes.",
+            "famous_for": [
+              "High altitude trekking",
+              "Motorcycle expeditions",
+              "Buddhist monasteries",
+              "Pangong Tso Lake",
+              "Nubra Valley"
+            ],
+            "best_time_to_visit": {
+              "season": "May to September",
+              "peak_season": "June to August",
+              "road_accessibility": "June to October",
+              "weather": "Extreme cold winters (-20°C), pleasant summers (20-30°C)"
+            }
+          },
+          "adventure_activities": [
+            {
+              "activity": "High Altitude Trekking",
+              "popular_treks": [
+                {
+                  "name": "Chadar Trek",
+                  "duration": "8-9 days",
+                  "difficulty": "Extremely difficult",
+                  "altitude": "3500-3800 meters",
+                  "season": "January to February",
+                  "cost": "₹25000-35000",
+                  "highlights": ["Frozen Zanskar River", "Ice formations", "Extreme cold"]
+                },
+                {
+                  "name": "Markha Valley Trek",
+                  "duration": "6-7 days",
+                  "difficulty": "Moderate to difficult",
+                  "altitude": "3300-5200 meters",
+                  "season": "June to September",
+                  "cost": "₹20000-30000",
+                  "highlights": ["Hemis National Park", "Snow leopard habitat", "Buddhist villages"]
+                }
+              ]
+            },
+            {
+              "activity": "Motorcycle Expedition",
+              "popular_routes": [
+                {
+                  "route": "Manali to Leh",
+                  "distance": "490 km",
+                  "duration": "2-3 days",
+                  "difficulty": "Difficult",
+                  "passes": ["Rohtang Pass", "Baralacha Pass", "Tanglang La"]
+                },
+                {
+                  "route": "Srinagar to Leh",
+                  "distance": "434 km",
+                  "duration": "2 days",
+                  "difficulty": "Moderate",
+                  "passes": ["Zoji La", "Fotu La", "Namika La"]
+                }
+              ],
+              "bike_rental": "₹2000-4000 per day",
+              "fuel_cost": "₹100-120 per liter"
+            },
+            {
+              "activity": "River Rafting",
+              "rivers": ["Zanskar River", "Indus River"],
+              "difficulty": "Grade II-IV",
+              "season": "July to September",
+              "cost": "₹2500-4000 per day"
+            }
+          ],
+          "major_attractions": [
+            {
+              "name": "Pangong Tso Lake",
+              "description": "High altitude saltwater lake at 4350 meters",
+              "distance_from_leh": "160 km",
+              "permits_required": "Inner Line Permit",
+              "overnight_stay": "Permitted with camping"
+            },
+            {
+              "name": "Nubra Valley",
+              "description": "Cold desert with sand dunes and double-humped camels",
+              "altitude": "3048 meters",
+              "access": "Khardung La Pass (highest motorable road)",
+              "activities": ["Camel safari", "Sand dunes", "Diskit Monastery visit"]
+            }
+          ],
+          "rating": {
+            "overall": 4.7,
+            "adventure_activities": 4.9,
+            "scenic_beauty": 5.0,
+            "cultural_experience": 4.6,
+            "accessibility": 3.5,
+            "accommodation": 4.0
+          }
+        }
+      ]
+    },
+    "trekking": {
+      "category_id": "trekking",
+      "category_name": "Trekking Destinations",
+      "category_description": "Mountain trails and trekking routes for hiking enthusiasts",
+      "destinations": [
+        {
+          "id": "valley_of_flowers_001",
+          "name": "Valley of Flowers",
+          "state": "Uttarakhand",
+          "location": {
+            "coordinates": {
+              "latitude": 30.7268,
+              "longitude": 79.6009
+            },
+            "altitude": "3658 meters",
+            "region": "Chamoli District",
+            "base_camp": "Govindghat",
+            "nearest_airport": "Jolly Grant Airport, Dehradun (295 km)"
+          },
+          "description": {
+            "overview": "UNESCO World Heritage Site known for endemic alpine flowers and outstanding natural beauty. A high altitude Himalayan valley famous for its meadows of endemic alpine flowers.",
+            "famous_for": [
+              "Alpine flowers (over 600 species)",
+              "UNESCO World Heritage Site",
+              "Himalayan wildlife",
+              "Photography opportunities",
+              "Pristine mountain environment"
+            ],
+            "best_time_to_visit": {
+              "season": "July to September",
+              "peak_blooming": "Mid-July to mid-August",
+              "weather": "Pleasant daytime (10-15°C), cold nights (5-10°C)",
+              "monsoon_note": "Accessible during monsoon due to flower blooming"
+            }
+          },
+          "trek_details": {
+            "duration": "5-6 days",
+            "difficulty": "Moderate",
+            "total_distance": "38 km (round trip)",
+            "maximum_altitude": "3658 meters at Valley of Flowers",
+            "daily_itinerary": [
+              {
+                "day": 1,
+                "route": "Govindghat to Ghangaria",
+                "distance": "13 km",
+                "duration": "6-7 hours",
+                "altitude_gain": "1828m to 3049m"
+              },
+              {
+                "day": 2,
+                "route": "Ghangaria to Valley of Flowers and back",
+                "distance": "10 km",
+                "duration": "6-7 hours",
+                "altitude_gain": "3049m to 3658m"
+              },
+              {
+                "day": 3,
+                "route": "Ghangaria to Hemkund Sahib and back",
+                "distance": "12 km",
+                "duration": "7-8 hours",
+                "altitude_gain": "3049m to 4329m"
+              }
+            ]
+          },
+          "flora_and_fauna": {
+            "flowers": [
+              "Blue Poppy (Meconopsis aculeata)",
+              "Brahmakamal (Saussurea obvallata)",
+              "Cobra Lily",
+              "Himalayan Bellflower",
+              "Potentilla",
+              "Primula"
+            ],
+            "wildlife": [
+              "Asiatic Black Bear",
+              "Snow Leopard",
+              "Brown Bear",
+              "Blue Sheep",
+              "Himalayan Musk Deer",
+              "Bharal"
+            ],
+            "birds": [
+              "Himalayan Monal",
+              "Snow Partridge",
+              "Golden Eagle",
+              "Bearded Vulture"
+            ]
+          },
+          "permits_and_regulations": {
+            "entry_fee": "₹600 for Indians, ₹1500 for foreigners",
+            "camping_allowed": "No camping inside the valley",
+            "stay_options": "Ghangaria village (base camp)",
+            "restrictions": [
+              "No plucking of flowers",
+              "No littering",
+              "Follow designated trails only",
+              "Valley closes at sunset"
+            ]
+          },
+          "accommodation": {
+            "ghangaria": [
+              {
+                "name": "GMVN Tourist Rest House",
+                "price_range": "₹1200-2000 per night",
+                "amenities": ["Basic rooms", "Common bathroom", "Dining hall"]
+              },
+              {
+                "name": "Private Guesthouses",
+                "price_range": "₹800-1500 per night",
+                "amenities": ["Shared rooms", "Basic facilities"]
+              }
+            ],
+            "govindghat": [
+              {
+                "name": "Hotel Snow Crest",
+                "price_range": "₹2000-3500 per night",
+                "amenities": ["Comfortable rooms", "Restaurant", "Hot water"]
+              }
+            ]
+          },
+          "essential_items": [
+            "Waterproof trekking shoes",
+            "Rain gear (essential)",
+            "Warm clothing layers",
+            "Sun protection (hat, sunglasses, sunscreen)",
+            "First aid kit",
+            "Water bottles",
+            "Energy snacks",
+            "Camera with extra batteries"
+          ],
+          "photography_tips": [
+            "Early morning light is best for flower photography",
+            "Carry macro lens for close-up flower shots",
+            "Protect camera from rain and moisture",
+            "Respect the 'no picking' rule - photograph don't pluck"
+          ],
+          "rating": {
+            "overall": 4.8,
+            "scenic_beauty": 5.0,
+            "biodiversity": 4.9,
+            "trek_difficulty": 4.2,
+            "facilities": 3.8,
+            "conservation_efforts": 4.7
+          },
+          "conservation_message": "Valley of Flowers is a fragile ecosystem. Visitors must follow Leave No Trace principles and respect the natural environment to preserve this UNESCO World Heritage Site for future generations."
+        },
+        {
+          "id": "roopkund_002",
+          "name": "Roopkund Trek (Mystery Lake)",
+          "state": "Uttarakhand",
+          "location": {
+            "coordinates": {
+              "latitude": 30.2859,
+              "longitude": 79.7267
+            },
+            "altitude": "5029 meters",
+            "region": "Chamoli District",
+            "base_camp": "Lohajung",
+            "nearest_airport": "Pantnagar Airport (250 km)"
+          },
+          "description": {
+            "overview": "Famous for the mysterious skeletal remains found around the glacial lake, this trek offers stunning Himalayan views and passes through beautiful meadows and dense forests.",
+            "famous_for": [
+              "Mysterious human skeletons at the lake",
+              "360-degree Himalayan views",
+              "Alpine meadows",
+              "Challenging high-altitude trek",
+              "Archaeological significance"
+            ],
+            "mystery": "Hundreds of human skeletons visible in and around the lake during ice-melt season. Carbon dating suggests they are from 9th century CE."
+          },
+          "trek_details": {
+            "duration": "8-9 days",
+            "difficulty": "Difficult to Extremely Difficult",
+            "total_distance": "53 km",
+            "maximum_altitude": "5029 meters",
+            "best_season": "May to June, September to October"
+          },
+          "rating": {
+            "overall": 4.6,
+            "difficulty": 4.8,
+            "scenic_beauty": 4.9,
+            "mystery_factor": 5.0,
+            "facilities": 3.5
+          }
+        }
+      ]
+    }
+  }
+}
