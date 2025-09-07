@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import Script from "next/script";
-
 export default function IndiaMap() {
   useEffect(() => {
     // Ensure the map only initializes on client

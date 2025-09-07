@@ -4,6 +4,7 @@ import PopularSites from "@/components/PopularSites";
 import OurServices from "@/components/OurServices";
 import SectionBasedInterest from "@/components/SectionWithInterest";
 import ExploreStates from "@/components/SectionWithState";
+import TopPlaces from '@/components/TopVisitedPlaces'
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
         <PopularSites />
         <SectionBasedInterest />
         <ExploreStates />
+        <TopPlaces/>
       </div>
     </>
   );
