@@ -1,7 +1,12 @@
 import express from "express";
-import { getDestinationByCategory } from "../controllers/CategoryBasedController.js";
+import {
+  getDestinationByCategory,
+  getDestinationById,
+} from "../controllers/CategoryBasedController.js";
 
 const router = express.Router();
 router.get("/category/:category", getDestinationByCategory);
+// Get full details of a destination by ID
+router.get("/destination/:id", getDestinationById);
 
 export default router;

@@ -1,5 +1,6 @@
 // import CategoryBasedData from "../data/categoryBasedData.json"; getDestinationByCategory
 // controllers/CategoryBasedController.js
+import { raw } from "express";
 import fs from "fs";
 import path from "path";
 
@@ -69,4 +70,29 @@ export const getDestinationByCategory = (req, res) => {
     categoryName: categoryData.category_name,
     destinations,
   });
+};
+
+// get destination by id
+
+export const getDestinationById = (req, res) => {
+  const { id } = req.params;
+
+  if (!rawData.categories) {
+    return res.status(500).json({ message: "No Category found" });
+  }
+
+  let foundDestination = null;
+  for (const categoryKey of Object.keys(rawData.categories)) {
+    const category = rawData.categories[categoryKey];
+    const destination = category.destinations.find((d) => d.id === id);
+    if (destination) {
+      foundDestination = { ...destination, category: category.category_name };
+      break;
+    }
+  }
+  if (!foundDestination) {
+    return res.status(404).json({ message: "Destination not found" });
+  }
+
+  res.json(foundDestination);
 };
