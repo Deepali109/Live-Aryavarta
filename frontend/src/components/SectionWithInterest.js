@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function SectionBasedInterest() {
+  
   const items = [
-    { src: "mountain.jpg", title: "Hill Station", slug: "hill-station" },
+    { src: "mountain.jpg", title: "Hill Station", slug: "hill_station" },
     { src: "wildlife.jpg", title: "Wildlife", slug: "wildlife" },
     { src: "heritage.jpg", title: "Heritage", slug: "heritage" },
     { src: "beach.jpg", title: "Beach", slug: "beach" },
@@ -24,7 +25,7 @@ export default function SectionBasedInterest() {
       <div className="p-10 flex flex-row gap-7">
         {/* left image */}
         <div className="w-2/5">
-          <Link href={`/category/hill-station`}>
+          <Link href={`/category/hill_station`}>
             <div className="relative h-full min-h-[500px] cursor-pointer">
               <Image
                 fill

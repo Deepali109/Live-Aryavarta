@@ -6,7 +6,7 @@ const Card = ({ title, description, imageUrl }) => {
 
   return (
     <>
-      <motion.div
+      <div
         className="relative w-full max-w-72 rounded-sm shadow-2xl transform transition-transform duration-500 ease-out cursor-pointer hover:scale-105 min-h-[320px] h-72" // 👈 keeps card height stable
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
@@ -18,7 +18,7 @@ const Card = ({ title, description, imageUrl }) => {
         ></div>
 
         {/* Content */}
-        <motion.div
+        <div
           className="relative z-10 flex flex-col items-center text-center h-full w-full">
           {/* Image */}
           <div
@@ -34,21 +34,21 @@ const Card = ({ title, description, imageUrl }) => {
 
           </div>
           {/* Title */}
-          <h3 className={`transition-all duration-700 text-sm font-bold mb-2 mt-6 text-gray-900 ${isHovered ? '-translate-y-20 text-md' : '-translate-y-0'}`}>{title}</h3>
+          <h3 className={`transition-all duration-700 text-sm font-bold mb-2 mt-6 text-gray-900 ${isHovered ? '-translate-y-28 text-md' : '-translate-y-0'}`}>{title}</h3>
 
           {/* Description container (fixed height, no flicker) */}
-          <div className="relative flex items-center justify-center">
+          <div className="relative flex items-center justify-center px-2">
             <p
               className={`text-gray-600 transition-all duration-700 ease-in-out ${isHovered
-                ? "opacity-100 -translate-y-20"
+                ? "opacity-100 -translate-y-28"
                 : "opacity-0"
                 }`}
             >
               {description}
             </p>
           </div>
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </>
   );
 };
@@ -57,25 +57,30 @@ function TopPlaces() {
   const topPlaces = [
     {
       title: "BADA BAGH",
-      description: "Our farm-to-table concept emphasizes on getting the fresh produce directly from local farms to your tables within one day.",
+      description: "Amidst the golden sands of Jaisalmer, Bada Bagh stands as a silent guardian of royal legacies. The cenotaphs echo stories of kings and warriors, where history sleeps under the desert sun and awakens in the whispers of the wind.",
       imageUrl: "/images/bada-bagh.jpg" // Placeholder image URL
     },
 
     {
       title: "GOLDEN TEMPLE",
-      description: "We embrace sustainable farming practices to nurture the environment. Our methods include crop rotation and water conservation.",
+      description: "Bathed in the golden glow of dawn, the Harmandir Sahib is not just a temple—it is the soul of Sikh devotion. Its shimmering reflection on the sacred waters embraces all with peace, humility, and unity, beyond boundaries of religion.",
       imageUrl: "/images/golden-temple.jpg" // Placeholder image URL
     },
     {
       title: "TAJ MAHAL",
-      description: "Our locally grown produce is harvested at peak freshness and delivered within 24 hours.",
+      description: "More than just marble and minarets, the Taj Mahal is a timeless symphony of love. Built by Shah Jahan in memory of Mumtaz, it stands as the world’s most beautiful testament to devotion—where love outlives even time itself.",
       imageUrl: "/images/taj-mahal.jpg", // Placeholder image URL
     },
     {
       title: "KASHIVISWANATH TEMPLE",
-      description: "Our locally grown produce is harvested at peak freshness and delivered within 24 hours.",
+      description: "In the timeless city of Varanasi, the Kashi Vishwanath Temple radiates the eternal light of Lord Shiva. Every bell that rings carries the voice of countless generations, reminding the world that this is where divinity and eternity meet.",
       imageUrl: "/images/kashiviswanath.jpg", // Placeholder image URL
     },
+    // {
+    //   title: "SHRI RAM TEMPLE",
+    //   description: "In the sacred city of Ayodhya rises the long-awaited Ram Mandir, a symbol of faith fulfilled. It is not just a temple of stone, but the divine homecoming of Shri Ram, filling hearts with devotion, hope, and dharma.",
+    //   imageUrl: "/images/kashiviswanath.jpg", // Placeholder image URL
+    // },
 
 
   ]
@@ -87,7 +92,7 @@ function TopPlaces() {
       <motion.div
         // animate={{ x: ["0%", "-100%"] }}
         transition={{ ease: "linear", duration: 50, repeat: Infinity }}
-        className="flex  justify-center items-center space-x-4">
+        className="flex justify-center items-center space-x-4">
         
         {[...topPlaces].map((place, indx) => (
           <motion.div
