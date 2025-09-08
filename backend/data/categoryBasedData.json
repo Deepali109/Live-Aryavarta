@@ -1,7 +1,7 @@
 {
   "categories": {
-  "hill-station": {
-    "category_id": "hill-station",
+  "hill_station": {
+    "category_id": "hill_station",
     "category_name": "Hill Stations",
     "category_description": "Scenic mountain retreats offering cool climate and breathtaking views",
     "destinations": [
