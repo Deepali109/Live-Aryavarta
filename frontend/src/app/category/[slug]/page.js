@@ -1,9 +1,10 @@
 // src/app/category/[slug]/page.js
+// "use client";
 import axios from "axios";
 import Navbar from "@/components/Navbar";
 
 export default async function InterestPage({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const heroSections = [
     { src: 'v2.mp4', heading: 'Plan Your Perfect Trip', slug: 'hill_station', para: 'Discover breathtaking hill stations for your next adventure.', section: 'Popular Hill Stations' },
@@ -21,7 +22,8 @@ export default async function InterestPage({ params }) {
   const data = res.data;
 
   const banner = heroSections.filter((banner) => banner.slug === slug)
-  console.log(banner[0].src);
+  console.log(data);
+  // console.log(data?.destinations[0]?.id);
   return (
     <>
       {/* Navbar */}
@@ -48,7 +50,7 @@ export default async function InterestPage({ params }) {
                 {banner[0]?.heading}
               </h1>
               <p className="text-sm md:text-base leading-7 mb-6  text-blue-600 font-semibold ">
-                {banner[0].para}
+                {banner[0]?.para}
               </p>
               <a
                 href="https://indianculture.gov.in/"
@@ -70,7 +72,7 @@ export default async function InterestPage({ params }) {
       {/* Destinations Section */}
       <section id="destinations" className="max-w-7xl mx-auto px-6 py-16 lg:px-12">
         <h2 className="text-3xl font-bold text-center mb-12">
-          {banner[0].section}
+          {banner[0]?.section}
         </h2>
 
         {data?.destinations?.length > 0 ? (
@@ -98,7 +100,7 @@ export default async function InterestPage({ params }) {
                     {destination.description}
                   </p>
                   <a
-                    href="#"
+                    href={`/destination/${destination.id}`}
                     className="text-blue-600 font-medium hover:underline"
                   >
                     Learn more →
