@@ -7,6 +7,6 @@ import {
 const router = express.Router();
 router.get("/category/:category", getDestinationByCategory);
 // Get full details of a destination by ID
-router.get("/destination/:id", getDestinationById);
+router.get("/destination/:category/:id", getDestinationById);
 
 export default router;

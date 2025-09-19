@@ -1,0 +1,4193 @@
+ {
+    "category_id": "wildlife",
+    "category_name": "Wildlife Sanctuaries & National Parks",
+    "category_description": "Explore areas showcasing India's rich biodiversity and wildlife",
+    "destinations": [
+        {
+        "id": "ranthambore_001",
+        "name": "Ranthambore National Park",
+        "state": "Rajasthan",
+        "location": {
+          "coordinates": {
+            "latitude": 26.0173,
+            "longitude": 76.5026
+          },
+          "area": "1,334 sq km",
+          "district": "Sawai Madhopur",
+          "nearest_airport": "Jaipur Airport (180 km)",
+          "nearest_railway": "Sawai Madhopur Railway Station (11 km)",
+          "altitude": "215-519 meters above sea level",
+          "accessibility": "Well connected by road, rail, and air"
+        },
+        "images": {
+          "main_image": "https://i0.wp.com/wordzz.com/wp-content/uploads/2023/04/Ranthambore-National-Park-Rajasthan.jpeg?w=1200&ssl=1",
+          "gallery": [
+            "https://wordzz.com/wp-content/uploads/2023/04/Ranthambore-National-Park.jpeg",
+            "https://i0.wp.com/wordzz.com/wp-content/uploads/2023/04/Ranthambore-National-Park-Rajasthan.jpeg?w=1200&ssl=1",
+            "https://i0.wp.com/wordzz.com/wp-content/uploads/2023/04/Ranthambore-National-Park-India.jpeg?w=1500&ssl=1",
+            "https://i0.wp.com/wordzz.com/wp-content/uploads/2023/04/Spotted-deer-Ranthambore-National-Park-Rajasthan.jpeg?w=853&ssl=1"
+          ],
+          "wildlife_images": {
+            "tiger": "https://example.com/tiger-icon.svg",
+            "leopard": "https://example.com/leopard-icon.svg",
+            "sloth_bear": "https://example.com/bear-icon.svg",
+            "peacock": "https://example.com/peacock-icon.svg"
+          }
+        },
+        "description": {
+          "overview": "One of India's premier tiger reserves, famous for its tiger population and the historic Ranthambore Fort. This iconic destination offers excellent tiger spotting opportunities amidst stunning landscapes of lakes, ruins, and diverse ecosystems.",
+          "detailed_description": "Ranthambore National Park stands as a testament to India's conservation success, where ancient history meets wildlife preservation. The park's unique landscape combines dry deciduous forests with ancient ruins, creating a mystical atmosphere where tigers roam freely among 1,000-year-old temples and fortifications. The presence of the UNESCO World Heritage Ranthambore Fort adds a historical dimension rarely found in other wildlife destinations.",
+          "famous_for": [
+            "Royal Bengal Tigers - highest density in Rajasthan",
+            "Ranthambore Fort (UNESCO World Heritage Site)",
+            "Leopards and sloth bears in natural habitat",
+            "Bird watching paradise with 300+ species",
+            "Photography safaris with stunning backdrops",
+            "Ancient temples and ruins within the park"
+          ],
+          "best_time_to_visit": {
+            "season": "October to April",
+            "peak_season": "December to March",
+            "weather": "Hot summers (up to 45°C), pleasant winters (5-25°C)",
+            "detailed_weather": {
+              "winter": "Cool mornings and evenings (5-10°C), pleasant days (20-25°C), ideal for wildlife spotting",
+              "summer": "Very hot days (35-45°C), early morning safaris recommended",
+              "monsoon": "Closed due to heavy rainfall and breeding season"
+            }
+          },
+          "unique_features": [
+            "Tigers often spotted near water bodies during day time",
+            "Historic fort accessible during safari",
+            "Padam Talao - largest lake in the park",
+            "Ancient Jogi Mahal - hunting lodge turned into museum"
+          ]
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "scientific_name": "Panthera tigris tigris",
+              "population": "Approximately 70-75",
+              "best_spotting_time": "Early morning and late evening",
+              "zones": ["Zone 1-5"],
+              "description": "Ranthambore's tigers are known for their bold nature and daytime activity",
+              "conservation_status": "Endangered",
+              "image": "https://bigcatsindia.com/wp-content/uploads/2018/06/Royal-Bengal-Tiger.jpg",
+              "interesting_facts": [
+                "Some tigers are comfortable around vehicles",
+                "Famous individual tigers like Machli became wildlife celebrities",
+                "Tigers here often hunt during daylight hours"
+              ]
+            },
+            {
+              "animal": "Indian Leopard",
+              "scientific_name": "Panthera pardus fusca",
+              "population": "Approximately 35-40",
+              "best_spotting_time": "Early morning",
+              "zones": ["Zone 6-10"],
+              "description": "Elusive and primarily nocturnal, leopards prefer rocky terrain",
+              "conservation_status": "Near Threatened",
+              "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/indian-leopard-tiger-reserve-animal-yogesh-bhandarkar.jpg",
+              "interesting_facts": [
+                "Excellent climbers, often rest in trees during day",
+                "More secretive than tigers",
+                "Prefer areas with rocky outcrops and caves"
+              ]
+            },
+            {
+              "animal": "Sloth Bear",
+              "scientific_name": "Melursus ursinus",
+              "population": "Approximately 25-30",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["Zone 2, 3, 5"],
+              "description": "Omnivorous bears known for their shaggy coat and long claws",
+              "conservation_status": "Vulnerable",
+              "image": "https://www.zoo-leipzig.de/fileadmin/_processed_/3/5/csm_Lippenbaer_4_d7fddf19e7.jpg",
+              "interesting_facts": [
+                "Primarily feed on termites and fruits",
+                "Excellent sense of smell",
+                "Often seen with cubs during winter months"
+              ]
+            }
+          ],
+          "other_mammals": [
+            {
+              "animal": "Spotted Deer (Chital)",
+              "scientific_name": "Axis axis",
+              "population": "Abundant",
+              "description": "Primary prey species, often seen in large herds",
+              "image": "https://as2.ftcdn.net/v2/jpg/01/89/85/83/1000_F_189858384_EXyp2sPPODyWldi7TP62mNur6nIRdBqi.jpg",
+              "habitat": "Grasslands and forest edges",
+              "behavior": "Form large herds, active during dawn and dusk"
+            },
+            {
+              "animal": "Sambar Deer",
+              "scientific_name": "Rusa unicolor",
+              "population": "Common",
+              "description": "Largest deer species in the park, preferred tiger prey",
+              "image": "https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2022/06/Sambar-Deer-Borneo.jpg",
+              "habitat": "Dense forests and water bodies",
+              "behavior": "Solitary or in small groups, excellent swimmers"
+            },
+            {
+              "animal": "Wild Boar",
+              "scientific_name": "Sus scrofa",
+              "population": "Common",
+              "description": "Omnivorous mammals, often seen near water sources",
+              "image": "https://www.wildlifeonline.me.uk/assets/ugc/images/wild_boar_locke.jpg",
+              "habitat": "Forest clearings and muddy areas",
+              "behavior": "Live in family groups, excellent diggers"
+            },
+            {
+              "animal": "Langur Monkey",
+              "scientific_name": "Semnopithecus entellus",
+              "population": "Abundant",
+              "description": "Natural alarm system for the forest, alert other animals to predators",
+              "image": "https://images.fineartamerica.com/images-medium-large/3-golden-langur-monkey-tony-camacho.jpg",
+              "habitat": "Forest canopy and rocky areas",
+              "behavior": "Live in troops, excellent early warning system"
+            }
+          ],
+          "bird_species": [
+            {
+              "bird": "Indian Peafowl",
+              "scientific_name": "Pavo cristatus",
+              "status": "Resident",
+              "description": "National bird of India, spectacular displays during breeding season",
+              "image": "http://4.bp.blogspot.com/-qWtRVBT3vFk/UP6ls7p3OSI/AAAAAAAADoU/-0j8mkUium4/s1600/pavoc.png",
+              "habitat": "Forest clearings and grasslands",
+              "breeding_season": "June to October"
+            },
+            {
+              "bird": "Crested Serpent Eagle",
+              "scientific_name": "Spilornis cheela",
+              "status": "Resident",
+              "description": "Raptor species, excellent for spotting from safari vehicles",
+              "image": "https://darter.in/wp-content/uploads/2013/11/crested-serpent-eagle.jpg",
+              "habitat": "Dense forests and forest edges",
+              "diet": "Snakes, lizards, small mammals"
+            },
+            {
+              "bird": "Painted Stork",
+              "scientific_name": "Mycteria leucocephala",
+              "status": "Resident",
+              "description": "Large wading bird found near water bodies",
+              "image": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/462470201/1200",
+              "habitat": "Lakes, ponds, and wetlands",
+              "nesting": "Colonial nesting in trees near water"
+            },
+            {
+              "bird": "Great Horned Owl",
+              "scientific_name": "Bubo bubo",
+              "status": "Resident",
+              "description": "Nocturnal raptor, sometimes spotted during day safaris",
+              "image": "https://www.shutterbug.com/images/photo_post/[uid]/Great%20Horned%20Owl_1.jpg",
+              "habitat": "Rocky areas and old trees",
+              "activity": "Primarily nocturnal hunter"
+            },
+            {
+              "bird": "Kingfisher",
+              "scientific_name": "Alcedo atthis",
+              "status": "Resident",
+              "description": "Colorful bird species found near lakes and streams",
+              "image": "https://2.bp.blogspot.com/-GYuWcziFBeg/UfFIfusrDyI/AAAAAAAADzU/3rmb1cK4b2Q/s1600/kingfisher_Lovely_Bird.jpg",
+              "habitat": "Water bodies with overhanging branches",
+              "diet": "Small fish, aquatic insects"
+            }
+          ]
+        },
+       "activities": [
+    {
+      "name": "Tiger Safari",
+      "description": "Jeep safari in different zones to spot tigers and other wildlife in their natural habitat",
+      "detailed_description": "Experience the thrill of tracking tigers through diverse terrain including grasslands, rocky hills, and ancient ruins. Each zone offers unique landscapes and wildlife viewing opportunities.",
+      "duration": "3-4 hours",
+      "cost_range": "₹1800-3500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🚙",
+      "best_time": "Early morning (6:30 AM) and evening (2:30 PM)",
+      "group_size": "Maximum 6 people per jeep",
+      "includes": [
+        "Certified naturalist guide",
+        "Park entry fees",
+        "Safari vehicle"
+      ],
+      "tips": [
+        "Carry water bottles and snacks",
+        "Wear neutral colored clothing",
+        "Maintain silence during wildlife spotting",
+        "Follow guide's instructions for safety"
+      ]
+    },
+    {
+      "name": "Canter Safari",
+      "description": "Shared safari vehicle for larger groups, more economical option for families",
+      "detailed_description": "Open-roof safari bus accommodating up to 20 people, ideal for first-time visitors and budget-conscious travelers. Offers good wildlife viewing with higher seating position.",
+      "duration": "3-4 hours",
+      "cost_range": "₹800-1200 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🚌",
+      "best_time": "Morning and evening slots available",
+      "group_size": "Up to 20 people",
+      "includes": [
+        "Shared transport",
+        "Guide services",
+        "Park fees"
+      ],
+      "tips": [
+        "More affordable option",
+        "Better for photography with higher seating",
+        "Social experience with other travelers"
+      ]
+    },
+    {
+      "name": "Fort Exploration",
+      "description": "Visit historic Ranthambore Fort within the park, combining wildlife and heritage",
+      "detailed_description": "Explore the ancient Ranthambore Fort built in 944 CE, featuring temples, palaces, and stunning views of the park. The fort houses several temples including the famous Trinetra Ganesh Temple.",
+      "duration": "2-3 hours",
+      "cost_range": "Included in safari",
+      "difficulty": "Moderate",
+      "booking_required": false,
+      "icon": "🏰",
+      "best_time": "Daytime, typically accessible during your safari.",
+      "group_size": "Not applicable",
+      "includes": [
+        "Access to the fort is included with your safari booking"
+      ],
+      "tips": [
+        "UNESCO World Heritage Site, over 1000 years old",
+        "Panoramic views of the park",
+        "Ancient architecture and ruins",
+        "Historical artifacts and inscriptions"
+      ]
+    },
+    {
+      "name": "Photography Safari",
+      "description": "Specialized safari focused on wildlife photography with expert guidance",
+      "detailed_description": "Professional photography-focused safari with extended time at wildlife sightings, expert tips on camera settings, and access to prime photography locations.",
+      "duration": "4-5 hours",
+      "cost_range": "₹4000-6000 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "📷",
+      "best_time": "Early morning and late evening, when light is best for photography.",
+      "group_size": "Maximum 6 people per jeep",
+      "includes": [
+        "Photography guide",
+        "Extended viewing time",
+        "Prime locations access"
+      ],
+      "tips": [
+        "DSLR camera with telephoto lens",
+        "Extra batteries and memory cards",
+        "Tripod or monopod",
+        "Camera cleaning kit"
+      ]
+    },
+    {
+      "name": "Nature Walk",
+      "description": "Guided walking safari in buffer zones to understand ecosystem and smaller wildlife",
+      "detailed_description": "Educational walk through buffer areas focusing on flora, fauna, bird watching, and understanding the park's ecosystem with experienced naturalists.",
+      "duration": "2-3 hours",
+      "cost_range": "₹1000-1500 per person",
+      "difficulty": "Moderate",
+      "booking_required": true,
+      "icon": "🥾",
+      "best_time": "Early morning or late afternoon, when the temperature is cooler.",
+      "group_size": "Small groups, typically 4-8 people.",
+      "includes": [
+        "Guided walking tour with a naturalist"
+      ],
+      "tips": [
+        "Bird watching",
+        "Plant identification",
+        "Ecosystem understanding",
+        "Conservation education"
+      ]
+    }
+  ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Zone 1",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Mixed forest and grassland",
+              "highlights": ["Ranthambore Fort", "Padam Talao"],
+              "description": "Most popular zone with highest tiger sighting probability",
+              "special_features": ["Historic fort accessible", "Large water body", "Tiger territories"],
+              "best_for": ["First-time visitors", "Tiger enthusiasts", "Photography"]
+            },
+            {
+              "zone_number": "Zone 2",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Dense forest",
+              "highlights": ["Lahpur valley", "Nal Ghati"],
+              "description": "Dense forest area with excellent tiger habitat",
+              "special_features": ["Deep valleys", "Dense vegetation", "Natural water sources"],
+              "best_for": ["Experienced wildlife enthusiasts", "Nature photography"]
+            },
+            {
+              "zone_number": "Zone 3",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Rocky terrain with water bodies",
+              "highlights": ["Padam Talao", "Jogi Mahal"],
+              "description": "Diverse terrain with excellent wildlife viewing opportunities",
+              "special_features": ["Multiple water bodies", "Rocky outcrops", "Ancient structures"],
+              "best_for": ["Wildlife photography", "Diverse wildlife viewing"]
+            },
+            {
+              "zone_number": "Zone 4",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Forest and grassland mix",
+              "highlights": ["Kala Gaon", "Lambi valley"],
+              "description": "Less crowded zone with good wildlife diversity",
+              "special_features": ["Peaceful environment", "Good bird watching", "Leopard territory"],
+              "best_for": ["Solitude seekers", "Bird watchers", "Leopard spotting"]
+            },
+            {
+              "zone_number": "Zone 5",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Mixed terrain",
+              "highlights": ["Dastkar", "Anatpura"],
+              "description": "Diverse landscape with good wildlife sightings",
+              "special_features": ["Varied topography", "Multiple habitats", "Sloth bear territory"],
+              "best_for": ["Diverse wildlife viewing", "Bear spotting", "Landscape photography"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 10:00 AM (Oct-Jan), 6:00 AM - 9:30 AM (Feb-May)",
+            "evening_safari": "2:30 PM - 6:00 PM (Oct-Jan), 3:30 PM - 7:00 PM (Feb-May)",
+            "gate_opening": "6:00 AM",
+            "last_entry": "4:00 PM (evening safari)"
+          },
+          "closed_period": "July to September (Monsoon)",
+          "booking_information": {
+            "advance_booking": "Required, especially for weekends and peak season",
+            "booking_platforms": ["Official Rajasthan government website", "Authorized tour operators"],
+            "cancellation_policy": "50% refund if cancelled 24 hours before safari",
+            "peak_season_booking": "Book 2-3 months in advance"
+          }
+        },
+        "accommodation": {
+          "luxury_resorts": [
+            {
+              "name": "The Oberoi Vanyavilas",
+              "category": "Luxury",
+              "price_range": "₹35000-50000 per night",
+              "rating": 4.9,
+              "amenities": ["Luxury Tents", "Spa", "Wildlife Library", "Fine Dining", "Butler Service"],
+              "description": "Ultimate luxury in the wilderness with spacious tents and world-class amenities",
+              "location": "10 minutes from park entrance",
+              "special_features": ["Private terraces", "24-hour dining", "Naturalist programs"],
+              "booking_contact": "+91-xxx-xxx-xxxx"
+            },
+            {
+              "name": "Aman-i-Khas",
+              "category": "Ultra Luxury",
+              "price_range": "₹45000-65000 per night",
+              "rating": 4.8,
+              "amenities": ["Luxury Pavilions", "Spa Treatments", "Private Dining", "Wildlife Library"],
+              "description": "Exclusive luxury camp offering unparalleled comfort and privacy",
+              "location": "Adjacent to park boundary",
+              "special_features": ["Only 10 pavilions", "Ultra-exclusive", "Personalized service"]
+            }
+          ],
+          "wildlife_lodges": [
+            {
+              "name": "Ranthambore Regency",
+              "category": "Mid-range",
+              "price_range": "₹6000-10000 per night",
+              "rating": 4.2,
+              "amenities": ["Pool", "Multi-cuisine Restaurant", "Safari Booking", "Conference Hall"],
+              "description": "Comfortable accommodation with good facilities and safari arrangements",
+              "location": "5 km from park entrance",
+              "special_features": ["Family-friendly", "Good restaurant", "Helpful staff"]
+            },
+            {
+              "name": "Tiger Safari Resort",
+              "category": "Budget",
+              "price_range": "₹3000-5000 per night",
+              "rating": 4.0,
+              "amenities": ["Restaurant", "Garden", "Safari Booking", "Room Service"],
+              "description": "Budget-friendly option with basic amenities and safari assistance",
+              "location": "Sawai Madhopur town",
+              "special_features": ["Economical", "Local cuisine", "Travel desk"]
+            }
+          ],
+          "forest_rest_houses": [
+            {
+              "name": "RTDC Hotel Vinayak",
+              "category": "Government",
+              "price_range": "₹2000-4000 per night",
+              "rating": 3.8,
+              "amenities": ["Basic rooms", "Restaurant", "Travel desk"],
+              "description": "Government-run accommodation with basic facilities",
+              "booking_process": "Through RTDC official website or office"
+            }
+          ]
+        },
+        "local_culture": {
+          "nearby_attractions": [
+            {
+              "name": "Ranthambore Fort",
+              "distance": "Within park",
+              "description": "Ancient fort with temples and panoramic views"
+            },
+            {
+              "name": "Surwal Lake",
+              "distance": "15 km",
+              "description": "Bird watching destination, especially for demoiselle cranes"
+            },
+            {
+              "name": "Khandar Fort",
+              "distance": "40 km",
+              "description": "Ruined fort with historical significance"
+            }
+          ],
+          "local_communities": [
+            {
+              "community": "Gujars",
+              "occupation": "Traditional pastoralists, now involved in tourism",
+              "interaction": "Village visits and cultural programs available"
+            }
+          ],
+          "local_cuisine": [
+            "Rajasthani thali",
+            "Dal baati churma",
+            "Ker sangri",
+            "Local game dishes (where permitted)"
+          ]
+        },
+        "rating": {
+          "overall": 4.6,
+          "wildlife_spotting": 4.8,
+          "safari_experience": 4.7,
+          "accommodation": 4.4,
+          "accessibility": 4.2,
+          "conservation_efforts": 4.5,
+          "value_for_money": 4.3,
+          "guide_quality": 4.6
+        },
+        "conservation_status": {
+          "established": "1980",
+          "tiger_reserve_since": "1973",
+          "conservation_success": "Tiger population increased from 26 in 2005 to 75+ in 2023",
+          "challenges": "Human-wildlife conflict, tourism pressure, water scarcity during summers",
+          "conservation_initiatives": [
+            "Camera trap monitoring",
+            "Community involvement programs",
+            "Habitat restoration projects",
+            "Anti-poaching measures"
+          ],
+          "research_programs": [
+            "Tiger behavior studies",
+            "Prey base monitoring",
+            "Habitat assessment",
+            "Human-wildlife conflict mitigation"
+          ]
+        },
+        "practical_information": {
+          "entry_fees": {
+            "indian_nationals": "₹25 per person",
+            "foreign_nationals": "₹200 per person",
+            "vehicle_charges": "₹150-1200 depending on vehicle type",
+            "camera_fee": "₹200 for still camera, ₹2000 for video camera"
+          },
+          "travel_tips": [
+            "Book safaris in advance, especially during peak season",
+            "Carry valid ID proof for entry",
+            "Wear neutral-colored clothing",
+            "Maintain silence during wildlife spotting",
+            "Follow park rules strictly",
+            "Carry sunscreen and hat during summer visits"
+          ],
+          "what_to_pack": [
+            "Comfortable clothing in earth tones",
+            "Binoculars for wildlife viewing",
+            "Camera with extra batteries",
+            "Water bottles and snacks",
+            "Sunscreen and insect repellent",
+            "Hat or cap for sun protection"
+          ]
+        }},
+       {
+  "id": "kaziranga_002",
+  "name": "Kaziranga National Park",
+  "state": "Assam",
+  "location": {
+    "coordinates": {
+      "latitude": 26.5775,
+      "longitude": 93.1714
+    },
+    "area": "858 sq km",
+    "district": "Golaghat and Nagaon",
+    "nearest_airport": "Jorhat Airport (97 km)",
+    "nearest_railway": "Furkating Railway Station (75 km)",
+    "altitude": "40-78 meters above sea level",
+    "accessibility": "Well connected by road and rail from major northeastern cities"
+  },
+  "images": {
+    "main_image": "https://im.rediff.com/getahead/2013/oct/16travel-kaziranga-national-park.jpg",
+    "gallery": [
+      "https://rhinos.org/wp-content/uploads/2024/07/1720542345016.jpeg",
+      "https://www.tigersafariindia.com/wp-content/uploads/2023/11/elephants-playing-in-kaziranga-national-park.jpg",
+      "https://www.tripsavvy.com/thmb/hloxTK789ZhuEbyFuLsQ2I_QFKI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/125213427-56a3bfaa5f9b58b7d0d39685.jpg"
+    ],
+    "wildlife_images": {
+      "rhinoceros": "https://example.com/rhino-icon.svg",
+      "tiger": "https://example.com/tiger-icon.svg",
+      "elephant": "https://example.com/elephant-icon.svg",
+      "hornbill": "https://example.com/hornbill-icon.svg"
+    }
+  },
+  "description": {
+    "overview": "UNESCO World Heritage Site famous for the Great One-horned Rhinoceros. Two-thirds of the world's great one-horned rhinoceros population lives here, making it the most important rhino conservation site globally.",
+    "detailed_description": "Kaziranga National Park represents one of the world's greatest conservation success stories, transforming from a hunting reserve to a UNESCO World Heritage Site. Spanning across the floodplains of the mighty Brahmaputra River, this park showcases the unique ecosystem of Assam's grasslands and wetlands. The park's landscape changes dramatically with seasons - lush green during monsoons and golden grasslands in winter, creating different experiences throughout the year.",
+    "famous_for": [
+      "Great One-horned Rhinoceros - 2/3rd of world population",
+      "Royal Bengal Tigers in grassland habitat",
+      "Asian Elephants in large herds",
+      "World-class bird watching destination",
+      "Brahmaputra River ecosystem and floodplains",
+      "Traditional elephant safaris",
+      "Conservation success story"
+    ],
+    "best_time_to_visit": {
+      "season": "November to April",
+      "peak_season": "December to March",
+      "weather": "Mild winters, flooded during monsoon",
+      "detailed_weather": {
+        "winter": "Cool and dry (10-25°C), excellent visibility for wildlife viewing",
+        "summer": "Hot and humid (25-35°C), animals concentrate near water sources",
+        "monsoon": "Park closed due to severe flooding, animals migrate to highland areas"
+      }
+    },
+    "unique_features": [
+      "Only park in India where you can see rhinos, tigers, and elephants together",
+      "Annual flooding creates dynamic ecosystem",
+      "Traditional elephant-back safaris still practiced",
+      "Largest population of water buffalo in any protected area",
+      "Critical breeding ground for many endangered species"
+    ]
+  },
+  "wildlife": {
+    "major_species": [
+      {
+        "animal": "Great One-horned Rhinoceros",
+        "scientific_name": "Rhinoceros unicornis",
+        "population": "Approximately 2400+",
+        "best_spotting_time": "Early morning",
+        "zones": ["Central Range", "Eastern Range"],
+        "description": "World's most successful rhino conservation story, these magnificent creatures thrive in Kaziranga's grasslands",
+        "conservation_status": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Greater_One-horned_Rhinoceros_adult_male.jpg/1200px-Greater_One-horned_Rhinoceros_adult_male.jpg",
+        "interesting_facts": [
+          "Can weigh up to 2,200 kg and run at 55 km/h",
+          "Single horn made of keratin, not bone",
+          "Excellent swimmers despite their size",
+          "Population recovered from just 12 individuals in 1908"
+        ]
+      },
+      {
+        "animal": "Royal Bengal Tiger",
+        "scientific_name": "Panthera tigris tigris",
+        "population": "Approximately 120+",
+        "best_spotting_time": "Early morning and evening",
+        "zones": ["All ranges"],
+        "description": "Grassland tigers with unique hunting adaptations, different from forest tigers",
+        "conservation_status": "Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Royal_Bengal_Tiger_in_Kaziranga_National_Park.jpg/1200px-Royal_Bengal_Tiger_in_Kaziranga_National_Park.jpg",
+        "interesting_facts": [
+          "Highest tiger density in India - 1 tiger per 5 sq km",
+          "Adapted to hunt in tall grasslands",
+          "Often swim across rivers and wetlands",
+          "Share habitat peacefully with rhinos and elephants"
+        ]
+      },
+      {
+        "animal": "Asian Elephant",
+        "scientific_name": "Elephas maximus",
+        "population": "Approximately 1800+",
+        "best_spotting_time": "Morning and evening",
+        "zones": ["All ranges"],
+        "description": "Large herds roam freely across the park, creating spectacular viewing opportunities",
+        "conservation_status": "Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Asian_Elephant_in_Kaziranga.jpg/1200px-Asian_Elephant_in_Kaziranga.jpg",
+        "interesting_facts": [
+          "Form the largest herds in India with up to 100+ individuals",
+          "Migrate seasonally following ancient corridors",
+          "Play crucial role in seed dispersal",
+          "Some used for traditional elephant safaris with proper care"
+        ]
+      }
+    ],
+    "other_mammals": [
+      {
+        "animal": "Wild Water Buffalo",
+        "scientific_name": "Bubalus arnee",
+        "population": "Approximately 1500+",
+        "description": "World's largest population of wild water buffalo, magnificent creatures of the wetlands",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Wild_water_buffalo.jpg/1200px-Wild_water_buffalo.jpg",
+        "habitat": "Wetlands and grasslands",
+        "behavior": "Form large herds, excellent swimmers"
+      },
+      {
+        "animal": "Swamp Deer (Barasingha)",
+        "scientific_name": "Rucervus duvaucelii",
+        "population": "Common",
+        "description": "Graceful deer species adapted to wetland environment",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Barasingha_or_Swamp_deer.jpg/1200px-Barasingha_or_Swamp_deer.jpg",
+        "habitat": "Swampy grasslands",
+        "behavior": "Live in herds, excellent swimmers with splayed hooves"
+      },
+      {
+        "animal": "Hog Deer",
+        "scientific_name": "Axis porcinus",
+        "population": "Abundant",
+        "description": "Small deer species that runs like a hog with head down",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Hog_deer_stag.jpg/1200px-Hog_deer_stag.jpg",
+        "habitat": "Tall grasslands and forest edges",
+        "behavior": "Solitary or in pairs, prefers dense cover"
+      },
+      {
+        "animal": "Hoolock Gibbon",
+        "scientific_name": "Hoolock hoolock",
+        "population": "Rare",
+        "description": "India's only ape species, found in forested areas",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Western_hoolock_gibbon.jpg/1200px-Western_hoolock_gibbon.jpg",
+        "habitat": "Forest canopy",
+        "behavior": "Arboreal, live in family groups"
+      }
+    ],
+    "bird_species": [
+      {
+        "bird": "Greater Adjutant Stork",
+        "scientific_name": "Leptoptilos dubius",
+        "status": "Resident",
+        "description": "Endangered stork species, one of the rarest birds in the world",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Greater_Adjutant_Stork.jpg/1200px-Greater_Adjutant_Stork.jpg",
+        "habitat": "Wetlands and grasslands",
+        "conservation_status": "Endangered"
+      },
+      {
+        "bird": "Bengal Florican",
+        "scientific_name": "Houbaropsis bengalensis",
+        "status": "Resident",
+        "description": "Critically endangered bustard species, spectacular courtship displays",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bengal_florican_male.jpg/1200px-Bengal_florican_male.jpg",
+        "habitat": "Grasslands",
+        "conservation_status": "Critically Endangered"
+      },
+      {
+        "bird": "Great Indian Hornbill",
+        "scientific_name": "Buceros bicornis",
+        "status": "Resident",
+        "description": "Magnificent large hornbill with distinctive casque",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Great_hornbill_adult_male.jpg/1200px-Great_hornbill_adult_male.jpg",
+        "habitat": "Forest areas",
+        "diet": "Fruits and small animals"
+      },
+      {
+        "bird": "Spot-billed Pelican",
+        "scientific_name": "Pelecanus philippensis",
+        "status": "Resident",
+        "description": "Large waterbird, near threatened species",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Spot-billed_Pelican.jpg/1200px-Spot-billed_Pelican.jpg",
+        "habitat": "Large water bodies",
+        "nesting": "Colonial nesting in trees"
+      },
+      {
+        "bird": "White-winged Duck",
+        "scientific_name": "Asarcornis scutulata",
+        "status": "Resident",
+        "description": "Endangered duck species, one of the rarest waterfowl",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/White-winged_duck.jpg/1200px-White-winged_duck.jpg",
+        "habitat": "Forest pools and wetlands",
+        "conservation_status": "Endangered"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "name": "Elephant Safari",
+      "description": "Traditional elephant back safari through grasslands, unique experience to get close to rhinos",
+      "detailed_description": "Experience the park as traditional mahouts do, riding domesticated elephants through the grasslands. This centuries-old method allows you to get remarkably close to rhinos and other wildlife, as animals are less threatened by elephants than vehicles.",
+      "duration": "1-2 hours",
+      "cost_range": "₹800-1200 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🐘",
+      "best_time": "Early morning (7:00 AM - 9:00 AM)",
+      "group_size": "2-4 people per elephant",
+      "includes": ["Elephant ride", "Mahout guide", "Close wildlife encounters"],
+      "tips": [
+        "Wear comfortable clothes and hold on tight",
+        "Perfect for photography of rhinos",
+        "Quiet experience - elephants move silently",
+        "Best way to approach rhinos safely"
+      ],
+      "unique_aspects": [
+        "Only park in India offering regular elephant safaris",
+        "Get within 10-15 meters of rhinos",
+        "Traditional conservation method",
+        "Supports local mahout communities"
+      ]
+    },
+    {
+      "name": "Jeep Safari",
+      "description": "4WD safari through different ranges, comprehensive park exploration",
+      "detailed_description": "Explore the vast grasslands and forest areas in open 4WD vehicles with experienced naturalists. Cover more ground than elephant safaris and access different habitats including wetlands, grasslands, and forest patches.",
+      "duration": "3-4 hours",
+      "cost_range": "₹1500-2500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🚙",
+      "best_time": "Early morning (7:00 AM) and afternoon (1:30 PM)",
+      "group_size": "Maximum 6 people per jeep",
+      "includes": ["4WD vehicle", "Naturalist guide", "Range exploration"],
+      "advantages": [
+        "Cover larger areas of the park",
+        "Access to different ranges",
+        "Better for bird watching",
+        "Comfortable seating for longer duration"
+      ]
+    },
+    {
+      "name": "Bird Watching Tour",
+      "description": "Specialized birding tours focusing on rare and endemic species",
+      "detailed_description": "Guided tours specifically designed for bird enthusiasts, focusing on Kaziranga's incredible avian diversity including several endangered species. Early morning tours offer the best opportunities.",
+      "duration": "4-5 hours",
+      "cost_range": "₹2000-3500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🦅",
+      "best_time": "Early morning (6:00 AM - 11:00 AM)",
+      "includes": ["Expert birding guide", "Species identification", "Binoculars"],
+      "target_species": [
+        "Bengal Florican",
+        "Greater Adjutant Stork",
+        "White-winged Duck",
+        "Pallas's Fish Eagle",
+        "Swamp Francolin"
+      ]
+    },
+    {
+      "name": "Photography Safari",
+      "description": "Professional photography-focused safari with expert guidance and prime locations",
+      "detailed_description": "Specialized safari designed for serious photographers, with extended stops at wildlife sightings and access to the best photography spots in the park.",
+      "duration": "5-6 hours",
+      "cost_range": "₹4000-6500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "📷",
+      "includes": ["Photography guide", "Prime location access", "Extended viewing time"],
+      "equipment_recommended": [
+        "Telephoto lens (300mm minimum)",
+        "Wide-angle lens for landscapes",
+        "Extra batteries and storage cards",
+        "Weather protection for equipment"
+      ]
+    },
+    {
+      "name": "River Cruise",
+      "description": "Boat safari on Brahmaputra River to observe aquatic wildlife and river ecosystem",
+      "detailed_description": "Explore the mighty Brahmaputra River and its tributaries to observe dolphins, otters, and diverse birdlife. Experience the park from a different perspective.",
+      "duration": "2-3 hours",
+      "cost_range": "₹1500-2200 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🚤",
+      "highlights": [
+        "Gangetic dolphins",
+        "Smooth-coated otters",
+        "Water birds",
+        "River ecosystem understanding"
+      ]
+    }
+  ],
+  "safari_information": {
+    "ranges": [
+      {
+        "range_name": "Central Range (Kohora)",
+        "area": "Core area - 233 sq km",
+        "rhino_density": "Highest",
+        "terrain": "Grasslands and water bodies",
+        "highlights": ["Dense rhino population", "Water bodies", "Elephant herds"],
+        "description": "Most popular range with highest wildlife density and best rhino viewing opportunities",
+        "special_features": ["Park headquarters location", "Visitor center", "Maximum rhino concentration"],
+        "best_for": ["First-time visitors", "Rhino enthusiasts", "Photography"],
+        "accessibility": "Most accessible, well-maintained roads"
+      },
+      {
+        "range_name": "Eastern Range (Agoratoli)",
+        "area": "Core area - 151 sq km",
+        "bird_diversity": "Highest",
+        "terrain": "Grasslands and wetlands",
+        "highlights": ["Bird watching", "Tiger spotting", "Wetland ecosystem"],
+        "description": "Best range for bird watching with diverse wetland habitats",
+        "special_features": ["Maximum bird species", "Wetland ecosystem", "Tiger territory"],
+        "best_for": ["Bird watchers", "Wildlife photographers", "Wetland enthusiasts"],
+        "accessibility": "Good road connectivity from Bokakhat"
+      },
+      {
+        "range_name": "Western Range (Bagori)",
+        "area": "Buffer area - 232 sq km",
+        "wildlife_diversity": "High",
+        "terrain": "Mixed forest and grasslands",
+        "highlights": ["Hoolock gibbons", "Forest wildlife", "Bird diversity"],
+        "description": "Mix of forest and grassland habitats with diverse wildlife",
+        "special_features": ["Only range with gibbons", "Forest ecosystem", "Less crowded"],
+        "best_for": ["Gibbon viewing", "Forest wildlife", "Peaceful experience"],
+        "accessibility": "Approach from Bagori gate"
+      },
+      {
+        "range_name": "Burapahar Range (Northern)",
+        "area": "Addition to park - 68 sq km",
+        "tiger_density": "High",
+        "terrain": "Hilly terrain with forests",
+        "highlights": ["Tiger sightings", "Hill forests", "Scenic landscapes"],
+        "description": "Hilly range added later, excellent for tiger sightings",
+        "special_features": ["Highest elevation", "Dense forests", "Tiger territory"],
+        "best_for": ["Tiger tracking", "Hill forest experience", "Advanced wildlife enthusiasts"],
+        "accessibility": "Separate entry, advance booking essential"
+      }
+    ],
+    "timings": {
+      "morning_safari": "7:00 AM - 11:00 AM",
+      "afternoon_safari": "1:30 PM - 5:30 PM",
+      "elephant_safari": "7:00 AM - 9:00 AM and 1:30 PM - 3:30 PM",
+      "gate_opening": "6:30 AM",
+      "last_entry": "4:00 PM"
+    },
+    "closed_period": "May to October (Monsoon and flooding)",
+    "seasonal_information": {
+      "november_december": "Cool weather, excellent visibility, peak tourist season",
+      "january_february": "Coldest months, clear skies, best for photography",
+      "march_april": "Warm weather, animals near water, good wildlife viewing",
+      "may_october": "Park closed due to monsoon flooding"
+    },
+    "booking_information": {
+      "advance_booking": "Essential, especially for elephant safaris",
+      "booking_platforms": ["Assam Forest Department website", "Authorized operators"],
+      "cancellation_policy": "No refund for weather-related cancellations during open season",
+      "peak_season_booking": "Book 1-2 months in advance for December-February"
+    }
+  },
+  "accommodation": {
+    "luxury_resorts": [
+      {
+        "name": "Kaziranga Golf Resort",
+        "category": "Luxury",
+        "price_range": "₹15000-25000 per night",
+        "rating": 4.7,
+        "amenities": ["Golf Course", "Spa", "Multi-cuisine Restaurant", "Cultural Shows"],
+        "description": "Premier luxury resort with golf course and comprehensive facilities",
+        "location": "15 km from park entrance",
+        "special_features": ["18-hole golf course", "Traditional Assamese architecture", "Cultural programs"]
+      },
+      {
+        "name": "Infinity Resorts Kaziranga",
+        "category": "Luxury",
+        "price_range": "₹12000-20000 per night",
+        "rating": 4.5,
+        "amenities": ["Pool", "Spa", "Adventure Sports", "Wildlife Library"],
+        "description": "Modern luxury resort with comprehensive recreational facilities",
+        "location": "12 km from Kohora range",
+        "special_features": ["Adventure activities", "Modern amenities", "Nature walks"]
+      }
+    ],
+    "eco_lodges": [
+      {
+        "name": "Wild Grass Lodge",
+        "category": "Eco-luxury",
+        "price_range": "₹12000-18000 per night",
+        "rating": 4.6,
+        "amenities": ["Organic Food", "Cultural Programs", "Bird Watching", "Nature Walks"],
+        "description": "Award-winning eco-lodge promoting sustainable tourism and local culture",
+        "location": "Near Kohora range",
+        "special_features": ["Sustainable practices", "Local community involvement", "Organic farm"],
+        "sustainability": ["Solar power", "Rainwater harvesting", "Local employment", "Organic farming"]
+      },
+      {
+        "name": "Jupuri Ghar",
+        "category": "Traditional",
+        "price_range": "₹8000-12000 per night",
+        "rating": 4.3,
+        "amenities": ["Traditional Architecture", "Local Cuisine", "Cultural Immersion"],
+        "description": "Traditional Assamese-style accommodation with authentic cultural experience",
+        "location": "Kaziranga village",
+        "special_features": ["Traditional bamboo construction", "Cultural activities", "Local guides"]
+      }
+    ],
+    "forest_rest_houses": [
+      {
+        "name": "Kaziranga Forest Lodge",
+        "category": "Mid-range",
+        "price_range": "₹4000-7000 per night",
+        "rating": 4.0,
+        "amenities": ["Basic Accommodation", "Safari Booking", "Local Cuisine", "Nature Library"],
+        "description": "Government-run accommodation with basic but comfortable facilities",
+        "location": "Kohora range entrance",
+        "special_features": ["Government rates", "Safari booking assistance", "Forest department guided tours"]
+      },
+      {
+        "name": "Aranya Tourist Lodge",
+        "category": "Budget",
+        "price_range": "₹2500-4000 per night",
+        "rating": 3.8,
+        "amenities": ["Basic rooms", "Restaurant", "Travel assistance"],
+        "description": "Budget-friendly accommodation run by Assam Tourism",
+        "location": "Kohora",
+        "booking_process": "Through Assam Tourism website or counter"
+      }
+    ]
+  },
+  "local_culture": {
+    "nearby_attractions": [
+      {
+        "name": "Panbari Reserve Forest",
+        "distance": "25 km",
+        "description": "Additional wildlife viewing area, good for birds and primates"
+      },
+      {
+        "name": "Kakochang Waterfalls",
+        "distance": "40 km",
+        "description": "Scenic waterfall with historical significance"
+      },
+      {
+        "name": "Gibbon Wildlife Sanctuary",
+        "distance": "60 km",
+        "description": "India's only sanctuary dedicated to hoolock gibbons"
+      },
+      {
+        "name": "Tea Gardens",
+        "distance": "Various locations",
+        "description": "Famous Assam tea estates offering plantation visits"
+      }
+    ],
+    "local_communities": [
+      {
+        "community": "Mishing Tribe",
+        "occupation": "Traditional fishing and farming, now tourism guides",
+        "interaction": "Village visits, traditional boat rides, cultural shows"
+      },
+      {
+        "community": "Bodo Community",
+        "occupation": "Agriculture and handicrafts",
+        "interaction": "Handicraft shopping, cultural programs"
+      }
+    ],
+    "local_cuisine": [
+      "Assamese fish curry with bhaat (rice)",
+      "Duck meat curry (traditional delicacy)",
+      "Pitika (mashed vegetables with mustard oil)",
+      "Assam tea and traditional sweets",
+      "Bamboo shoot curry",
+      "Traditional rice beer (where permitted)"
+    ],
+    "festivals": [
+      {
+        "name": "Bihu Festival",
+        "time": "April",
+        "description": "Assamese New Year celebration with traditional dances"
+      },
+      {
+        "name": "Kaziranga Elephant Festival",
+        "time": "March",
+        "description": "Annual festival celebrating elephant conservation"
+      }
+    ]
+  },
+  "rating": {
+    "overall": 4.7,
+    "wildlife_spotting": 4.9,
+    "safari_experience": 4.6,
+    "accommodation": 4.3,
+    "accessibility": 3.9,
+    "conservation_efforts": 4.8,
+    "value_for_money": 4.4,
+    "guide_quality": 4.5,
+    "uniqueness": 4.9
+  },
+  "conservation_status": {
+    "established": "1974",
+    "world_heritage_since": "1985",
+    "conservation_success": "Rhino population increased from 366 in 1966 to 2400+ in 2023",
+    "challenges": [
+      "Annual flooding displaces wildlife",
+      "Poaching pressure from international demand",
+      "Human encroachment and development pressure",
+      "Climate change affecting flooding patterns",
+      "Highway traffic through elephant corridors"
+    ],
+    "conservation_initiatives": [
+      "Anti-poaching units with modern equipment",
+      "Community conservation programs",
+      "Corridor protection for elephant migration",
+      "Breeding programs for endangered species",
+      "Research and monitoring programs"
+    ],
+    "research_programs": [
+      "Rhino population monitoring",
+      "Tiger ecology studies",
+      "Elephant migration pattern research",
+      "Flood impact assessment",
+      "Climate change adaptation studies"
+    ],
+    "partnerships": [
+      "International Rhino Foundation",
+      "WWF India",
+      "Wildlife Trust of India",
+      "Local community organizations"
+    ]
+  },
+  "practical_information": {
+    "entry_fees": {
+      "indian_nationals": "₹50 per person",
+      "foreign_nationals": "₹500 per person",
+      "vehicle_charges": "₹200-1500 depending on vehicle type",
+      "camera_fee": "₹500 for still camera, ₹5000 for video camera",
+      "elephant_safari": "Additional ₹800-1200 per person"
+    },
+    "permits_required": [
+      "Inner Line Permit for some areas (for non-locals)",
+      "Special permits for research and filming",
+      "Guide mandatory for all safaris"
+    ],
+    "travel_tips": [
+      "Carry waterproof bags during winter months",
+      "Book elephant safaris well in advance",
+      "Respect local customs and traditions",
+      "Follow park rules strictly for safety",
+      "Carry insect repellent for mosquitoes",
+      "Learn basic Assamese phrases for better interaction"
+    ],
+    "what_to_pack": [
+      "Warm clothing for winter visits (December-February)",
+      "Waterproof jacket and bags",
+      "Binoculars for wildlife and bird watching",
+      "Camera with telephoto lens",
+      "Insect repellent and first aid kit",
+      "Comfortable walking shoes",
+      "Sun protection gear"
+    ],
+    "health_precautions": [
+      "Japanese Encephalitis vaccination recommended",
+      "Malaria prophylaxis during certain seasons",
+      "Carry basic medicines for stomach upset",
+      "Drink only bottled or boiled water"
+    ]
+  }
+       },
+      {
+  "id": "gir_003",
+  "name": "Gir National Park",
+  "state": "Gujarat",
+  "location": {
+    "coordinates": {
+      "latitude": 21.1728,
+      "longitude": 70.7729
+    },
+    "area": "1,412 sq km",
+    "district": "Junagadh and Gir Somnath",
+    "nearest_airport": "Rajkot Airport (160 km)",
+    "nearest_railway": "Junagadh Railway Station (65 km)",
+    "altitude": "150-480 meters above sea level",
+    "accessibility": "Well connected by road from major Gujarat cities"
+  },
+  "images": {
+    "main_image": "https://static.tripzilla.in/media/5385/conversions/1266799a-9bff-44c5-b8f0-1202ac66c037-w1024.webp",
+    "gallery": [
+      "https://static.tripzilla.in/media/5387/conversions/a395bfe1-7b4c-4394-8496-6a833259e032-w1024.webp",
+      "https://static.tripzilla.in/media/5388/conversions/1c03e9f0-0c6e-4be8-bd27-ee266490356e-w1024.webp",
+      "https://static.tripzilla.in/media/5391/conversions/3001feb7-ca87-4ea6-a32b-de9c0c482dac-w1024.webp"
+    ],
+    "wildlife_images": {
+      "lion": "https://example.com/lion-icon.svg",
+      "leopard": "https://example.com/leopard-icon.svg",
+      "crocodile": "https://example.com/crocodile-icon.svg",
+      "eagle": "https://example.com/eagle-icon.svg"
+    }
+  },
+  "description": {
+    "overview": "The last refuge of the majestic Asiatic Lions in the world. Home to over 674 lions and the only place on Earth where you can see this subspecies in their natural habitat.",
+    "detailed_description": "Gir National Park represents one of India's most remarkable conservation success stories, transforming from a hunting reserve of the Nawabs to the world's only home of Asiatic Lions. Spread across the Kathiawar Peninsula in Gujarat, this dry deciduous forest ecosystem showcases the unique Saurashtra landscape. The park's undulating terrain, dotted with rocky hills, seasonal rivers, and grasslands, creates a perfect habitat for the king of beasts and diverse wildlife.",
+    "famous_for": [
+      "Asiatic Lions - World's only wild population",
+      "Conservation success story of a critically endangered species",
+      "Indian Leopards coexisting with lions",
+      "Mugger Crocodiles in Kamleshwar Dam",
+      "Rich bird life with over 300 species",
+      "Maldhari pastoral community integration",
+      "Unique dry deciduous forest ecosystem"
+    ],
+    "best_time_to_visit": {
+      "season": "October to June",
+      "peak_season": "December to March",
+      "weather": "Hot summers, pleasant winters, park closed during monsoon",
+      "detailed_weather": {
+        "winter": "Cool and pleasant (15-25°C), excellent for wildlife viewing",
+        "summer": "Hot and dry (30-42°C), animals active early morning and evening",
+        "monsoon": "Park closed (June 16 - October 15), heavy rainfall rejuvenates forest"
+      }
+    },
+    "unique_features": [
+      "World's only wild population of Asiatic Lions",
+      "Unique coexistence of lions and leopards",
+      "Maldhari community living harmoniously within the park",
+      "Largest compact tract of dry deciduous forest in western India",
+      "Ancient geological formations and diverse topography",
+      "Traditional pastoral culture preserved for centuries"
+    ]
+  },
+  "wildlife": {
+    "major_species": [
+      {
+        "animal": "Asiatic Lion",
+        "scientific_name": "Panthera leo persica",
+        "population": "Approximately 674+",
+        "best_spotting_time": "Early morning and evening",
+        "zones": ["All zones"],
+        "description": "The last wild population of Asiatic Lions, smaller than African lions but equally majestic",
+        "conservation_status": "Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Asiatic_lion_male.jpg/1200px-Asiatic_lion_male.jpg",
+        "interesting_facts": [
+          "Smaller mane compared to African lions",
+          "Live in smaller prides of 2-6 individuals",
+          "Can run up to 80 km/h in short bursts",
+          "Population recovered from just 20 individuals in 1913",
+          "Males have distinctive belly fold absent in African lions"
+        ]
+      },
+      {
+        "animal": "Indian Leopard",
+        "scientific_name": "Panthera pardus fusca",
+        "population": "Approximately 200+",
+        "best_spotting_time": "Early morning and dusk",
+        "zones": ["All zones"],
+        "description": "Remarkable adaptation to coexist with lions in the same habitat",
+        "conservation_status": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Indian_leopard_in_Gir.jpg/1200px-Indian_leopard_in_Gir.jpg",
+        "interesting_facts": [
+          "Only place where lions and leopards coexist naturally",
+          "More arboreal than leopards in other regions",
+          "Adapted nocturnal behavior to avoid lions",
+          "Excellent climbers and swimmers"
+        ]
+      },
+      {
+        "animal": "Mugger Crocodile",
+        "scientific_name": "Crocodylus palustris",
+        "population": "Approximately 300+",
+        "best_spotting_time": "Daytime basking",
+        "zones": ["Kamleshwar Dam", "Hiran River"],
+        "description": "Large population thrives in park's water bodies",
+        "conservation_status": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mugger_crocodile_Gir.jpg/1200px-Mugger_crocodile_Gir.jpg",
+        "interesting_facts": [
+          "Can grow up to 4-5 meters in length",
+          "Excellent parents - guard nests and young",
+          "Important role in aquatic ecosystem balance",
+          "Can survive without food for months"
+        ]
+      }
+    ],
+    "other_mammals": [
+      {
+        "animal": "Indian Wild Boar",
+        "scientific_name": "Sus scrofa cristatus",
+        "population": "Abundant",
+        "description": "Large populations provide important prey base for lions",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wild_boar_Gir.jpg/1200px-Wild_boar_Gir.jpg",
+        "habitat": "Forest undergrowth and clearings",
+        "behavior": "Live in groups, excellent diggers and swimmers"
+      },
+      {
+        "animal": "Sambar Deer",
+        "scientific_name": "Rusa unicolor",
+        "population": "Common",
+        "description": "Largest deer species in the park, primary prey for big cats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sambar_deer_Gir.jpg/1200px-Sambar_deer_Gir.jpg",
+        "habitat": "Dense forest areas near water",
+        "behavior": "Solitary or in small groups, excellent swimmers"
+      },
+      {
+        "animal": "Spotted Deer (Chital)",
+        "scientific_name": "Axis axis",
+        "population": "Abundant",
+        "description": "Beautiful spotted deer, important prey species",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Chital_Gir.jpg/1200px-Chital_Gir.jpg",
+        "habitat": "Open grasslands and forest edges",
+        "behavior": "Form large herds, highly alert to predators"
+      },
+      {
+        "animal": "Nilgai",
+        "scientific_name": "Boselaphus tragocamelus",
+        "population": "Common",
+        "description": "Asia's largest antelope species",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nilgai_male_Gir.jpg/1200px-Nilgai_male_Gir.jpg",
+        "habitat": "Open grasslands and scrublands",
+        "behavior": "Live in herds, males are bluish-gray"
+      },
+      {
+        "animal": "Four-horned Antelope",
+        "scientific_name": "Tetracerus quadricornis",
+        "population": "Rare",
+        "description": "Unique antelope with four horns, endemic to Indian subcontinent",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Four_horned_antelope.jpg/1200px-Four_horned_antelope.jpg",
+        "habitat": "Dense forest and scrubland",
+        "behavior": "Solitary and elusive, active during early morning"
+      },
+      {
+        "animal": "Sloth Bear",
+        "scientific_name": "Melursus ursinus",
+        "population": "Approximately 100+",
+        "description": "Shaggy-coated bears with distinctive white chest patch",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Sloth_bear_Gir.jpg/1200px-Sloth_bear_Gir.jpg",
+        "habitat": "Rocky areas and dense forest",
+        "behavior": "Primarily insectivorous, excellent climbers"
+      }
+    ],
+    "bird_species": [
+      {
+        "bird": "Paradise Flycatcher",
+        "scientific_name": "Terpsiphone paradisi",
+        "status": "Resident and migratory",
+        "description": "Spectacular bird with long flowing tail feathers in males",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Paradise_flycatcher_male.jpg/1200px-Paradise_flycatcher_male.jpg",
+        "habitat": "Dense forest understory",
+        "conservation_status": "Least Concern"
+      },
+      {
+        "bird": "Bonnelli's Eagle",
+        "scientific_name": "Aquila fasciata",
+        "status": "Resident",
+        "description": "Powerful raptor with distinctive underwing pattern",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bonnellis_eagle.jpg/1200px-Bonnellis_eagle.jpg",
+        "habitat": "Rocky hills and open areas",
+        "conservation_status": "Least Concern"
+      },
+      {
+        "bird": "Crested Serpent Eagle",
+        "scientific_name": "Spilornis cheela",
+        "status": "Resident",
+        "description": "Medium-sized raptor with distinctive crest",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Crested_serpent_eagle.jpg/1200px-Crested_serpent_eagle.jpg",
+        "habitat": "Forest areas near water",
+        "diet": "Snakes, lizards, and small mammals"
+      },
+      {
+        "bird": "Brown Fish Owl",
+        "scientific_name": "Ketupa zeylonensis",
+        "status": "Resident",
+        "description": "Large owl species specializing in fishing",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Brown_fish_owl.jpg/1200px-Brown_fish_owl.jpg",
+        "habitat": "Near rivers and water bodies",
+        "behavior": "Nocturnal, hunts fish and frogs"
+      },
+      {
+        "bird": "Painted Sandgrouse",
+        "scientific_name": "Pterocles indicus",
+        "status": "Resident",
+        "description": "Ground-dwelling bird adapted to dry habitats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/p/p8/Painted_sandgrouse.jpg/1200px-Painted_sandgrouse.jpg",
+        "habitat": "Open scrublands and grasslands",
+        "behavior": "Form large flocks at water sources"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "name": "Lion Safari",
+      "description": "Exclusive safari to spot the majestic Asiatic Lions in their natural habitat",
+      "detailed_description": "Experience the thrill of encountering the world's last wild population of Asiatic Lions. These safaris take you through the core areas where lion prides roam freely, offering unparalleled opportunities to observe their behavior, social structure, and hunting patterns.",
+      "duration": "3-4 hours",
+      "cost_range": "₹2000-3500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🦁",
+      "best_time": "Early morning (6:30 AM) and evening (3:00 PM)",
+      "group_size": "Maximum 6 people per jeep",
+      "includes": ["4WD vehicle", "Naturalist guide", "Core area access"],
+      "tips": [
+        "Maintain silence during lion encounters",
+        "Stay inside the vehicle at all times",
+        "Carry telephoto lens for photography",
+        "Book well in advance during peak season"
+      ],
+      "unique_aspects": [
+        "World's only place to see wild Asiatic Lions",
+        "Observe unique lion-leopard coexistence",
+        "Study behavioral differences from African lions",
+        "Conservation education experience"
+      ]
+    },
+    {
+      "name": "Devalia Park Safari",
+      "description": "Interpretation zone safari offering guaranteed wildlife sightings",
+      "detailed_description": "A 412-hectare enclosed area within Gir that provides guaranteed sightings of lions and other wildlife. Perfect for first-time visitors and those with limited time, offering excellent photography opportunities.",
+      "duration": "2 hours",
+      "cost_range": "₹800-1200 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🚌",
+      "best_time": "Morning (9:00 AM) and afternoon (2:30 PM)",
+      "group_size": "Bus safari - 20-25 people",
+      "includes": ["Bus transport", "Guide", "Guaranteed lion sighting"],
+      "advantages": [
+        "Guaranteed wildlife sightings",
+        "Educational interpretation center",
+        "Safe and comfortable for all ages",
+        "Photography-friendly environment"
+      ]
+    },
+    {
+      "name": "Crocodile Watching",
+      "description": "Specialized tour to observe Mugger Crocodiles at Kamleshwar Dam",
+      "detailed_description": "Visit the famous Kamleshwar Dam to observe one of India's largest populations of Mugger Crocodiles. Learn about crocodile behavior, conservation efforts, and their role in the ecosystem.",
+      "duration": "2-3 hours",
+      "cost_range": "₹1000-1800 per person",
+      "difficulty": "Easy",
+      "booking_required": false,
+      "icon": "🐊",
+      "best_time": "Morning for basking crocodiles",
+      "includes": ["Dam visit", "Crocodile observation", "Educational briefing"],
+      "highlights": [
+        "Large crocodiles basking in sun",
+        "Nesting sites observation",
+        "Water birds and other aquatic life",
+        "Dam ecosystem understanding"
+      ]
+    },
+    {
+      "name": "Bird Watching Safari",
+      "description": "Specialized birding tours focusing on resident and migratory species",
+      "detailed_description": "Gir hosts over 300 bird species including several raptors, water birds, and forest specialists. Early morning tours offer the best opportunities to spot and photograph diverse avian species.",
+      "duration": "4-5 hours",
+      "cost_range": "₹1800-2800 per person",
+      "difficulty": "Easy to moderate",
+      "booking_required": true,
+      "icon": "🦅",
+      "best_time": "Early morning (6:00 AM - 11:00 AM)",
+      "includes": ["Expert birding guide", "Species identification", "Binoculars"],
+      "target_species": [
+        "Paradise Flycatcher",
+        "Bonnelli's Eagle",
+        "Brown Fish Owl",
+        "Painted Sandgrouse",
+        "Crested Serpent Eagle"
+      ]
+    },
+    {
+      "name": "Maldhari Culture Tour",
+      "description": "Experience the traditional pastoral community living within the park",
+      "detailed_description": "Visit traditional Maldhari settlements to understand how pastoral communities have coexisted with lions for centuries. Learn about sustainable living practices and traditional livestock management.",
+      "duration": "3-4 hours",
+      "cost_range": "₹1200-2000 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🏘️",
+      "includes": ["Village visit", "Cultural interaction", "Traditional food tasting"],
+      "highlights": [
+        "Traditional roundhouse architecture",
+        "Livestock management practices",
+        "Handicraft demonstrations",
+        "Folk music and stories"
+      ]
+    },
+    {
+      "name": "Nature Walk",
+      "description": "Guided walking tour through buffer zones to understand forest ecosystem",
+      "detailed_description": "Explore the diverse flora and smaller fauna of Gir on foot with expert naturalists. Learn about plant species, insect life, and ecological relationships in the dry deciduous forest.",
+      "duration": "2-3 hours",
+      "cost_range": "₹800-1500 per person",
+      "difficulty": "Moderate",
+      "booking_required": true,
+      "icon": "🥾",
+      "best_time": "Early morning or late afternoon",
+      "includes": ["Expert naturalist", "Flora identification", "Ecosystem education"],
+      "focus_areas": [
+        "Medicinal plants",
+        "Insect diversity",
+        "Forest regeneration",
+        "Animal tracks and signs"
+      ]
+    }
+  ],
+  "safari_information": {
+    "ranges": [
+      {
+        "range_name": "Gir East (Sasan-Gir)",
+        "area": "Core area - 258 sq km",
+        "lion_density": "Highest",
+        "terrain": "Mixed dry deciduous forest with grasslands",
+        "highlights": ["Lion prides", "Kamleshwar Dam", "Crocodile viewing"],
+        "description": "Most popular range with highest lion concentration and diverse habitats",
+        "special_features": ["Park headquarters", "Interpretation center", "Maximum lion sightings"],
+        "best_for": ["First-time visitors", "Lion photography", "Crocodile watching"],
+        "accessibility": "Most accessible with good road network"
+      },
+      {
+        "range_name": "Gir West (Talala)",
+        "area": "Core area - 100 sq km",
+        "leopard_density": "High",
+        "terrain": "Hilly terrain with dense forest",
+        "highlights": ["Leopard sightings", "Hiran River", "Bird diversity"],
+        "description": "Less crowded range excellent for leopard sightings and birding",
+        "special_features": ["Hilly landscape", "Dense forest cover", "Leopard territory"],
+        "best_for": ["Leopard enthusiasts", "Bird watchers", "Photography"],
+        "accessibility": "Good connectivity from Junagadh"
+      },
+      {
+        "range_name": "Girnar East",
+        "area": "Buffer zone - 200 sq km",
+        "wildlife_diversity": "Moderate",
+        "terrain": "Rocky hills and scrubland",
+        "highlights": ["Sloth bears", "Four-horned antelope", "Raptors"],
+        "description": "Buffer zone with unique rocky terrain and specialized wildlife",
+        "special_features": ["Rocky outcrops", "Ancient temples nearby", "Bear habitat"],
+        "best_for": ["Bear watching", "Cultural tourism", "Adventure seekers"],
+        "accessibility": "Requires special permits for some areas"
+      },
+      {
+        "range_name": "Girnar West",
+        "area": "Buffer zone - 180 sq km",
+        "bird_diversity": "High",
+        "terrain": "Mixed forest and agricultural areas",
+        "highlights": ["Bird watching", "Human-wildlife interface", "Agricultural tourism"],
+        "description": "Buffer zone showcasing human-wildlife coexistence",
+        "special_features": ["Agricultural interface", "Traditional villages", "Migratory birds"],
+        "best_for": ["Cultural experience", "Bird watching", "Conservation education"],
+        "accessibility": "Easy access from multiple entry points"
+      }
+    ],
+    "timings": {
+      "morning_safari": "6:30 AM - 10:30 AM",
+      "evening_safari": "3:00 PM - 6:30 PM",
+      "devalia_safari": "9:00 AM - 12:00 PM and 2:30 PM - 5:30 PM",
+      "gate_opening": "6:00 AM",
+      "last_entry": "5:00 PM"
+    },
+    "closed_period": "June 16 to October 15 (Monsoon season)",
+    "seasonal_information": {
+      "october_november": "Post-monsoon, lush vegetation, pleasant weather",
+      "december_february": "Peak season, cool weather, excellent visibility",
+      "march_may": "Summer season, hot weather, animals near water sources",
+      "june_october": "Park closed, monsoon season with heavy rainfall"
+    },
+    "booking_information": {
+      "advance_booking": "Essential, especially during December-March",
+      "booking_platforms": ["Gujarat Forest Department online", "Authorized tour operators"],
+      "cancellation_policy": "48 hours advance notice required",
+      "peak_season_booking": "Book 2-3 months in advance for winter months"
+    }
+  },
+  "accommodation": {
+    "luxury_resorts": [
+      {
+        "name": "The Gateway Hotel Gir Forest",
+        "category": "Luxury",
+        "price_range": "₹18000-28000 per night",
+        "rating": 4.6,
+        "amenities": ["Pool", "Spa", "Multi-cuisine Restaurant", "Wildlife Library"],
+        "description": "Premium luxury resort with comprehensive facilities and wildlife experiences",
+        "location": "3 km from Sasan Gir",
+        "special_features": ["Wildlife-themed architecture", "Nature trails", "Cultural programs"]
+      },
+      {
+        "name": "Woods at Sasan",
+        "category": "Luxury",
+        "price_range": "₹15000-22000 per night",
+        "rating": 4.4,
+        "amenities": ["Eco-friendly Design", "Organic Garden", "Adventure Activities"],
+        "description": "Luxury eco-resort focusing on sustainability and wildlife conservation",
+        "location": "Near Gir forest entrance",
+        "special_features": ["Solar powered", "Organic farm-to-table dining", "Conservation programs"]
+      }
+    ],
+    "eco_lodges": [
+      {
+        "name": "Asiatic Lion Lodge",
+        "category": "Eco-luxury",
+        "price_range": "₹12000-18000 per night",
+        "rating": 4.5,
+        "amenities": ["Luxury Tents", "Pool", "Wildlife Library", "Cultural Shows"],
+        "description": "Eco-friendly luxury tented accommodation with authentic wildlife experience",
+        "location": "Sasan village",
+        "special_features": ["Traditional tent design", "Local community involvement", "Conservation education"],
+        "sustainability": ["Renewable energy", "Water conservation", "Local sourcing", "Community employment"]
+      },
+      {
+        "name": "Gir Pride Resort",
+        "category": "Eco-friendly",
+        "price_range": "₹8000-12000 per night",
+        "rating": 4.2,
+        "amenities": ["Ethnic Architecture", "Gujarati Cuisine", "Nature Activities"],
+        "description": "Eco-resort showcasing traditional Gujarat architecture and culture",
+        "location": "Talala road",
+        "special_features": ["Vernacular architecture", "Cultural immersion", "Handicraft workshops"]
+      }
+    ],
+    "forest_rest_houses": [
+      {
+        "name": "Gir Jungle Lodge",
+        "category": "Mid-range",
+        "price_range": "₹4000-7000 per night",
+        "rating": 4.0,
+        "amenities": ["Basic Accommodation", "Gujarati Cuisine", "Safari Booking", "Forest Guides"],
+        "description": "Government-run lodge providing comfortable stay with authentic forest experience",
+        "location": "Sasan Gir",
+        "special_features": ["Government rates", "Forest department guided tours", "Safari arrangements"]
+      },
+      {
+        "name": "Sinh Sadan Forest Lodge",
+        "category": "Budget",
+        "price_range": "₹2500-4500 per night",
+        "rating": 3.8,
+        "amenities": ["Basic rooms", "Local cuisine", "Travel assistance"],
+        "description": "Budget-friendly forest accommodation with essential amenities",
+        "location": "Sasan village",
+        "booking_process": "Through Gujarat Forest Department or on-site"
+      }
+    ],
+    "homestays": [
+      {
+        "name": "Maldhari Homestays",
+        "category": "Cultural",
+        "price_range": "₹1500-3000 per night",
+        "rating": 4.1,
+        "amenities": ["Traditional Food", "Cultural Experience", "Village Tours"],
+        "description": "Stay with local Maldhari families to experience traditional pastoral lifestyle",
+        "location": "Various Maldhari settlements",
+        "special_features": ["Authentic cultural immersion", "Traditional architecture", "Local cuisine"]
+      }
+    ]
+  },
+  "local_culture": {
+    "nearby_attractions": [
+      {
+        "name": "Girnar Hills",
+        "distance": "45 km",
+        "description": "Sacred Jain and Hindu pilgrimage site with ancient temples"
+      },
+      {
+        "name": "Uparkot Fort",
+        "distance": "65 km",
+        "description": "Ancient fort in Junagadh with Buddhist caves and stepwells"
+      },
+      {
+        "name": "Mahabat Maqbara",
+        "distance": "65 km",
+        "description": "Magnificent mausoleum showcasing Indo-Islamic architecture"
+      },
+      {
+        "name": "Somnath Temple",
+        "distance": "80 km",
+        "description": "One of the 12 Jyotirlingas, sacred Hindu temple by the sea"
+      },
+      {
+        "name": "Porbandar",
+        "distance": "120 km",
+        "description": "Birthplace of Mahatma Gandhi with historical significance"
+      }
+    ],
+    "local_communities": [
+      {
+        "community": "Maldhari Tribe",
+        "occupation": "Traditional cattle herding and dairy farming",
+        "interaction": "Village visits, cultural programs, traditional food experiences",
+        "description": "Pastoral community living sustainably within the forest for over 1000 years"
+      },
+      {
+        "community": "Gujarati Farmers",
+        "occupation": "Agriculture and animal husbandry in buffer zones",
+        "interaction": "Farm visits, organic farming education, crop diversity tours",
+        "description": "Local farming communities practicing sustainable agriculture"
+      }
+    ],
+    "local_cuisine": [
+      "Gujarati Thali with variety of vegetarian dishes",
+      "Khichdi and Kadhi - traditional comfort food",
+      "Dhokla and Khandvi - steamed snacks",
+      "Gujarati sweets like Mohanthal and Ghughra",
+      "Fresh milk products from Maldhari communities",
+      "Seasonal fruits like mangoes and jamun"
+    ],
+    "festivals": [
+      {
+        "name": "Navratri",
+        "time": "September/October",
+        "description": "Nine nights of dance and celebration, major Gujarat festival"
+      },
+      {
+        "name": "Gir Festival",
+        "time": "December",
+        "description": "Annual cultural festival celebrating Asiatic Lions and local heritage"
+      },
+      {
+        "name": "Mahashivratri",
+        "time": "February/March",
+        "description": "Religious festival celebrated at nearby Girnar temples"
+      }
+    ],
+    "handicrafts": [
+      "Bandhani tie-dye textiles",
+      "Traditional Gujarati embroidery",
+      "Wooden handicrafts and carvings",
+      "Brass and metalwork",
+      "Leather products from local artisans"
+    ]
+  },
+  "rating": {
+    "overall": 4.5,
+    "wildlife_spotting": 4.8,
+    "safari_experience": 4.4,
+    "accommodation": 4.3,
+    "accessibility": 4.4,
+    "conservation_efforts": 4.7,
+    "value_for_money": 4.2,
+    "guide_quality": 4.3,
+    "uniqueness": 4.9
+  },
+  "conservation_status": {
+    "established": "1965",
+    "sanctuary_since": "1975",
+    "national_park_since": "1975",
+    "world_heritage_nominated": "Tentative list since 2004",
+    "conservation_success": "Lion population increased from 177 in 1968 to 674+ in 2020",
+    "challenges": [
+      "Human-lion conflict in surrounding areas",
+      "Limited habitat expansion opportunities",
+      "Inbreeding concerns due to small population",
+      "Disease outbreaks potential",
+      "Tourism pressure management",
+      "Livestock grazing pressure from Maldharis"
+    ],
+    "conservation_initiatives": [
+      "Translocation program to establish second population",
+      "Community-based conservation with Maldhari integration",
+      "Conflict mitigation measures",
+      "Habitat improvement and corridor development",
+      "Disease monitoring and veterinary care",
+      "Research programs on lion ecology and genetics"
+    ],
+    "research_programs": [
+      "Lion population monitoring and census",
+      "Genetic diversity studies",
+      "Human-lion conflict research",
+      "Prey base assessment studies",
+      "Habitat carrying capacity analysis",
+      "Climate change impact assessment"
+    ],
+    "partnerships": [
+      "Wildlife Institute of India",
+      "Panthera (Global wild cat conservation)",
+      "Gujarat Forest Department",
+      "Local Maldhari communities",
+      "International Union for Conservation of Nature (IUCN)"
+    ]
+  },
+  "practical_information": {
+    "entry_fees": {
+      "indian_nationals": "₹60 per person",
+      "foreign_nationals": "₹400 per person",
+      "vehicle_charges": "₹400-2500 depending on vehicle type",
+      "guide_charges": "₹200-500 per safari",
+      "camera_fee": "₹500 for still camera, ₹2000 for video camera",
+      "devalia_park": "Additional ₹80 for Indians, ₹300 for foreigners"
+    },
+    "permits_required": [
+      "Online booking mandatory for all safaris",
+      "Special permits for research and filming",
+      "Guide mandatory for all forest entry",
+      "Separate booking for Devalia interpretation zone"
+    ],
+    "travel_tips": [
+      "Book safaris well in advance, especially for winter season",
+      "Carry water bottles and light snacks for safaris",
+      "Respect wildlife and maintain safe distances",
+      "Follow park rules and guide instructions strictly",
+      "Wear neutral-colored clothing for better wildlife viewing",
+      "Learn about lion behavior for better appreciation",
+      "Support local Maldhari communities by buying handicrafts"
+    ],
+    "what_to_pack": [
+      "Light cotton clothing for day time",
+      "Light jacket for early morning and evening safaris",
+      "Comfortable closed shoes for walking",
+      "Sun hat and sunglasses for protection",
+      "Binoculars for wildlife viewing",
+      "Camera with telephoto lens",
+      "Power bank and extra batteries",
+      "Personal first aid kit and medications",
+      "Insect repellent for evening time"
+    ],
+    "health_precautions": [
+      "No specific vaccinations required",
+      "Carry basic medicines for common ailments",
+      "Stay hydrated, especially during summer visits",
+      "Use sun protection during day safaris",
+      "Avoid direct contact with wildlife",
+      "Drink only bottled or boiled water"
+    ],
+    "best_photography_tips": [
+      "Use telephoto lens (300mm minimum) for lion photography",
+      "Early morning golden light provides best shots",
+      "Capture behavioral shots rather than just portraits",
+      "Include habitat in wide-angle landscape shots",
+      "Be patient and respectful during encounters",
+      "Document the unique coexistence of lions and leopards"
+    ],
+    "seasonal_highlights": {
+      "october_november": [
+        "Post-monsoon lush green scenery",
+        "Pleasant weather for extended safaris",
+        "Increased water availability attracts wildlife",
+        "Migratory birds begin arriving"
+      ],
+      "december_february": [
+        "Peak tourist season with excellent weather",
+        "Maximum lion activity during cooler hours",
+        "Clear skies perfect for photography",
+        "Cultural festivals and local celebrations"
+      ],
+      "march_may": [
+        "Hot weather but increased wildlife near water",
+        "Less crowded than peak season",
+        "Excellent crocodile viewing at water bodies",
+        "Early morning safaris most productive"
+      ]
+    },
+    "conservation_education": {
+      "visitor_center": "Comprehensive information about Asiatic Lions and conservation",
+      "interpretation_programs": "Educational talks about wildlife and ecosystem",
+      "community_interaction": "Learn about Maldhari sustainable practices",
+      "research_participation": "Opportunities for citizen science projects"
+    },
+    "emergency_information": {
+      "forest_department_helpline": "+91-285-2631225",
+      "medical_facilities": "Basic first aid at park, nearest hospital in Junagadh",
+      "emergency_contacts": "Forest guards and guide contacts provided during safari",
+      "safety_protocols": "Detailed briefing provided before each safari"
+    }
+  },
+  "additional_information": {
+    "language_spoken": [
+      "Gujarati (primary local language)",
+      "Hindi (widely understood)",
+      "English (tourist areas and guides)"
+    ],
+    "currency": "Indian Rupee (INR)",
+    "mobile_connectivity": "Good network coverage in main areas",
+    "internet_access": "Available at resorts and lodges",
+    "shopping": [
+      "Handicrafts at local markets",
+      "Traditional textiles and embroidery",
+      "Organic products from Maldhari communities",
+      "Souvenirs at park gift shops"
+    ],
+    "transportation": {
+      "from_ahmedabad": "360 km by road (6-7 hours drive)",
+      "from_rajkot": "160 km by road (3-4 hours drive)",
+      "from_mumbai": "650 km by road (10-12 hours drive)",
+      "local_transport": "Auto-rickshaws and taxis available in Sasan Gir",
+      "rental_vehicles": "Available from major cities and local operators"
+    },
+    "climate_details": {
+      "annual_rainfall": "600-800 mm, mostly during monsoon",
+      "temperature_range": "15°C to 42°C throughout the year",
+      "humidity_levels": "Moderate to high during monsoon, low in winter",
+      "best_weather_months": "December to February for comfortable touring"
+    }
+  },
+  "sustainability_practices": {
+    "eco_tourism_initiatives": [
+      "Community-based tourism with Maldhari involvement",
+      "Sustainable accommodation options",
+      "Waste management and recycling programs",
+      "Water conservation measures",
+      "Renewable energy adoption in tourism facilities"
+    ],
+    "visitor_responsibility": [
+      "Follow Leave No Trace principles",
+      "Respect local customs and traditions",
+      "Support local communities through responsible shopping",
+      "Participate in conservation awareness programs",
+      "Report wildlife sightings to contribute to research"
+    ]
+  }
+},
+      {
+  "id": "kanha_004",
+  "name": "Kanha National Park",
+  "state": "Madhya Pradesh",
+  "location": {
+    "coordinates": {
+      "latitude": 22.2734,
+      "longitude": 80.6511
+    },
+    "area": "2,074 sq km",
+    "district": "Mandla and Balaghat",
+    "nearest_airport": "Jabalpur Airport (175 km)",
+    "nearest_railway": "Gondia Railway Station (145 km)",
+    "altitude": "450-900 meters above sea level",
+    "accessibility": "Well connected by road from major central Indian cities"
+  },
+  "images": {
+    "main_image": "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2015/08/bheema-Tiger.jpg",
+    "gallery": [
+      "https://www.pugdundeesafaris.com/blog/wp-content/uploads/2015/08/Umarpani-Female.jpg",
+      "https://www.kanhanationalparkonline.in/uploads/safari-in-kanha.jpg",
+      "https://www.india-a2z.com/images/Kanha-National-Park.jpg",
+      "https://media2.thrillophilia.com/images/photos/000/140/250/original/1545388993_1533210008_1-4.jpg.png?width=975&height=600"
+    ],
+    "wildlife_images": {
+      "tiger": "https://example.com/tiger-icon.svg",
+      "barasingha": "https://example.com/barasingha-icon.svg",
+      "leopard": "https://example.com/leopard-icon.svg",
+      "bison": "https://example.com/bison-icon.svg"
+    }
+  },
+  "description": {
+    "overview": "The inspiration behind Rudyard Kipling's 'The Jungle Book', Kanha is one of India's finest tiger reserves and the birthplace of modern tiger conservation. Famous for saving the Barasingha (Swamp Deer) from extinction.",
+    "detailed_description": "Kanha National Park represents the quintessential Indian jungle experience, with its vast sal forests, rolling grasslands, and meandering streams creating the perfect habitat for the Royal Bengal Tiger. This jewel of Madhya Pradesh served as inspiration for Rudyard Kipling's famous 'The Jungle Book' and continues to enchant visitors with its pristine wilderness. The park's diverse ecosystem, ranging from dense forests to open grasslands, supports an incredible variety of wildlife including the successfully conserved Barasingha (Swamp Deer).",
+    "famous_for": [
+      "Royal Bengal Tigers in natural sal forest habitat",
+      "Barasingha (Swamp Deer) conservation success story", 
+      "Inspiration for 'The Jungle Book' by Rudyard Kipling",
+      "Largest population of Indian Wild Dogs (Dholes)",
+      "Classic central Indian jungle landscape",
+      "Pioneer in tiger conservation methodology",
+      "Exceptional bird diversity with over 300 species"
+    ],
+    "best_time_to_visit": {
+      "season": "October to June",
+      "peak_season": "November to March",
+      "weather": "Pleasant winters, hot summers, park closed during monsoon",
+      "detailed_weather": {
+        "winter": "Cool and pleasant (8-25°C), excellent for wildlife viewing",
+        "summer": "Hot and dry (25-42°C), animals concentrate near water sources",
+        "monsoon": "Park closed due to heavy rainfall, forest regenerates"
+      }
+    },
+    "unique_features": [
+      "Birthplace of modern tiger conservation in India",
+      "Successful Barasingha conservation program",
+      "Classic 'Jungle Book' landscape and atmosphere",
+      "Perfect blend of sal forests and grassland ecosystem",
+      "One of the best places to spot Indian Wild Dogs",
+      "Model for community-based conservation"
+    ]
+  },
+  "wildlife": {
+    "major_species": [
+      {
+        "animal": "Royal Bengal Tiger",
+        "scientific_name": "Panthera tigris tigris",
+        "population": "Approximately 140+",
+        "best_spotting_time": "Early morning and evening",
+        "zones": ["All zones"],
+        "description": "Magnificent tigers thriving in sal forest habitat, known for their impressive size and distinctive behavior",
+        "conservation_status": "Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Kanha_Tiger.jpg/1200px-Kanha_Tiger.jpg",
+        "interesting_facts": [
+          "Kanha tigers are among the largest in India",
+          "Territory ranges from 8-60 sq km depending on prey density",
+          "Excellent swimmers and climbers",
+          "Known for their distinctive territorial marking behavior",
+          "Active during cooler parts of the day"
+        ]
+      },
+      {
+        "animal": "Barasingha (Swamp Deer)",
+        "scientific_name": "Rucervus duvaucelii branderi",
+        "population": "Approximately 800+",
+        "best_spotting_time": "Early morning in grasslands",
+        "zones": ["Kanha Meadows", "Grassland areas"],
+        "description": "Kanha's conservation success story, saved from near extinction through dedicated efforts",
+        "conservation_status": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Barasingha_Kanha.jpg/1200px-Barasingha_Kanha.jpg",
+        "interesting_facts": [
+          "Population recovered from just 66 individuals in 1970",
+          "Name means 'twelve-pointed' referring to antler points",
+          "Only deer species that prefers grassland over forest",
+          "Males develop magnificent antlers during breeding season",
+          "Kanha subspecies is endemic to this region"
+        ]
+      },
+      {
+        "animal": "Indian Leopard",
+        "scientific_name": "Panthera pardus fusca",
+        "population": "Approximately 80+",
+        "best_spotting_time": "Early morning and late evening",
+        "zones": ["All zones"],
+        "description": "Elusive and adaptable big cats coexisting with tigers in the same habitat",
+        "conservation_status": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Indian_leopard_Kanha.jpg/1200px-Indian_leopard_Kanha.jpg",
+        "interesting_facts": [
+          "More arboreal than tigers, excellent climbers",
+          "Solitary and primarily nocturnal",
+          "Incredible jumping ability - up to 6 meters horizontally",
+          "Opportunistic hunters with diverse prey base"
+        ]
+      },
+      {
+        "animal": "Indian Wild Dog (Dhole)",
+        "scientific_name": "Cuon alpinus",
+        "population": "Approximately 60+ (in packs)",
+        "best_spotting_time": "Early morning",
+        "zones": ["All zones"],
+        "description": "Highly social pack hunters, one of Asia's most endangered canids",
+        "conservation_status": "Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dhole_pack_Kanha.jpg/1200px-Dhole_pack_Kanha.jpg",
+        "interesting_facts": [
+          "Hunt in coordinated packs of 8-12 individuals",
+          "Can take down prey much larger than themselves",
+          "Excellent swimmers and endurance runners",
+          "Highly vocal with complex communication system",
+          "One of the few predators that can challenge tigers"
+        ]
+      }
+    ],
+    "other_mammals": [
+      {
+        "animal": "Indian Bison (Gaur)",
+        "scientific_name": "Bos gaurus",
+        "population": "Approximately 300+",
+        "description": "World's largest wild bovine, impressive creatures of the forest",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Indian_Bison_Gaur.jpg/1200px-Indian_Bison_Gaur.jpg",
+        "habitat": "Dense forest areas and clearings",
+        "behavior": "Live in herds of 8-20, led by dominant bull"
+      },
+      {
+        "animal": "Sloth Bear",
+        "scientific_name": "Melursus ursinus",
+        "population": "Approximately 50+",
+        "description": "Shaggy-coated bears with distinctive white chest markings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sloth_bear_Kanha.jpg/1200px-Sloth_bear_Kanha.jpg",
+        "habitat": "Rocky areas and forest clearings",
+        "behavior": "Primarily insectivorous, excellent climbers"
+      },
+      {
+        "animal": "Spotted Deer (Chital)",
+        "scientific_name": "Axis axis",
+        "population": "Abundant (5000+)",
+        "description": "Most abundant deer species, primary prey for big cats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chital_Kanha.jpg/1200px-Chital_Kanha.jpg",
+        "habitat": "Forest edges and grasslands",
+        "behavior": "Form large herds, highly alert and vocal"
+      },
+      {
+        "animal": "Sambar Deer",
+        "scientific_name": "Rusa unicolor",
+        "population": "Common (2000+)",
+        "description": "Largest deer species in Kanha, important tiger prey",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sambar_male_Kanha.jpg/1200px-Sambar_male_Kanha.jpg",
+        "habitat": "Dense forest areas near water",
+        "behavior": "Solitary or small groups, excellent swimmers"
+      },
+      {
+        "animal": "Indian Wild Boar",
+        "scientific_name": "Sus scrofa cristatus",
+        "population": "Common",
+        "description": "Robust omnivores playing important ecological role",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Wild_boar_family.jpg/1200px-Wild_boar_family.jpg",
+        "habitat": "Forest undergrowth and marshy areas",
+        "behavior": "Live in groups, excellent diggers and swimmers"
+      },
+      {
+        "animal": "Langur Monkey",
+        "scientific_name": "Semnopithecus entellus",
+        "population": "Abundant",
+        "description": "Arboreal primates serving as natural alarm system for other animals",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Hanuman_langur_Kanha.jpg/1200px-Hanuman_langur_Kanha.jpg",
+        "habitat": "Forest canopy",
+        "behavior": "Live in troops, territorial and highly vocal"
+      }
+    ],
+    "bird_species": [
+      {
+        "bird": "Malabar Pied Hornbill",
+        "scientific_name": "Anthracoceros coronatus",
+        "status": "Resident",
+        "description": "Large hornbill with distinctive casque and pied plumage",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Malabar_pied_hornbill.jpg/1200px-Malabar_pied_hornbill.jpg",
+        "habitat": "Tall sal trees and forest canopy",
+        "conservation_status": "Near Threatened"
+      },
+      {
+        "bird": "Indian Roller",
+        "scientific_name": "Coracias benghalensis",
+        "status": "Resident",
+        "description": "Beautiful blue bird known for spectacular aerial displays",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Indian_roller_display.jpg/1200px-Indian_roller_display.jpg",
+        "habitat": "Open grasslands and forest edges",
+        "behavior": "Spectacular rolling flight displays during breeding"
+      },
+      {
+        "bird": "Crested Serpent Eagle",
+        "scientific_name": "Spilornis cheela",
+        "status": "Resident",
+        "description": "Medium-sized raptor with distinctive crest and call",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Crested_serpent_eagle_Kanha.jpg/1200px-Crested_serpent_eagle_Kanha.jpg",
+        "habitat": "Forest areas near streams",
+        "diet": "Snakes, lizards, frogs, and small mammals"
+      },
+      {
+        "bird": "Paradise Flycatcher",
+        "scientific_name": "Terpsiphone paradisi",
+        "status": "Resident and migratory",
+        "description": "Elegant bird with flowing tail feathers in breeding males",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Paradise_flycatcher_male.jpg/1200px-Paradise_flycatcher_male.jpg",
+        "habitat": "Dense forest undergrowth",
+        "breeding": "Builds beautiful cup-shaped nests"
+      },
+      {
+        "bird": "Black Ibis",
+        "scientific_name": "Pseudibis papillosa",
+        "status": "Resident",
+        "description": "Large wading bird with distinctive bare head patch",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Black_ibis_Kanha.jpg/1200px-Black_ibis_Kanha.jpg",
+        "habitat": "Wetlands and grassland edges",
+        "feeding": "Probes soil for invertebrates and small animals"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "name": "Tiger Safari",
+      "description": "Classic jeep safari through prime tiger habitat in sal forests",
+      "detailed_description": "Experience the thrill of tracking tigers through Kanha's pristine sal forests and grasslands. These safaris offer the best opportunities to observe tiger behavior, territorial marking, and hunting patterns in their natural habitat.",
+      "duration": "3-4 hours",
+      "cost_range": "₹1800-3000 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🐅",
+      "best_time": "Early morning (6:00 AM) and afternoon (3:30 PM)",
+      "group_size": "Maximum 6 people per jeep",
+      "includes": ["4WD vehicle", "Naturalist guide", "Core zone access"],
+      "tips": [
+        "Maintain absolute silence during tiger encounters",
+        "Carry telephoto lens for photography",
+        "Book premium zones for better tiger sighting chances",
+        "Listen for alarm calls of deer and langurs"
+      ],
+      "unique_aspects": [
+        "Classic 'Jungle Book' experience",
+        "Opportunity to see tigers in sal forest habitat",
+        "Learn about tiger conservation history",
+        "Experience the original Project Tiger reserve"
+      ]
+    },
+    {
+      "name": "Barasingha Spotting Safari",
+      "description": "Specialized safari focusing on Kanha's conservation success story",
+      "detailed_description": "Dedicated safari to observe the magnificent Barasingha in the grasslands where they were saved from extinction. Learn about conservation efforts and witness these graceful deer in their preferred habitat.",
+      "duration": "2-3 hours",
+      "cost_range": "₹1500-2500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🦌",
+      "best_time": "Early morning in grassland areas",
+      "includes": ["Grassland safari", "Conservation guide", "Educational briefing"],
+      "highlights": [
+        "Observe breeding behavior and antler development",
+        "Learn about successful conservation program",
+        "Photography in open grasslands",
+        "Understanding habitat management"
+      ]
+    },
+    {
+      "name": "Bird Watching Safari",
+      "description": "Early morning birding tours focusing on forest and grassland species",
+      "detailed_description": "Explore Kanha's rich avian diversity with expert ornithologists. The park's varied habitats support over 300 bird species, from forest specialists to grassland birds.",
+      "duration": "4-5 hours",
+      "cost_range": "₹2000-3200 per person",
+      "difficulty": "Easy to moderate",
+      "booking_required": true,
+      "icon": "🦅",
+      "best_time": "Early morning (6:00 AM - 11:00 AM)",
+      "includes": ["Expert birding guide", "Species identification", "Binoculars"],
+      "target_species": [
+        "Malabar Pied Hornbill",
+        "Indian Roller",
+        "Paradise Flycatcher",
+        "Crested Serpent Eagle",
+        "Black Ibis"
+      ]
+    },
+    {
+      "name": "Nature Walk",
+      "description": "Guided walking tour through buffer zones to understand forest ecology",
+      "detailed_description": "Explore the intricate details of sal forest ecosystem on foot with expert naturalists. Learn about plant species, animal tracks, and ecological relationships.",
+      "duration": "2-3 hours",
+      "cost_range": "₹800-1500 per person",
+      "difficulty": "Moderate",
+      "booking_required": true,
+      "icon": "🥾",
+      "best_time": "Early morning or late afternoon",
+      "includes": ["Expert naturalist", "Flora identification", "Tracking skills"],
+      "focus_areas": [
+        "Sal forest ecosystem",
+        "Animal tracking and signs",
+        "Medicinal plants",
+        "Insect and butterfly diversity"
+      ]
+    },
+    {
+      "name": "Photography Safari",
+      "description": "Specialized safari for wildlife photographers with extended stops",
+      "detailed_description": "Designed for serious photographers, these safaris provide extended time at wildlife sightings and access to prime photography locations.",
+      "duration": "5-6 hours",
+      "cost_range": "₹4000-6500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "📷",
+      "includes": ["Photography guide", "Prime location access", "Extended viewing time"],
+      "equipment_recommended": [
+        "Telephoto lens (400mm minimum for tigers)",
+        "Wide-angle lens for landscapes",
+        "Fast memory cards and extra batteries",
+        "Tripod for low-light conditions"
+      ]
+    },
+    {
+      "name": "Night Safari (Buffer Zone)",
+      "description": "Evening safari in buffer zones to observe nocturnal wildlife",
+      "detailed_description": "Experience the jungle after dark in designated buffer zones. Observe nocturnal animals and understand the different dynamics of forest life at night.",
+      "duration": "2-3 hours",
+      "cost_range": "₹1800-2800 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🌙",
+      "best_time": "Evening (7:00 PM - 10:00 PM)",
+      "highlights": [
+        "Nocturnal bird calls and sounds",
+        "Spotted deer and sambar activity",
+        "Night-time forest ambiance",
+        "Understanding nocturnal ecosystem"
+      ]
+    }
+  ],
+  "safari_information": {
+    "ranges": [
+      {
+        "range_name": "Kanha Zone",
+        "area": "Core area - 250 sq km",
+        "tiger_density": "Highest",
+        "terrain": "Sal forest with grassland meadows",
+        "highlights": ["Tiger sightings", "Barasingha herds", "Kanha meadows"],
+        "description": "Most popular zone with highest wildlife density and famous Kanha meadows",
+        "special_features": ["Park headquarters", "Kanha museum", "Barasingha grasslands"],
+        "best_for": ["First-time visitors", "Tiger enthusiasts", "Barasingha viewing"],
+        "accessibility": "Most accessible with excellent road network"
+      },
+      {
+        "range_name": "Kisli Zone",
+        "area": "Core area - 200 sq km",
+        "tiger_density": "High",
+        "terrain": "Dense sal forest",
+        "highlights": ["Tiger families", "Dense forest experience", "Leopard sightings"],
+        "description": "Dense forest zone excellent for tiger families and cubs",
+        "special_features": ["Tiger breeding area", "Dense canopy", "Stream crossings"],
+        "best_for": ["Tiger photography", "Forest lovers", "Experienced wildlife enthusiasts"],
+        "accessibility": "Good connectivity from Kisli gate"
+      },
+      {
+        "range_name": "Sarhi Zone",
+        "area": "Core area - 180 sq km",
+        "bird_diversity": "Highest",
+        "terrain": "Mixed forest and water bodies",
+        "highlights": ["Bird watching", "Water birds", "Mixed wildlife"],
+        "description": "Best zone for bird watching with diverse habitats",
+        "special_features": ["Water bodies", "Mixed vegetation", "High bird diversity"],
+        "best_for": ["Bird watchers", "Photography", "Peaceful safari experience"],
+        "accessibility": "Separate entry gate with good facilities"
+      },
+      {
+        "range_name": "Mukki Zone",
+        "area": "Core area - 300 sq km",
+        "wildlife_diversity": "High",
+        "terrain": "Undulating sal forest",
+        "highlights": ["Wild dog packs", "Tiger tracking", "Diverse wildlife"],
+        "description": "Large zone known for wild dog sightings and diverse wildlife",
+        "special_features": ["Wild dog territory", "Varied topography", "Less crowded"],
+        "best_for": ["Wild dog enthusiasts", "Adventure seekers", "Tracking experience"],
+        "accessibility": "Entry from Mukki gate, 30 km from Kanha"
+      }
+    ],
+    "timings": {
+      "morning_safari": "6:00 AM - 11:00 AM",
+      "afternoon_safari": "3:30 PM - 6:30 PM",
+      "buffer_zone_evening": "7:00 PM - 10:00 PM",
+      "gate_opening": "5:30 AM",
+      "last_entry": "5:30 PM"
+    },
+    "closed_period": "July 1 to September 30 (Monsoon season)",
+    "seasonal_information": {
+      "october_november": "Post-monsoon, lush green forest, pleasant weather",
+      "december_february": "Peak season, cool weather, excellent wildlife viewing",
+      "march_may": "Summer season, hot weather, animals near water sources",
+      "june_september": "Park closed, monsoon season with heavy rainfall"
+    },
+    "booking_information": {
+      "advance_booking": "Essential, especially for core zones",
+      "booking_platforms": ["MP Forest Department online", "Authorized operators"],
+      "cancellation_policy": "24 hours advance notice required",
+      "peak_season_booking": "Book 2-3 months in advance for December-March"
+    }
+  },
+  "accommodation": {
+    "luxury_resorts": [
+      {
+        "name": "Tuli Tiger Resort",
+        "category": "Luxury",
+        "price_range": "₹20000-30000 per night",
+        "rating": 4.7,
+        "amenities": ["Pool", "Spa", "Multi-cuisine Restaurant", "Wildlife Library"],
+        "description": "Premium luxury resort with excellent wildlife experiences and facilities",
+        "location": "Near Kanha gate",
+        "special_features": ["Wildlife-themed architecture", "Nature trails", "Conservation programs"]
+      },
+      {
+        "name": "Singinawa Jungle Lodge",
+        "category": "Luxury",
+        "price_range": "₹25000-35000 per night",
+        "rating": 4.8,
+        "amenities": ["Tree Houses", "Organic Farm", "Ayurvedic Spa", "Cultural Programs"],
+        "description": "Award-winning luxury eco-lodge with unique tree house accommodation",
+        "location": "15 km from park entrance",
+        "special_features": ["Sustainable architecture", "Tree house experience", "Organic cuisine"]
+      }
+    ],
+    "eco_lodges": [
+      {
+        "name": "Kanha Earth Lodge",
+        "category": "Eco-luxury",
+        "price_range": "₹15000-22000 per night",
+        "rating": 4.6,
+        "amenities": ["Eco-friendly Design", "Solar Power", "Organic Garden", "Cultural Shows"],
+        "description": "Sustainable luxury lodge promoting environmental conservation",
+        "location": "Kanha village",
+        "special_features": ["Zero-waste philosophy", "Local community involvement", "Conservation education"],
+        "sustainability": ["Solar energy", "Rainwater harvesting", "Organic farming", "Local employment"]
+      },
+      {
+        "name": "Jungle Home Resort & Spa",
+        "category": "Eco-friendly",
+        "price_range": "₹10000-16000 per night",
+        "rating": 4.3,
+        "amenities": ["Nature Setting", "Ayurvedic Treatments", "Local Cuisine", "Bonfire Evenings"],
+        "description": "Comfortable eco-resort with authentic jungle experience",
+        "location": "Near Mukki gate",
+        "special_features": ["Traditional architecture", "Herbal spa", "Village tours"]
+      }
+    ],
+    "forest_rest_houses": [
+      {
+        "name": "MPTDC Kanha Safari Lodge",
+        "category": "Mid-range",
+        "price_range": "₹4000-8000 per night",
+        "rating": 4.1,
+        "amenities": ["Forest Location", "Local Cuisine", "Safari Booking", "Campfire"],
+        "description": "Government-run accommodation with good facilities and forest ambiance",
+        "location": "Inside park premises",
+        "special_features": ["Government rates", "Forest department tours", "Inside park location"]
+      },
+      {
+        "name": "Kipling Camp",
+        "category": "Heritage",
+        "price_range": "₹8000-12000 per night",
+        "rating": 4.4,
+        "amenities": ["Heritage Property", "Library", "Traditional Dining", "Naturalist Guides"],
+        "description": "Historic camp with old-world charm and excellent naturalist guides",
+        "location": "Kanha buffer zone",
+        "special_features": ["Heritage ambiance", "Expert naturalists", "Traditional jungle experience"]
+      }
+    ],
+    "budget_options": [
+      {
+        "name": "Van Vihar Resort",
+        "category": "Budget",
+        "price_range": "₹2500-4000 per night",
+        "rating": 3.8,
+        "amenities": ["Basic accommodation", "Restaurant", "Travel desk"],
+        "description": "Clean and comfortable budget accommodation near park",
+        "location": "Kanha village",
+        "booking_process": "Direct booking or online travel portals"
+      }
+    ]
+  },
+  "local_culture": {
+    "nearby_attractions": [
+      {
+        "name": "Kanha Museum",
+        "distance": "Inside park",
+        "description": "Comprehensive museum showcasing park's wildlife and conservation history"
+      },
+      {
+        "name": "Bamni Dadar (Sunset Point)",
+        "distance": "10 km",
+        "description": "Scenic viewpoint for spectacular sunsets over Kanha landscape"
+      },
+      {
+        "name": "Kawardha Palace",
+        "distance": "150 km",
+        "description": "Historic palace showcasing royal heritage of the region"
+      },
+      {
+        "name": "Mandla",
+        "distance": "60 km",
+        "description": "Historic town with ancient forts and cultural significance"
+      },
+      {
+        "name": "Jabalpur",
+        "distance": "175 km",
+        "description": "Major city with Dhuandhar Falls and Marble Rocks at Bhedaghat"
+      }
+    ],
+    "local_communities": [
+      {
+        "community": "Gond Tribe",
+        "occupation": "Traditional forest dwellers, now involved in eco-tourism",
+        "interaction": "Village visits, traditional art demonstrations, cultural programs",
+        "description": "Indigenous tribe with deep forest knowledge and artistic traditions"
+      },
+      {
+        "community": "Baiga Tribe",
+        "occupation": "Traditional shifting cultivators and forest collectors",
+        "interaction": "Cultural tours, handicraft workshops, traditional dance performances",
+        "description": "Tribal community known for their traditional lifestyle and forest wisdom"
+      }
+    ],
+    "local_cuisine": [
+      "Dal Bafla - traditional wheat dumpling with lentil curry",
+      "Bhutte ki Kees - grated corn preparation",
+      "Poha - flattened rice breakfast dish",
+      "Jalebi and Rabri - traditional sweets",
+      "Sabudana Khichdi - tapioca pearl dish",
+      "Traditional tribal preparations using forest produce"
+    ],
+    "festivals": [
+      {
+        "name": "Kanha Wildlife Week",
+        "time": "October",
+        "description": "Annual celebration of wildlife conservation with cultural programs"
+      },
+      {
+        "name": "Dussehra",
+        "time": "September/October",
+        "description": "Major Hindu festival celebrated with traditional fervor"
+      },
+      {
+        "name": "Diwali",
+        "time": "October/November",
+        "description": "Festival of lights celebrated throughout the region"
+      }
+    ],
+    "handicrafts": [
+      "Gond tribal art and paintings",
+      "Bamboo and cane crafts",
+      "Traditional handwoven textiles",
+      "Wooden sculptures and artifacts",
+      "Bell metal crafts"
+    ]
+  },
+  "rating": {
+    "overall": 4.6,
+    "wildlife_spotting": 4.7,
+    "safari_experience": 4.5,
+    "accommodation": 4.4,
+    "accessibility": 4.2,
+    "conservation_efforts": 4.8,
+    "value_for_money": 4.3,
+    "guide_quality": 4.6,
+    "uniqueness": 4.7
+  },
+  "conservation_status": {
+    "established": "1955",
+    "national_park_since": "1974",
+    "tiger_reserve_since": "1973",
+    "project_tiger": "One of the original 9 Project Tiger reserves",
+    "conservation_success": "Tiger population stable at 140+, Barasingha saved from extinction",
+    "challenges": [
+      "Tourism pressure during peak season",
+      "Human-wildlife conflict in buffer zones",
+      "Mining pressure in surrounding areas",
+      "Climate change affecting forest composition",
+      "Cattle grazing in buffer zones",
+      "Road development pressures"
+    ],
+    "conservation_initiatives": [
+      "Successful Barasingha conservation program",
+      "Tiger monitoring using camera traps and radio collaring",
+      "Community-based conservation programs",
+      "Habitat improvement and grassland management",
+      "Anti-poaching measures with modern technology",
+      "Research collaborations with wildlife institutes"
+    ],
+    "research_programs": [
+      "Tiger ecology and behavior studies",
+      "Barasingha population dynamics and genetics",
+      "Sal forest ecosystem health monitoring",
+      "Human-wildlife conflict mitigation research",
+      "Climate change impact on forest ecosystems",
+      "Prey-predator relationship studies",
+      "Grassland management for Barasingha conservation"
+    ],
+    "partnerships": [
+      "Wildlife Institute of India",
+      "Madhya Pradesh Forest Department",
+      "World Wildlife Fund India",
+      "Wildlife Conservation Trust",
+      "International tiger conservation organizations",
+      "Local tribal communities and NGOs"
+    ]
+  },
+  "practical_information": {
+    "entry_fees": {
+      "indian_nationals": "₹40 per person for core zones",
+      "foreign_nationals": "₹1000 per person for core zones",
+      "vehicle_charges": "₹2000-4000 depending on zone and vehicle type",
+      "guide_charges": "₹400-600 per safari (mandatory)",
+      "camera_fee": "₹200 for still camera, ₹2000 for video camera",
+      "buffer_zone": "₹25 for Indians, ₹200 for foreigners"
+    },
+    "permits_required": [
+      "Online booking mandatory for all core zone safaris",
+      "Special permits for research and filming activities",
+      "Guide mandatory for all forest entry",
+      "Separate booking for different zones"
+    ],
+    "travel_tips": [
+      "Book safaris well in advance, especially core zones",
+      "Carry warm clothing for early morning winter safaris",
+      "Respect wildlife and maintain complete silence during encounters",
+      "Follow park rules and naturalist instructions strictly",
+      "Carry sufficient water and light snacks for long safaris",
+      "Learn about tiger and deer alarm calls for better wildlife tracking",
+      "Support local communities by purchasing authentic handicrafts"
+    ],
+    "what_to_pack": [
+      "Warm jacket for winter mornings (December-February)",
+      "Light cotton clothing for daytime",
+      "Comfortable closed shoes for walking",
+      "Sun hat and sunglasses for protection",
+      "High-quality binoculars for wildlife viewing",
+      "Camera with telephoto lens (400mm+ recommended)",
+      "Extra batteries and memory cards",
+      "Personal water bottle and energy snacks",
+      "Insect repellent for evening safaris",
+      "First aid kit with basic medications"
+    ],
+    "health_precautions": [
+      "No specific vaccinations required",
+      "Carry basic medicines for common ailments",
+      "Stay well-hydrated during summer visits",
+      "Use sun protection during day safaris",
+      "Avoid direct contact with any wildlife",
+      "Drink only bottled or properly treated water",
+      "Be cautious of insect bites during evening hours"
+    ],
+    "best_photography_tips": [
+      "Use telephoto lens (400mm minimum) for tiger photography",
+      "Golden hour light provides the best shots",
+      "Focus on behavioral photography rather than just portraits",
+      "Capture the sal forest ecosystem in wide shots",
+      "Be extremely patient during wildlife encounters",
+      "Learn about animal behavior for predictive photography",
+      "Document the unique Barasingha in grassland settings"
+    ],
+    "seasonal_highlights": {
+      "october_november": [
+        "Post-monsoon lush green landscape",
+        "Pleasant weather perfect for extended safaris",
+        "Increased water availability attracts diverse wildlife",
+        "Migratory birds begin arriving"
+      ],
+      "december_february": [
+        "Peak tourist season with excellent weather",
+        "Maximum tiger activity during cooler temperatures",
+        "Perfect visibility through leafless trees",
+        "Ideal conditions for photography"
+      ],
+      "march_may": [
+        "Summer heat concentrates animals near water sources",
+        "Higher chances of predator-prey interactions",
+        "Excellent for Barasingha rutting behavior observation",
+        "Less crowded than peak winter season"
+      ],
+      "june_september": [
+        "Park closed for regeneration",
+        "Monsoon transforms the landscape",
+        "Animals migrate to higher grounds",
+        "Forest rejuvenates for next season"
+      ]
+    },
+    "conservation_education": {
+      "kanha_museum": "Comprehensive exhibits on park's wildlife and conservation history",
+      "interpretation_programs": "Educational talks by naturalists about ecosystem and conservation",
+      "community_programs": "Learn about tribal communities and their forest conservation practices",
+      "research_participation": "Opportunities for wildlife enthusiasts to contribute to citizen science"
+    },
+    "emergency_information": {
+      "forest_department_helpline": "+91-7627-277372",
+      "medical_facilities": "Basic first aid at park gates, nearest hospital in Mandla (60 km)",
+      "emergency_contacts": "Naturalist guides carry communication devices",
+      "safety_protocols": "Detailed safety briefing provided before each safari"
+    }
+  },
+  "additional_information": {
+    "languages_spoken": [
+      "Hindi (primary language)",
+      "English (tourist areas and guides)",
+      "Gondi (local tribal language)"
+    ],
+    "currency": "Indian Rupee (INR)",
+    "mobile_connectivity": "Good network coverage in main areas, limited inside core zones",
+    "internet_access": "Available at resorts and lodges",
+    "shopping": [
+      "Tribal handicrafts at local markets",
+      "Gond art paintings and artifacts",
+      "Bamboo and wooden crafts",
+      "Traditional textiles",
+      "Souvenirs at park gift shops"
+    ],
+    "transportation": {
+      "from_jabalpur": "175 km by road (4-5 hours drive)",
+      "from_nagpur": "266 km by road (5-6 hours drive)",
+      "from_raipur": "200 km by road (4-5 hours drive)",
+      "from_bhopal": "434 km by road (8-9 hours drive)",
+      "local_transport": "Taxis and auto-rickshaws available in Kanha village",
+      "rental_vehicles": "Available from major cities and local operators"
+    },
+    "climate_details": {
+      "annual_rainfall": "1200-1500 mm, mostly during monsoon",
+      "temperature_range": "8°C to 42°C throughout the year",
+      "humidity_levels": "High during monsoon, moderate in winter",
+      "best_weather_months": "November to March for comfortable wildlife viewing"
+    },
+    "unique_experiences": [
+      "Walking in the footsteps of 'The Jungle Book'",
+      "Witnessing the Barasingha conservation success story",
+      "Experience one of India's original Project Tiger reserves",
+      "Observing the classic sal forest ecosystem",
+      "Learning about tribal forest wisdom and traditions"
+    ]
+  },
+  "sustainability_practices": {
+    "eco_tourism_initiatives": [
+      "Community-based tourism with tribal involvement",
+      "Sustainable accommodation certification programs",
+      "Waste management and plastic-free initiatives",
+      "Renewable energy adoption in tourism facilities",
+      "Water conservation measures across all establishments"
+    ],
+    "visitor_responsibility": [
+      "Follow strict Leave No Trace principles",
+      "Respect tribal customs and forest traditions",
+      "Support local communities through responsible purchasing",
+      "Participate in conservation education programs",
+      "Report wildlife sightings to forest department for research",
+      "Choose eco-certified accommodations when possible"
+    ],
+    "forest_conservation": [
+      "Grassland management for Barasingha habitat",
+      "Invasive species control programs",
+      "Water source maintenance and creation",
+      "Fire management during dry seasons",
+      "Soil conservation and erosion control measures"
+    ]
+  },
+  "literary_connection": {
+    "jungle_book_inspiration": {
+      "description": "Rudyard Kipling drew inspiration from the sal forests and grasslands of Kanha for his famous 'The Jungle Book'",
+      "characters_inspired": [
+        "Mowgli - the man cub raised by wolves",
+        "Baloo - the sloth bear character",
+        "Bagheera - the black panther (leopard)",
+        "Shere Khan - the tiger antagonist"
+      ],
+      "locations": [
+        "Seeonee Hills - mentioned in the stories",
+        "The sal forests and grasslands described in detail",
+        "The Waingunga River - flowing through Kanha region"
+      ],
+      "visitor_experience": "Follow jungle book trails and experience the landscape that inspired one of the world's most beloved stories"
+    }
+  }
+},
+     {
+  "id": "nagarhole_007",
+  "name": "Nagarhole National Park",
+  "state": "Karnataka",
+  "location": {
+    "coordinates": {
+      "latitude": 12.0000,
+      "longitude": 76.1000
+    },
+    "area": "643 sq km",
+    "district": "Kodagu and Mysore",
+    "nearest_airport": "Mysore Airport (93 km)",
+    "nearest_railway": "Mysore Railway Station (93 km)",
+    "altitude": "700-900 meters above sea level",
+    "accessibility": "Well connected by road from Bangalore (220 km) and Mysore (93 km)"
+  },
+  "images": {
+    "main_image": "https://www.noblehousetours.com/wp-content/uploads/2018/02/nagarhole-national-park-karnataka.jpg",
+    "gallery": [
+      "https://karnatakatourism.org/wp-content/uploads/2020/10/Nagarhole.jpg",
+      "https://karnatakatourism.org/wp-content/uploads/2020/10/Nagarahole.jpg",
+      "https://www.noblehousetours.com/wp-content/uploads/2018/02/flora.jpg",
+      "https://media2.thrillophilia.com/images/photos/000/165/789/original/1559629487_shutterstock_1168996442.jpg?width=975&height=600"
+    ],
+    "wildlife_images": {
+      "elephant": "https://example.com/elephant-icon.svg",
+      "tiger": "https://example.com/tiger-icon.svg",
+      "leopard": "https://example.com/leopard-icon.svg",
+      "gaur": "https://example.com/gaur-icon.svg"
+    }
+  },
+  "description": {
+    "overview": "Also known as Rajiv Gandhi National Park, Nagarhole is part of the Nilgiri Biosphere Reserve and is famous for its unique boat safaris on the Kabini River. The park is renowned for large elephant congregations and represents one of the finest examples of the Western Ghats ecosystem.",
+    "detailed_description": "Nagarhole National Park, nestled in the heart of Karnataka's coffee country, offers a unique blend of terrestrial and aquatic wildlife experiences. The park's crown jewel is the Kabini River, which creates a stunning backwater system perfect for boat safaris. This pristine wilderness is part of the larger Nilgiri Biosphere Reserve and serves as a crucial corridor for wildlife movement between the Western Ghats ranges. The park's diverse habitats, from moist deciduous forests to open grasslands and river systems, support an incredible variety of flora and fauna, making it a paradise for nature enthusiasts and photographers.",
+    "famous_for": [
+      "Kabini River boat safaris - unique aquatic wildlife experience",
+      "Large elephant congregations during dry season",
+      "Royal Bengal Tigers in moist deciduous forests",
+      "Exceptional bird watching with over 270 species",
+      "Luxury wildlife resorts and heritage properties",
+      "Part of UNESCO Nilgiri Biosphere Reserve",
+      "Classic Western Ghats ecosystem representation",
+      "Photography opportunities from both land and water"
+    ],
+    "best_time_to_visit": {
+      "season": "October to May",
+      "peak_season": "December to April",
+      "weather": "Pleasant winters, hot summers, park closed during monsoon",
+      "detailed_weather": {
+        "winter": "Cool and pleasant (15-28°C), perfect for safaris",
+        "summer": "Warm and dry (20-35°C), excellent for elephant sightings",
+        "monsoon": "Heavy rainfall, park closed but landscape rejuvenates"
+      }
+    },
+    "unique_features": [
+      "Only park in Karnataka offering boat safaris",
+      "Part of UNESCO Nilgiri Biosphere Reserve",
+      "Unique backwater ecosystem created by Kabini Dam",
+      "Traditional coracle boat rides in some areas",
+      "Confluence of terrestrial and aquatic ecosystems",
+      "Heritage properties converted into luxury wildlife resorts",
+      "Connection to larger Bandipur-Mudumalai-Wayanad complex"
+    ]
+  },
+  "wildlife": {
+    "major_species": [
+      {
+        "animal": "Asian Elephant",
+        "scientific_name": "Elephas maximus",
+        "population": "Approximately 800+",
+        "best_spotting_time": "Evening near Kabini River and early morning",
+        "zones": ["Kabini backwaters", "All zones"],
+        "description": "Nagarhole hosts one of India's largest elephant populations, famous for spectacular congregations during dry season",
+        "conservation_status": "Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Asian_elephant_Nagarhole.jpg/1200px-Asian_elephant_Nagarhole.jpg",
+        "interesting_facts": [
+          "Form large herds of 50-100 individuals during dry season",
+          "Regular river crossings create spectacular viewing opportunities",
+          "Some of India's largest tuskers found in Nagarhole",
+          "Matriarchal society with complex social structures",
+          "Known to swim across Kabini reservoir",
+          "Play crucial role in seed dispersal across the ecosystem"
+        ]
+      },
+      {
+        "animal": "Royal Bengal Tiger",
+        "scientific_name": "Panthera tigris tigris",
+        "population": "Approximately 70+",
+        "best_spotting_time": "Early morning and late evening",
+        "zones": ["Dense forest areas", "All zones"],
+        "description": "Nagarhole's tigers are known for their adaptability to moist deciduous forest habitat",
+        "conservation_status": "Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tiger_Nagarhole.jpg/1200px-Tiger_Nagarhole.jpg",
+        "interesting_facts": [
+          "Smaller territory sizes due to abundant prey",
+          "Known to hunt in proximity to water bodies",
+          "Some individuals show unique fishing behavior",
+          "Co-exist peacefully with large elephant herds",
+          "Active during monsoon months unlike other regions"
+        ]
+      },
+      {
+        "animal": "Indian Leopard",
+        "scientific_name": "Panthera pardus fusca",
+        "population": "Approximately 45+",
+        "best_spotting_time": "Dawn and dusk",
+        "zones": ["All zones", "Rocky outcrops"],
+        "description": "Elusive big cats well-adapted to the diverse habitats of Nagarhole",
+        "conservation_status": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leopard_Nagarhole.jpg/1200px-Leopard_Nagarhole.jpg",
+        "interesting_facts": [
+          "More arboreal than tigers, excellent tree climbers",
+          "Opportunistic hunters with varied diet",
+          "Some melanistic (black panther) individuals present",
+          "Active during both day and night",
+          "Adapt hunting strategies to local prey availability"
+        ]
+      },
+      {
+        "animal": "Indian Gaur (Bison)",
+        "scientific_name": "Bos gaurus",
+        "population": "Approximately 400+",
+        "best_spotting_time": "Early morning in grasslands",
+        "zones": ["Open grasslands", "Forest edges"],
+        "description": "World's largest wild bovine, impressive in size and presence",
+        "conservation_status": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Indian_Gaur_Nagarhole.jpg/1200px-Indian_Gaur_Nagarhole.jpg",
+        "interesting_facts": [
+          "Bulls can weigh up to 1000 kg",
+          "Live in herds of 8-20 individuals",
+          "Excellent swimmers, often cross rivers",
+          "Play important role in grassland ecosystem maintenance",
+          "Have few natural predators except large tigers"
+        ]
+      }
+    ],
+    "other_mammals": [
+      {
+        "animal": "Indian Wild Dog (Dhole)",
+        "scientific_name": "Cuon alpinus",
+        "population": "Approximately 30+ (in packs)",
+        "description": "Highly social pack hunters, one of Asia's most endangered canids",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Dhole_pack_Nagarhole.jpg/1200px-Dhole_pack_Nagarhole.jpg",
+        "habitat": "Forest clearings and grasslands",
+        "behavior": "Hunt in coordinated packs, excellent endurance runners"
+      },
+      {
+        "animal": "Sloth Bear",
+        "scientific_name": "Melursus ursinus",
+        "population": "Approximately 40+",
+        "description": "Shaggy-coated bears with distinctive feeding habits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Sloth_bear_Nagarhole.jpg/1200px-Sloth_bear_Nagarhole.jpg",
+        "habitat": "Rocky areas and forest clearings",
+        "behavior": "Primarily insectivorous, excellent climbers"
+      },
+      {
+        "animal": "Spotted Deer (Chital)",
+        "scientific_name": "Axis axis",
+        "population": "Abundant (3000+)",
+        "description": "Most abundant deer species, primary prey for predators",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Chital_Nagarhole.jpg/1200px-Chital_Nagarhole.jpg",
+        "habitat": "Grasslands and forest edges",
+        "behavior": "Form large herds, highly alert and vocal"
+      },
+      {
+        "animal": "Sambar Deer",
+        "scientific_name": "Rusa unicolor",
+        "population": "Common (1500+)",
+        "description": "Largest deer in the park, important tiger prey",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Sambar_Nagarhole.jpg/1200px-Sambar_Nagarhole.jpg",
+        "habitat": "Dense forest areas near water",
+        "behavior": "Solitary or small groups, excellent swimmers"
+      },
+      {
+        "animal": "Wild Boar",
+        "scientific_name": "Sus scrofa cristatus",
+        "population": "Common",
+        "description": "Robust omnivores important in forest ecosystem",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wild_boar_Nagarhole.jpg/1200px-Wild_boar_Nagarhole.jpg",
+        "habitat": "Forest undergrowth and marshy areas",
+        "behavior": "Live in groups, excellent diggers"
+      },
+      {
+        "animal": "Langur Monkey",
+        "scientific_name": "Semnopithecus johnii",
+        "population": "Abundant",
+        "description": "Nilgiri langur endemic to Western Ghats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Nilgiri_langur.jpg/1200px-Nilgiri_langur.jpg",
+        "habitat": "Forest canopy",
+        "behavior": "Live in troops, important seed dispersers"
+      }
+    ],
+    "bird_species": [
+      {
+        "bird": "Malabar Pied Hornbill",
+        "scientific_name": "Anthracoceros coronatus",
+        "status": "Resident",
+        "description": "Large hornbill endemic to Western Ghats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Malabar_pied_hornbill_Nagarhole.jpg/1200px-Malabar_pied_hornbill_Nagarhole.jpg",
+        "habitat": "Tall trees in moist deciduous forest",
+        "conservation_status": "Near Threatened"
+      },
+      {
+        "bird": "River Tern",
+        "scientific_name": "Sterna aurantia",
+        "status": "Resident",
+        "description": "Medium-sized tern found along Kabini River",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/River_tern_Kabini.jpg/1200px-River_tern_Kabini.jpg",
+        "habitat": "Rivers and large water bodies",
+        "behavior": "Excellent diving for fish"
+      },
+      {
+        "bird": "White-bellied Sea Eagle",
+        "scientific_name": "Haliaeetus leucogaster",
+        "status": "Resident",
+        "description": "Large raptor found near water bodies",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/White_bellied_sea_eagle.jpg/1200px-White_bellied_sea_eagle.jpg",
+        "habitat": "Large rivers and reservoirs",
+        "diet": "Fish, water birds, and small mammals"
+      },
+      {
+        "bird": "Indian Roller",
+        "scientific_name": "Coracias benghalensis",
+        "status": "Resident",
+        "description": "Beautiful blue bird with spectacular flight displays",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Indian_roller_Nagarhole.jpg/1200px-Indian_roller_Nagarhole.jpg",
+        "habitat": "Open areas and forest edges",
+        "behavior": "Spectacular rolling flight displays"
+      },
+      {
+        "bird": "Great Hornbill",
+        "scientific_name": "Buceros bicornis",
+        "status": "Resident",
+        "description": "Magnificent large hornbill, state bird of Karnataka",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Great_hornbill_pair.jpg/1200px-Great_hornbill_pair.jpg",
+        "habitat": "Tall canopy trees",
+        "conservation_status": "Vulnerable"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "name": "Boat Safari on Kabini River",
+      "description": "Unique boat safari experience on Kabini backwaters for elephant and bird watching",
+      "detailed_description": "The signature experience of Nagarhole - cruise along the scenic Kabini River in motorboats to witness elephants coming to drink, swim, and cross the river. This unique safari offers unparalleled opportunities to observe elephant behavior and aquatic birds from a different perspective.",
+      "duration": "2-3 hours",
+      "cost_range": "₹1200-2500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🚤",
+      "best_time": "Evening (4:00 PM - 6:30 PM) and early morning (6:30 AM - 9:00 AM)",
+      "group_size": "Maximum 12 people per boat",
+      "includes": ["Motorboat", "Life jackets", "Naturalist guide", "Wildlife viewing"],
+      "tips": [
+        "Carry sun protection and hat",
+        "Waterproof camera gear recommended",
+        "Maintain silence for better wildlife viewing",
+        "Best elephant sightings during dry season (Feb-May)"
+      ],
+      "unique_aspects": [
+        "Only park in Karnataka offering boat safaris",
+        "Observe elephant swimming behavior",
+        "Unique perspective of wildlife from water",
+        "Spectacular sunset/sunrise views over water"
+      ]
+    },
+    {
+      "name": "Jeep Safari",
+      "description": "Traditional land-based safari through diverse forest habitats",
+      "detailed_description": "Explore Nagarhole's moist deciduous forests, grasslands, and forest clearings in 4WD jeeps. These safaris offer excellent opportunities for tiger, leopard, and gaur sightings while traversing diverse habitats.",
+      "duration": "3-4 hours",
+      "cost_range": "₹2000-3500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🚗",
+      "best_time": "Early morning (6:30 AM - 9:30 AM) and evening (4:00 PM - 6:30 PM)",
+      "group_size": "Maximum 6 people per jeep",
+      "includes": ["4WD jeep", "Driver", "Naturalist guide", "Forest entry"],
+      "highlights": [
+        "Tiger and leopard tracking",
+        "Gaur herds in grasslands",
+        "Dense moist deciduous forest experience",
+        "Bird watching opportunities"
+      ]
+    },
+    {
+      "name": "Coracle Ride",
+      "description": "Traditional circular boat ride in quieter sections of river",
+      "detailed_description": "Experience traditional coracle boats (round wicker boats) for a more intimate and quiet wildlife viewing experience in smaller water bodies and backwaters.",
+      "duration": "1-2 hours",
+      "cost_range": "₹800-1500 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "🛶",
+      "best_time": "Early morning for bird watching",
+      "includes": ["Traditional coracle", "Local boatman", "Quiet water areas"],
+      "highlights": [
+        "Traditional Karnataka boat experience",
+        "Close-up bird photography",
+        "Peaceful wildlife observation",
+        "Cultural experience"
+      ]
+    },
+    {
+      "name": "Bird Watching Safari",
+      "description": "Specialized birding tours focusing on Western Ghats endemics",
+      "detailed_description": "Dedicated bird watching tours covering diverse habitats from river systems to forest canopy, targeting the park's 270+ bird species including many Western Ghats endemics.",
+      "duration": "4-5 hours",
+      "cost_range": "₹2500-4000 per person",
+      "difficulty": "Easy to moderate",
+      "booking_required": true,
+      "icon": "🦅",
+      "best_time": "Early morning (6:00 AM - 11:00 AM)",
+      "includes": ["Expert birding guide", "Binoculars", "Species identification"],
+      "target_species": [
+        "Malabar Pied Hornbill",
+        "Great Hornbill",
+        "Nilgiri Wood Pigeon",
+        "White-bellied Sea Eagle",
+        "Various water birds"
+      ]
+    },
+    {
+      "name": "Photography Safari",
+      "description": "Specialized photography tours with extended stops for wildlife photography",
+      "detailed_description": "Designed for photography enthusiasts, these safaris provide extended time at wildlife sightings and access to prime photography locations both on land and water.",
+      "duration": "5-6 hours",
+      "cost_range": "₹4500-7000 per person",
+      "difficulty": "Easy",
+      "booking_required": true,
+      "icon": "📷",
+      "includes": ["Photography guide", "Prime location access", "Extended viewing time"],
+      "equipment_recommended": [
+        "Telephoto lens (300mm minimum)",
+        "Wide-angle lens for landscapes",
+        "Waterproof camera gear for boat safaris",
+        "Extra batteries and memory cards"
+      ]
+    },
+    {
+      "name": "Nature Walk",
+      "description": "Guided walks through buffer zones and resort properties",
+      "detailed_description": "Explore the smaller details of Western Ghats ecosystem on foot with expert naturalists in buffer zones and around luxury resorts.",
+      "duration": "2-3 hours",
+      "cost_range": "₹1000-2000 per person",
+      "difficulty": "Moderate",
+      "booking_required": true,
+      "icon": "🥾",
+      "includes": ["Expert naturalist", "Flora identification", "Butterfly watching"],
+      "focus_areas": [
+        "Moist deciduous forest ecology",
+        "Butterfly and insect diversity",
+        "Medicinal plants of Western Ghats",
+        "Animal tracks and signs"
+      ]
+    }
+  ],
+  "safari_information": {
+    "ranges": [
+      {
+        "range_name": "Kabini Zone",
+        "area": "Core area - 200 sq km",
+        "elephant_density": "Very High",
+        "terrain": "River backwaters and grasslands",
+        "highlights": ["Elephant herds", "Water birds", "Boat safaris"],
+        "description": "Prime zone for boat safaris and elephant viewing along Kabini River",
+        "special_features": ["Kabini backwaters", "Elephant crossings", "Water bird diversity"],
+        "best_for": ["Elephant photography", "Boat safari experience", "Bird watching"],
+        "accessibility": "Direct access from major resorts"
+      },
+      {
+        "range_name": "Nagarhole Zone",
+        "area": "Core area - 250 sq km",
+        "tiger_density": "High",
+        "terrain": "Dense moist deciduous forest",
+        "highlights": ["Tiger families", "Dense forest experience", "Gaur herds"],
+        "description": "Dense forest zone excellent for tiger and leopard sightings",
+        "special_features": ["Moist deciduous forest", "Tiger territory", "Gaur habitat"],
+        "best_for": ["Tiger tracking", "Forest ecosystem", "Wildlife photography"],
+        "accessibility": "Multiple entry points with good road network"
+      },
+      {
+        "range_name": "Veeranahosahalli Zone",
+        "area": "Core area - 193 sq km",
+        "wildlife_diversity": "High",
+        "terrain": "Mixed forest and grasslands",
+        "highlights": ["Mixed wildlife", "Less crowded", "Diverse habitats"],
+        "description": "Quieter zone with excellent wildlife diversity",
+        "special_features": ["Diverse habitats", "Less tourist traffic", "Good for wildlife"],
+        "best_for": ["Peaceful safari", "Wildlife enthusiasts", "Photography"],
+        "accessibility": "Separate gate with good facilities"
+      }
+    ],
+    "timings": {
+      "morning_safari": "6:30 AM - 9:30 AM",
+      "evening_safari": "4:00 PM - 6:30 PM",
+      "boat_safari": "6:00 AM - 6:30 PM (multiple trips)",
+      "gate_opening": "6:00 AM",
+      "last_entry": "6:00 PM"
+    },
+    "closed_period": "June to September (Monsoon season)",
+    "seasonal_information": {
+      "october_november": "Post-monsoon, lush vegetation, pleasant weather",
+      "december_february": "Peak season, cool weather, excellent wildlife viewing",
+      "march_may": "Summer season, large elephant congregations, hot weather",
+      "june_september": "Park closed, heavy rainfall, forest regeneration"
+    },
+    "booking_information": {
+      "advance_booking": "Essential for both jeep and boat safaris",
+      "booking_platforms": ["Karnataka Forest Department", "Jungle Lodges & Resorts"],
+      "cancellation_policy": "24 hours advance notice required",
+      "peak_season_booking": "Book 2-3 months in advance for December-April"
+    }
+  },
+  "accommodation": {
+    "luxury_resorts": [
+      {
+        "name": "The Serai Kabini",
+        "category": "Ultra-Luxury",
+        "price_range": "₹25000-40000 per night",
+        "rating": 4.8,
+        "amenities": ["Riverside Location", "Luxury Spa", "Fine Dining", "Private Boat Safaris"],
+        "description": "Ultra-luxury resort on Kabini River banks offering unparalleled wildlife experiences",
+        "location": "On Kabini River banks",
+        "special_features": ["River-facing villas", "Private wildlife experiences", "Gourmet cuisine"]
+      },
+      {
+        "name": "Orange County Kabini",
+        "category": "Luxury",
+        "price_range": "₹22000-35000 per night",
+        "rating": 4.7,
+        "amenities": ["Riverside Cottages", "Ayurvedic Spa", "Multi-cuisine Restaurant", "Nature Trails"],
+        "description": "Luxury resort with traditional architecture and modern amenities",
+        "location": "Kabini River vicinity",
+        "special_features": ["Traditional Kerala architecture", "Spice plantation", "Wellness programs"]
+      }
+    ],
+    "heritage_properties": [
+      {
+        "name": "Kabini River Lodge",
+        "category": "Heritage",
+        "price_range": "₹15000-25000 per night",
+        "rating": 4.6,
+        "amenities": ["Heritage Property", "River Views", "Wildlife Programs", "Traditional Dining"],
+        "description": "Former Mysore Maharaja's hunting lodge converted into heritage property",
+        "location": "On Kabini River banks",
+        "special_features": ["Royal heritage", "Historical significance", "Traditional hospitality"],
+        "history": "Built as hunting lodge for Mysore royalty in 1920s"
+      },
+      {
+        "name": "Jungle Lodges Kabini",
+        "category": "Heritage Eco-Lodge",
+        "price_range": "₹12000-20000 per night",
+        "rating": 4.4,
+        "amenities": ["Eco-friendly Design", "River Location", "Wildlife Programs", "Local Cuisine"],
+        "description": "Government-run heritage eco-lodge with authentic experience",
+        "location": "Kabini backwaters",
+        "special_features": ["Government managed", "Authentic experience", "Conservation focus"]
+      }
+    ],
+    "eco_lodges": [
+      {
+        "name": "Waterwoods Lodge & Resorts",
+        "category": "Eco-luxury",
+        "price_range": "₹8000-15000 per night",
+        "rating": 4.3,
+        "amenities": ["Lake Views", "Eco-friendly Practices", "Adventure Activities", "Local Cuisine"],
+        "description": "Eco-friendly resort on Kabini backwaters with sustainable practices",
+        "location": "Kabini lake vicinity",
+        "special_features": ["Sustainable practices", "Adventure activities", "Lake location"],
+        "sustainability": ["Solar power", "Waste management", "Local employment", "Organic farming"]
+      }
+    ],
+    "budget_options": [
+      {
+        "name": "KSTDC Kabini Resort",
+        "category": "Budget",
+        "price_range": "₹3000-6000 per night",
+        "rating": 3.9,
+        "amenities": ["Basic accommodation", "Restaurant", "Safari booking"],
+        "description": "Government-run budget accommodation near park",
+        "location": "Near park entrance",
+        "booking_process": "Karnataka State Tourism Development Corporation"
+      }
+    ]
+  },
+  "local_culture": {
+    "nearby_attractions": [
+      {
+        "name": "Iruppu Falls",
+        "distance": "45 km",
+        "description": "Sacred waterfall in Brahmagiri hills, pilgrimage site"
+      },
+      {
+        "name": "Bylakuppe",
+        "distance": "60 km",
+        "description": "Large Tibetan settlement with monasteries and golden temple"
+      },
+      {
+        "name": "Coorg (Kodagu)",
+        "distance": "80 km",
+        "description": "Hill station famous for coffee plantations and scenic beauty"
+      },
+      {
+        "name": "Mysore Palace",
+        "distance": "93 km",
+        "description": "Magnificent palace showcasing Mysore royal heritage"
+      },
+      {
+        "name": "Bandipur National Park",
+        "distance": "25 km",
+        "description": "Adjacent tiger reserve, part of same ecosystem"
+      }
+    ],
+    "local_communities": [
+      {
+        "community": "Kuruba Tribe",
+        "occupation": "Traditional shepherds and forest dwellers",
+        "interaction": "Cultural programs, traditional crafts, village visits",
+        "description": "Indigenous community with traditional forest-based lifestyle"
+      },
+      {
+        "community": "Soliga Tribe",
+        "occupation": "Honey gatherers and traditional healers",
+        "interaction": "Honey tasting, medicinal plant tours, cultural shows",
+        "description": "Forest tribe known for sustainable honey collection and traditional medicine"
+      }
+    ],
+    "local_cuisine": [
+      "Akki Roti - rice flour flatbread",
+      "Pandi Curry - spicy pork curry (Coorg specialty)",
+      "Kadubu - steamed rice dumplings",
+      "Mysore Pak - traditional sweet",
+      "Filter Coffee - South Indian style coffee",
+      "Bamboo shoot curry - tribal delicacy",
+      "Honey-based preparations from local tribes"
+    ],
+    "festivals": [
+      {
+        "name": "Dasara Festival",
+        "time": "September/October",
+        "description": "Grand celebration in nearby Mysore with royal processions"
+      },
+      {
+        "name": "Kailpodh Festival",
+        "time": "September",
+        "description": "Coorg harvest festival celebrating coffee and rice harvest"
+      },
+      {
+        "name": "Kaveri Sankramana",
+        "time": "October",
+        "description": "Festival celebrating river Kaveri at Talacauvery"
+      }
+    ],
+    "handicrafts": [
+      "Coorg coffee and spices",
+      "Rosewood and sandalwood crafts",
+      "Traditional Kodava jewelry",
+      "Bamboo and cane products",
+      "Mysore silk sarees",
+      "Tribal honey and forest products"
+    ]
+  },
+  "rating": {
+    "overall": 4.6,
+    "wildlife_spotting": 4.7,
+    "safari_experience": 4.8,
+    "accommodation": 4.7,
+    "accessibility": 4.3,
+    "conservation_efforts": 4.4,
+    "value_for_money": 4.2,
+    "guide_quality": 4.5,
+    "uniqueness": 4.9
+  },
+  "conservation_status": {
+    "established": "1988",
+    "national_park_since": "1988",
+    "tiger_reserve_since": "1999",
+    "project_tiger": "Part of Project Tiger since 1999",
+    "biosphere_reserve": "Part of Nilgiri Biosphere Reserve since 1986",
+    "conservation_success": "Successful elephant conservation, stable tiger population, community involvement in eco-tourism",
+    "challenges": [
+      "Human-elephant conflict in surrounding areas",
+      "Tourism pressure and vehicle traffic",
+      "Invasive species in water bodies",
+      "Water level fluctuations due to dam operations",
+      "Cattle grazing in buffer zones",
+      "Development pressures around park boundaries"
+    ],
+    "conservation_initiatives": [
+      "Elephant corridor maintenance and protection",
+      "Community-based conservation programs",
+      "Water body management for wildlife",
+      "Invasive species control programs",
+      "Human-wildlife conflict mitigation measures",
+      "Sustainable tourism development"
+    ],
+    "research_programs": [
+      "Elephant ecology and behavior studies",
+      "Tiger population monitoring using camera traps",
+      "Aquatic ecosystem health monitoring",
+      "Human-wildlife interface studies",
+      "Western Ghats biodiversity research",
+      "Climate change impact assessment on wildlife"
+    ],
+    "partnerships": [
+      "Wildlife Conservation Society India",
+      "Karnataka Forest Department",
+      "Asian Nature Conservation Foundation",
+      "Wildlife Institute of India",
+      "Local communities and tribal organizations",
+      "International conservation organizations"
+    ]
+  },
+  "practical_information": {
+    "entry_fees": {
+      "indian_nationals": "₹30 per person for jeep safari, ₹25 per person for boat safari",
+      "foreign_nationals": "₹300 per person for jeep safari, ₹200 per person for boat safari",
+      "vehicle_charges": "₹1800-3500 depending on safari type and duration",
+      "guide_charges": "₹350-500 per safari (mandatory)",
+      "camera_fee": "₹200 for still camera, ₹2000 for video camera",
+      "boat_safari": "₹1200-2500 per person including boat and guide"
+    },
+    "permits_required": [
+      "Online booking mandatory for all safaris",
+      "Special permits for research and filming",
+      "Naturalist guide mandatory for forest entry",
+      "Life jackets mandatory for boat safaris"
+    ],
+    "travel_tips": [
+      "Book boat safaris in advance as they are very popular",
+      "Carry light layers for boat safaris due to wind chill",
+      "Waterproof camera gear essential for boat safaris",
+      "Respect wildlife and maintain silence during boat rides",
+      "Best elephant viewing during dry season (March-May)",
+      "Combine with visit to nearby Bandipur for complete experience"
+    ],
+    "what_to_pack": [
+      "Light windproof jacket for boat safaris",
+      "Waterproof bag for electronics during boat rides",
+      "Comfortable shoes with good grip",
+      "Sun hat and sunglasses",
+      "High-quality binoculars for wildlife viewing",
+      "Camera with telephoto and wide-angle lenses",
+      "Extra batteries and waterproof memory card case",
+      "Personal water bottle and snacks",
+      "Light cotton clothing for warm weather",
+      "Insect repellent for evening hours"
+    ],
+    "health_precautions": [
+      "No specific vaccinations required",
+      "Carry motion sickness medication for boat safaris",
+      "Stay hydrated during warm weather",
+      "Use sun protection during day safaris",
+      "Be careful on wet boat decks during monsoon fringe periods",
+      "Carry basic first aid kit",
+      "Drink only bottled or properly treated water"
+    ],
+    "best_photography_tips": [
+      "Use telephoto lens (300mm+) for wildlife on land",
+      "Waterproof camera housing for boat photography",
+      "Golden hour provides best lighting for elephant photography",
+      "Capture reflection shots during calm water conditions",
+      "Focus on behavioral shots rather than just portraits",
+      "Use fast shutter speeds for bird photography",
+      "Document unique boat safari perspective of wildlife"
+    ],
+    "seasonal_highlights": {
+      "october_november": [
+        "Post-monsoon lush green landscape",
+        "Pleasant weather for both land and boat safaris",
+        "Good water levels in Kabini reservoir",
+        "Migratory birds arriving"
+      ],
+      "december_february": [
+        "Peak tourist season with excellent weather",
+        "Clear skies perfect for photography",
+        "Cool mornings ideal for wildlife activity",
+        "Best season for luxury resort experience"
+      ],
+      "march_may": [
+        "Large elephant congregations near water",
+        "Hot weather concentrates wildlife near river",
+        "Excellent for elephant behavior observation",
+        "Best time for boat safari wildlife sightings"
+      ],
+      "june_september": [
+        "Park closed due to monsoon",
+        "Heavy rainfall rejuvenates the ecosystem",
+        "Kabini reservoir fills to capacity",
+        "Forest regenerates for next season"
+      ]
+    },
+    "conservation_education": {
+      "interpretation_centers": "Wildlife education centers at park entrances with exhibits",
+      "naturalist_programs": "Expert-led discussions about Western Ghats ecology",
+      "community_interactions": "Learn about tribal forest conservation practices",
+      "research_participation": "Opportunities to contribute to wildlife monitoring"
+    },
+    "emergency_information": {
+      "forest_department_helpline": "+91-8082-252052",
+      "medical_facilities": "Basic first aid at resorts, nearest hospital in Mysore (93 km)",
+      "emergency_contacts": "All boats and jeeps equipped with communication devices",
+      "safety_protocols": "Comprehensive safety briefing before boat safaris"
+    }
+  },
+  "additional_information": {
+    "languages_spoken": [
+      "Kannada (primary regional language)",
+      "English (tourist areas and guides)",
+      "Hindi (understood by most guides)",
+      "Tamil (some areas near border)"
+    ],
+    "currency": "Indian Rupee (INR)",
+    "mobile_connectivity": "Good network in resort areas, limited inside core zones",
+    "internet_access": "Available at luxury resorts and lodges",
+    "shopping": [
+      "Coorg coffee and spices",
+      "Local handicrafts at resort shops",
+      "Tribal honey and forest products",
+      "Traditional Karnataka textiles",
+      "Souvenirs at park gift shops"
+    ],
+    "transportation": {
+      "from_bangalore": "220 km by road (4-5 hours drive)",
+      "from_mysore": "93 km by road (2 hours drive)",
+      "from_coorg": "80 km by road (2-2.5 hours drive)",
+      "from_ooty": "120 km by road (3 hours drive)",
+      "local_transport": "Resort transfers, taxis available",
+      "rental_vehicles": "Available from Mysore and Bangalore"
+    },
+    "climate_details": {
+      "annual_rainfall": "800-1200 mm, concentrated during monsoon",
+      "temperature_range": "15°C to 35°C throughout the year",
+      "humidity_levels": "High during monsoon, moderate in winter",
+      "best_weather_months": "December to March for comfortable wildlife viewing"
+    },
+    "unique_experiences": [
+      "Only park in Karnataka offering boat safaris",
+      "Witness large elephant congregations from water",
+      "Stay in converted royal hunting lodges",
+      "Experience Western Ghats moist deciduous ecosystem",
+      "Traditional coracle boat rides",
+      "Observe elephant swimming and river crossing behavior"
+    ]
+  },
+  "sustainability_practices": {
+    "eco_tourism_initiatives": [
+      "Community-based tourism with local tribal involvement",
+      "Sustainable boat operations with electric motors",
+      "Waste management programs at all accommodations",
+      "Water conservation measures in resorts",
+      "Promotion of local organic produce in resort dining"
+    ],
+    "visitor_responsibility": [
+      "Follow strict no-plastic policy during boat safaris",
+      "Respect wildlife and maintain safe distances",
+      "Support local communities through responsible tourism",
+      "Participate in conservation education programs",
+      "Report wildlife sightings to forest department",
+      "Choose eco-certified accommodations"
+    ],
+    "forest_conservation": [
+      "Invasive species management in water bodies",
+      "Wetland habitat restoration programs",
+      "Elephant corridor maintenance",
+      "Water quality monitoring of Kabini River",
+      "Grassland management for herbivore species"
+    ]
+  },
+  "special_features": {
+    "unique_ecosystems": [
+      "Kabini backwater system created by dam",
+      "Moist deciduous forests of Western Ghats",
+      "Riverine grasslands and wetlands",
+      "Interface between terrestrial and aquatic habitats"
+    ],
+    "royal_heritage": [
+      "Former hunting grounds of Mysore Maharaja",
+      "Heritage properties converted from royal lodges",
+      "Historical significance in wildlife conservation",
+      "Traditional hospitality with royal touch"
+    ],
+    "research_significance": [
+      "Important site for elephant behavioral studies",
+      "Western Ghats biodiversity research center",
+      "Long-term ecological monitoring programs",
+      "Human-wildlife conflict research"
+    ]
+  },
+  "connectivity": {
+    "part_of_larger_ecosystem": [
+      "Connected to Bandipur National Park",
+      "Part of Nilgiri Biosphere Reserve",
+      "Wildlife corridor to Mudumalai and Wayanad",
+      "Important link in Western Ghats conservation landscape"
+    ],
+    "wildlife_corridors": [
+      "Elephant corridors connecting to adjoining reserves",
+      "Tiger movement routes between protected areas",
+      "Seasonal migration routes for various species",
+      "Critical connectivity for genetic diversity"
+    ]
+  },
+  "best_practices_for_visitors": {
+    "wildlife_viewing_etiquette": [
+      "Maintain complete silence during wildlife encounters",
+      "Never feed wild animals",
+      "Keep safe distance from elephants especially during boat safaris",
+      "Follow guide instructions strictly",
+      "No sudden movements or loud noises"
+    ],
+    "photography_ethics": [
+      "No flash photography",
+      "Respect animal welfare over perfect shot",
+      "Do not disturb animals for better angles",
+      "Share wildlife sighting information responsibly",
+      "Support conservation through photography"
+    ],
+    "cultural_sensitivity": [
+      "Respect local tribal customs and traditions",
+      "Ask permission before photographing local people",
+      "Support authentic local products over imports",
+      "Learn about local conservation efforts",
+      "Engage respectfully with local communities"
+    ]
+  }
+},
+      {
+        "id": "mudumalai_008",
+        "name": "Mudumalai National Park",
+        "state": "Tamil Nadu",
+        "location": {
+          "coordinates": {
+            "latitude": 11.5833,
+            "longitude": 76.5333
+          },
+          "area": "321 sq km",
+          "district": "Nilgiris",
+          "nearest_airport": "Coimbatore Airport (160 km)",
+          "nearest_railway": "Ooty Railway Station (64 km)"
+        },
+        "images": {
+          "main_image": "https://www.hlimg.com/images/things2do/738X538/ttd_1511165562m1.jpg",
+          "gallery": [
+            "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/the-mudumalai-national-park-1654765717_d22e0b942953b6a4357f.webp",
+            "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/the-mudumalai-national-park-1654765939_446aa19cb18c9121d124.webp",
+             "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/mudumalai-wildlife-sanctuary-1657708020_65d643f2416ea958d5f3.webp"
+            
+          ]
+        },
+        "description": {
+          "overview": "Part of Nilgiri Biosphere Reserve. Famous for its elephant camp and diverse wildlife in Western Ghats ecosystem.",
+          "famous_for": [
+            "Elephant training camp",
+            "Tigers and leopards",
+            "Western Ghats biodiversity",
+            "Nilgiri Biosphere Reserve",
+            "Tribal heritage"
+          ],
+          "best_time_to_visit": {
+            "season": "October to June",
+            "peak_season": "December to March",
+            "weather": "Pleasant throughout the year due to hill location"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Asian Elephant",
+              "population": "Approximately 900+",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All zones"]
+            },
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 50+",
+              "best_spotting_time": "Early morning",
+              "zones": ["Dense forest areas"]
+            },
+            {
+              "animal": "Indian Bison (Gaur)",
+              "population": "Approximately 2000+",
+              "best_spotting_time": "Morning",
+              "zones": ["Grassland areas"]
+            }
+          ],
+          "bird_species": [
+            "Malabar Whistling Thrush",
+            "Nilgiri Flycatcher",
+            "White-bellied Treepie",
+            "Grey Junglefowl",
+            "Crested Goshawk"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Elephant Camp Visit",
+            "description": "Visit to elephant training camp",
+            "duration": "1-2 hours",
+            "cost_range": "₹50-100 per person",
+            "difficulty": "Easy",
+            "booking_required": false
+          },
+          {
+            "name": "Jeep Safari",
+            "description": "Safari through forest zones",
+            "duration": "3 hours",
+            "cost_range": "₹1500-2500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Theppakadu",
+              "area": "Core area",
+              "elephant_density": "High",
+              "terrain": "Mixed forest",
+              "highlights": ["Elephant camp", "Reception center"]
+            },
+            {
+              "zone_number": "Masinagudi",
+              "area": "Buffer zone",
+              "tiger_density": "Medium",
+              "terrain": "Grassland and forest",
+              "highlights": ["Tiger sightings", "Bison herds"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 9:30 AM",
+            "evening_safari": "4:00 PM - 6:00 PM"
+          },
+          "closed_period": "June to September (Monsoon)"
+        },
+        "accommodation": {
+          "forest_rest_houses": [
+            {
+              "name": "Forest Rest House Theppakadu",
+              "price_range": "₹2000-4000 per night",
+              "rating": 3.8,
+              "amenities": ["Basic Facilities", "Forest Location", "Dining Hall"]
+            }
+          ],
+          "eco_resorts": [
+            {
+              "name": "Jungle Retreat",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.2,
+              "amenities": ["Eco-friendly", "Tribal Culture Programs", "Nature Walks"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.1,
+          "wildlife_spotting": 4.3,
+          "safari_experience": 4.0,
+          "accommodation": 3.9,
+          "accessibility": 4.4,
+          "conservation_efforts": 4.2
+        },
+        "conservation_status": {
+          "established": "1940",
+          "sanctuary_since": "1940",
+          "conservation_success": "Elephant conservation pioneer, habitat protection",
+          "challenges": "Human-animal conflict, fragmented habitat"
+        }
+      },
+      {
+        "id": "sundarbans_009",
+        "name": "Sundarbans National Park",
+        "state": "West Bengal",
+        "location": {
+          "coordinates": {
+            "latitude": 21.9497,
+            "longitude": 88.4019
+          },
+          "area": "4,264 sq km",
+          "district": "South 24 Parganas",
+          "nearest_airport": "Netaji Subhas Chandra Bose Airport, Kolkata (105 km)",
+          "nearest_railway": "Canning Railway Station (48 km)"
+        },
+        "images": {
+          "main_image": "https://www.asparkholidays.com/uploads/52658_sundarbans-national-park-animal.jpg",
+          "gallery": [
+            "https://www.luxurytrailsofindia.com/wp-content/uploads/2016/08/white-bengal-tigers-768x504-1.jpg",
+            "https://nationalparks-15bc7.kxcdn.com/images/parks/sundarbans/20211002180042-Tiger%20drinking%20water%20in%20Sundarban%20National%20Park.jpg",
+            "https://www.luxurytrailsofindia.com/wp-content/uploads/2016/08/Sundarban-National-Park.jpg"
+          ]
+        },
+        "description": {
+          "overview": "UNESCO World Heritage Site featuring the world's largest mangrove forest. Home to the famous swimming tigers and unique delta ecosystem.",
+          "famous_for": [
+            "Swimming tigers",
+            "World's largest mangrove forest",
+            "Saltwater crocodiles",
+            "Royal Bengal tigers",
+            "Unique delta ecosystem"
+          ],
+          "best_time_to_visit": {
+            "season": "November to February",
+            "peak_season": "December to January",
+            "weather": "Pleasant winters, hot humid summers, heavy monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 100+",
+              "best_spotting_time": "Early morning and evening",
+              "zones": ["Core area accessible by boat"]
+            },
+            {
+              "animal": "Saltwater Crocodile",
+              "population": "Approximately 200+",
+              "best_spotting_time": "Daytime",
+              "zones": ["River channels"]
+            },
+            {
+              "animal": "Spotted Deer",
+              "population": "Abundant",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All accessible areas"]
+            }
+          ],
+          "bird_species": [
+            "White-bellied Sea Eagle",
+            "Brown-winged Kingfisher",
+            "Masked Finfoot",
+            "Mangrove Pitta",
+            "Oriental Darter"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Boat Safari",
+            "description": "Motorboat safari through mangrove channels",
+            "duration": "6-8 hours",
+            "cost_range": "₹3000-5000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Mangrove Walk",
+            "description": "Guided walk on wooden boardwalks",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Village Tour",
+            "description": "Visit local fishing villages",
+            "duration": "3-4 hours",
+            "cost_range": "₹800-1200 per person",
+            "difficulty": "Easy",
+            "booking_required": false
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Sajnekhali",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Mangrove waterways",
+              "highlights": ["Watchtower", "Crocodile park"]
+            },
+            {
+              "zone_number": "Sudhanyakhali",
+              "area": "Core area",
+              "tiger_density": "High",
+              "terrain": "Dense mangroves",
+              "highlights": ["Tiger tracking", "Bird watching"]
+            }
+          ],
+          "timings": {
+            "boat_safari": "7:00 AM - 5:00 PM",
+            "mangrove_walk": "8:00 AM - 4:00 PM"
+          },
+          "closed_period": "Open throughout the year (weather dependent)"
+        },
+        "accommodation": {
+          "eco_resorts": [
+            {
+              "name": "Sundarban Tiger Camp",
+              "price_range": "₹8000-12000 per night",
+              "rating": 4.1,
+              "amenities": ["River Location", "Cultural Programs", "Local Cuisine"]
+            }
+          ],
+          "forest_lodges": [
+            {
+              "name": "Sajnekhali Forest Lodge",
+              "price_range": "₹3000-5000 per night",
+              "rating": 3.7,
+              "amenities": ["Basic Facilities", "Forest Department", "Boat Arrangements"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "wildlife_spotting": 3.8,
+          "safari_experience": 4.0,
+          "accommodation": 3.9,
+          "accessibility": 3.5,
+          "conservation_efforts": 4.8
+        },
+        "conservation_status": {
+          "established": "1984",
+          "world_heritage_since": "1987",
+          "conservation_success": "Mangrove ecosystem protection, community involvement",
+          "challenges": "Climate change, cyclones, human pressure"
+        }
+      },
+      {
+        "id": "bharatpur_010",
+        "name": "Bharatpur Bird Sanctuary",
+        "state": "Rajasthan",
+        "location": {
+          "coordinates": {
+            "latitude": 27.2152,
+            "longitude": 77.5186
+          },
+          "area": "29 sq km",
+          "district": "Bharatpur",
+          "nearest_airport": "Delhi Airport (184 km)",
+          "nearest_railway": "Bharatpur Junction (5 km)"
+        },
+        "images": {
+          "main_image": "https://tripsmantra.com/wp-content/uploads/2024/01/Bharatpur-Bird-Sanctuary.webp",
+          "gallery": [
+            "https://arounddelhi.com/wp-content/uploads/2020/11/bharatpur-bird-sanctuary-1.jpg",
+            "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2d/01/4e.jpg",
+            "https://www.rajasthantourplanner.com/images/bharatpur-keoladeo.jpg"
+          ]
+        },
+        "description": {
+          "overview": "UNESCO World Heritage Site and premier bird sanctuary. Famous for migratory birds, especially waterfowl during winter months.",
+          "famous_for": [
+            "Migratory birds",
+            "Siberian Cranes (historical)",
+            "400+ bird species",
+            "Wetland ecosystem",
+            "Photography paradise"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "peak_season": "December to February",
+            "weather": "Pleasant winters ideal for bird watching"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Spotted Deer",
+              "population": "Abundant",
+              "best_spotting_time": "Morning and evening",
+              "zones": ["All areas"]
+            },
+            {
+              "animal": "Nilgai",
+              "population": "Common",
+              "best_spotting_time": "Early morning",
+              "zones": ["Grassland areas"]
+            },
+            {
+              "animal": "Sambar Deer",
+              "population": "Common",
+              "best_spotting_time": "Dawn and dusk",
+              "zones": ["Forest patches"]
+            }
+          ],
+          "bird_species": [
+            "Bar-headed Goose",
+            "Greylag Goose",
+            "Common Teal",
+            "Painted Stork",
+            "Sarus Crane",
+            "White Ibis",
+            "Spoonbill",
+            "Pelican"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Bird Watching",
+            "description": "Walking or cycling through bird trails",
+            "duration": "3-4 hours",
+            "cost_range": "₹200-500 per person",
+            "difficulty": "Easy",
+            "booking_required": false
+          },
+          {
+            "name": "Boat Safari",
+            "description": "Boat ride in wetland areas",
+            "duration": "1-2 hours",
+            "cost_range": "₹400-800 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Photography Tour",
+            "description": "Specialized bird photography tours",
+            "duration": "5-6 hours",
+            "cost_range": "₹1500-2500 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Wetland Area",
+              "area": "Core area",
+              "bird_density": "Very High",
+              "terrain": "Marshes and water bodies",
+              "highlights": ["Migratory waterfowl", "Photography spots"]
+            },
+            {
+              "zone_number": "Dry Land Area",
+              "area": "Mixed habitat",
+              "wildlife_diversity": "Medium",
+              "terrain": "Grassland and scrub",
+              "highlights": ["Raptors", "Ground birds"]
+            }
+          ],
+          "timings": {
+            "park_hours": "6:30 AM - 6:00 PM",
+            "boat_safari": "7:00 AM - 5:00 PM"
+          },
+          "closed_period": "Open throughout the year"
+        },
+        "accommodation": {
+          "heritage_hotels": [
+            {
+              "name": "The Bagh Resort",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.3,
+              "amenities": ["Heritage Property", "Bird Watching Guide", "Garden Restaurant"]
+            }
+          ],
+          "budget_options": [
+            {
+              "name": "Forest Lodge Bharatpur",
+              "price_range": "₹2000-4000 per night",
+              "rating": 3.8,
+              "amenities": ["Basic Facilities", "Near Park", "Bicycle Rental"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "wildlife_spotting": 4.7,
+          "safari_experience": 4.1,
+          "accommodation": 4.2,
+          "accessibility": 4.8,
+          "conservation_efforts": 4.3
+        },
+        "conservation_status": {
+          "established": "1981",
+          "world_heritage_since": "1985",
+          "conservation_success": "Wetland restoration, bird population recovery",
+          "challenges": "Water scarcity, agricultural pressure"
+        }
+      },
+      {
+        "id": "manas_011",
+        "name": "Manas National Park",
+        "state": "Assam",
+        "location": {
+          "coordinates": {
+            "latitude": 26.7019,
+            "longitude": 90.9622
+          },
+          "area": "500 sq km",
+          "district": "Chirang, Baksa, and Udalguri",
+          "nearest_airport": "Guwahati Airport (176 km)",
+          "nearest_railway": "Barpeta Road Railway Station (40 km)"
+        },
+        "images": {
+          "main_image": "https://www.taleof2backpackers.com/wp-content/uploads/2019/01/Wildlife-of-Assam.jpg",
+          "gallery": [
+            "https://www.adotrip.com/public/images/areas/master_images/5f363f5f882d6-Manas_National_Park_Attractions.jpg",
+            "https://www.bontravelindia.com/wp-content/uploads/2024/01/Rhino-at-Manas-National-Park-Assam.jpg",
+            "https://img.traveltriangle.com/blog/wp-content/uploads/2018/09/Royal-Manas-National-Park.jpg"
+          ]
+        },
+        "description": {
+          "overview": "UNESCO World Heritage Site and biosphere reserve. Known for rare and endemic wildlife including the Assam Roofed Turtle and Hispid Hare.",
+          "famous_for": [
+            "Assam Roofed Turtle",
+            "Hispid Hare",
+            "Royal Bengal Tigers",
+            "Asian Elephants",
+            "River rafting on Manas River"
+          ],
+          "best_time_to_visit": {
+            "season": "November to April",
+            "peak_season": "December to March",
+            "weather": "Pleasant winters, hot summers, heavy monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 30+",
+              "best_spotting_time": "Early morning",
+              "zones": ["Core forest areas"]
+            },
+            {
+              "animal": "Asian Elephant",
+              "population": "Approximately 900+",
+              "best_spotting_time": "Evening",
+              "zones": ["All ranges"]
+            },
+            {
+              "animal": "Indian Rhinoceros",
+              "population": "Approximately 40+",
+              "best_spotting_time": "Morning",
+              "zones": ["Grassland areas"]
+            }
+          ],
+          "bird_species": [
+            "Bengal Florican",
+            "Great Indian Hornbill",
+            "Wreathed Hornbill",
+            "Blue-bearded Bee Eater",
+            "Scarlet Minivet"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Elephant Safari",
+            "description": "Elephant back safari through grasslands",
+            "duration": "2 hours",
+            "cost_range": "₹1200-2000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "River Rafting",
+            "description": "White water rafting on Manas River",
+            "duration": "3-4 hours",
+            "cost_range": "₹2000-3500 per person",
+            "difficulty": "Moderate",
+            "booking_required": true
+          },
+          {
+            "name": "Jeep Safari",
+            "description": "4WD safari through different ranges",
+            "duration": "3-4 hours",
+            "cost_range": "₹1800-3000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "ranges": [
+            {
+              "range_name": "Bansbari Range",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Dense forest",
+              "highlights": ["Tiger tracking", "Elephant herds"]
+            },
+            {
+              "range_name": "Bhuiyangpara Range",
+              "area": "Core area",
+              "rhino_density": "High",
+              "terrain": "Grasslands",
+              "highlights": ["Rhino sightings", "River views"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "7:00 AM - 11:00 AM",
+            "evening_safari": "2:00 PM - 5:00 PM"
+          },
+          "closed_period": "May to September (Monsoon)"
+        },
+        "accommodation": {
+          "eco_lodges": [
+            {
+              "name": "Manas Maozigendri Eco-camp",
+              "price_range": "₹6000-10000 per night",
+              "rating": 4.2,
+              "amenities": ["Eco-friendly", "River Location", "Local Community Run"]
+            }
+          ],
+          "forest_lodges": [
+            {
+              "name": "Forest Rest House Mathanguri",
+              "price_range": "₹2000-4000 per night",
+              "rating": 3.9,
+              "amenities": ["Basic Facilities", "Forest Department", "River Views"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "wildlife_spotting": 4.1,
+          "safari_experience": 4.4,
+          "accommodation": 3.8,
+          "accessibility": 3.7,
+          "conservation_efforts": 4.6
+        },
+        "conservation_status": {
+          "established": "1990",
+          "world_heritage_since": "1985",
+          "conservation_success": "Recovery from insurgency period, community conservation",
+          "challenges": "Human-animal conflict, border area security"
+        }
+      },
+      {
+        "id": "sariska_012",
+        "name": "Sariska Tiger Reserve",
+        "state": "Rajasthan",
+        "location": {
+          "coordinates": {
+            "latitude": 27.3389,
+            "longitude": 76.3833
+          },
+          "area": "866 sq km",
+          "district": "Alwar",
+          "nearest_airport": "Delhi Airport (200 km)",
+          "nearest_railway": "Alwar Railway Station (37 km)"
+        },
+        "images": {
+          "main_image": "https://sariskapark.com/wp-content/uploads/2024/04/sariska-blog01.jpg",
+          "gallery": [
+            "https://www.indiatourismpoint.com/wp-content/uploads/2018/07/Sariska-Tiger-Reserve-Stills-800x540.jpg",
+            "https://www.indiatourismpoint.com/wp-content/uploads/2018/07/Sariska-Tiger-Reserve-Wallpaper-300x201.jpg",
+            "https://www.indiatourismpoint.com/wp-content/uploads/2018/07/Sariska-Tiger-Reserve-Pictures-300x201.png"
+          ]
+        },
+        "description": {
+          "overview": "Famous for successful tiger reintroduction program and ancient temples. Part of the Aravalli hill range with dry deciduous forests.",
+          "famous_for": [
+            "Tiger reintroduction success",
+            "Ancient Neelkanth Temples",
+            "Leopards and jungle cats",
+            "Historical ruins",
+            "Bird watching"
+          ],
+          "best_time_to_visit": {
+            "season": "October to June",
+            "peak_season": "November to March",
+            "weather": "Pleasant winters, hot summers, closed during monsoon"
+          }
+        },
+        "wildlife": {
+          "major_species": [
+            {
+              "animal": "Royal Bengal Tiger",
+              "population": "Approximately 20+",
+              "best_spotting_time": "Early morning and evening",
+              "zones": ["Core areas"]
+            },
+            {
+              "animal": "Indian Leopard",
+              "population": "Approximately 50+",
+              "best_spotting_time": "Dawn",
+              "zones": ["Rocky terrain"]
+            },
+            {
+              "animal": "Striped Hyena",
+              "population": "Approximately 15+",
+              "best_spotting_time": "Night safari",
+              "zones": ["All zones"]
+            }
+          ],
+          "bird_species": [
+            "Grey Partridge",
+            "White-throated Kingfisher",
+            "Indian Peafowl",
+            "Golden-backed Woodpecker",
+            "Crested Serpent Eagle"
+          ]
+        },
+        "activities": [
+          {
+            "name": "Tiger Safari",
+            "description": "Jeep safari to spot reintroduced tigers",
+            "duration": "3-4 hours",
+            "cost_range": "₹1500-2800 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          },
+          {
+            "name": "Temple Visit",
+            "description": "Visit ancient Neelkanth temples",
+            "duration": "2-3 hours",
+            "cost_range": "₹300-500 per person",
+            "difficulty": "Moderate",
+            "booking_required": false
+          },
+          {
+            "name": "Night Safari",
+            "description": "Special night safari for nocturnal animals",
+            "duration": "3 hours",
+            "cost_range": "₹2500-4000 per person",
+            "difficulty": "Easy",
+            "booking_required": true
+          }
+        ],
+        "safari_information": {
+          "zones": [
+            {
+              "zone_number": "Zone 1",
+              "area": "Core area",
+              "tiger_density": "Medium",
+              "terrain": "Dry deciduous forest",
+              "highlights": ["Tiger territory", "Ancient temples"]
+            },
+            {
+              "zone_number": "Zone 2",
+              "area": "Buffer area",
+              "leopard_density": "High",
+              "terrain": "Rocky hills",
+              "highlights": ["Leopard sightings", "Hanuman temple"]
+            }
+          ],
+          "timings": {
+            "morning_safari": "6:30 AM - 10:30 AM",
+            "evening_safari": "2:30 PM - 6:30 PM",
+            "night_safari": "8:00 PM - 11:00 PM"
+          },
+          "closed_period": "July to September (Monsoon)"
+        },
+        "accommodation": {
+          "heritage_hotels": [
+            {
+              "name": "Sariska Palace",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.5,
+              "amenities": ["Heritage Property", "Royal Architecture", "Cultural Programs"]
+            }
+          ],
+          "forest_lodges": [
+            {
+              "name": "Tiger Den Resort",
+              "price_range": "₹5000-8000 per night",
+              "rating": 4.1,
+              "amenities": ["Comfortable Stay", "Restaurant", "Safari Arrangements"]
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "wildlife_spotting": 4.0,
+          "safari_experience": 4.3,
+          "accommodation": 4.4,
+          "accessibility": 4.6,
+          "conservation_efforts": 4.5
+        },
+        "conservation_status": {
+          "established": "1982",
+          "tiger_reserve_since": "1978",
+          "conservation_success": "Successful tiger reintroduction from Ranthambore",
+          "challenges": "Limited core area, human settlements nearby"
+        }
+      }
+]
+    }

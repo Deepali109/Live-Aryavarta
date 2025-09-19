@@ -4,24 +4,66 @@ import axios from "axios";
 import Navbar from "@/components/Navbar";
 
 export default async function InterestPage({ params }) {
-  const { slug } = await params;
+  const { slug } = params;
 
   const heroSections = [
-    { src: 'v2.mp4', heading: 'Plan Your Perfect Trip', slug: 'hill_station', para: 'Discover breathtaking hill stations for your next adventure.', section: 'Popular Hill Stations' },
-    { src: 'v3.mp4', heading: 'Explore the Wild Like Never Before', slug: 'wildlife', para: 'Discover lush forests, rare species, and breathtaking natural reserves that bring you closer to the wonders of wildlife.', section: 'Top Wildlife Destinations' },
-    { src: 'v4.mp4', heading: 'Step Into the Pages of History”', slug: 'heritage', para: 'Experience timeless monuments, ancient architecture, and cultural legacies that showcase the rich heritage of our land.', section: 'Famous Heritage Sites' },
-    { src: 'v5.mp4', heading: 'Conquer Heights, Embrace the Journey', slug: 'trekking', para: 'Unleash your adventurous spirit with thrilling trails, stunning landscapes, and unforgettable trekking experiences.', section: 'Top Trekking Trails' },
-    { src: 'v9.mp4', heading: 'Thrills Beyond the Ordinary”', slug: 'adventure', para: 'From adrenaline-pumping sports to daring outdoor activities, discover adventures that push your limits.', section: 'Adventure Hotspots' },
-    { src: 'v8.mp4', heading: 'Feel the Waves, Embrace the Breeze', slug: 'beach', para: 'Relax on golden sands, soak in the sun, and enjoy the calming rhythm of waves at the most beautiful beaches.', section: 'Best Beach Getaways' },
-    { src: 'v7.mp4', heading: 'A Journey of Faith and Serenity', slug: 'pilgrimage', para: 'Visit sacred sites, holy temples, and peaceful destinations that inspire spirituality and inner peace.', section: 'Popular Pilgrimage Places' },
-  ]
+    {
+      src: "v2.mp4",
+      heading: "Plan Your Perfect Trip",
+      slug: "hill_station",
+      para: "Discover breathtaking hill stations for your next adventure.",
+      section: "Popular Hill Stations",
+    },
+    {
+      src: "v3.mp4",
+      heading: "Explore the Wild Like Never Before",
+      slug: "wildlife",
+      para: "Discover lush forests, rare species, and breathtaking natural reserves that bring you closer to the wonders of wildlife.",
+      section: "Top Wildlife Destinations",
+    },
+    {
+      src: "v4.mp4",
+      heading: "Step Into the Pages of History”",
+      slug: "heritage",
+      para: "Experience timeless monuments, ancient architecture, and cultural legacies that showcase the rich heritage of our land.",
+      section: "Famous Heritage Sites",
+    },
+    {
+      src: "v5.mp4",
+      heading: "Conquer Heights, Embrace the Journey",
+      slug: "trekking",
+      para: "Unleash your adventurous spirit with thrilling trails, stunning landscapes, and unforgettable trekking experiences.",
+      section: "Top Trekking Trails",
+    },
+    {
+      src: "v9.mp4",
+      heading: "Thrills Beyond the Ordinary”",
+      slug: "adventure",
+      para: "From adrenaline-pumping sports to daring outdoor activities, discover adventures that push your limits.",
+      section: "Adventure Hotspots",
+    },
+    {
+      src: "v8.mp4",
+      heading: "Feel the Waves, Embrace the Breeze",
+      slug: "beach",
+      para: "Relax on golden sands, soak in the sun, and enjoy the calming rhythm of waves at the most beautiful beaches.",
+      section: "Best Beach Getaways",
+    },
+    {
+      src: "v7.mp4",
+      heading: "A Journey of Faith and Serenity",
+      slug: "pilgrimage",
+      para: "Visit sacred sites, holy temples, and peaceful destinations that inspire spirituality and inner peace.",
+      section: "Popular Pilgrimage Places",
+    },
+  ];
 
   const res = await axios.get(
     `http://localhost:5000/api/interest/category/${slug}`
   );
   const data = res.data;
 
-  const banner = heroSections.filter((banner) => banner.slug === slug)
+  const banner = heroSections.filter((banner) => banner.slug === slug);
   console.log(data);
   // console.log(data?.destinations[0]?.id);
   return (
@@ -66,48 +108,53 @@ export default async function InterestPage({ params }) {
             </div>
           </header>
         }
-
       </div>
 
       {/* Destinations Section */}
-      <section id="destinations" className="max-w-7xl mx-auto px-6 py-16 lg:px-12">
+      <section
+        id="destinations"
+        className="max-w-7xl mx-auto px-6 py-16 lg:px-12"
+      >
         <h2 className="text-3xl font-bold text-center mb-12">
           {banner[0]?.section}
         </h2>
 
         {data?.destinations?.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {data.destinations.map((destination) => (
-              <div
-                key={destination.id}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition"
-              >
-                {/* Destination Image */}
-                {destination.images?.[0] && (
-                  <img
-                    src={destination.images[0].url}
-                    alt={destination.name}
-                    className="w-full h-56 object-cover"
-                  />
-                )}
+            {data.destinations.map((destination) => {
+              console.log(destination);
+              return (
+                <div
+                  key={destination.id}
+                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition  cursor-pointer"
+                >
+                  {/* Destination Image */}
+                  {destination.images?.[0] && (
+                    <img
+                      src={destination.images[0].url}
+                      alt={destination.name}
+                      className="w-full h-56 object-cover"
+                    />
+                  )}
 
-                {/* Destination Content */}
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    {destination.name}
-                  </h3>
-                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">
-                    {destination.description}
-                  </p>
-                  <a
-                    href={`/destination/${destination.id}`}
-                    className="text-blue-600 font-medium hover:underline"
-                  >
-                    Learn more →
-                  </a>
+                  {/* Destination Content */}
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      {destination.name}
+                    </h3>
+                    <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                      {destination.description}
+                    </p>
+                    <a
+                      href={`/destination/${slug}/${destination.id}`}
+                      className="text-blue-600 font-medium hover:underline"
+                    >
+                      Learn more →
+                    </a>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         ) : (
           // Empty State
@@ -116,7 +163,8 @@ export default async function InterestPage({ params }) {
               No destinations found
             </h3>
             <p className="text-gray-600 max-w-md mx-auto">
-              We couldn’t find any destinations in this category. Check back later!
+              We couldn’t find any destinations in this category. Check back
+              later!
             </p>
           </div>
         )}

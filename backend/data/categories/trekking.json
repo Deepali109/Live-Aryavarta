@@ -1,0 +1,188 @@
+ {
+      "category_id": "trekking",
+      "category_name": "Trekking Destinations",
+      "category_description": "Mountain trails and trekking routes for hiking enthusiasts",
+      "destinations": [
+        {
+          "id": "valley_of_flowers_001",
+          "name": "Valley of Flowers",
+          "state": "Uttarakhand",
+          "location": {
+            "coordinates": {
+              "latitude": 30.7268,
+              "longitude": 79.6009
+            },
+            "altitude": "3658 meters",
+            "region": "Chamoli District",
+            "base_camp": "Govindghat",
+            "nearest_airport": "Jolly Grant Airport, Dehradun (295 km)"
+          },
+          "description": {
+            "overview": "UNESCO World Heritage Site known for endemic alpine flowers and outstanding natural beauty. A high altitude Himalayan valley famous for its meadows of endemic alpine flowers.",
+            "famous_for": [
+              "Alpine flowers (over 600 species)",
+              "UNESCO World Heritage Site",
+              "Himalayan wildlife",
+              "Photography opportunities",
+              "Pristine mountain environment"
+            ],
+            "best_time_to_visit": {
+              "season": "July to September",
+              "peak_blooming": "Mid-July to mid-August",
+              "weather": "Pleasant daytime (10-15°C), cold nights (5-10°C)",
+              "monsoon_note": "Accessible during monsoon due to flower blooming"
+            }
+          },
+          "trek_details": {
+            "duration": "5-6 days",
+            "difficulty": "Moderate",
+            "total_distance": "38 km (round trip)",
+            "maximum_altitude": "3658 meters at Valley of Flowers",
+            "daily_itinerary": [
+              {
+                "day": 1,
+                "route": "Govindghat to Ghangaria",
+                "distance": "13 km",
+                "duration": "6-7 hours",
+                "altitude_gain": "1828m to 3049m"
+              },
+              {
+                "day": 2,
+                "route": "Ghangaria to Valley of Flowers and back",
+                "distance": "10 km",
+                "duration": "6-7 hours",
+                "altitude_gain": "3049m to 3658m"
+              },
+              {
+                "day": 3,
+                "route": "Ghangaria to Hemkund Sahib and back",
+                "distance": "12 km",
+                "duration": "7-8 hours",
+                "altitude_gain": "3049m to 4329m"
+              }
+            ]
+          },
+          "flora_and_fauna": {
+            "flowers": [
+              "Blue Poppy (Meconopsis aculeata)",
+              "Brahmakamal (Saussurea obvallata)",
+              "Cobra Lily",
+              "Himalayan Bellflower",
+              "Potentilla",
+              "Primula"
+            ],
+            "wildlife": [
+              "Asiatic Black Bear",
+              "Snow Leopard",
+              "Brown Bear",
+              "Blue Sheep",
+              "Himalayan Musk Deer",
+              "Bharal"
+            ],
+            "birds": [
+              "Himalayan Monal",
+              "Snow Partridge",
+              "Golden Eagle",
+              "Bearded Vulture"
+            ]
+          },
+          "permits_and_regulations": {
+            "entry_fee": "₹600 for Indians, ₹1500 for foreigners",
+            "camping_allowed": "No camping inside the valley",
+            "stay_options": "Ghangaria village (base camp)",
+            "restrictions": [
+              "No plucking of flowers",
+              "No littering",
+              "Follow designated trails only",
+              "Valley closes at sunset"
+            ]
+          },
+          "accommodation": {
+            "ghangaria": [
+              {
+                "name": "GMVN Tourist Rest House",
+                "price_range": "₹1200-2000 per night",
+                "amenities": ["Basic rooms", "Common bathroom", "Dining hall"]
+              },
+              {
+                "name": "Private Guesthouses",
+                "price_range": "₹800-1500 per night",
+                "amenities": ["Shared rooms", "Basic facilities"]
+              }
+            ],
+            "govindghat": [
+              {
+                "name": "Hotel Snow Crest",
+                "price_range": "₹2000-3500 per night",
+                "amenities": ["Comfortable rooms", "Restaurant", "Hot water"]
+              }
+            ]
+          },
+          "essential_items": [
+            "Waterproof trekking shoes",
+            "Rain gear (essential)",
+            "Warm clothing layers",
+            "Sun protection (hat, sunglasses, sunscreen)",
+            "First aid kit",
+            "Water bottles",
+            "Energy snacks",
+            "Camera with extra batteries"
+          ],
+          "photography_tips": [
+            "Early morning light is best for flower photography",
+            "Carry macro lens for close-up flower shots",
+            "Protect camera from rain and moisture",
+            "Respect the 'no picking' rule - photograph don't pluck"
+          ],
+          "rating": {
+            "overall": 4.8,
+            "scenic_beauty": 5.0,
+            "biodiversity": 4.9,
+            "trek_difficulty": 4.2,
+            "facilities": 3.8,
+            "conservation_efforts": 4.7
+          },
+          "conservation_message": "Valley of Flowers is a fragile ecosystem. Visitors must follow Leave No Trace principles and respect the natural environment to preserve this UNESCO World Heritage Site for future generations."
+        },
+        {
+          "id": "roopkund_002",
+          "name": "Roopkund Trek (Mystery Lake)",
+          "state": "Uttarakhand",
+          "location": {
+            "coordinates": {
+              "latitude": 30.2859,
+              "longitude": 79.7267
+            },
+            "altitude": "5029 meters",
+            "region": "Chamoli District",
+            "base_camp": "Lohajung",
+            "nearest_airport": "Pantnagar Airport (250 km)"
+          },
+          "description": {
+            "overview": "Famous for the mysterious skeletal remains found around the glacial lake, this trek offers stunning Himalayan views and passes through beautiful meadows and dense forests.",
+            "famous_for": [
+              "Mysterious human skeletons at the lake",
+              "360-degree Himalayan views",
+              "Alpine meadows",
+              "Challenging high-altitude trek",
+              "Archaeological significance"
+            ],
+            "mystery": "Hundreds of human skeletons visible in and around the lake during ice-melt season. Carbon dating suggests they are from 9th century CE."
+          },
+          "trek_details": {
+            "duration": "8-9 days",
+            "difficulty": "Difficult to Extremely Difficult",
+            "total_distance": "53 km",
+            "maximum_altitude": "5029 meters",
+            "best_season": "May to June, September to October"
+          },
+          "rating": {
+            "overall": 4.6,
+            "difficulty": 4.8,
+            "scenic_beauty": 4.9,
+            "mystery_factor": 5.0,
+            "facilities": 3.5
+          }
+        }
+      ]
+    }

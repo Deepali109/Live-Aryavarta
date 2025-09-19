@@ -1,0 +1,76 @@
+{
+      "category_id": "beach",
+      "category_name": "Beach Destinations",
+      "category_description": "Pristine beaches offering sun, sand, and sea experiences along India's coastline",
+      "destinations": [
+        {
+          "id": "goa_beaches_001",
+          "name": "Goa Beaches",
+          "state": "Goa",
+          "location": {
+            "coordinates": {
+              "latitude": 15.2993,
+              "longitude": 74.1240
+            },
+            "coastline_length": "101 km",
+            "nearest_airport": "Dabolim Airport (30 km from Panaji)",
+            "nearest_railway": "Madgaon Railway Station"
+          },
+          "description": {
+            "overview": "India's most popular beach destination with pristine sandy beaches, vibrant nightlife, Portuguese colonial architecture, and water sports.",
+            "famous_for": [
+              "Water sports and activities",
+              "Vibrant nightlife",
+              "Portuguese architecture",
+              "Seafood cuisine",
+              "Beach shacks and cafes"
+            ]
+          },
+          "popular_beaches": [
+            {
+              "name": "Baga Beach",
+              "type": "Party beach",
+              "activities": ["Parasailing", "Jet skiing", "Banana boat rides"],
+              "nightlife": "Excellent",
+              "crowd_level": "High"
+            },
+            {
+              "name": "Calangute Beach",
+              "type": "Family beach",
+              "activities": ["Swimming", "Beach volleyball", "Shopping"],
+              "nightlife": "Moderate",
+              "crowd_level": "High"
+            },
+            {
+              "name": "Anjuna Beach",
+              "type": "Hippie culture",
+              "activities": ["Flea market", "Live music", "Beach parties"],
+              "nightlife": "Excellent",
+              "crowd_level": "Moderate"
+            }
+          ],
+          "water_sports": [
+            {
+              "activity": "Parasailing",
+              "cost_range": "₹1500-3000",
+              "duration": "10-15 minutes",
+              "difficulty": "Easy"
+            },
+            {
+              "activity": "Scuba Diving",
+              "cost_range": "₹3500-6000",
+              "duration": "3-4 hours",
+              "difficulty": "Moderate"
+            }
+          ],
+          "rating": {
+            "overall": 4.4,
+            "beaches": 4.6,
+            "nightlife": 4.7,
+            "food": 4.5,
+            "water_sports": 4.3,
+            "accessibility": 4.2
+          }
+        }
+      ]
+    }

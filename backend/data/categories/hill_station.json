@@ -1,0 +1,2477 @@
+{
+    "category_id": "hill_station",
+    "category_name": "Hill Stations",
+    "category_description": "Scenic mountain retreats offering cool climate and breathtaking views",
+    "destinations": [
+      {
+        "id": "shimla_001",
+        "name": "Shimla",
+        "state": "Himachal Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 31.1048,
+            "longitude": 77.1734
+          },
+          "altitude": "2205 meters",
+          "district": "Shimla",
+          "nearest_airport": "Shimla Airport (23 km)",
+          "nearest_railway": "Kalka Railway Station (96 km)",
+          "accessibility_score": 8.5,
+          "driving_distance_from_delhi": "342 km (7 hours)"
+        },
+        "images": {
+          "main_image": "https://images.unsplash.com/photo-1610178009236-02461f18b272?q=80&w=962&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "gallery": [
+            "https://plus.unsplash.com/premium_photo-1697729733902-f8c92710db07?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1697729626072-d3d3e418c443?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1600065755981-a7f7f560ab04?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          ]
+        },
+        "description": {
+          "short_description": "The 'Queen of Hills' with colonial charm, scenic toy train rides, and pleasant mountain weather perfect for a refreshing getaway.",
+          "long_description": "Shimla, the erstwhile summer capital of British India, stands majestically at 2,205 meters above sea level in the foothills of the Himalayas. This enchanting hill station seamlessly blends colonial heritage with natural splendor, offering visitors a perfect retreat from the scorching plains. The town's Victorian architecture, centered around the famous Mall Road and The Ridge, tells stories of a bygone era while modern amenities ensure comfort for today's travelers. The UNESCO World Heritage Kalka-Shimla Railway, affectionately known as the toy train, provides one of the world's most scenic train journeys through 864 bridges and 102 tunnels. Shimla's pleasant climate year-round, combined with its rich history, makes it an ideal destination for families, honeymooners, and adventure enthusiasts alike.",
+          "overview": "Known as the 'Queen of Hills', Shimla is the capital of Himachal Pradesh and was the summer capital of British India. Famous for its Victorian architecture, pleasant climate, and scenic beauty.",
+          "famous_for": [
+            "Colonial architecture and heritage buildings",
+            "Mall Road pedestrian shopping street",
+            "UNESCO World Heritage toy train ride",
+            "The Ridge and iconic Christ Church",
+            "Jakhu Temple with giant Hanuman statue",
+            "Viceregal Lodge (Indian Institute of Advanced Study)",
+            "Apple orchards and local handicrafts"
+          ],
+          "best_time_to_visit": {
+            "season": "March to June, September to November",
+            "peak_season": "April to June",
+            "weather": "Pleasant summers (15-25°C), cold winters (-2 to 10°C)",
+            "monsoon_season": "July to September (heavy rainfall)",
+            "winter_activities": "Snow viewing, winter sports",
+            "summer_activities": "Sightseeing, shopping, nature walks"
+          },
+          "unique_features": [
+            "Summer capital of British Raj",
+            "Vehicle-free Mall Road",
+            "Narrow gauge mountain railway",
+            "Gothic and Tudor revival architecture",
+            "Seven hills landscape"
+          ]
+        },
+        "activities": [
+          {
+            "id": "toy_train_shimla",
+            "name": "Toy Train Ride",
+            "icon": "🚂",
+            "category": "Heritage Experience",
+            "description": "Experience the UNESCO World Heritage Kalka-Shimla Railway journey through breathtaking mountain scenery",
+            "detailed_description": "The Kalka-Shimla toy train is one of India's most celebrated railway journeys, covering 96 kilometers through the scenic Himalayan foothills. Built in 1903, this narrow-gauge railway passes through 864 bridges, 919 curves, and 102 tunnels, offering spectacular views of valleys, forests, and mountains. The journey takes you from Kalka at 656 meters to Shimla at 2,076 meters, with the train chugging slowly through pine forests and quaint hill stations.",
+            "duration": "5-6 hours (full journey)",
+            "cost_range": "₹500-2000",
+            "difficulty": "Easy",
+            "best_time": "Early morning for best views",
+            "booking_required": true,
+            "group_size": "Any",
+            "age_suitability": "All ages",
+            "seasonal_availability": "Year-round (weather permitting)"
+          },
+          {
+            "id": "mall_road_shopping",
+            "name": "Mall Road Shopping",
+            "icon": "🛍️",
+            "category": "Shopping & Leisure",
+            "description": "Stroll along the famous pedestrian street lined with shops, cafes, and colonial architecture",
+            "detailed_description": "Mall Road is the heart of Shimla, a traffic-free zone stretching from The Ridge to the Lakkar Bazaar. This bustling pedestrian street is lined with shops selling woolen garments, handicrafts, jewelry, and local products. The road offers stunning valley views and houses several heritage buildings, cafes, and restaurants. It's the perfect place for an evening stroll while soaking in the colonial atmosphere.",
+            "duration": "2-3 hours",
+            "cost_range": "₹1000-5000",
+            "difficulty": "Easy",
+            "best_time": "Evening hours",
+            "booking_required": false,
+            "group_size": "Any",
+            "age_suitability": "All ages",
+            "seasonal_availability": "Year-round"
+          },
+          {
+            "id": "jakhu_temple_trek",
+            "name": "Trekking to Jakhu Temple",
+            "icon": "🥾",
+            "category": "Adventure & Trekking",
+            "description": "Trek to the highest peak of Shimla to visit the famous Hanuman temple",
+            "detailed_description": "Located at 2,455 meters, Jakhu Temple sits atop Shimla's highest peak and houses a 108-foot tall statue of Lord Hanuman. The trek involves a moderate climb through dense forests of oak, pine, and rhododendron trees. The temple offers panoramic views of Shimla town and surrounding mountains. Visitors often encounter playful monkeys along the trail, adding to the adventure.",
+            "duration": "2-3 hours",
+            "cost_range": "Free (optional ropeway: ₹100)",
+            "difficulty": "Moderate",
+            "best_time": "Early morning or late afternoon",
+            "booking_required": false,
+            "group_size": "2-15 people",
+            "age_suitability": "8+ years",
+            "seasonal_availability": "Year-round"
+          },
+          {
+            "id": "heritage_walk_shimla",
+            "name": "Colonial Heritage Walk",
+            "icon": "🏛️",
+            "category": "Cultural Experience",
+            "description": "Guided tour of Shimla's colonial architecture and historical landmarks",
+            "detailed_description": "Explore Shimla's rich colonial heritage through a guided walking tour covering major historical landmarks including the Viceregal Lodge, Christ Church, Gaiety Theatre, and Town Hall. Learn about the British Raj era, architectural styles, and the town's significance as the summer capital. The tour includes stories of famous personalities who lived here and the development of this hill station.",
+            "duration": "3-4 hours",
+            "cost_range": "₹800-1500",
+            "difficulty": "Easy",
+            "best_time": "Morning hours",
+            "booking_required": true,
+            "group_size": "5-20 people",
+            "age_suitability": "12+ years",
+            "seasonal_availability": "Year-round"
+          },
+          {
+            "id": "adventure_sports_shimla",
+            "name": "Adventure Sports",
+            "icon": "🪂",
+            "category": "Adventure Sports",
+            "description": "Experience paragliding, rock climbing, and river rafting in nearby areas",
+            "detailed_description": "Shimla offers various adventure activities including paragliding from Billing near Bir (2 hours drive), rock climbing and rappelling at local sites, river rafting in Sutlej River, and mountain biking on forest trails. These activities are organized by certified operators and include safety equipment and professional guidance.",
+            "duration": "Half day to full day",
+            "cost_range": "₹2000-8000",
+            "difficulty": "Moderate to Difficult",
+            "best_time": "April to June, September to November",
+            "booking_required": true,
+            "group_size": "2-10 people",
+            "age_suitability": "16+ years",
+            "seasonal_availability": "Weather dependent"
+          },
+          {
+            "id": "ice_skating_shimla",
+            "name": "Ice Skating",
+            "icon": "⛸️",
+            "category": "Winter Sports",
+            "description": "Ice skating at one of India's few natural ice skating rinks",
+            "detailed_description": "Shimla's ice skating rink, operational since 1920, is one of the few natural ice skating rinks in India. Located near Mall Road, the rink operates during winter months when temperatures drop below freezing. The facility offers skating equipment on rent and basic lessons for beginners. It's a unique experience combining sport with the charm of a Himalayan winter.",
+            "duration": "1-2 hours",
+            "cost_range": "₹200-500",
+            "difficulty": "Easy to Moderate",
+            "best_time": "December to February",
+            "booking_required": false,
+            "group_size": "Any",
+            "age_suitability": "All ages (with supervision)",
+            "seasonal_availability": "Winter only (December-February)"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Sidu",
+              "description": "Traditional steamed bread stuffed with poppy seeds, walnut, or local herbs",
+              "detailed_description": "Sidu is a traditional Himachali bread made from wheat flour and yeast, steamed to perfection. The stuffing varies from region to region, with poppy seeds and walnuts being the most popular. It's typically served with ghee, dal, or meat curry and represents the authentic flavors of Himachal Pradesh.",
+              "where_to_find": "Local dhabas and authentic Himachali restaurants",
+              "price_range": "₹100-200",
+              "dietary_info": "Vegetarian options available",
+              "spice_level": "Mild",
+              "best_paired_with": "Himachali dal or meat curry"
+            },
+            {
+              "dish": "Chana Madra",
+              "description": "Chickpea curry cooked in yogurt gravy with aromatic spices",
+              "detailed_description": "A signature dish of Himachali cuisine, Chana Madra is prepared with chickpeas cooked in a rich yogurt-based gravy infused with cardamom, cinnamon, and cloves. The dish has a mild, creamy texture and is often prepared during festivals and special occasions.",
+              "where_to_find": "Traditional Himachali restaurants",
+              "price_range": "₹200-300",
+              "dietary_info": "Vegetarian",
+              "spice_level": "Mild to Medium",
+              "best_paired_with": "Rice or Sidu"
+            },
+            {
+              "dish": "Babru",
+              "description": "Himachali version of kachori with black gram filling",
+              "detailed_description": "Babru is a deep-fried bread stuffed with black gram (urad dal) paste mixed with spices. It's often compared to kachori but has its unique Himachali preparation style. The crispy exterior and flavorful filling make it a popular snack among locals and tourists.",
+              "where_to_find": "Street vendors on Mall Road and local markets",
+              "price_range": "₹50-100",
+              "dietary_info": "Vegetarian",
+              "spice_level": "Medium",
+              "best_paired_with": "Tamarind chutney and tea"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Ashiana Restaurant",
+              "address": "The Ridge, Shimla",
+              "cuisine": "North Indian, Chinese, Continental",
+              "rating": 4.2,
+              "price_range": "₹800-1500 for two",
+              "specialties": ["Himachali Thali", "Continental breakfast"],
+              "ambiance": "Heritage building with valley views",
+              "timing": "7:00 AM - 11:00 PM",
+              "contact": "+91-177-2658542"
+            },
+            {
+              "name": "Indian Coffee House",
+              "address": "Mall Road, Shimla",
+              "cuisine": "Indian, Continental, Snacks",
+              "rating": 4.0,
+              "price_range": "₹400-800 for two",
+              "specialties": ["Filter coffee", "Club sandwiches", "South Indian dishes"],
+              "ambiance": "Retro colonial-era cafe",
+              "timing": "8:00 AM - 9:00 PM",
+              "contact": "+91-177-2652508"
+            }
+          ],
+          "street_food": [
+            {
+              "item": "Golgappa/Pani Puri",
+              "location": "Lower Bazaar",
+              "price": "₹30-50"
+            },
+            {
+              "item": "Momos",
+              "location": "Mall Road vendors",
+              "price": "₹80-120"
+            },
+            {
+              "item": "Kulfi",
+              "location": "The Ridge area",
+              "price": "₹40-80"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Surya",
+              "price_range": "₹1500-2500 per night",
+              "rating": 3.8,
+              "amenities": ["WiFi", "Room Service", "Hot Water", "Parking"],
+              "location": "Near Mall Road",
+              "room_types": ["Standard", "Deluxe"],
+              "contact": "+91-177-2652593",
+              "booking_platforms": ["MakeMyTrip", "Booking.com", "OYO"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Combermere",
+              "price_range": "₹4000-6000 per night",
+              "rating": 4.2,
+              "amenities": ["Restaurant", "WiFi", "Valley View", "Room Service", "Travel Desk"],
+              "location": "The Mall",
+              "room_types": ["Superior", "Deluxe", "Suite"],
+              "contact": "+91-177-2658991",
+              "booking_platforms": ["Direct booking", "Travel agents"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "Oberoi Cecil",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.8,
+              "amenities": ["Spa", "Fine Dining", "Heritage Property", "Butler Service", "Valley Views"],
+              "location": "Chaura Maidan",
+              "room_types": ["Deluxe Mountain View", "Luxury Suite", "Presidential Suite"],
+              "contact": "+91-177-2804848",
+              "booking_platforms": ["Oberoi Hotels", "Luxury travel portals"]
+            }
+          ],
+          "homestays": [
+            {
+              "name": "Hill Country Homestay",
+              "price_range": "₹2000-3500 per night",
+              "rating": 4.0,
+              "amenities": ["Home-cooked meals", "Local experience", "Garden"],
+              "contact": "+91-98160-54321"
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Mall Road",
+            "description": "Main shopping and entertainment hub with colonial architecture",
+            "detailed_description": "The heart of Shimla, Mall Road is a pedestrian-only street stretching 1.2 km from The Ridge to Lakkar Bazaar. Built during the British era, it features Victorian architecture, shops, cafes, and offers stunning valley views. The road maintains its colonial charm while serving as the town's main commercial center.",
+            "entry_fee": "Free",
+            "timings": "24/7 (shops: 9:00 AM - 9:00 PM)",
+            "best_visiting_time": "Evening for pleasant weather and lighting",
+            "photography": "Allowed",
+            "accessibility": "Wheelchair accessible in most areas"
+          },
+          {
+            "name": "The Ridge",
+            "description": "Open ceremonial space with Christ Church and panoramic mountain views",
+            "detailed_description": "The Ridge is Shimla's most prominent open space, serving as the town's cultural and social hub. It hosts various events and festivals throughout the year. The iconic Christ Church, built in 1857, dominates the landscape with its neo-Gothic architecture and beautiful stained glass windows.",
+            "entry_fee": "Free (Christ Church: ₹10)",
+            "timings": "24/7 (Christ Church: 10:00 AM - 1:30 PM, 2:00 PM - 6:00 PM)",
+            "best_visiting_time": "Morning and evening",
+            "photography": "Allowed (some restrictions inside church)",
+            "accessibility": "Fully accessible"
+          },
+          {
+            "name": "Jakhu Temple",
+            "description": "Hanuman temple at Shimla's highest point with giant statue",
+            "detailed_description": "Perched at 2,455 meters, Jakhu Temple is dedicated to Lord Hanuman and features a 108-foot tall statue visible from most parts of Shimla. The temple is surrounded by dense forests and offers panoramic views of the Himalayan ranges. Legend says Hanuman rested here while searching for Sanjeevani herb.",
+            "entry_fee": "Free",
+            "timings": "6:00 AM - 9:00 PM",
+            "best_visiting_time": "Early morning or sunset",
+            "photography": "Allowed",
+            "accessibility": "Moderate climbing required (ropeway available)"
+          },
+          {
+            "name": "Viceregal Lodge",
+            "description": "Former British Viceroy residence, now Indian Institute of Advanced Study",
+            "detailed_description": "Built in 1888, this magnificent Jacobethan architecture building served as the summer residence of British Viceroys. Now housing the Indian Institute of Advanced Study, it offers guided tours showcasing its historical significance, architecture, and the rooms where crucial decisions of the British Raj were made.",
+            "entry_fee": "₹30 (Indians), ₹100 (Foreigners)",
+            "timings": "10:00 AM - 5:00 PM (Closed Mondays)",
+            "best_visiting_time": "Morning hours",
+            "photography": "Allowed in gardens, restricted inside",
+            "accessibility": "Partially accessible"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": {
+              "airport": "Shimla Airport (Jubbarhatti)",
+              "distance": "23 km from city center",
+              "connectivity": "Limited flights from Delhi",
+              "cost": "₹8000-15000 from Delhi",
+              "travel_time": "1 hour flight + 1 hour road"
+            },
+            "by_train": {
+              "station": "Kalka Railway Station",
+              "distance": "96 km from Shimla",
+              "connectivity": "Well connected to major cities",
+              "toy_train": "Kalka to Shimla narrow gauge railway",
+              "cost": "₹500-2000 (toy train)",
+              "travel_time": "5-6 hours from Kalka"
+            },
+            "by_road": {
+              "highway": "NH5 (Delhi-Shimla Highway)",
+              "distance_from_delhi": "342 km",
+              "driving_time": "7-8 hours",
+              "bus_services": "Regular Volvo and ordinary buses",
+              "cost": "₹800-2000 (depending on bus type)"
+            }
+          },
+          "local_transport": [
+            {
+              "mode": "Local buses",
+              "coverage": "All major points",
+              "cost": "₹10-50 per ride"
+            },
+            {
+              "mode": "Shared taxis",
+              "coverage": "Popular destinations",
+              "cost": "₹100-500"
+            },
+            {
+              "mode": "Private cabs",
+              "coverage": "Anywhere",
+              "cost": "₹15-20 per km"
+            },
+            {
+              "mode": "Walking",
+              "coverage": "Mall Road area",
+              "cost": "Free"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "scenery": 4.5,
+          "activities": 4.2,
+          "food": 4.0,
+          "accommodation": 4.1,
+          "accessibility": 4.0,
+          "value_for_money": 4.2,
+          "cleanliness": 4.0,
+          "safety": 4.4,
+          "local_hospitality": 4.3
+        },
+        "tips": [
+          "Book hotels in advance during peak season (April-June)",
+          "Carry warm clothes even in summer as evenings can be cold",
+          "Mall Road is pedestrian-only, use designated parking areas",
+          "Try the toy train ride for a unique experience",
+          "Bargain while shopping at local markets",
+          "Respect local customs when visiting temples",
+          "Keep monkey-safe distance at Jakhu Temple",
+          "Plan for altitude adjustment on first day"
+        ],
+        "budget_planning": {
+          "budget_traveler": "₹2000-3500 per day",
+          "mid_range_traveler": "₹4000-7000 per day",
+          "luxury_traveler": "₹12000+ per day",
+          "typical_3_day_cost": {
+            "budget": "₹6000-10000",
+            "mid_range": "₹12000-20000",
+            "luxury": "₹35000+"
+          }
+        },
+        "emergency_contacts": {
+          "tourist_helpline": "1363",
+          "police": "100",
+          "ambulance": "108",
+          "fire": "101",
+          "shimla_police_station": "+91-177-2621344",
+          "district_hospital": "+91-177-2804048"
+        },
+        "seasonal_highlights": {
+          "summer": ["Pleasant weather", "Clear mountain views", "Outdoor activities"],
+          "monsoon": ["Lush greenery", "Waterfalls", "Cool weather", "Possible landslides"],
+          "winter": ["Snow activities", "Ice skating", "Christmas celebrations", "Cozy atmosphere"],
+          "spring": ["Rhododendron blooms", "Clear skies", "Perfect for photography"]
+        }
+      },
+      {
+        "id": "manali_002",
+        "name": "Manali",
+        "state": "Himachal Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 32.2396,
+            "longitude": 77.1887
+          },
+          "altitude": "2050 meters",
+          "district": "Kullu",
+          "nearest_airport": "Bhuntar Airport (50 km)",
+          "nearest_railway": "Joginder Nagar (165 km)"
+        },
+        "images": {
+          "main_image": "https://cdn1.tripoto.com/media/filter/tst/img/1429685/Image/1581687460_4manali.jpg",
+          "gallery": [
+            "https://i.pinimg.com/originals/84/ed/16/84ed165239f3e217d6ffb72a266d15a4.jpg",
+            "https://trippymania.com/wp-content/uploads/2021/07/manali-hp-edited.jpg",
+            "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/01/Chandrakhani-Passepb0310.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A popular hill station in Himachal Pradesh, known for its scenic beauty, snow-capped mountains, and adventure activities. Gateway to Lahaul and Spiti valleys.",
+          "famous_for": [
+            "Rohtang Pass",
+            "Adventure sports",
+            "Hadimba Temple",
+            "Apple orchards",
+            "Solang Valley"
+          ],
+          "best_time_to_visit": {
+            "season": "October to June",
+            "peak_season": "April to June",
+            "weather": "Pleasant summers (10-25°C), very cold winters (-15 to 5°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Paragliding in Solang Valley",
+            "description": "Tandem paragliding with experienced pilots",
+            "duration": "15-30 minutes flight",
+            "cost_range": "₹2500-4000",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "River Rafting in Beas",
+            "description": "White water rafting in Beas river",
+            "duration": "2-3 hours",
+            "cost_range": "₹1500-2500",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Trekking to Bhrigu Lake",
+            "description": "High altitude alpine lake trek",
+            "duration": "2-3 days",
+            "cost_range": "₹3000-5000",
+            "difficulty": "Difficult"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Dham",
+              "description": "Traditional festive meal served on special occasions",
+              "where_to_find": "Local homes during festivals, some restaurants",
+              "price_range": "₹300-500"
+            },
+            {
+              "dish": "Trout Fish",
+              "description": "Fresh river trout cooked in local style",
+              "where_to_find": "Restaurants near Beas river",
+              "price_range": "₹500-800"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Johnson's Cafe",
+              "address": "Circuit House Road, Old Manali",
+              "cuisine": "Continental, Italian",
+              "rating": 4.4,
+              "price_range": "₹1000-1800 for two"
+            },
+            {
+              "name": "Cafe 1947",
+              "address": "Old Manali",
+              "cuisine": "Israeli, Continental",
+              "rating": 4.3,
+              "price_range": "₹800-1200 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Zostel Manali",
+              "price_range": "₹800-1500 per night",
+              "rating": 4.1,
+              "amenities": ["WiFi", "Common Area", "Lockers"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "The Himalayan",
+              "price_range": "₹3500-5500 per night",
+              "rating": 4.3,
+              "amenities": ["Restaurant", "WiFi", "Mountain View"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "The Manali Inn",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.6,
+              "amenities": ["Spa", "Fine Dining", "Valley View"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Hadimba Temple",
+            "description": "Ancient cave temple dedicated to Hadimba Devi",
+            "entry_fee": "Free",
+            "timings": "6:00 AM - 6:00 PM"
+          },
+          {
+            "name": "Solang Valley",
+            "description": "Popular adventure sports destination",
+            "entry_fee": "Free (activities cost extra)",
+            "timings": "24/7"
+          },
+          {
+            "name": "Rohtang Pass",
+            "description": "High mountain pass connecting Manali to Lahaul",
+            "entry_fee": "₹500 (vehicle permit required)",
+            "timings": "6:00 AM - 6:00 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Bhuntar Airport (50 km) with limited connectivity",
+            "by_train": "Joginder Nagar (165 km) is nearest railhead",
+            "by_road": "Well connected by NH3, buses from Delhi (12-14 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Auto rickshaws",
+            "Taxis",
+            "Motorbike rentals"
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "scenery": 4.8,
+          "activities": 4.7,
+          "food": 4.2,
+          "accommodation": 4.3,
+          "accessibility": 3.8
+        },
+        "tips": [
+          "Carry permits for Rohtang Pass",
+          "Book adventure activities in advance",
+          "Pack warm clothes for high altitude areas",
+          "Avoid monsoon season due to landslides"
+        ]
+      },
+      {
+        "id": "darjeeling_003",
+        "name": "Darjeeling",
+        "state": "West Bengal",
+        "location": {
+          "coordinates": {
+            "latitude": 27.0360,
+            "longitude": 88.2627
+          },
+          "altitude": "2042 meters",
+          "district": "Darjeeling",
+          "nearest_airport": "Bagdogra Airport (68 km)",
+          "nearest_railway": "New Jalpaiguri (88 km)"
+        },
+        "images": {
+          "main_image": "https://media.assettype.com/outlooktraveller/2024-01/aed3bd54-2242-49a6-aa8a-9bf587d05ff9/Darjeeling.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40:21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+          "gallery": [
+            "http://asom.in/wp-content/uploads/2018/06/Darjeeling-tour.jpg",
+            "https://static2.tripoto.com/media/filter/tst/img/OgData/1473321365_darjeeling3.jpg",
+            "https://nomadsofindia.com/wp-content/uploads/2023/11/City-of-Darjeeling.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Known as the 'Queen of Hills' in Eastern India, famous for its tea gardens, panoramic views of Kanchenjunga, and the UNESCO World Heritage Darjeeling Himalayan Railway.",
+          "famous_for": [
+            "Tea gardens and plantations",
+            "Darjeeling Himalayan Railway (Toy Train)",
+            "Kanchenjunga sunrise views",
+            "Tiger Hill",
+            "Tibetan Buddhist monasteries"
+          ],
+          "best_time_to_visit": {
+            "season": "March to May, September to November",
+            "peak_season": "April to June",
+            "weather": "Pleasant summers (15-25°C), cold winters (2-15°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Toy Train Ride",
+            "description": "UNESCO World Heritage narrow gauge railway",
+            "duration": "7-8 hours (full journey)",
+            "cost_range": "₹600-1200",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Tea Garden Tour",
+            "description": "Visit famous tea estates and learn about tea processing",
+            "duration": "3-4 hours",
+            "cost_range": "₹500-1000",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Tiger Hill Sunrise Trek",
+            "description": "Early morning trek to see Kanchenjunga sunrise",
+            "duration": "4-5 hours",
+            "cost_range": "₹300-500",
+            "difficulty": "Moderate"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Momos",
+              "description": "Tibetan steamed dumplings with various fillings",
+              "where_to_find": "Street vendors and local restaurants",
+              "price_range": "₹80-150"
+            },
+            {
+              "dish": "Thukpa",
+              "description": "Tibetan noodle soup with vegetables or meat",
+              "where_to_find": "Local Tibetan restaurants",
+              "price_range": "₹120-200"
+            },
+            {
+              "dish": "Darjeeling Tea",
+              "description": "World famous black tea with muscatel flavor",
+              "where_to_find": "Tea gardens and local shops",
+              "price_range": "₹300-2000 per kg"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Glenary's",
+              "address": "Nehru Road, Darjeeling",
+              "cuisine": "Continental, Indian",
+              "rating": 4.2,
+              "price_range": "₹800-1400 for two"
+            },
+            {
+              "name": "Kunga Restaurant",
+              "address": "Gandhi Road, Darjeeling",
+              "cuisine": "Tibetan, Chinese",
+              "rating": 4.1,
+              "price_range": "₹600-1000 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Aliment",
+              "price_range": "₹1200-2000 per night",
+              "rating": 3.9,
+              "amenities": ["WiFi", "Room Service", "Mountain View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Summit Golden Crescent Resort & Spa",
+              "price_range": "₹4500-7000 per night",
+              "rating": 4.3,
+              "amenities": ["Spa", "Restaurant", "Valley View"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "Glenburn Tea Estate",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.7,
+              "amenities": ["Tea Estate Stay", "Fine Dining", "Exclusive Location"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Tiger Hill",
+            "description": "Best viewpoint for Kanchenjunga sunrise",
+            "entry_fee": "₹30",
+            "timings": "4:00 AM - 6:00 AM"
+          },
+          {
+            "name": "Batasia Loop",
+            "description": "Spiral railway track with war memorial",
+            "entry_fee": "Free",
+            "timings": "24/7"
+          },
+          {
+            "name": "Peace Pagoda",
+            "description": "Japanese Buddhist temple with panoramic views",
+            "entry_fee": "Free",
+            "timings": "4:30 AM - 6:30 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Bagdogra Airport (68 km) with good connectivity",
+            "by_train": "New Jalpaiguri Railway Station (88 km)",
+            "by_road": "Well connected by NH10, buses from Kolkata (12 hours)"
+          },
+          "local_transport": [
+            "Shared taxis",
+            "Local buses",
+            "Private cars",
+            "Walking in town center"
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "scenery": 4.7,
+          "activities": 4.3,
+          "food": 4.2,
+          "accommodation": 4.0,
+          "accessibility": 4.1
+        },
+        "tips": [
+          "Wake up early for Tiger Hill sunrise",
+          "Book toy train tickets in advance",
+          "Try authentic Darjeeling tea at source",
+          "Carry warm clothes for early morning excursions"
+        ]
+      },
+      {
+        "id": "mussoorie_004",
+        "name": "Mussoorie",
+        "state": "Uttarakhand",
+        "location": {
+          "coordinates": {
+            "latitude": 30.4598,
+            "longitude": 78.0664
+          },
+          "altitude": "1880 meters",
+          "district": "Dehradun",
+          "nearest_airport": "Dehradun Airport (54 km)",
+          "nearest_railway": "Dehradun Railway Station (34 km)"
+        },
+        "images": {
+          "main_image": "https://kanatalheights.com/wp-content/uploads/2021/03/mussorroe.jpg",
+          "gallery": [
+            "https://i.ytimg.com/vi/1xjfwVuQ3QY/maxresdefault.jpg",
+            "https://assets.traveltriangle.com/blog/wp-content/uploads/2023/03/Paragliding-in-Mussoorie.jpg",
+            "https://lp-cms-production.imgix.net/2019-06/GettyImages-450780651_full.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4"
+          ]
+        },
+        "description": {
+          "overview": "Known as the 'Queen of Hills' in Uttarakhand, Mussoorie offers stunning views of the Himalayan ranges and Doon Valley. A popular honeymoon destination with colonial charm.",
+          "famous_for": [
+            "Gun Hill Point",
+            "Kempty Falls",
+            "Mall Road",
+            "Lal Tibba viewpoint",
+            "Colonial architecture"
+          ],
+          "best_time_to_visit": {
+            "season": "March to June, September to November",
+            "peak_season": "April to June",
+            "weather": "Pleasant summers (15-25°C), cold winters (1-10°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Cable Car to Gun Hill",
+            "description": "Cable car ride to Gun Hill Point for panoramic views",
+            "duration": "1-2 hours",
+            "cost_range": "₹150-300",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Kempty Falls Visit",
+            "description": "Visit the famous waterfall and enjoy activities",
+            "duration": "2-3 hours",
+            "cost_range": "₹20 entry + activities",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Nature Walk to Camel's Back Road",
+            "description": "Scenic walk along the ridge resembling camel's back",
+            "duration": "2-3 hours",
+            "cost_range": "Free",
+            "difficulty": "Easy"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Aloo ke Gutke",
+              "description": "Spiced potatoes cooked with local herbs",
+              "where_to_find": "Local restaurants and dhabas",
+              "price_range": "₹150-250"
+            },
+            {
+              "dish": "Bal Mithai",
+              "description": "Traditional sweet made from khoya and sugar balls",
+              "where_to_find": "Sweet shops on Mall Road",
+              "price_range": "₹300-500 per kg"
+            },
+            {
+              "dish": "Singori",
+              "description": "Cone-shaped sweet wrapped in maalu leaf",
+              "where_to_find": "Local sweet vendors",
+              "price_range": "₹50-80 per piece"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Kalsang Friends Corner",
+              "address": "Mall Road, Mussoorie",
+              "cuisine": "Tibetan, Chinese",
+              "rating": 4.3,
+              "price_range": "₹700-1200 for two"
+            },
+            {
+              "name": "Char Dukan",
+              "address": "Landour, Mussoorie",
+              "cuisine": "Continental, Indian",
+              "rating": 4.2,
+              "price_range": "₹500-800 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Garhwal Terrace",
+              "price_range": "₹1800-3000 per night",
+              "rating": 3.8,
+              "amenities": ["WiFi", "Restaurant", "Valley View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Padmini Nivas",
+              "price_range": "₹4000-6500 per night",
+              "rating": 4.1,
+              "amenities": ["Heritage Property", "Restaurant", "Garden"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "The Savoy",
+              "price_range": "₹10000-18000 per night",
+              "rating": 4.5,
+              "amenities": ["Heritage Hotel", "Spa", "Fine Dining"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Gun Hill",
+            "description": "Second highest peak offering 360-degree views",
+            "entry_fee": "Cable car: ₹150-300",
+            "timings": "9:00 AM - 7:00 PM"
+          },
+          {
+            "name": "Kempty Falls",
+            "description": "Popular waterfall and picnic spot",
+            "entry_fee": "₹20",
+            "timings": "8:00 AM - 6:00 PM"
+          },
+          {
+            "name": "Mall Road",
+            "description": "Main shopping and dining street",
+            "entry_fee": "Free",
+            "timings": "24/7"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Dehradun Airport (54 km) with limited flights",
+            "by_train": "Dehradun Railway Station (34 km)",
+            "by_road": "Well connected by road, buses from Delhi (6-7 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Shared taxis",
+            "Cable car (Gun Hill)",
+            "Walking on Mall Road"
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "scenery": 4.5,
+          "activities": 4.0,
+          "food": 4.1,
+          "accommodation": 4.0,
+          "accessibility": 4.3
+        },
+        "tips": [
+          "Visit during weekdays to avoid crowds",
+          "Take the cable car for best views",
+          "Try local Garhwali cuisine",
+          "Carry light woolens even in summer"
+        ]
+      },
+      {
+        "id": "ooty_005",
+        "name": "Ooty (Udhagamandalam)",
+        "state": "Tamil Nadu",
+        "location": {
+          "coordinates": {
+            "latitude": 11.4064,
+            "longitude": 76.6932
+          },
+          "altitude": "2240 meters",
+          "district": "Nilgiris",
+          "nearest_airport": "Coimbatore Airport (88 km)",
+          "nearest_railway": "Mettupalayam (46 km)"
+        },
+        "images": {
+          "main_image": "https://journeytoexplore.com/wp-content/uploads/2018/11/Dodabetta_Peak21.jpg",
+          "gallery": [
+            "https://journeytoexplore.com/wp-content/uploads/2018/11/ooty-ooty-lake-1493546280-orijgp.jpg",
+            "https://journeytoexplore.com/wp-content/uploads/2018/11/nilgiri.jpg",
+            "https://thumbs.dreamstime.com/b/ooty-city-aerial-view-ooty-udhagamandalam-resort-town-western-ghats-mountains-india-s-tamil-nadu-state-ooty-city-181614578.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Known as the 'Queen of Hill Stations' in South India, Ooty is famous for its tea gardens, eucalyptus forests, and the UNESCO World Heritage Nilgiri Mountain Railway.",
+          "famous_for": [
+            "Nilgiri Mountain Railway (Toy Train)",
+            "Tea gardens and estates",
+            "Ooty Lake and boating",
+            "Botanical Gardens",
+            "Doddabetta Peak"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "peak_season": "April to June",
+            "weather": "Pleasant year-round (15-20°C), mild winters (5-15°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Nilgiri Mountain Railway",
+            "description": "UNESCO World Heritage toy train journey",
+            "duration": "3-5 hours",
+            "cost_range": "₹280-1500",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Boating at Ooty Lake",
+            "description": "Pedal boating and rowing in artificial lake",
+            "duration": "1-2 hours",
+            "cost_range": "₹150-400",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Tea Estate Tour",
+            "description": "Visit tea factories and learn tea processing",
+            "duration": "2-3 hours",
+            "cost_range": "₹200-500",
+            "difficulty": "Easy"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Ooty Varkey",
+              "description": "Traditional flaky biscuit unique to Ooty",
+              "where_to_find": "Local bakeries on Commercial Street",
+              "price_range": "₹200-400 per kg"
+            },
+            {
+              "dish": "Nilgiri Tea",
+              "description": "Aromatic black tea grown in local estates",
+              "where_to_find": "Tea estates and local shops",
+              "price_range": "₹250-800 per kg"
+            },
+            {
+              "dish": "Homemade Chocolate",
+              "description": "Fresh chocolates made from local cocoa",
+              "where_to_find": "Chocolate shops on Commercial Street",
+              "price_range": "₹300-600 per kg"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Earl's Secret",
+              "address": "Kings Cliff Hotel, Ooty",
+              "cuisine": "Continental, Indian",
+              "rating": 4.3,
+              "price_range": "₹1200-2000 for two"
+            },
+            {
+              "name": "Adyar Ananda Bhavan",
+              "address": "Commercial Road, Ooty",
+              "cuisine": "South Indian, Vegetarian",
+              "rating": 4.1,
+              "price_range": "₹400-700 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Lakeview",
+              "price_range": "₹2000-3500 per night",
+              "rating": 3.9,
+              "amenities": ["WiFi", "Lake View", "Restaurant"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Sterling Ooty Fern Hill",
+              "price_range": "₹5500-8500 per night",
+              "rating": 4.2,
+              "amenities": ["Spa", "Multi-cuisine Restaurant", "Garden"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "Taj Savoy Hotel",
+              "price_range": "₹12000-22000 per night",
+              "rating": 4.6,
+              "amenities": ["Heritage Property", "Spa", "Fine Dining"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Doddabetta Peak",
+            "description": "Highest peak in Nilgiris with telescope house",
+            "entry_fee": "₹15 + telescope ₹5",
+            "timings": "8:30 AM - 6:30 PM"
+          },
+          {
+            "name": "Government Botanical Garden",
+            "description": "20-hectare garden with rare plants and flowers",
+            "entry_fee": "₹30 adults, ₹10 children",
+            "timings": "7:00 AM - 6:30 PM"
+          },
+          {
+            "name": "Ooty Lake",
+            "description": "Artificial lake with boating facilities",
+            "entry_fee": "₹10 + boating charges",
+            "timings": "8:00 AM - 6:00 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Coimbatore Airport (88 km) is nearest",
+            "by_train": "Mettupalayam to Ooty toy train or road transport",
+            "by_road": "Well connected by bus from Bangalore (6 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Auto rickshaws",
+            "Taxis",
+            "Horse riding (select areas)"
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "scenery": 4.6,
+          "activities": 4.2,
+          "food": 4.0,
+          "accommodation": 4.1,
+          "accessibility": 4.2
+        },
+        "tips": [
+          "Book toy train tickets well in advance",
+          "Visit during flower season (April-May)",
+          "Try local homemade chocolates",
+          "Carry warm clothes for evening/night"
+        ]
+      },
+      {
+        "id": "nainital_006",
+        "name": "Nainital",
+        "state": "Uttarakhand",
+        "location": {
+          "coordinates": {
+            "latitude": 29.3919,
+            "longitude": 79.4542
+          },
+          "altitude": "2084 meters",
+          "district": "Nainital",
+          "nearest_airport": "Pantnagar Airport (65 km)",
+          "nearest_railway": "Kathgodam Railway Station (34 km)"
+        },
+        "images": {
+          "main_image": "https://static.toiimg.com/photo/msid-79756603,width-96,height-65.cms",
+          "gallery": [
+            "https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/c/135498/media3LD8CLMC8IZNW.jpg",
+            "https://hblimg.mmtcdn.com/content/hubble/img/destimg/mmt/activities/m_Nainital_destjulimg_2_l_835_1113.jpg",
+            "https://www.romanticbug.com/wp-content/uploads/2015/03/Nainital.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Known as the 'Lake District of India', Nainital is built around the beautiful Naini Lake and surrounded by seven hills. Famous for its pleasant climate and natural beauty.",
+          "famous_for": [
+            "Naini Lake boating",
+            "Snow View Point",
+            "Naina Devi Temple",
+            "Mall Road shopping",
+            "Tiffin Top (Dorothy's Seat)"
+          ],
+          "best_time_to_visit": {
+            "season": "March to June, September to November",
+            "peak_season": "April to June",
+            "weather": "Pleasant summers (15-27°C), cold winters (2-15°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Naini Lake Boating",
+            "description": "Paddle boating and yachting in the heart-shaped lake",
+            "duration": "1-2 hours",
+            "cost_range": "₹150-500",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Cable Car to Snow View",
+            "description": "Aerial ropeway to Snow View Point",
+            "duration": "30 minutes",
+            "cost_range": "₹150-250",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Trekking to Tiffin Top",
+            "description": "Trek to Dorothy's Seat viewpoint",
+            "duration": "2-3 hours",
+            "cost_range": "₹200-400 (horse riding available)",
+            "difficulty": "Moderate"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Bal Mithai",
+              "description": "Traditional Kumaoni sweet with khoya and sugar balls",
+              "where_to_find": "Sweet shops on Mall Road",
+              "price_range": "₹400-600 per kg"
+            },
+            {
+              "dish": "Aloo ke Gutke",
+              "description": "Spiced boiled potatoes with local herbs",
+              "where_to_find": "Local restaurants and dhabas",
+              "price_range": "₹120-200"
+            },
+            {
+              "dish": "Bhang ki Chutney",
+              "description": "Traditional chutney made from hemp seeds",
+              "where_to_find": "Local Kumaoni restaurants",
+              "price_range": "₹50-100"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Sakley's Restaurant",
+              "address": "The Mall, Nainital",
+              "cuisine": "Continental, Indian",
+              "rating": 4.2,
+              "price_range": "₹800-1400 for two"
+            },
+            {
+              "name": "Machan",
+              "address": "Mall Road, Nainital",
+              "cuisine": "Multi-cuisine",
+              "rating": 4.0,
+              "price_range": "₹600-1000 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel City Heart",
+              "price_range": "₹1500-2800 per night",
+              "rating": 3.8,
+              "amenities": ["WiFi", "Lake View", "Restaurant"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "The Naini Retreat",
+              "price_range": "₹4500-7500 per night",
+              "rating": 4.3,
+              "amenities": ["Heritage Property", "Spa", "Valley View"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "The Manu Maharani",
+              "price_range": "₹9000-16000 per night",
+              "rating": 4.5,
+              "amenities": ["Luxury Resort", "Multiple Restaurants", "Lake View"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Naini Lake",
+            "description": "Heart-shaped natural lake in the center of town",
+            "entry_fee": "Free (boating extra)",
+            "timings": "24/7 (boating: 6:00 AM - 7:00 PM)"
+          },
+          {
+            "name": "Snow View Point",
+            "description": "Panoramic view of snow-capped Himalayan peaks",
+            "entry_fee": "Cable car: ₹150-250",
+            "timings": "10:00 AM - 5:00 PM"
+          },
+          {
+            "name": "Naina Devi Temple",
+            "description": "Sacred temple dedicated to Goddess Naina Devi",
+            "entry_fee": "Free",
+            "timings": "6:00 AM - 10:00 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Pantnagar Airport (65 km) with limited flights",
+            "by_train": "Kathgodam Railway Station (34 km)",
+            "by_road": "Well connected by road, buses from Delhi (7-8 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Shared taxis",
+            "Cable car",
+            "Horse riding",
+            "Walking"
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "scenery": 4.6,
+          "activities": 4.2,
+          "food": 4.0,
+          "accommodation": 4.1,
+          "accessibility": 4.4
+        },
+        "tips": [
+          "Book accommodations early during peak season",
+          "Take evening walks around Naini Lake",
+          "Visit Snow View Point early morning for clear views",
+          "Try local Kumaoni cuisine at authentic restaurants"
+        ]
+      },
+       {
+        "id": "mount_abu_007",
+        "name": "Mount Abu",
+        "state": "Rajasthan",
+        "location": {
+          "coordinates": {
+            "latitude": 24.5925,
+            "longitude": 72.7156
+          },
+          "altitude": "1220 meters",
+          "district": "Sirohi",
+          "nearest_airport": "Udaipur Airport (185 km)",
+          "nearest_railway": "Abu Road Railway Station (27 km)"
+        },
+        "images": {
+          "main_image": "https://s3-ap-south-1.amazonaws.com/soulveda-media-prod/wp-content/uploads/2023/05/29184808/Discover-the-cultural-legacy-of-Mount-Abu-a-trip-back-in-time.jpg",
+          "gallery": [
+            "https://assets-news.housing.com/news/wp-content/uploads/2022/08/19183321/mount-abu-feature-compressed.jpg",
+            "https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Mount_Abu_tv_destination_img_5_l_695_1043.jpg",
+            "https://manahotels.in/traveller/wp-content/uploads/2021/11/mount-abu3-1024x683-1.jpg"
+          ]
+        },
+        "description": {
+          "overview": "The only hill station in Rajasthan, Mount Abu is known for its Dilwara Jain Temples, Nakki Lake, and cooler climate. A popular summer retreat from the desert heat of Rajasthan.",
+          "famous_for": [
+            "Dilwara Jain Temples",
+            "Nakki Lake",
+            "Guru Shikhar (highest peak)",
+            "Sunset Point",
+            "Summer Festival"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "peak_season": "December to February",
+            "weather": "Pleasant summers (23-33°C), mild winters (12-28°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Boating at Nakki Lake",
+            "description": "Pedal boating in the heart-shaped artificial lake",
+            "duration": "1-2 hours",
+            "cost_range": "₹100-300",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Dilwara Temples Tour",
+            "description": "Visit the famous marble Jain temples",
+            "duration": "2-3 hours",
+            "cost_range": "Free",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Sunset Point Visit",
+            "description": "Watch spectacular sunset over Aravalli ranges",
+            "duration": "1-2 hours",
+            "cost_range": "Free",
+            "difficulty": "Easy"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Dal Baati Churma",
+              "description": "Traditional Rajasthani dish with lentils and wheat balls",
+              "where_to_find": "Local Rajasthani restaurants",
+              "price_range": "₹200-350"
+            },
+            {
+              "dish": "Gatte ki Sabzi",
+              "description": "Gram flour dumplings in spicy curry",
+              "where_to_find": "Traditional thali restaurants",
+              "price_range": "₹150-250"
+            },
+            {
+              "dish": "Malai Ghewar",
+              "description": "Traditional Rajasthani sweet with cream",
+              "where_to_find": "Sweet shops on Mall Road",
+              "price_range": "₹300-500 per kg"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Arbuda Restaurant",
+              "address": "Hotel Hilltone, Mount Abu",
+              "cuisine": "Rajasthani, North Indian",
+              "rating": 4.1,
+              "price_range": "₹700-1200 for two"
+            },
+            {
+              "name": "Kanak Dining Hall",
+              "address": "Near Nakki Lake, Mount Abu",
+              "cuisine": "Gujarati, Rajasthani Thali",
+              "rating": 4.2,
+              "price_range": "₹400-600 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Mount Regency",
+              "price_range": "₹1800-3200 per night",
+              "rating": 3.9,
+              "amenities": ["WiFi", "Restaurant", "Lake View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Sterling Mount Abu",
+              "price_range": "₹4500-7500 per night",
+              "rating": 4.2,
+              "amenities": ["Swimming Pool", "Spa", "Multi-cuisine Restaurant"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "The Colonial Manek Manor",
+              "price_range": "₹8000-14000 per night",
+              "rating": 4.4,
+              "amenities": ["Heritage Hotel", "Garden", "Fine Dining"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Dilwara Temples",
+            "description": "Exquisite marble Jain temples with intricate carvings",
+            "entry_fee": "Free",
+            "timings": "6:00 AM - 12:00 PM, 1:00 PM - 6:00 PM"
+          },
+          {
+            "name": "Guru Shikhar",
+            "description": "Highest point in Rajasthan with temple",
+            "entry_fee": "Free",
+            "timings": "6:00 AM - 6:00 PM"
+          },
+          {
+            "name": "Nakki Lake",
+            "description": "Artificial lake surrounded by hills",
+            "entry_fee": "Free (boating extra)",
+            "timings": "24/7 (boating: 8:00 AM - 6:00 PM)"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Udaipur Airport (185 km) is nearest",
+            "by_train": "Abu Road Railway Station (27 km)",
+            "by_road": "Well connected by road from Ahmedabad (4 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Auto rickshaws",
+            "Taxis",
+            "Horse riding (Nakki Lake)"
+          ]
+        },
+        "rating": {
+          "overall": 4.1,
+          "scenery": 4.3,
+          "activities": 4.0,
+          "food": 4.2,
+          "accommodation": 4.0,
+          "accessibility": 4.2
+        },
+        "tips": [
+          "Visit Dilwara Temples early to avoid crowds",
+          "Carry light cotton clothes even in winter",
+          "Don't miss the Summer Festival in May",
+          "Book hotels in advance during peak season"
+        ]
+      },
+      {
+        "id": "kodaikanal_008",
+        "name": "Kodaikanal",
+        "state": "Tamil Nadu",
+        "location": {
+          "coordinates": {
+            "latitude": 10.2381,
+            "longitude": 77.4892
+          },
+          "altitude": "2133 meters",
+          "district": "Dindigul",
+          "nearest_airport": "Madurai Airport (120 km)",
+          "nearest_railway": "Kodai Road (80 km)"
+        },
+        "images": {
+          "main_image": "https://indiain360.com/wp-content/uploads/2021/03/shuttersto-71ab6709f5c509f.jpg",
+          "gallery": [
+            "https://static.toiimg.com/photo/78034489/kodaikanal.jpg?width=748&resize=4",
+            "https://www.asparkholidays.com/uploads/36142_Coakers-walk-kodaikanal.jpg",
+            "https://static2.tripoto.com/media/filter/nl/img/2175980/SpotDocument/1635585789_1635585770364.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Known as the 'Princess of Hill Stations', Kodaikanal is famous for its star-shaped lake, mist-covered mountains, and eucalyptus forests. A popular honeymoon destination in South India.",
+          "famous_for": [
+            "Kodaikanal Lake (Star Lake)",
+            "Coaker's Walk",
+            "Bryant Park",
+            "Pillar Rocks",
+            "Silver Cascade Falls"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "peak_season": "April to June",
+            "weather": "Pleasant year-round (11-20°C), mild summers (17-30°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Boating at Kodaikanal Lake",
+            "description": "Pedal boating and rowing in the star-shaped lake",
+            "duration": "1-2 hours",
+            "cost_range": "₹200-500",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Trekking to Dolphin's Nose",
+            "description": "Trek to the flat rock offering panoramic views",
+            "duration": "2-3 hours",
+            "cost_range": "₹300-600",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Horse Riding",
+            "description": "Horse riding around lake and nearby areas",
+            "duration": "30-60 minutes",
+            "cost_range": "₹300-600",
+            "difficulty": "Easy"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Kodai Plums",
+              "description": "Fresh local plums available in season",
+              "where_to_find": "Local fruit vendors and markets",
+              "price_range": "₹200-400 per kg"
+            },
+            {
+              "dish": "Homemade Chocolates",
+              "description": "Fresh chocolates made in local factories",
+              "where_to_find": "Chocolate shops near lake",
+              "price_range": "₹400-800 per kg"
+            },
+            {
+              "dish": "Mushroom Dishes",
+              "description": "Fresh mushroom preparations",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹200-400"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Tava Vegetarian Restaurant",
+              "address": "Anna Salai, Kodaikanal",
+              "cuisine": "South Indian, North Indian",
+              "rating": 4.2,
+              "price_range": "₹600-1000 for two"
+            },
+            {
+              "name": "Royal Tibet",
+              "address": "Hospital Road, Kodaikanal",
+              "cuisine": "Tibetan, Chinese",
+              "rating": 4.1,
+              "price_range": "₹500-800 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Astoria",
+              "price_range": "₹2000-3500 per night",
+              "rating": 3.9,
+              "amenities": ["WiFi", "Restaurant", "Lake View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Sterling Kodai Lake",
+              "price_range": "₹5000-8000 per night",
+              "rating": 4.3,
+              "amenities": ["Lake View", "Restaurant", "Garden"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "The Carlton",
+              "price_range": "₹10000-18000 per night",
+              "rating": 4.5,
+              "amenities": ["Heritage Property", "Spa", "Fine Dining"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Kodaikanal Lake",
+            "description": "Star-shaped artificial lake in the heart of town",
+            "entry_fee": "Free (boating extra)",
+            "timings": "24/7 (boating: 7:00 AM - 6:30 PM)"
+          },
+          {
+            "name": "Coaker's Walk",
+            "description": "1 km paved pedestrian path along steep slopes",
+            "entry_fee": "₹5",
+            "timings": "6:00 AM - 6:00 PM"
+          },
+          {
+            "name": "Pillar Rocks",
+            "description": "Three granite pillars standing side by side",
+            "entry_fee": "₹5",
+            "timings": "9:00 AM - 5:30 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Madurai Airport (120 km) is nearest",
+            "by_train": "Kodai Road Railway Station (80 km)",
+            "by_road": "Well connected by bus from Chennai (10 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Auto rickshaws",
+            "Taxis",
+            "Horse riding",
+            "Walking"
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "scenery": 4.7,
+          "activities": 4.2,
+          "food": 4.0,
+          "accommodation": 4.1,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Visit during eucalyptus blooming season",
+          "Try fresh homemade chocolates",
+          "Book lake-view accommodation in advance",
+          "Carry warm clothes for evenings"
+        ]
+      },
+      {
+        "id": "munnar_009",
+        "name": "Munnar",
+        "state": "Kerala",
+        "location": {
+          "coordinates": {
+            "latitude": 10.0889,
+            "longitude": 77.0595
+          },
+          "altitude": "1600 meters",
+          "district": "Idukki",
+          "nearest_airport": "Cochin Airport (110 km)",
+          "nearest_railway": "Aluva Railway Station (110 km)"
+        },
+        "images": {
+          "main_image": "http://1.bp.blogspot.com/-LwIqGdwNId4/VT5G4n4AwjI/AAAAAAAAze0/mbXpbvbC0RU/s1600/munnar%2Bhill%2Bstation%2Bidukki%2BKerala%2Bindia.jpg",
+          "gallery": [
+            "http://1.bp.blogspot.com/-pQpnrzj0kzo/UfFHdCNQ5EI/AAAAAAAAAxw/l257ylw83VU/s1600/munnar3.jpg",
+            "https://escapeartistkatie.com/wp-content/uploads/2022/05/Munnar.jpg",
+            "https://escapeartistkatie.com/wp-content/uploads/2022/05/workers.jpg.webp"
+          ]
+        },
+        "description": {
+          "overview": "Known as the 'Kashmir of South India', Munnar is famous for its rolling tea plantations, misty mountains, and exotic flora and fauna including the endangered Nilgiri Tahr.",
+          "famous_for": [
+            "Tea plantations and museums",
+            "Eravikulam National Park",
+            "Mattupetty Dam",
+            "Top Station viewpoint",
+            "Neelakurinji flowers (blooms every 12 years)"
+          ],
+          "best_time_to_visit": {
+            "season": "September to March",
+            "peak_season": "December to February",
+            "weather": "Pleasant year-round (15-25°C), mild monsoons"
+          }
+        },
+        "activities": [
+          {
+            "name": "Tea Plantation Tour",
+            "description": "Visit tea estates and learn about tea processing",
+            "duration": "3-4 hours",
+            "cost_range": "₹300-600",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Trekking in Eravikulam National Park",
+            "description": "Trek to see Nilgiri Tahr and mountain views",
+            "duration": "4-5 hours",
+            "cost_range": "₹125 entry + guide fees",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Boating at Mattupetty Dam",
+            "description": "Speed boat rides in the reservoir",
+            "duration": "30-45 minutes",
+            "cost_range": "₹300-500",
+            "difficulty": "Easy"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Kerala Sadhya",
+              "description": "Traditional vegetarian meal served on banana leaf",
+              "where_to_find": "Local restaurants and resorts",
+              "price_range": "₹200-400"
+            },
+            {
+              "dish": "Appam with Stew",
+              "description": "Rice pancakes with coconut milk stew",
+              "where_to_find": "Kerala restaurants",
+              "price_range": "₹150-300"
+            },
+            {
+              "dish": "Fresh Tea",
+              "description": "Freshly brewed tea from local estates",
+              "where_to_find": "Tea estates and local cafes",
+              "price_range": "₹300-800 per kg"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Rapsy Restaurant",
+              "address": "Munnar Town, Kerala",
+              "cuisine": "Kerala, North Indian",
+              "rating": 4.1,
+              "price_range": "₹600-1100 for two"
+            },
+            {
+              "name": "Saravana Bhavan",
+              "address": "Old Munnar Road",
+              "cuisine": "South Indian Vegetarian",
+              "rating": 4.2,
+              "price_range": "₹400-700 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Hillview Munnar",
+              "price_range": "₹2500-4000 per night",
+              "rating": 3.8,
+              "amenities": ["WiFi", "Restaurant", "Mountain View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Spice Tree Munnar",
+              "price_range": "₹6000-9500 per night",
+              "rating": 4.3,
+              "amenities": ["Spa", "Tea Plantation View", "Multi-cuisine Restaurant"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "Windermere Estate",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.7,
+              "amenities": ["Tea Estate Stay", "Heritage Property", "Butler Service"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Eravikulam National Park",
+            "description": "Home to endangered Nilgiri Tahr",
+            "entry_fee": "₹125 adults, ₹60 children",
+            "timings": "8:00 AM - 4:00 PM"
+          },
+          {
+            "name": "Tea Museum",
+            "description": "History and processing of tea cultivation",
+            "entry_fee": "₹100",
+            "timings": "9:00 AM - 4:30 PM"
+          },
+          {
+            "name": "Top Station",
+            "description": "Highest point offering panoramic views",
+            "entry_fee": "Free",
+            "timings": "24/7"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Cochin Airport (110 km) is nearest",
+            "by_train": "Aluva Railway Station (110 km)",
+            "by_road": "Well connected by road from Kochi (4 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Auto rickshaws",
+            "Taxis",
+            "Jeep safaris"
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "scenery": 4.8,
+          "activities": 4.3,
+          "food": 4.2,
+          "accommodation": 4.4,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Visit tea estates early morning for best views",
+          "Carry warm clothes for higher altitudes",
+          "Book Eravikulam National Park tickets online",
+          "Try fresh tea at source estates"
+        ]
+      },
+      {
+        "id": "coorg_010",
+        "name": "Coorg (Kodagu)",
+        "state": "Karnataka",
+        "location": {
+          "coordinates": {
+            "latitude": 12.3375,
+            "longitude": 75.8069
+          },
+          "altitude": "1525 meters",
+          "district": "Kodagu",
+          "nearest_airport": "Mangalore Airport (160 km)",
+          "nearest_railway": "Mysore Railway Station (120 km)"
+        },
+        "images": {
+          "main_image": "https://travellersjunction.com/wp-content/uploads/2021/01/Rajas-Seat.jpeg",
+          "gallery": [
+            "https://chaloghumane.com/wp-content/uploads/2021/09/kodagu.jpg",
+            "https://static.toiimg.com/photo/104040262/coorg.jpg?width=748&resize=4",
+            "https://cdn.britannica.com/48/124448-004-01787B5A/Omkareshwara-Temple-district-Madikeri-Kodagu-India-Karnataka.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Known as the 'Scotland of India', Coorg is famous for its coffee plantations, mist-covered hills, and rich cultural heritage. A paradise for nature lovers and adventure enthusiasts.",
+          "famous_for": [
+            "Coffee plantations",
+            "Abbey Falls",
+            "Raja's Seat viewpoint",
+            "Dubare Elephant Camp",
+            "Coorg cuisine and culture"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "peak_season": "December to February",
+            "weather": "Pleasant climate (15-28°C), heavy monsoons (June-Sep)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Coffee Plantation Tour",
+            "description": "Visit coffee estates and learn processing methods",
+            "duration": "2-3 hours",
+            "cost_range": "₹200-500",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "White Water Rafting",
+            "description": "River rafting in Barapole River",
+            "duration": "2-3 hours",
+            "cost_range": "₹1500-2500",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Trekking to Tadiandamol Peak",
+            "description": "Trek to highest peak in Coorg",
+            "duration": "6-8 hours",
+            "cost_range": "₹800-1500",
+            "difficulty": "Difficult"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Pandi Curry",
+              "description": "Traditional Coorg pork curry with black pepper",
+              "where_to_find": "Local Coorg restaurants",
+              "price_range": "₹300-500"
+            },
+            {
+              "dish": "Kadambuttu",
+              "description": "Steamed rice dumplings served with curry",
+              "where_to_find": "Traditional Coorg homes and restaurants",
+              "price_range": "₹150-250"
+            },
+            {
+              "dish": "Coorg Coffee",
+              "description": "Fresh coffee from local plantations",
+              "where_to_find": "Coffee estates and local cafes",
+              "price_range": "₹400-1200 per kg"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Coorg Cuisine",
+              "address": "Madikeri, Coorg",
+              "cuisine": "Traditional Coorg, South Indian",
+              "rating": 4.3,
+              "price_range": "₹700-1200 for two"
+            },
+            {
+              "name": "East End Hotel",
+              "address": "General Thimayya Road, Madikeri",
+              "cuisine": "South Indian, North Indian",
+              "rating": 4.1,
+              "price_range": "₹500-900 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Mayura Valley View",
+              "price_range": "₹2000-3500 per night",
+              "rating": 3.9,
+              "amenities": ["WiFi", "Restaurant", "Valley View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Club Mahindra Virajpet",
+              "price_range": "₹5500-8500 per night",
+              "rating": 4.2,
+              "amenities": ["Swimming Pool", "Spa", "Coffee Plantation View"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "The Tamara Coorg",
+              "price_range": "₹12000-22000 per night",
+              "rating": 4.6,
+              "amenities": ["Luxury Resort", "Spa", "Fine Dining"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Abbey Falls",
+            "description": "Scenic waterfall amidst coffee plantations",
+            "entry_fee": "₹15",
+            "timings": "9:00 AM - 5:00 PM"
+          },
+          {
+            "name": "Raja's Seat",
+            "description": "Garden with sunset viewpoint",
+            "entry_fee": "₹10",
+            "timings": "5:30 AM - 8:00 PM"
+          },
+          {
+            "name": "Dubare Elephant Camp",
+            "description": "Elephant interaction and training camp",
+            "entry_fee": "₹50 + activities extra",
+            "timings": "9:00 AM - 5:00 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Mangalore Airport (160 km) or Bangalore (260 km)",
+            "by_train": "Mysore Railway Station (120 km)",
+            "by_road": "Well connected from Bangalore (5-6 hours)"
+          },
+          "local_transport": [
+            "Local buses",
+            "Auto rickshaws",
+            "Taxis",
+            "Motorbike rentals"
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "scenery": 4.7,
+          "activities": 4.5,
+          "food": 4.6,
+          "accommodation": 4.2,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Try authentic Coorg cuisine",
+          "Visit coffee estates during harvest season",
+          "Book rafting in advance during peak season",
+          "Carry rain gear during monsoons"
+        ]
+      },
+      {
+        "id": "gangtok_011",
+        "name": "Gangtok",
+        "state": "Sikkim",
+        "location": {
+          "coordinates": {
+            "latitude": 27.3389,
+            "longitude": 88.6065
+          },
+          "altitude": "1650 meters",
+          "district": "East Sikkim",
+          "nearest_airport": "Bagdogra Airport (124 km)",
+          "nearest_railway": "New Jalpaiguri (148 km)"
+        },
+        "images": {
+          "main_image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSw4fuZEeEMTPXKJk6vN-T8MV8kgsMqxc4rqba4P_-4oJcd8Zeq3e7vGV_52jImMN8QP8nbqXOMj5H_Ymd-9JLBQ-vG5IsdQHQmf8F0pjC-r1Hfkak",
+          "gallery": [
+            "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRrtG5T-g3NrKTgexwh2tzI0USoqX81QdWyxVYQjnA_36l7PDE4gIibD0rdls1BwPZtwtMbxm1b_L3NBWgQI8NxQPTe40s9uCoECginK42H37rZAqg",
+            "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTwcXSF5kxbCzobFiQSD6pScojPDKQGcemJzAO8rVdlygqZcmGQ0MBNVkHP5OrSBvTjdjvat2GaaatYZ9D5OnQR6V51CxUOLud3Ktc5-1bY-RUVO5M",
+            "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTRTW0SZ-zUuwwDw_Ux_AhWjMfVA-rS2mfaXLmsW91CilL13C_NrnUbfp5c3CkSl_-FA0lqDjWC90ecXz9LKibmw6hCA-y21APeL84-aTz7hO2hMQE"
+          ]
+        },
+        "description": {
+          "overview": "Capital of Sikkim, Gangtok offers stunning views of Kanchenjunga, rich Buddhist culture, and pristine natural beauty. Gateway to many high-altitude destinations in Sikkim.",
+          "famous_for": [
+            "Rumtek Monastery",
+            "MG Marg (pedestrian street)",
+            "Tsomgo Lake",
+            "Nathula Pass (Indo-China border)",
+            "Cable car rides"
+          ],
+          "best_time_to_visit": {
+            "season": "March to June, September to December",
+            "peak_season": "March to May",
+            "weather": "Pleasant summers (15-25°C), cold winters (4-15°C)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Tsomgo Lake Excursion",
+            "description": "Visit high-altitude glacial lake",
+            "duration": "Full day",
+            "cost_range": "₹3000-5000",
+            "difficulty": "Easy (requires permit)"
+          },
+          {
+            "name": "Monastery Tours",
+            "description": "Visit Buddhist monasteries and learn culture",
+            "duration": "4-5 hours",
+            "cost_range": "₹500-1000",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Cable Car Ride",
+            "description": "Aerial views of Gangtok and surrounding hills",
+            "duration": "30-45 minutes",
+            "cost_range": "₹200-400",
+            "difficulty": "Easy"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Momos",
+              "description": "Traditional Tibetan dumplings with various fillings",
+              "where_to_find": "Street vendors and local restaurants",
+              "price_range": "₹100-200"
+            },
+            {
+              "dish": "Thukpa",
+              "description": "Hot noodle soup perfect for cold weather",
+              "where_to_find": "Tibetan restaurants",
+              "price_range": "₹150-250"
+            },
+            {
+              "dish": "Gundruk",
+              "description": "Fermented leafy green vegetable curry",
+              "where_to_find": "Local Nepali restaurants",
+              "price_range": "₹120-200"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "The Coffee Shop",
+              "address": "MG Marg, Gangtok",
+              "cuisine": "Continental, Indian, Chinese",
+              "rating": 4.3,
+              "price_range": "₹800-1400 for two"
+            },
+            {
+              "name": "Taste of Tibet",
+              "address": "Development Area, Gangtok",
+              "cuisine": "Tibetan, Chinese",
+              "rating": 4.2,
+              "price_range": "₹600-1000 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Sonam Delek",
+              "price_range": "₹1800-3200 per night",
+              "rating": 4.0,
+              "amenities": ["WiFi", "Restaurant", "Mountain View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "The Elgin Nor-Khill",
+              "price_range": "₹6000-9500 per night",
+              "rating": 4.4,
+              "amenities": ["Heritage Hotel", "Spa", "Fine Dining"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "Mayfair Spa Resort & Casino",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.5,
+              "amenities": ["Casino", "Spa", "Multiple Restaurants"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Rumtek Monastery",
+            "description": "Important Tibetan Buddhist monastery",
+            "entry_fee": "Free",
+            "timings": "6:00 AM - 6:00 PM"
+          },
+          {
+            "name": "MG Marg",
+            "description": "Main shopping street (vehicle-free zone)",
+            "entry_fee": "Free",
+            "timings": "24/7"
+          },
+          {
+            "name": "Tsomgo Lake",
+            "description": "Sacred glacial lake at 12,313 ft altitude",
+            "entry_fee": "Permit required (₹200)",
+            "timings": "8:00 AM - 5:00 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Bagdogra Airport (124 km) is nearest",
+            "by_train": "New Jalpaiguri Railway Station (148 km)",
+            "by_road": "Well connected by road, shared taxis available"
+          },
+          "local_transport": [
+            "Shared taxis",
+            "Local buses",
+            "Private cabs",
+            "Walking on MG Marg"
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "scenery": 4.8,
+          "activities": 4.3,
+          "food": 4.4,
+          "accommodation": 4.2,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Inner Line Permit required for certain areas",
+          "Carry warm clothes year-round",
+          "Try authentic momos on MG Marg",
+          "Book Tsomgo Lake permits in advance"
+        ]
+      },
+      {
+        "id": "shillong_012",
+        "name": "Shillong",
+        "state": "Meghalaya",
+        "location": {
+          "coordinates": {
+            "latitude": 25.5788,
+            "longitude": 91.8933
+          },
+          "altitude": "1496 meters",
+          "district": "East Khasi Hills",
+          "nearest_airport": "Shillong Airport (30 km)",
+          "nearest_railway": "Guwahati Railway Station (103 km)"
+        },
+        "images": {
+          "main_image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRqNY-i-us-GBzdsSqbWy6D8_9A7PHQnpCY587RYeFSOTZ5vwLmg11ROjvfwWgrx4Be-NDydzxPcDEJUHGuYjIiBFOqINssybnyyvJTsbnaW7niOMw",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS3dmlBPOnNeMB2u9DtAyp-JTYgB3B_9xiKc6f9XU4251ezR8u4NkJ9OfGxcsF7vurkzYwicv-KicFxTPPIBnMNhv2LapVl0vk_S2N_dMcqv1LsUHE",
+      "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQZjHNsQO0lzxniEZCwLL9lbihyF-9_Sjd_q8x24b3JQrMTazcaZd3e8VYYZSnMG8H7GqtL3k6H1Cx5CFRi7AhlmsbW0oVxqq6mUtuRimDNvNkbXbU",
+      "https://indiano.travel/wp-content/uploads/2022/04/Lake-serene-blue-water-with-misty-mountains-aerial-image-is-taken-at-umiam-lake-shillong-meghalaya-india.-it-is-showing-the-breathtaking-beauty-of-nature-1024x676.jpg"
+    ]
+        },
+        "description": {
+          "overview": "Known as the 'Scotland of the East', Shillong is the capital of Meghalaya, famous for its rolling hills, waterfalls, and vibrant music culture. Gateway to Northeast India's natural wonders.",
+          "famous_for": [
+            "Elephant Falls",
+            "Ward's Lake",
+            "Shillong Peak",
+            "Living Root Bridges nearby",
+            "Music and cultural heritage"
+          ],
+          "best_time_to_visit": {
+            "season": "October to April",
+            "peak_season": "September to May",
+            "weather": "Pleasant climate (15-25°C), heavy monsoons (June-Sep)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Elephant Falls Visit",
+            "description": "Three-tiered waterfall with scenic beauty",
+            "duration": "2-3 hours",
+            "cost_range": "₹10 entry + transport",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Boating at Ward's Lake",
+            "description": "Paddle boating in horse-shoe shaped lake",
+            "duration": "1-2 hours",
+            "cost_range": "₹50-150",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Shillong Peak Trek",
+            "description": "Trek to highest point offering city views",
+            "duration": "2-3 hours",
+            "cost_range": "₹20 entry fee",
+            "difficulty": "Moderate"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Jadoh",
+              "description": "Traditional Khasi rice dish with pork",
+              "where_to_find": "Local Khasi restaurants",
+              "price_range": "₹200-350"
+            },
+            {
+              "dish": "Tungrymbai",
+              "description": "Fermented soybean curry",
+              "where_to_find": "Traditional Meghalaya restaurants",
+              "price_range": "₹150-250"
+            },
+            {
+              "dish": "Pumaloi",
+              "description": "Steamed rice cake",
+              "where_to_find": "Local street vendors",
+              "price_range": "₹30-60"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "City Hut Family Dhaba",
+              "address": "Police Bazar, Shillong",
+              "cuisine": "North Indian, Chinese",
+              "rating": 4.1,
+              "price_range": "₹600-1000 for two"
+            },
+            {
+              "name": "Cafe Shillong Heritage",
+              "address": "Heritage Club, Shillong",
+              "cuisine": "Continental, Indian",
+              "rating": 4.2,
+              "price_range": "₹800-1200 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Polo Towers",
+              "price_range": "₹2200-3800 per night",
+              "rating": 4.0,
+              "amenities": ["WiFi", "Restaurant", "City View"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Centre Point",
+              "price_range": "₹4500-7000 per night",
+              "rating": 4.2,
+              "amenities": ["Restaurant", "Bar", "Business Center"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "Ri Kynjai",
+              "price_range": "₹10000-18000 per night",
+              "rating": 4.6,
+              "amenities": ["Lake Resort", "Spa", "Fine Dining"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Ward's Lake",
+            "description": "Artificial lake with garden and boating",
+            "entry_fee": "₹10",
+            "timings": "6:00 AM - 7:30 PM"
+          },
+          {
+            "name": "Don Bosco Centre for Indigenous Cultures",
+            "description": "Museum showcasing Northeast India's culture",
+            "entry_fee": "₹60",
+            "timings": "9:00 AM - 5:30 PM"
+          },
+          {
+            "name": "Laitlum Canyons",
+            "description": "Grand canyon-like landscape with views",
+            "entry_fee": "Free",
+            "timings": "6:00 AM - 6:00 PM"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Shillong Airport (30 km) with limited flights",
+            "by_train": "Guwahati Railway Station (103 km)",
+            "by_road": "Well connected by road from Guwahati (3 hours)"
+          },
+          "local_transport": [
+            "Local taxis",
+            "Shared sumos",
+            "Auto rickshaws",
+            "Local buses"
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "scenery": 4.7,
+          "activities": 4.1,
+          "food": 4.2,
+          "accommodation": 4.0,
+          "accessibility": 3.9
+        },
+        "tips": [
+          "Visit during dry season for best weather",
+          "Explore local music scene and cafes",
+          "Try traditional Khasi cuisine",
+          "Plan day trips to nearby attractions"
+        ]
+      },
+      {
+        "id": "matheran_013",
+        "name": "Matheran",
+        "state": "Maharashtra",
+        "location": {
+          "coordinates": {
+            "latitude": 18.9847,
+            "longitude": 73.2673
+          },
+          "altitude": "800 meters",
+          "district": "Raigad",
+          "nearest_airport": "Mumbai Airport (90 km)",
+          "nearest_railway": "Neral Railway Station (21 km)"
+        },
+        "images": {
+          "main_image": "https://www.oyorooms.com/travel-guide/wp-content/uploads/2022/11/matheran-a-quaint-hill-station-of-maharashtra.jpg",
+          "gallery": [
+            "https://www.tripsavvy.com/thmb/kdbXiLK22QQ0v8tsxwwNXTfAot4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-882909970-5aeda1bba474be003627c498.jpg",
+            "http://image3.mouthshut.com/images/Restaurant/Photo/-87561_6870.jpg",
+            "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1499169815/DO_NOT_USE_DISCOVER_INDIA_EDITORIAL/Jun_2016_Focus_Maharashtra_matheran_167.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Asia's only automobile-free hill station, Matheran offers pristine air, lush forests, and panoramic views. A perfect weekend getaway from Mumbai with heritage toy train rides.",
+          "famous_for": [
+            "Vehicle-free environment",
+            "Toy train (narrow gauge)",
+            "Sunset and sunrise viewpoints",
+            "Horse riding trails",
+            "Echo Point"
+          ],
+          "best_time_to_visit": {
+            "season": "October to May",
+            "peak_season": "November to February",
+            "weather": "Pleasant (15-30°C), closed during monsoons (June-Sep)"
+          }
+        },
+        "activities": [
+          {
+            "name": "Toy Train Ride",
+            "description": "Narrow gauge railway from Neral to Matheran",
+            "duration": "2.5 hours",
+            "cost_range": "₹50-300",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Horse Riding",
+            "description": "Explore viewpoints on horseback",
+            "duration": "1-3 hours",
+            "cost_range": "₹300-800",
+            "difficulty": "Easy"
+          },
+          {
+            "name": "Nature Walks",
+            "description": "Walking trails through forest paths",
+            "duration": "2-4 hours",
+            "cost_range": "Free",
+            "difficulty": "Easy to Moderate"
+          }
+        ],
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Vada Pav",
+              "description": "Mumbai's favorite street food",
+              "where_to_find": "Local food stalls",
+              "price_range": "₹20-40"
+            },
+            {
+              "dish": "Chikki",
+              "description": "Traditional jaggery and nut brittle",
+              "where_to_find": "Sweet shops and vendors",
+              "price_range": "₹100-300 per kg"
+            },
+            {
+              "dish": "Misal Pav",
+              "description": "Spicy sprout curry with bread",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹80-150"
+            }
+          ],
+          "popular_restaurants": [
+            {
+              "name": "Hotel Paramount",
+              "address": "MG Road, Matheran",
+              "cuisine": "Gujarati, Maharashtrian",
+              "rating": 4.0,
+              "price_range": "₹500-800 for two"
+            },
+            {
+              "name": "Brightlands Resort Restaurant",
+              "address": "Matheran Hill Station",
+              "cuisine": "Multi-cuisine",
+              "rating": 4.1,
+              "price_range": "₹700-1200 for two"
+            }
+          ]
+        },
+        "accommodation": {
+          "budget_hotels": [
+            {
+              "name": "Hotel Paramount",
+              "price_range": "₹2500-4000 per night",
+              "rating": 3.9,
+              "amenities": ["Restaurant", "Valley View", "Heritage Property"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Brightlands Resort",
+              "price_range": "₹5000-8000 per night",
+              "rating": 4.2,
+              "amenities": ["Swimming Pool", "Garden", "Multi-cuisine Restaurant"]
+            }
+          ],
+          "luxury_hotels": [
+            {
+              "name": "Verandah in the Forest",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.5,
+              "amenities": ["Luxury Resort", "Spa", "Fine Dining"]
+            }
+          ]
+        },
+        "famous_spots": [
+          {
+            "name": "Sunset Point",
+            "description": "Popular viewpoint for sunset views",
+            "entry_fee": "Free",
+            "timings": "5:30 AM - 7:30 PM"
+          },
+          {
+            "name": "Echo Point",
+            "description": "Natural echo phenomenon spot",
+            "entry_fee": "Free",
+            "timings": "24/7"
+          },
+          {
+            "name": "Panorama Point",
+            "description": "Highest viewpoint in Matheran",
+            "entry_fee": "Free",
+            "timings": "24/7"
+          }
+        ],
+        "transportation": {
+          "how_to_reach": {
+            "by_air": "Mumbai Airport (90 km) is nearest",
+            "by_train": "Neral Railway Station (21 km) + toy train",
+            "by_road": "Drive to Dasturi Naka parking, then walk/horse ride (2 km)"
+          },
+          "local_transport": [
+            "Horse riding",
+            "Hand-pulled rickshaws",
+            "Walking",
+            "Porter services"
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "scenery": 4.5,
+          "activities": 4.0,
+          "food": 3.9,
+          "accommodation": 4.1,
+          "accessibility": 3.8
+        },
+        "tips": [
+          "Closed during monsoon season (June-September)",
+          "No vehicles allowed - bring comfortable walking shoes",
+          "Book toy train tickets in advance",
+          "Carry water and snacks for long walks"
+        ]
+      }
+      ]
+    }

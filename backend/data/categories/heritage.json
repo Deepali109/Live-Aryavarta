@@ -1,0 +1,1537 @@
+{
+    "category_id": "heritage",
+    "category_name": "Heritage Sites",
+    "category_description": "UNESCO World Heritage Sites and historical monuments showcasing India's rich cultural heritage",
+    "destinations": [
+      {
+        "id": "taj_mahal_001",
+        "name": "Taj Mahal",
+        "state": "Uttar Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 27.1751,
+            "longitude": 78.0421
+          },
+          "city": "Agra",
+          "district": "Agra",
+          "nearest_airport": "Kheria Airport, Agra (12 km)",
+          "nearest_railway": "Agra Cantt Railway Station (6 km)"
+        },
+        "images": {
+          "main_image": "https://trvlr.fr/wp-content/uploads/2022/07/trvlr-visiter-le-taj-mahal-en-inde-symetrie-1536x1021.jpg",
+          "gallery": [
+            "https://seoimgak.mmtcdn.com/blog/sites/default/files/images/Taj%20Mahal(1).jpg",
+            "https://www.airpano.com/files/vr-taj-mahal_01_big.jpg",
+            "https://i.natgeofe.com/n/a5eab73c-e9f5-4646-a23e-071c49703121/93082.jpg"
+          ]
+        },
+        "description": {
+          "overview": "An ivory-white marble mausoleum on the south bank of the Yamuna river, commissioned by Mughal emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal.",
+          "historical_significance": "Built between 1631-1648, symbol of eternal love, finest example of Mughal architecture",
+          "architectural_style": "Indo-Islamic architecture with Persian, Islamic, and Indian influences",
+          "famous_for": [
+            "Symbol of love",
+            "Marble inlay work",
+            "Perfect symmetry",
+            "Changing colors throughout the day",
+            "UNESCO World Heritage Site since 1983"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Sunrise and sunset for magical lighting",
+            "weather": "Pleasant winters (8-25°C), avoid hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹50",
+            "foreign_tourists": "₹1100",
+            "saarc_bimstec_citizens": "₹540"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:30 PM",
+            "closed_on": "Fridays (except for prayers)",
+            "night_viewing": "Full moon nights (limited entry)"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended, especially for foreign tourists"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Main Dome",
+            "description": "Central onion-shaped dome flanked by four smaller domes",
+            "materials": "White marble"
+          },
+          {
+            "feature": "Minarets",
+            "description": "Four minarets of 40 meters height each",
+            "special_note": "Slightly tilted outward for earthquake protection"
+          },
+          {
+            "feature": "Inlay Work",
+            "description": "Pietra dura technique with precious stones",
+            "materials": "Lapis lazuli, jade, crystal, turquoise"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Photography Tour",
+            "description": "Capture the monument from different angles and times",
+            "duration": "2-3 hours",
+            "cost_range": "Included in entry fee",
+            "best_time": "Early morning and late afternoon"
+          },
+          {
+            "name": "Audio Guide Tour",
+            "description": "Detailed historical commentary",
+            "duration": "1-2 hours",
+            "cost_range": "₹200-300",
+            "languages": "Hindi, English, multiple foreign languages"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Agra Fort",
+            "distance": "2.5 km",
+            "description": "UNESCO World Heritage Site, Red sandstone fort",
+            "visit_time": "2-3 hours"
+          },
+          {
+            "name": "Lotus Temple",
+            "distance": "8 km",
+            "description": "Modern Bahai temple with lotus-shaped architecture",
+            "visit_time": "1-2 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Leela Palace New Delhi",
+              "price_range": "₹18000-30000 per night",
+              "rating": 4.7,
+              "amenities": ["Luxury amenities", "Spa", "Fine dining"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Shanti Palace",
+              "price_range": "₹3000-5000 per night",
+              "rating": 4.0,
+              "amenities": ["Near metro", "Restaurant", "Budget friendly"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Delhi Chaat",
+              "description": "Street food including gol gappa, aloo tikki",
+              "where_to_find": "Mehrauli market",
+              "price_range": "₹50-150"
+            },
+            {
+              "dish": "Butter Chicken",
+              "description": "Famous Delhi curry",
+              "where_to_find": "Moti Mahal Restaurant",
+              "price_range": "₹300-600"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "architectural_beauty": 4.6,
+          "historical_significance": 4.8,
+          "maintenance": 4.2,
+          "visitor_facilities": 4.1,
+          "accessibility": 4.3
+        },
+        "tips": [
+          "Combine with other South Delhi monuments",
+          "Visit early morning to avoid crowds",
+          "Don't miss the Iron Pillar",
+          "Use Delhi Metro for easy access",
+          "Respect the historical significance of the site"
+        ]
+      },
+      {
+        "id": "red_fort_002",
+        "name": "Red Fort (Lal Qila)",
+        "state": "Delhi",
+        "location": {
+          "coordinates": {
+            "latitude": 28.6562,
+            "longitude": 77.2410
+          },
+          "city": "New Delhi",
+          "district": "Central Delhi",
+          "nearest_airport": "Indira Gandhi International Airport (22 km)",
+          "nearest_railway": "Old Delhi Railway Station (1 km)"
+        },
+        "images": {
+          "main_image": "https://wallpaperaccess.com/full/2399199.jpg",
+          "gallery": [
+            "https://rare-gallery.com/uploads/posts/1221192-agra-fort.jpg",
+            "http://www.thehistoryhub.com/wp-content/uploads/2014/04/Agra-Fort-Pictures.jpg",
+            "https://www.thehistoryhub.com/wp-content/uploads/2014/04/Inside-of-Agra-Fort-Sheesh-Mahal.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A historic fortified palace of the Mughal emperors that served as the main residence of the Mughal dynasty for nearly 200 years.",
+          "historical_significance": "Built by Shah Jahan in 1648, symbol of Mughal power, site of Indian Independence Day celebrations",
+          "architectural_style": "Mughal architecture with Indo-Islamic influences",
+          "famous_for": [
+            "Independence Day celebrations",
+            "Mughal architecture",
+            "Red sandstone walls",
+            "Diwan-i-Khas and Diwan-i-Aam",
+            "UNESCO World Heritage Site since 2007"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning or late afternoon",
+            "weather": "Pleasant winters, avoid summer heat"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹35",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹35"
+          },
+          "timings": {
+            "sunrise_to_sunset": "9:30 AM - 4:30 PM",
+            "closed_on": "Mondays",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended during peak season"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Lahori Gate",
+            "description": "Main entrance gate facing Lahore",
+            "materials": "Red sandstone"
+          },
+          {
+            "feature": "Diwan-i-Khas",
+            "description": "Hall of private audience with intricate inlay work",
+            "special_note": "Famous for the Peacock Throne"
+          },
+          {
+            "feature": "Rang Mahal",
+            "description": "Palace of colors with beautiful water channels",
+            "materials": "Marble and precious stones"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Sound and Light Show",
+            "description": "Evening show depicting Mughal history",
+            "duration": "1 hour",
+            "cost_range": "₹100-200",
+            "best_time": "7:00 PM onwards"
+          },
+          {
+            "name": "Heritage Walk",
+            "description": "Guided tour of the fort complex",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "languages": "Hindi, English, Urdu"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Jama Masjid",
+            "distance": "1 km",
+            "description": "Largest mosque in India",
+            "visit_time": "1-2 hours"
+          },
+          {
+            "name": "Chandni Chowk",
+            "distance": "0.5 km",
+            "description": "Historic market street",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Imperial New Delhi",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.7,
+              "amenities": ["Heritage hotel", "Spa", "Multiple restaurants"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Broadway",
+              "price_range": "₹3000-5000 per night",
+              "rating": 4.0,
+              "amenities": ["Old Delhi location", "Restaurant", "24/7 service"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Paranthe Wali Gali",
+              "description": "Famous stuffed parathas from nearby lane",
+              "where_to_find": "Gali Paranthe Wali, Chandni Chowk",
+              "price_range": "₹50-150 per plate"
+            },
+            {
+              "dish": "Kulfi",
+              "description": "Traditional Indian ice cream",
+              "where_to_find": "Kuremal Mahavir Prasad Kulfi Wale",
+              "price_range": "₹80-200"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "architectural_beauty": 4.7,
+          "historical_significance": 5.0,
+          "maintenance": 4.2,
+          "visitor_facilities": 4.0,
+          "accessibility": 4.1
+        },
+        "tips": [
+          "Visit early morning to avoid crowds",
+          "Attend the sound and light show",
+          "Combine with Chandni Chowk market visit",
+          "Wear comfortable walking shoes",
+          "Check for Independence Day closure"
+        ]
+      },
+      {
+        "id": "khajuraho_003",
+        "name": "Khajuraho Group of Monuments",
+        "state": "Madhya Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 24.8318,
+            "longitude": 79.9199
+          },
+          "city": "Khajuraho",
+          "district": "Chhatarpur",
+          "nearest_airport": "Khajuraho Airport (5 km)",
+          "nearest_railway": "Khajuraho Railway Station (8 km)"
+        },
+        "images": {
+          "main_image": "https://as2.ftcdn.net/v2/jpg/02/85/43/37/1000_F_285433744_iUcC83UYSfOuJjtXIiWiUbjWezGWlTbJ.jpg",
+          "gallery": [
+            "https://www.asparkholidays.com/uploads/47429_khajuraho-india.jpg",
+            "https://www.building.am/buildingimages/bigimages/189/2.jpg",
+            "https://www.building.am/buildingimages/bigimages/189/3.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A group of Hindu and Jain temples famous for their stunning architecture and intricate sculptures depicting various aspects of life.",
+          "historical_significance": "Built by Chandela dynasty between 950-1050 CE, represents medieval Indian art at its peak",
+          "architectural_style": "Nagara style of temple architecture",
+          "famous_for": [
+            "Erotic sculptures",
+            "Intricate stone carvings",
+            "Medieval temple architecture",
+            "Cultural heritage",
+            "UNESCO World Heritage Site since 1986"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning and late afternoon",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Kandariya Mahadeva Temple",
+            "description": "Largest and most ornate temple in the complex",
+            "materials": "Sandstone"
+          },
+          {
+            "feature": "Erotic Sculptures",
+            "description": "Famous sculptures depicting various aspects of human life",
+            "special_note": "Only 10% of total sculptures are erotic"
+          },
+          {
+            "feature": "Shikhara Architecture",
+            "description": "Tall spire-like structures characteristic of North Indian temples",
+            "materials": "Local sandstone"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Temple Hopping Tour",
+            "description": "Visit multiple temples in the complex",
+            "duration": "4-5 hours",
+            "cost_range": "₹1000-1500",
+            "best_time": "Early morning"
+          },
+          {
+            "name": "Archaeological Museum Visit",
+            "description": "Learn about temple history and artifacts",
+            "duration": "1-2 hours",
+            "cost_range": "₹25",
+            "languages": "Hindi, English"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Panna National Park",
+            "distance": "32 km",
+            "description": "Tiger reserve and wildlife sanctuary",
+            "visit_time": "Full day"
+          },
+          {
+            "name": "Raneh Falls",
+            "distance": "20 km",
+            "description": "Canyon and waterfall on Ken River",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Lalit Temple View Khajuraho",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.5,
+              "amenities": ["Temple view", "Pool", "Spa"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Chandela",
+              "price_range": "₹3000-5000 per night",
+              "rating": 4.0,
+              "amenities": ["Garden view", "Restaurant", "Cultural shows"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Bundeli Cuisine",
+              "description": "Traditional regional cuisine with dal bafla",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹200-400 per meal"
+            },
+            {
+              "dish": "Kheer",
+              "description": "Sweet rice pudding dessert",
+              "where_to_find": "Raja Cafe, local sweet shops",
+              "price_range": "₹80-150"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.6,
+          "architectural_beauty": 5.0,
+          "historical_significance": 4.8,
+          "maintenance": 4.3,
+          "visitor_facilities": 4.2,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Hire a knowledgeable guide for better understanding",
+          "Visit during Khajuraho Dance Festival (February)",
+          "Wear modest clothing",
+          "Carry water and sun protection",
+          "Allow full day for comprehensive visit"
+        ]
+      },
+      {
+        "id": "hampi_004",
+        "name": "Hampi",
+        "state": "Karnataka",
+        "location": {
+          "coordinates": {
+            "latitude": 15.3350,
+            "longitude": 76.4600
+          },
+          "city": "Hampi",
+          "district": "Vijayanagara",
+          "nearest_airport": "Hubli Airport (144 km)",
+          "nearest_railway": "Hospet Junction (13 km)"
+        },
+        "images": {
+          "main_image": "https://karnatakatourism.org/wp-content/uploads/2020/05/Hampi.jpg",
+          "gallery": [
+            "https://imgcld.yatra.com/ytimages/image/upload/v1462942329/Hampi_History.jpg",
+            "https://www.team-bhp.com/forum/attachments/travelogues/1132946d1378135413-hampi-visit-story-crafted-stones-hampi-ruins-vijaya-vittal-temple-4.jpg",
+            "https://karnatakatourism.org/wp-content/uploads/2020/11/hampi-8.jpg"
+          ]
+        },
+        "description": {
+          "overview": "The ruins of the magnificent Vijayanagara Empire, featuring ancient temples, royal structures, and stunning boulder landscapes.",
+          "historical_significance": "Capital of Vijayanagara Empire (1336-1565 CE), one of the richest cities of its time",
+          "architectural_style": "Vijayanagara architecture with Dravidian influences",
+          "famous_for": [
+            "Stone chariot at Vittala Temple",
+            "Virupaksha Temple",
+            "Ancient ruins and boulders",
+            "Royal enclosures",
+            "UNESCO World Heritage Site since 1986"
+          ],
+          "best_time_to_visit": {
+            "season": "October to February",
+            "best_viewing_time": "Early morning and sunset",
+            "weather": "Pleasant winters, extremely hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Limited at some temples"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Stone Chariot",
+            "description": "Iconic stone sculpture at Vittala Temple",
+            "materials": "Granite"
+          },
+          {
+            "feature": "Musical Pillars",
+            "description": "Pillars that produce musical notes when tapped",
+            "special_note": "Located in Vittala Temple"
+          },
+          {
+            "feature": "Lotus Mahal",
+            "description": "Indo-Islamic architecture in royal enclosure",
+            "materials": "Stone with Islamic arches"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Coracle Ride",
+            "description": "Traditional round boat ride on Tungabhadra River",
+            "duration": "30-45 minutes",
+            "cost_range": "₹100-200",
+            "best_time": "Evening"
+          },
+          {
+            "name": "Rock Climbing",
+            "description": "Boulder climbing in unique landscape",
+            "duration": "2-4 hours",
+            "cost_range": "₹1500-3000",
+            "languages": "English, Hindi, Kannada"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Anegundi",
+            "distance": "8 km",
+            "description": "Ancient village with temples and heritage sites",
+            "visit_time": "Half day"
+          },
+          {
+            "name": "Daroji Bear Sanctuary",
+            "distance": "20 km",
+            "description": "Sloth bear sanctuary",
+            "visit_time": "3-4 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "Evolve Back Hampi",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.6,
+              "amenities": ["Heritage property", "Pool", "Cultural programs"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Clarks Inn Hampi",
+              "price_range": "₹3500-6000 per night",
+              "rating": 4.1,
+              "amenities": ["Modern amenities", "Restaurant", "Travel desk"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "South Indian Thali",
+              "description": "Complete meal with rice, sambar, rasam, vegetables",
+              "where_to_find": "Mango Tree Restaurant",
+              "price_range": "₹150-300"
+            },
+            {
+              "dish": "Masala Dosa",
+              "description": "Crispy crepe with potato filling",
+              "where_to_find": "Local restaurants near temples",
+              "price_range": "₹80-150"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.5,
+          "architectural_beauty": 4.8,
+          "historical_significance": 4.9,
+          "maintenance": 4.0,
+          "visitor_facilities": 4.2,
+          "accessibility": 3.8
+        },
+        "tips": [
+          "Rent a bicycle or scooter for easier exploration",
+          "Start early to avoid heat",
+          "Carry plenty of water",
+          "Stay overnight to see sunset points",
+          "Respect temple rules and dress codes"
+        ]
+      },
+      {
+        "id": "ajanta_005",
+        "name": "Ajanta Caves",
+        "state": "Maharashtra",
+        "location": {
+          "coordinates": {
+            "latitude": 20.5519,
+            "longitude": 75.7033
+          },
+          "city": "Ajanta",
+          "district": "Aurangabad",
+          "nearest_airport": "Aurangabad Airport (106 km)",
+          "nearest_railway": "Jalgaon Railway Station (59 km)"
+        },
+        "images": {
+          "main_image": "http://www.qualitytravel.it/wp-content/uploads/2018/03/ajanta-cave-Buddha-1.jpg",
+          "gallery": [
+            "https://cdn.britannica.com/71/153471-050-5E35C7F0/stupa-pillars-state-Ajanta-Caves-India-Maharashtra.jpg",
+            "http://www.journeytoexplore.com/wp-content/uploads/2018/11/1__b_2qpzlNxq9q4Ac0Lxlkg.jpeg",
+            "https://www.ancient-origins.net/sites/default/files/field/image/Ajanta-caves.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient Buddhist cave monuments famous for their rock-cut caves, exquisite paintings, and sculptures dating from 2nd century BCE to 6th century CE.",
+          "historical_significance": "Represents the golden age of Buddhist art in India, masterpiece of ancient craftsmanship",
+          "architectural_style": "Rock-cut Buddhist architecture with Hinayana and Mahayana influences",
+          "famous_for": [
+            "Ancient Buddhist paintings",
+            "Rock-cut caves",
+            "Buddha sculptures",
+            "Bodhisattva frescoes",
+            "UNESCO World Heritage Site since 1983"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Morning hours for better lighting",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "9:00 AM - 5:30 PM",
+            "closed_on": "Mondays",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended during peak season"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Cave 1 Paintings",
+            "description": "Beautiful frescoes of Bodhisattva Padmapani",
+            "materials": "Natural pigments on rock surface"
+          },
+          {
+            "feature": "Cave 26 Sculptures",
+            "description": "Magnificent reclining Buddha sculpture",
+            "special_note": "Depicts Buddha's Parinirvana"
+          },
+          {
+            "feature": "Chaitya Halls",
+            "description": "Prayer halls with stupas",
+            "materials": "Carved from solid rock"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Cave Exploration Tour",
+            "description": "Guided tour of major caves with art explanation",
+            "duration": "4-5 hours",
+            "cost_range": "₹800-1200",
+            "best_time": "Morning"
+          },
+          {
+            "name": "Photography Workshop",
+            "description": "Learn to photograph ancient art and architecture",
+            "duration": "3-4 hours",
+            "cost_range": "₹2000-3000",
+            "languages": "English, Hindi, Marathi"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Ellora Caves",
+            "distance": "100 km",
+            "description": "UNESCO World Heritage Site with Hindu, Buddhist, Jain caves",
+            "visit_time": "Full day"
+          },
+          {
+            "name": "Aurangabad",
+            "distance": "106 km",
+            "description": "Historic city with Bibi Ka Maqbara",
+            "visit_time": "1-2 days"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "MTDC Holiday Resort Ajanta",
+              "price_range": "₹4000-7000 per night",
+              "rating": 3.8,
+              "amenities": ["Near caves", "Restaurant", "Government run"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Kailas",
+              "price_range": "₹2000-3500 per night",
+              "rating": 3.5,
+              "amenities": ["AC rooms", "Restaurant", "Travel assistance"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Maharashtrian Thali",
+              "description": "Traditional meal with bhakri, dal, vegetables",
+              "where_to_find": "MTDC Restaurant",
+              "price_range": "₹200-350"
+            },
+            {
+              "dish": "Puran Poli",
+              "description": "Sweet flatbread with jaggery filling",
+              "where_to_find": "Local sweet shops",
+              "price_range": "₹100-200"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "architectural_beauty": 4.9,
+          "historical_significance": 5.0,
+          "maintenance": 4.0,
+          "visitor_facilities": 3.8,
+          "accessibility": 3.9
+        },
+        "tips": [
+          "Carry a torch or use mobile flashlight for cave interiors",
+          "Don't use flash photography to preserve paintings",
+          "Wear comfortable walking shoes",
+          "Take the shuttle bus from parking to caves",
+          "Combine visit with Ellora Caves"
+        ]
+      },
+      {
+        "id": "konark_006",
+        "name": "Konark Sun Temple",
+        "state": "Odisha",
+        "location": {
+          "coordinates": {
+            "latitude": 19.8876,
+            "longitude": 86.0944
+          },
+          "city": "Konark",
+          "district": "Puri",
+          "nearest_airport": "Biju Patnaik International Airport, Bhubaneswar (65 km)",
+          "nearest_railway": "Puri Railway Station (35 km)"
+        },
+        "images": {
+          "main_image": "https://www.tripvaani.com/wp-content/uploads/2020/05/Konark-Sun-Temple-or-Black-Pagoda-The-Chariot-of-Sun.jpg",
+          "gallery": [
+            "https://www.trawell.in/admin/images/upload/403298207Konark_Sun_Temple.jpg",
+            "http://1.bp.blogspot.com/-KozBLaFvrWo/Un4Cs3MgyNI/AAAAAAAAD_A/Bqwm6ee_BF0/s1600/Konark-sun-temple1.jpg",
+            "https://www.tripsavvy.com/thmb/pj3i8_yomPi0LlLy-taTrDv9iqY=/3660x2441/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-521720746-988256f732e64eed8d03788cd3cb2cce.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A 13th-century Sun Temple designed as a gigantic chariot with elaborately carved stone wheels, pillars, and walls, dedicated to the Hindu Sun God Surya.",
+          "historical_significance": "Built by King Narasimhadeva I of Eastern Ganga dynasty in 1250 CE, architectural marvel of medieval India",
+          "architectural_style": "Kalinga architecture with intricate stone carvings",
+          "famous_for": [
+            "Stone chariot design",
+            "Intricate wheel sculptures",
+            "Erotic sculptures",
+            "Sun worship traditions",
+            "UNESCO World Heritage Site since 1984"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Sunrise and sunset",
+            "weather": "Pleasant winters, hot and humid summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹25",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹25"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 8:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Available with special lighting"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Stone Wheels",
+            "description": "24 intricately carved wheels representing hours",
+            "materials": "Khondalite rock"
+          },
+          {
+            "feature": "War Horses",
+            "description": "Seven horses pulling the sun chariot",
+            "special_note": "Each horse represents a day of the week"
+          },
+          {
+            "feature": "Erotic Sculptures",
+            "description": "Detailed carvings depicting various aspects of life",
+            "materials": "Local stone with fine craftsmanship"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Konark Dance Festival",
+            "description": "Annual classical dance festival",
+            "duration": "3 days",
+            "cost_range": "₹200-500",
+            "best_time": "December"
+          },
+          {
+            "name": "Heritage Walk",
+            "description": "Guided tour with archaeological insights",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "languages": "Hindi, English, Odia"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Chandrabhaga Beach",
+            "distance": "3 km",
+            "description": "Beautiful beach with golden sand",
+            "visit_time": "2-3 hours"
+          },
+          {
+            "name": "Jagannath Temple, Puri",
+            "distance": "35 km",
+            "description": "Famous Hindu pilgrimage site",
+            "visit_time": "Half day"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "Lotus Eco Beach Resort",
+              "price_range": "₹8000-15000 per night",
+              "rating": 4.3,
+              "amenities": ["Beach location", "Eco-friendly", "Spa"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Yatri Nivas Konark",
+              "price_range": "₹2500-4000 per night",
+              "rating": 3.8,
+              "amenities": ["Government run", "Restaurant", "Near temple"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Odia Thali",
+              "description": "Traditional meal with rice, dal, fish curry, vegetables",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹180-300"
+            },
+            {
+              "dish": "Rasagola",
+              "description": "Spongy cottage cheese balls in syrup",
+              "where_to_find": "Sweet shops in Puri",
+              "price_range": "₹150-250 per kg"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "architectural_beauty": 4.8,
+          "historical_significance": 4.7,
+          "maintenance": 3.9,
+          "visitor_facilities": 4.0,
+          "accessibility": 4.1
+        },
+        "tips": [
+          "Visit during sunrise for magical lighting",
+          "Combine with Puri temple visit",
+          "Attend Konark Dance Festival if possible",
+          "Wear sun protection and comfortable shoes",
+          "Respect temple traditions and dress modestly"
+        ]
+      },
+      {
+        "id": "mahabalipuram_007",
+        "name": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "location": {
+          "coordinates": {
+            "latitude": 12.6269,
+            "longitude": 80.1933
+          },
+          "city": "Mahabalipuram",
+          "district": "Chengalpattu",
+          "nearest_airport": "Chennai International Airport (56 km)",
+          "nearest_railway": "Chengalpattu Railway Station (29 km)"
+        },
+        "images": {
+          "main_image": "https://img.onmanorama.com/content/dam/mm/en/travel/outside-kerala/images/2021/8/2/mahabalipuram.jpg",
+          "gallery": [
+            "https://www.trawell.in/blog/wp-content/uploads/2021/11/Monolithic_Monuments_Main.jpg",
+            "https://www.trawell.in/blog/wp-content/uploads/2021/11/Pancha_Rathas_Main.jpg",
+            "https://www.trawell.in/blog/wp-content/uploads/2021/11/Bass_relief_Main.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient port city known for its rock-cut temples, monolithic sculptures, and shore temple, showcasing Pallava dynasty's architectural brilliance.",
+          "historical_significance": "7th-8th century Pallava architecture, ancient maritime trading center",
+          "architectural_style": "Dravidian architecture with rock-cut and structural temple styles",
+          "famous_for": [
+            "Shore Temple",
+            "Pancha Rathas",
+            "Arjuna's Penance relief",
+            "Stone sculptures",
+            "UNESCO World Heritage Site since 1984"
+          ],
+          "best_time_to_visit": {
+            "season": "November to March",
+            "best_viewing_time": "Early morning and sunset",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Shore Temple",
+            "description": "Structural temple facing the Bay of Bengal",
+            "materials": "Granite blocks"
+          },
+          {
+            "feature": "Pancha Rathas",
+            "description": "Five monolithic temple structures",
+            "special_note": "Each carved from single granite boulder"
+          },
+          {
+            "feature": "Arjuna's Penance",
+            "description": "World's largest bas-relief sculpture",
+            "materials": "Natural rock face carving"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Sculpture Workshop",
+            "description": "Learn traditional stone carving techniques",
+            "duration": "Half day",
+            "cost_range": "₹1500-2500",
+            "best_time": "Morning"
+          },
+          {
+            "name": "Beach Photography",
+            "description": "Capture temples against seashore backdrop",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-1000",
+            "languages": "English, Hindi, Tamil"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Tiger Cave",
+            "distance": "5 km",
+            "description": "Rock-cut temple complex",
+            "visit_time": "1-2 hours"
+          },
+          {
+            "name": "Crocodile Bank",
+            "distance": "14 km",
+            "description": "Reptile conservation center",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "InterContinental Chennai Mahabalipuram Resort",
+              "price_range": "₹15000-25000 per night",
+              "rating": 4.6,
+              "amenities": ["Beach resort", "Multiple restaurants", "Spa"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Radisson Blu Resort Temple Bay",
+              "price_range": "₹6000-10000 per night",
+              "rating": 4.2,
+              "amenities": ["Sea view", "Pool", "Heritage theme"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "South Indian Seafood",
+              "description": "Fresh fish curry, prawn fry, crab masala",
+              "where_to_find": "Moonrakers Restaurant",
+              "price_range": "₹300-600"
+            },
+            {
+              "dish": "Filter Coffee",
+              "description": "Traditional South Indian coffee",
+              "where_to_find": "Local coffee shops",
+              "price_range": "₹30-60"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.4,
+          "architectural_beauty": 4.7,
+          "historical_significance": 4.6,
+          "maintenance": 4.2,
+          "visitor_facilities": 4.1,
+          "accessibility": 4.3
+        },
+        "tips": [
+          "Combine temple visit with beach time",
+          "Best photography during golden hour",
+          "Watch local sculptors at work",
+          "Try fresh seafood at coastal restaurants",
+          "Wear comfortable walking shoes for rock surfaces"
+        ]
+      },
+      {
+        "id": "fatehpur_sikri_008",
+        "name": "Fatehpur Sikri",
+        "state": "Uttar Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 27.0937,
+            "longitude": 77.6615
+          },
+          "city": "Fatehpur Sikri",
+          "district": "Agra",
+          "nearest_airport": "Kheria Airport, Agra (40 km)",
+          "nearest_railway": "Fatehpur Sikri Railway Station (1 km)"
+        },
+        "images": {
+          "main_image": "https://www.tripsavvy.com/thmb/ge1Ew_bKisTT9SVd3DZQZP0EsRU=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/fatehpur-sikri--agra--india-578549431-5c50b071c9e77c00014afd58.jpg",
+          "gallery": [
+            "https://www.tripsavvy.com/thmb/CWHjtdJHoMgoZWyzUXbwM2XE_vM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-692142248-4175bae74835410d8ad630be9cd22e23.jpg",
+            "https://www.adotrip.com/public/images/areas/master_images/5c3f12df60cea-Fatehpur_Sikri_Attractions.jpg",
+            "https://wallpapercave.com/wp/wp8609937.jpg"
+          ]
+        },
+        "description": {
+          "overview": "A magnificent Mughal city built by Emperor Akbar, served as the capital of the Mughal Empire from 1571 to 1585.",
+          "historical_significance": "Capital of Akbar's empire, example of Mughal urban planning and architecture",
+          "architectural_style": "Mughal architecture blending Islamic, Hindu, and Persian elements",
+          "famous_for": [
+            "Buland Darwaza",
+            "Jama Masjid",
+            "Panch Mahal",
+            "Diwan-i-Khas",
+            "UNESCO World Heritage Site since 1986"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning and late afternoon",
+            "weather": "Pleasant winters, extremely hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹35",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹35"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Recommended during peak season"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Buland Darwaza",
+            "description": "Victory gate, one of the largest in the world",
+            "materials": "Red sandstone, 54 meters high"
+          },
+          {
+            "feature": "Panch Mahal",
+            "description": "Five-story palace with decreasing stories",
+            "special_note": "Wind tower for natural cooling"
+          },
+          {
+            "feature": "Diwan-i-Khas",
+            "description": "Hall of private audience with central pillar",
+            "materials": "Red sandstone with intricate carvings"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Heritage Walk",
+            "description": "Guided tour of the ghost city",
+            "duration": "3-4 hours",
+            "cost_range": "₹800-1200",
+            "best_time": "Early morning"
+          },
+          {
+            "name": "Architecture Photography",
+            "description": "Capture Mughal architectural elements",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-1000",
+            "languages": "Hindi, English, Urdu"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Taj Mahal",
+            "distance": "40 km",
+            "description": "World's most famous mausoleum",
+            "visit_time": "Half day"
+          },
+          {
+            "name": "Agra Fort",
+            "distance": "37 km",
+            "description": "Mughal fortress and palace",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "ITC Mughal, Agra",
+              "price_range": "₹12000-20000 per night",
+              "rating": 4.5,
+              "amenities": ["Mughal architecture", "Spa", "Multiple dining"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Goverdhan",
+              "price_range": "₹2500-4000 per night",
+              "rating": 3.9,
+              "amenities": ["Heritage style", "Restaurant", "Travel assistance"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Mughlai Cuisine",
+              "description": "Biryani, kebabs, rich curries",
+              "where_to_find": "Peshawri at ITC Mughal",
+              "price_range": "₹800-1500 per person"
+            },
+            {
+              "dish": "Agra Ka Petha",
+              "description": "Famous sweet made from ash gourd",
+              "where_to_find": "Panchi Petha shops",
+              "price_range": "₹200-400 per kg"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.3,
+          "architectural_beauty": 4.6,
+          "historical_significance": 4.8,
+          "maintenance": 4.0,
+          "visitor_facilities": 3.9,
+          "accessibility": 4.1
+        },
+        "tips": [
+          "Combine with Agra sightseeing",
+          "Start early to avoid crowds and heat",
+          "Hire knowledgeable local guide",
+          "Carry water and sun protection",
+          "Allow 3-4 hours for complete visit"
+        ]
+      },
+      {
+        "id": "sanchi_009",
+        "name": "Sanchi Stupa",
+        "state": "Madhya Pradesh",
+        "location": {
+          "coordinates": {
+            "latitude": 23.4793,
+            "longitude": 77.7394
+          },
+          "city": "Sanchi",
+          "district": "Raisen",
+          "nearest_airport": "Raja Bhoj Airport, Bhopal (46 km)",
+          "nearest_railway": "Vidisha Railway Station (10 km)"
+        },
+        "images": {
+          "main_image": "https://travelandtrekking.com/wp-content/uploads/2018/01/Sanchi-Stupa-Madhya-Pradesh-picsc.jpg",
+          "gallery": [
+            "https://cdn.shortpixel.ai/spai/q_glossy+w_1157+ret_img/www.timetravelturtle.com/wp-content/uploads/2019/03/Bhopal-2018-13_new.jpg",
+            "https://cdn.shortpixel.ai/spai/q_glossy+w_1157+ret_img/www.timetravelturtle.com/wp-content/uploads/2019/03/Bhopal-2018-16_new.jpg",
+            "https://cdn.shortpixel.ai/spai/q_glossy+w_1157+ret_img/www.timetravelturtle.com/wp-content/uploads/2019/03/Bhopal-2018-31_new.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient Buddhist complex featuring the Great Stupa, one of the oldest stone structures in India and a significant pilgrimage site for Buddhists worldwide.",
+          "historical_significance": "Built by Ashoka in 3rd century BCE, important center of Buddhism for over 1000 years",
+          "architectural_style": "Early Buddhist architecture with Mauryan and later period additions",
+          "famous_for": [
+            "Great Stupa",
+            "Ornate toranas (gateways)",
+            "Ancient Buddhist sculptures",
+            "Ashoka's edicts",
+            "UNESCO World Heritage Site since 1989"
+          ],
+          "best_time_to_visit": {
+            "season": "October to March",
+            "best_viewing_time": "Early morning and evening",
+            "weather": "Pleasant winters, hot summers"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹25",
+            "foreign_tourists": "₹300",
+            "saarc_bimstec_citizens": "₹25"
+          },
+          "timings": {
+            "sunrise_to_sunset": "6:00 AM - 6:00 PM",
+            "closed_on": "None",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter",
+            "advance_booking": "Not required"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Great Stupa",
+            "description": "Hemispherical dome containing Buddha's relics",
+            "materials": "Stone and brick construction"
+          },
+          {
+            "feature": "Toranas",
+            "description": "Four ornately carved gateways",
+            "special_note": "Depict Jataka tales and Buddha's life"
+          },
+          {
+            "feature": "Monastic Complex",
+            "description": "Remains of ancient monasteries and temples",
+            "materials": "Stone construction from different periods"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Buddhist Heritage Tour",
+            "description": "Learn about Buddhism and ancient history",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "best_time": "Morning"
+          },
+          {
+            "name": "Meditation Session",
+            "description": "Practice meditation in peaceful surroundings",
+            "duration": "1 hour",
+            "cost_range": "Free",
+            "languages": "Hindi, English"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Vidisha",
+            "distance": "10 km",
+            "description": "Ancient city with historical significance",
+            "visit_time": "Half day"
+          },
+          {
+            "name": "Udaigiri Caves",
+            "distance": "13 km",
+            "description": "Rock-cut caves with Gupta period sculptures",
+            "visit_time": "2-3 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "Gateway Retreat Sanchi",
+              "price_range": "₹4000-7000 per night",
+              "rating": 4.0,
+              "amenities": ["Peaceful location", "Garden", "Restaurant"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Tourist Facilitation Centre",
+              "price_range": "₹1500-2500 per night",
+              "rating": 3.5,
+              "amenities": ["Government run", "Basic amenities", "Near stupa"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Bhopal Cuisine",
+              "description": "Poha, kebabs, biryani",
+              "where_to_find": "Local restaurants",
+              "price_range": "₹150-300"
+            },
+            {
+              "dish": "Malpua",
+              "description": "Sweet pancake dessert",
+              "where_to_find": "Sweet shops in Vidisha",
+              "price_range": "₹80-150"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.2,
+          "architectural_beauty": 4.3,
+          "historical_significance": 4.9,
+          "maintenance": 4.0,
+          "visitor_facilities": 3.8,
+          "accessibility": 4.0
+        },
+        "tips": [
+          "Visit during Buddhist festivals for special atmosphere",
+          "Combine with Bhopal city tour",
+          "Respect Buddhist traditions and maintain silence",
+          "Early morning visit for peaceful experience",
+          "Hire guide for detailed historical context"
+        ]
+      },
+      {
+        "id": "elephanta_010",
+        "name": "Elephanta Caves",
+        "state": "Maharashtra",
+        "location": {
+          "coordinates": {
+            "latitude": 18.9633,
+            "longitude": 72.9318
+          },
+          "city": "Mumbai",
+          "district": "Mumbai",
+          "nearest_airport": "Chhatrapati Shivaji Maharaj International Airport (45 km)",
+          "nearest_railway": "Chhatrapati Shivaji Maharaj Terminus (20 km to ferry point)"
+        },
+        "images": {
+          "main_image": "https://www.visittnt.com/blog/wp-content/uploads/2018/09/Elephanta-Caves.jpeg",
+          "gallery": [
+            "https://im.indiatimes.in/facebook/2016/Jun/rtr1lfpn_1464856966_1464856979.jpg",
+            "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_694433434_20191213110339_20191213110412.png",
+            "https://www.mapsofindia.com/mumbai/places-of-interest/images/elephanta-caves/magnificent-hall-at-the-elephanta-caves.jpg"
+          ]
+        },
+        "description": {
+          "overview": "Ancient cave temples on Elephanta Island in Mumbai Harbor, famous for magnificent rock-cut sculptures dedicated to Lord Shiva.",
+          "historical_significance": "6th-8th century rock-cut temples, masterpiece of ancient Indian sculpture",
+          "architectural_style": "Rock-cut Hindu temple architecture",
+          "famous_for": [
+            "Trimurti sculpture",
+            "Shiva cave temples",
+            "Rock-cut architecture",
+            "Island boat journey",
+            "UNESCO World Heritage Site since 1987"
+          ],
+          "best_time_to_visit": {
+            "season": "November to March",
+            "best_viewing_time": "Morning hours",
+            "weather": "Pleasant winters, monsoons affect ferry service"
+          }
+        },
+        "visit_information": {
+          "entry_fees": {
+            "indian_citizens": "₹30",
+            "foreign_tourists": "₹550",
+            "saarc_bimstec_citizens": "₹30"
+          },
+          "timings": {
+            "sunrise_to_sunset": "9:00 AM - 5:30 PM",
+            "closed_on": "Mondays",
+            "night_viewing": "Not available"
+          },
+          "ticket_booking": {
+            "online": "https://asi.payumoney.com",
+            "offline": "Available at ticket counter on island",
+            "advance_booking": "Not required, but ferry tickets needed"
+          }
+        },
+        "architectural_features": [
+          {
+            "feature": "Trimurti",
+            "description": "Three-faced sculpture of Shiva",
+            "materials": "Carved from solid rock"
+          },
+          {
+            "feature": "Main Cave",
+            "description": "Large hall with sculptured panels",
+            "special_note": "Contains various forms of Shiva"
+          },
+          {
+            "feature": "Linga Shrine",
+            "description": "Sacred chamber with Shiva linga",
+            "materials": "Rock-cut architecture"
+          }
+        ],
+        "activities": [
+          {
+            "name": "Ferry Ride",
+            "description": "Boat journey from Gateway of India",
+            "duration": "1 hour each way",
+            "cost_range": "₹200-300",
+            "best_time": "Morning departure"
+          },
+          {
+            "name": "Cave Exploration",
+            "description": "Guided tour of rock-cut temples",
+            "duration": "2-3 hours",
+            "cost_range": "₹500-800",
+            "languages": "Hindi, English, Marathi"
+          }
+        ],
+        "nearby_attractions": [
+          {
+            "name": "Gateway of India",
+            "distance": "Ferry point",
+            "description": "Iconic Mumbai monument",
+            "visit_time": "1 hour"
+          },
+          {
+            "name": "Marine Drive",
+            "distance": "25 km from ferry point",
+            "description": "Famous seafront promenade",
+            "visit_time": "2 hours"
+          }
+        ],
+        "accommodation": {
+          "luxury_hotels": [
+            {
+              "name": "The Taj Mahal Palace, Mumbai",
+              "price_range": "₹20000-35000 per night",
+              "rating": 4.8,
+              "amenities": ["Heritage hotel", "Harbor view", "Multiple restaurants"]
+            }
+          ],
+          "mid_range_hotels": [
+            {
+              "name": "Hotel Apollo",
+              "price_range": "₹4000-7000 per night",
+              "rating": 4.1,
+              "amenities": ["Near Gateway", "Restaurant", "City center"]
+            }
+          ]
+        },
+        "famous_food": {
+          "local_specialties": [
+            {
+              "dish": "Mumbai Street Food",
+              "description": "Vada pav, bhel puri, pav bhaji",
+              "where_to_find": "Colaba Causeway, Mohammed Ali Road",
+              "price_range": "₹50-200"
+            },
+            {
+              "dish": "Bombay Duck",
+              "description": "Local fish preparation",
+              "where_to_find": "Seafood restaurants",
+              "price_range": "₹300-600"
+            }
+          ]
+        },
+        "rating": {
+          "overall": 4.1,
+          "architectural_beauty": 4.5,
+          "historical_significance": 4.4,
+          "maintenance": 3.8,
+          "visitor_facilities": 3.9,
+          "accessibility": 3.7
+        },
+        "tips": [
+          "Check ferry schedule before planning",
+          "Avoid monsoon season for ferry safety",
+          "Carry water and snacks for island visit",
+          "Wear comfortable shoes for cave walking",
+          "Combine with Mumbai city sightseeing"
+        ]
+      }
+     ]
+  }

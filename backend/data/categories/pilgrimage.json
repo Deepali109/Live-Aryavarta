@@ -1,0 +1,204 @@
+{
+      "category_id": "pilgrimage",
+      "category_name": "Pilgrimage Sites",
+      "category_description": "Sacred destinations of spiritual significance for various religions",
+      "destinations": [
+        {
+          "id": "varanasi_001",
+          "name": "Varanasi (Kashi)",
+          "state": "Uttar Pradesh",
+          "location": {
+            "coordinates": {
+              "latitude": 25.3176,
+              "longitude": 82.9739
+            },
+            "district": "Varanasi",
+            "nearest_airport": "Lal Bahadur Shastri Airport (25 km)",
+            "nearest_railway": "Varanasi Junction"
+          },
+          "description": {
+            "overview": "One of the world's oldest continuously inhabited cities and holiest city for Hindus, situated on the banks of river Ganges.",
+            "spiritual_significance": "Believed that dying here leads to moksha (liberation from cycle of rebirth)",
+            "famous_for": [
+              "Ganges Aarti ceremony",
+              "Ancient ghats",
+              "Kashi Vishwanath Temple",
+              "Silk weaving",
+              "Classical music and dance"
+            ]
+          },
+          "major_temples": [
+            {
+              "name": "Kashi Vishwanath Temple",
+              "deity": "Lord Shiva",
+              "significance": "One of 12 Jyotirlingas",
+              "entry_fee": "Free",
+              "special_rituals": "Ganga Aarti"
+            }
+          ],
+          "famous_ghats": [
+            {
+              "name": "Dashashwamedh Ghat",
+              "significance": "Main ghat for Ganga Aarti",
+              "activities": ["Evening Aarti", "Boat rides", "Religious ceremonies"]
+            },
+            {
+              "name": "Manikarnika Ghat",
+              "significance": "Main cremation ghat",
+              "activities": ["Funeral rites", "Spiritual observance"]
+            }
+          ],
+          "spiritual_activities": [
+            {
+              "activity": "Ganga Aarti",
+              "time": "Evening (around 7 PM)",
+              "location": "Dashashwamedh Ghat",
+              "duration": "45 minutes",
+              "cost": "Free viewing, donations welcome"
+            },
+            {
+              "activity": "Boat Ride on Ganges",
+              "time": "Early morning or evening",
+              "duration": "1-2 hours",
+              "cost": "₹200-500 per person",
+              "highlights": ["Sunrise/sunset views", "Ghat darshan"]
+            },
+            {
+              "activity": "Temple Hopping",
+              "duration": "Full day",
+              "cost": "₹500-1000 (guide + transport)",
+              "temples_covered": ["Kashi Vishwanath", "Sankat Mochan", "Durga Temple"]
+            }
+          ],
+          "famous_food": {
+            "local_specialties": [
+              {
+                "dish": "Banarasi Paan",
+                "description": "Betel leaf preparation with sweet and savory fillings",
+                "where_to_find": "Keshav Paan Bhandar, Vishwanath Gali",
+                "price_range": "₹20-100 per paan"
+              },
+              {
+                "dish": "Kachori Sabzi",
+                "description": "Spicy fried bread with potato curry",
+                "where_to_find": "Street vendors near ghats",
+                "price_range": "₹30-60"
+              },
+              {
+                "dish": "Malaiyo",
+                "description": "Frothy winter dessert made from milk",
+                "where_to_find": "Winter season vendors",
+                "price_range": "₹50-100"
+              }
+            ],
+            "famous_sweet_shops": [
+              {
+                "name": "Kashi Chaat Bhandar",
+                "speciality": "Chaat and sweets",
+                "location": "Godowlia Market",
+                "must_try": "Tamatar chaat"
+              }
+            ]
+          },
+          "accommodation": {
+            "heritage_hotels": [
+              {
+                "name": "Suryauday Haveli",
+                "price_range": "₹8000-12000 per night",
+                "rating": 4.3,
+                "amenities": ["Heritage property", "Ganges view", "Ayurvedic spa"]
+              }
+            ],
+            "budget_options": [
+              {
+                "name": "Zostel Varanasi",
+                "price_range": "₹800-2000 per night",
+                "rating": 4.0,
+                "amenities": ["Hostel", "Rooftop cafe", "Budget friendly"]
+              }
+            ]
+          },
+          "cultural_experiences": [
+            {
+              "experience": "Classical Music Concert",
+              "venues": ["Sankat Mochan Temple", "Various ghats"],
+              "season": "October to March",
+              "cost": "Free to ₹500"
+            },
+            {
+              "experience": "Silk Weaving Workshop",
+              "duration": "2-3 hours",
+              "cost": "₹1000-2000",
+              "location": "Traditional weaver homes"
+            }
+          ],
+          "rating": {
+            "overall": 4.6,
+            "spiritual_significance": 5.0,
+            "cultural_richness": 4.8,
+            "food": 4.5,
+            "accommodation": 4.2,
+            "cleanliness": 3.8
+          }
+        },
+        {
+          "id": "golden_temple_002",
+          "name": "Golden Temple (Harmandir Sahib)",
+          "state": "Punjab",
+          "location": {
+            "coordinates": {
+              "latitude": 31.6200,
+              "longitude": 74.8765
+            },
+            "city": "Amritsar",
+            "district": "Amritsar",
+            "nearest_airport": "Sri Guru Ram Dass Jee International Airport (11 km)",
+            "nearest_railway": "Amritsar Railway Station (2 km)"
+          },
+          "description": {
+            "overview": "The most sacred gurdwara of Sikhism, known for its stunning gold-plated architecture and the largest free kitchen in the world.",
+            "spiritual_significance": "Central place of worship for Sikhs worldwide",
+            "famous_for": [
+              "Gold-plated architecture",
+              "Langar (free community kitchen)",
+              "Sacred pool (Amrit Sarovar)",
+              "Guru Granth Sahib",
+              "Sikh heritage and culture"
+            ]
+          },
+          "visit_information": {
+            "entry_fee": "Free for all",
+            "timings": "24/7 open",
+            "dress_code": "Head covering mandatory, no shoes inside complex",
+            "facilities": ["Free accommodation", "Free meals", "Storage lockers"]
+          },
+          "activities": [
+            {
+              "activity": "Darshan (Holy visit)",
+              "duration": "1-2 hours",
+              "best_time": "Early morning or evening",
+              "cost": "Free"
+            },
+            {
+              "activity": "Langar (Community meal)",
+              "description": "Free meal served to all visitors",
+              "timing": "Throughout the day",
+              "capacity": "100,000+ people daily"
+            },
+            {
+              "activity": "Kirtan (Devotional music)",
+              "timing": "Throughout the day",
+              "special_sessions": "Early morning and evening"
+            }
+          ],
+          "rating": {
+            "overall": 4.9,
+            "spiritual_experience": 5.0,
+            "architecture": 4.9,
+            "hospitality": 5.0,
+            "facilities": 4.7,
+            "accessibility": 4.6
+          }
+        }
+      ]
+    }

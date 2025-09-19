@@ -1,0 +1,311 @@
+{
+      "category_id": "adventure",
+      "category_name": "Adventure Destinations",
+      "category_description": "Thrilling destinations for adventure sports and outdoor activities",
+      "destinations": [
+        {
+          "id": "rishikesh_001",
+          "name": "Rishikesh",
+          "state": "Uttarakhand",
+          "location": {
+            "coordinates": {
+              "latitude": 30.0869,
+              "longitude": 78.2676
+            },
+            "altitude": "372 meters",
+            "district": "Dehradun",
+            "nearest_airport": "Jolly Grant Airport, Dehradun (35 km)",
+            "nearest_railway": "Rishikesh Railway Station"
+          },
+          "description": {
+            "overview": "Known as the 'Adventure Capital of India' and 'Yoga Capital of the World', situated on the banks of holy river Ganges in the foothills of Himalayas.",
+            "famous_for": [
+              "White water rafting",
+              "Bungee jumping",
+              "Yoga and meditation",
+              "Suspension bridges",
+              "Spiritual ashrams"
+            ],
+            "best_time_to_visit": {
+              "season": "September to November, February to May",
+              "adventure_season": "September to June",
+              "avoid": "Monsoon season (July-August) for water sports"
+            }
+          },
+          "adventure_activities": [
+            {
+              "activity": "White Water Rafting",
+              "difficulty_levels": [
+                {
+                  "level": "Grade I-II (Brahmapuri to Rishikesh)",
+                  "distance": "9 km",
+                  "duration": "1-2 hours",
+                  "cost": "₹800-1200",
+                  "suitable_for": "Beginners and families"
+                },
+                {
+                  "level": "Grade III-IV (Shivpuri to Rishikesh)",
+                  "distance": "16 km",
+                  "duration": "2-3 hours",
+                  "cost": "₹1500-2500",
+                  "suitable_for": "Experienced rafters"
+                },
+                {
+                  "level": "Grade IV-V (Kaudiyala to Rishikesh)",
+                  "distance": "36 km",
+                  "duration": "6-7 hours",
+                  "cost": "₹3000-4500",
+                  "suitable_for": "Expert rafters"
+                }
+              ],
+              "season": "September to June",
+              "rapids": ["Roller Coaster", "Golf Course", "Club House", "Return to Sender"]
+            },
+            {
+              "activity": "Bungee Jumping",
+              "height": "83 meters",
+              "location": "Jumpin Heights, Mohan Chatti",
+              "cost": "₹3500-4000",
+              "duration": "30 minutes (including briefing)",
+              "age_limit": "12-45 years",
+              "weight_limit": "40-110 kg"
+            },
+            {
+              "activity": "Flying Fox (Zip Line)",
+              "length": "1 km",
+              "height": "83 meters",
+              "cost": "₹1800-2200",
+              "duration": "90 seconds ride",
+              "location": "Jumpin Heights"
+            },
+            {
+              "activity": "Rock Climbing & Rappelling",
+              "locations": ["Shivpuri", "Marine Drive"],
+              "cost": "₹1000-2000",
+              "duration": "2-3 hours",
+              "difficulty": "Beginner to advanced"
+            },
+            {
+              "activity": "Kayaking",
+              "locations": ["Ganges River", "Shivpuri"],
+              "cost": "₹1500-2500",
+              "duration": "2-3 hours",
+              "season": "October to June"
+            }
+          ],
+          "spiritual_activities": [
+            {
+              "activity": "Yoga Classes",
+              "locations": ["Parmarth Niketan", "Sivananda Ashram"],
+              "cost": "₹500-2000 per session",
+              "duration": "1-2 hours",
+              "types": ["Hatha Yoga", "Ashtanga Yoga", "Meditation"]
+            },
+            {
+              "activity": "Ganga Aarti",
+              "location": "Triveni Ghat",
+              "timing": "Evening (6:00-7:00 PM)",
+              "cost": "Free",
+              "duration": "1 hour"
+            }
+          ],
+          "famous_spots": [
+            {
+              "name": "Laxman Jhula",
+              "description": "Iconic suspension bridge over Ganges",
+              "length": "450 feet",
+              "height": "70 feet above river",
+              "activities": ["Photography", "Shopping nearby"]
+            },
+            {
+              "name": "Ram Jhula",
+              "description": "Another famous suspension bridge",
+              "length": "750 feet",
+              "built": "1986",
+              "nearby_attractions": ["Beatles Ashram", "Swarg Ashram"]
+            },
+            {
+              "name": "Beatles Ashram (Chaurasi Kutia)",
+              "description": "Where Beatles stayed in 1968",
+              "entry_fee": "₹150 for Indians, ₹600 for foreigners",
+              "highlights": ["Graffiti art", "Meditation caves", "Beatles memorabilia"]
+            }
+          ],
+          "accommodation": {
+            "luxury_resorts": [
+              {
+                "name": "Ananda in the Himalayas",
+                "price_range": "₹25000-45000 per night",
+                "rating": 4.8,
+                "amenities": ["Spa", "Yoga", "Adventure activities", "Palace hotel"]
+              }
+            ],
+            "mid_range_hotels": [
+              {
+                "name": "Ganga Kinare",
+                "price_range": "₹4000-8000 per night",
+                "rating": 4.2,
+                "amenities": ["River view", "Yoga hall", "Ayurveda center"]
+              }
+            ],
+            "ashrams": [
+              {
+                "name": "Parmarth Niketan",
+                "price_range": "₹1000-3000 per night",
+                "rating": 4.5,
+                "amenities": ["Yoga classes", "Meditation", "Vegetarian meals"]
+              }
+            ],
+            "adventure_camps": [
+              {
+                "name": "Red Chilli Adventure",
+                "price_range": "₹2000-4000 per night",
+                "rating": 4.0,
+                "amenities": ["River camping", "Bonfire", "Adventure packages"]
+              }
+            ]
+          },
+          "food_specialties": [
+            {
+              "dish": "Chole Bhature",
+              "where_to_find": "Local restaurants in Tapovan",
+              "price_range": "₹100-200"
+            },
+            {
+              "dish": "Aloo Puri",
+              "where_to_find": "Ashram canteens",
+              "price_range": "₹50-100"
+            }
+          ],
+          "safety_guidelines": {
+            "rafting": [
+              "Always wear provided safety gear",
+              "Follow guide instructions",
+              "Don't raft during monsoon season",
+              "Check weather conditions"
+            ],
+            "bungee_jumping": [
+              "Medical fitness certificate required",
+              "Follow weight restrictions",
+              "No heart conditions or pregnancy"
+            ]
+          },
+          "rating": {
+            "overall": 4.5,
+            "adventure_activities": 4.8,
+            "safety_standards": 4.3,
+            "spiritual_experience": 4.7,
+            "accommodation": 4.2,
+            "accessibility": 4.1
+          }
+        },
+        {
+          "id": "ladakh_002",
+          "name": "Ladakh",
+          "state": "Union Territory of Ladakh",
+          "location": {
+            "coordinates": {
+              "latitude": 34.1526,
+              "longitude": 77.5771
+            },
+            "altitude": "3500+ meters",
+            "region": "Trans-Himalayan",
+            "nearest_airport": "Kushok Bakula Rimpochee Airport, Leh (4 km from Leh city)",
+            "road_access": "Manali-Leh Highway, Srinagar-Leh Highway"
+          },
+          "description": {
+            "overview": "High-altitude desert region known as 'Land of High Passes', offering extreme adventure activities, Buddhist culture, and stunning landscapes.",
+            "famous_for": [
+              "High altitude trekking",
+              "Motorcycle expeditions",
+              "Buddhist monasteries",
+              "Pangong Tso Lake",
+              "Nubra Valley"
+            ],
+            "best_time_to_visit": {
+              "season": "May to September",
+              "peak_season": "June to August",
+              "road_accessibility": "June to October",
+              "weather": "Extreme cold winters (-20°C), pleasant summers (20-30°C)"
+            }
+          },
+          "adventure_activities": [
+            {
+              "activity": "High Altitude Trekking",
+              "popular_treks": [
+                {
+                  "name": "Chadar Trek",
+                  "duration": "8-9 days",
+                  "difficulty": "Extremely difficult",
+                  "altitude": "3500-3800 meters",
+                  "season": "January to February",
+                  "cost": "₹25000-35000",
+                  "highlights": ["Frozen Zanskar River", "Ice formations", "Extreme cold"]
+                },
+                {
+                  "name": "Markha Valley Trek",
+                  "duration": "6-7 days",
+                  "difficulty": "Moderate to difficult",
+                  "altitude": "3300-5200 meters",
+                  "season": "June to September",
+                  "cost": "₹20000-30000",
+                  "highlights": ["Hemis National Park", "Snow leopard habitat", "Buddhist villages"]
+                }
+              ]
+            },
+            {
+              "activity": "Motorcycle Expedition",
+              "popular_routes": [
+                {
+                  "route": "Manali to Leh",
+                  "distance": "490 km",
+                  "duration": "2-3 days",
+                  "difficulty": "Difficult",
+                  "passes": ["Rohtang Pass", "Baralacha Pass", "Tanglang La"]
+                },
+                {
+                  "route": "Srinagar to Leh",
+                  "distance": "434 km",
+                  "duration": "2 days",
+                  "difficulty": "Moderate",
+                  "passes": ["Zoji La", "Fotu La", "Namika La"]
+                }
+              ],
+              "bike_rental": "₹2000-4000 per day",
+              "fuel_cost": "₹100-120 per liter"
+            },
+            {
+              "activity": "River Rafting",
+              "rivers": ["Zanskar River", "Indus River"],
+              "difficulty": "Grade II-IV",
+              "season": "July to September",
+              "cost": "₹2500-4000 per day"
+            }
+          ],
+          "major_attractions": [
+            {
+              "name": "Pangong Tso Lake",
+              "description": "High altitude saltwater lake at 4350 meters",
+              "distance_from_leh": "160 km",
+              "permits_required": "Inner Line Permit",
+              "overnight_stay": "Permitted with camping"
+            },
+            {
+              "name": "Nubra Valley",
+              "description": "Cold desert with sand dunes and double-humped camels",
+              "altitude": "3048 meters",
+              "access": "Khardung La Pass (highest motorable road)",
+              "activities": ["Camel safari", "Sand dunes", "Diskit Monastery visit"]
+            }
+          ],
+          "rating": {
+            "overall": 4.7,
+            "adventure_activities": 4.9,
+            "scenic_beauty": 5.0,
+            "cultural_experience": 4.6,
+            "accessibility": 3.5,
+            "accommodation": 4.0
+          }
+        }
+      ]
+    }

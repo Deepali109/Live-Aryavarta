@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, use } from "react";
 import axios from "axios";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -27,7 +27,9 @@ import {
 
 export default function DestinationPage({ params }) {
   // ✅ unwrap params correctly
-  const [slug, setSlug] = useState(null);
+  const { id } = use(params);
+  const category = "wildlife";
+
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -35,6 +37,8 @@ export default function DestinationPage({ params }) {
   const [activeTab, setActiveTab] = useState("zones");
   const [activeTabwildife, setActiveTabwildlife] = useState("major");
   const [selectedActivity, setSelectedActivity] = useState(null);
+  const [activeTabAccomodation, setActiveTabAccomodation] =
+    useState("luxury_resorts");
 
   const getDensityColor = (density) => {
     return density === "High"
@@ -46,23 +50,21 @@ export default function DestinationPage({ params }) {
     return density === "High" ? "🐅🐅🐅" : "🐅🐅";
   };
 
-  // unwrap params on mount
-  useEffect(() => {
-    const unwrapParams = async () => {
-      const unwrapped = await params;
-      setSlug(unwrapped.slug);
-    };
-    unwrapParams();
-  }, [params]);
+  const Accomodationtabs = [
+    { key: "luxury_resorts", label: "Luxury Resorts" },
+    { key: "wildlife_lodges", label: "Wildlife Lodges" },
+    { key: "forest_rest_houses", label: "Forest Rest Houses" },
+  ];
+  const accommodations = data?.destination?.accommodation || {};
 
   // fetch data when slug is ready
   useEffect(() => {
-    if (!slug) return;
+    if (!id) return;
 
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/interest/destination/${slug}`
+          `http://localhost:5000/api/interest/destination/${category}/${id}`
         );
         setData(res.data);
         console.log("resss", res.data);
@@ -74,8 +76,10 @@ export default function DestinationPage({ params }) {
     };
 
     fetchData();
-  }, [slug]);
-  console.log(data);
+  }, [id]);
+
+  console.log("dataaa", data);
+
   if (loading) {
     return <p className="text-center py-20">Loading...</p>;
   }
@@ -83,8 +87,6 @@ export default function DestinationPage({ params }) {
   if (!data) {
     return <p className="text-center py-20">No data found.</p>;
   }
-
-  const wildlifeData = data?.wildlife || sampleData.wildlife;
 
   const getConservationStatusColor = (status) => {
     switch (status) {
@@ -112,24 +114,6 @@ export default function DestinationPage({ params }) {
     }
   };
 
-  const categories = [
-    {
-      key: "luxury_resorts",
-      title: "Luxury Resorts",
-      gradient: "from-yellow-400 to-pink-500",
-    },
-    {
-      key: "wildlife_lodges",
-      title: "Wildlife Lodges",
-      gradient: "from-green-400 to-emerald-600",
-    },
-    {
-      key: "forest_rest_houses",
-      title: "Forest Rest Houses",
-      gradient: "from-blue-400 to-indigo-600",
-    },
-  ];
-
   return (
     <div className="w-full min-h-screen bg-white text-gray-900">
       {/* Hero Section */}
@@ -137,8 +121,8 @@ export default function DestinationPage({ params }) {
         {/* Hero Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src={data.description.images.main_image}
-            alt={data.name}
+            src={data.destination.images.main_image}
+            alt={data.destination.name}
             className="w-full h-full object-cover"
           />
           {/* Gradient Overlay */}
@@ -153,32 +137,36 @@ export default function DestinationPage({ params }) {
             className="mb-6 bg-white/20 text-white border-white/30 backdrop-blur-md px-4 py-2 rounded-full inline-flex items-center"
           >
             <MapPin className="w-4 h-4 mr-2" />
-            {data.state}, India
+            {data.destination.state}, India
           </Badge>
 
           {/* Title & Overview */}
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight drop-shadow-lg">
-            {data.name}
+            {data.destination.name}
           </h1>
           <p className="text-lg md:text-xl mb-10 text-white/90 max-w-3xl mx-auto leading-relaxed">
-            {data.description.overview}
+            {data.destination.description.overview}
           </p>
 
           {/* Quick Stats */}
           <div className="flex flex-wrap justify-center gap-6 mb-10">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-3 rounded-full shadow-md hover:bg-white/20 transition">
               <TreePine className="w-5 h-5" />
-              <span className="font-medium">{data.location.area}</span>
+              <span className="font-medium">
+                {data.destination.location.area}
+              </span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-3 rounded-full shadow-md hover:bg-white/20 transition">
               <Calendar className="w-5 h-5" />
               <span className="font-medium">
-                {data.description.best_time_to_visit.peak_season}
+                {data.destination.description.best_time_to_visit.peak_season}
               </span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-3 rounded-full shadow-md hover:bg-white/20 transition">
               <Camera className="w-5 h-5" />
-              <span className="font-medium">★ {data.rating.overall}/5</span>
+              <span className="font-medium">
+                ★ {data.destination.rating.overall}/5
+              </span>
             </div>
           </div>
 
@@ -227,7 +215,7 @@ export default function DestinationPage({ params }) {
                   Welcome to
                 </h2>
                 <h1 className="text-4xl lg:text-5xl font-light text-amber-800 mt-2 tracking-wide italic">
-                  {data.name}
+                  {data.destination.name}
                 </h1>
               </div>
 
@@ -238,7 +226,7 @@ export default function DestinationPage({ params }) {
             {/* Refined Description */}
             <div className="relative">
               <p className="text-lg text-slate-700 font-light leading-relaxed tracking-wide">
-                {data.description.detailed_description}
+                {data.destination.description.detailed_description}
               </p>
             </div>
 
@@ -270,8 +258,10 @@ export default function DestinationPage({ params }) {
                 <div className="relative bg-white p-4 rounded-sm shadow-2xl shadow-slate-900/10">
                   <div className="relative overflow-hidden">
                     <img
-                      src={data.images.gallery[selectedImage]}
-                      alt={`${data.name} collection ${selectedImage + 1}`}
+                      src={data.destination.images.gallery[selectedImage]}
+                      alt={`${data.destination.name} collection ${
+                        selectedImage + 1
+                      }`}
                       onLoad={() => setIsImageLoaded(true)}
                       className={`w-full h-96 object-cover transition-all duration-700 ${
                         isImageLoaded ? "opacity-100" : "opacity-0"
@@ -286,7 +276,9 @@ export default function DestinationPage({ params }) {
                       <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
                         <span className="text-xs font-light text-slate-600 tracking-wide">
                           {String(selectedImage + 1).padStart(2, "0")} /{" "}
-                          {String(data.images.gallery.length).padStart(2, "0")}
+                          {String(
+                            data.destination.images.gallery.length
+                          ).padStart(2, "0")}
                         </span>
                       </div>
                     </div>
@@ -296,7 +288,7 @@ export default function DestinationPage({ params }) {
 
               {/* Refined Thumbnail Navigation */}
               <div className="flex justify-center mt-8 gap-5">
-                {data.images.gallery.map((img, i) => (
+                {data.destination.images.gallery.map((img, i) => (
                   <button
                     key={i}
                     onClick={() => setSelectedImage(i)}
@@ -314,7 +306,7 @@ export default function DestinationPage({ params }) {
                     >
                       <img
                         src={img}
-                        alt={`${data.name} thumbnail ${i + 1}`}
+                        alt={`${data.destination.name} thumbnail ${i + 1}`}
                         className="w-16 h-12 object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
                       />
                     </div>
@@ -351,12 +343,12 @@ export default function DestinationPage({ params }) {
             </h2>
 
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              {data.description.overview}
+              {data.destination.description.overview}
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {data.description.famous_for.map((feature, index) => (
+            {data.destination.description.famous_for.map((feature, index) => (
               <div
                 key={index}
                 className="bg-white rounded-lg p-6 shadow-md hover:scale-105 transition-all duration-300 border-l-4 border-blue-600 group"
@@ -487,106 +479,110 @@ export default function DestinationPage({ params }) {
           {activeTabwildife === "major" && (
             <div className="max-w-7xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {data.wildlife.major_species.map((species, index) => (
-                  <div
-                    key={index}
-                    className="bg-white/90 backdrop-blur-sm border border-blue-100 rounded-3xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/20 hover:border-blue-300 transition-all duration-500 group shadow-xl"
-                  >
-                    {/* Image */}
-                    <div className="aspect-video bg-gradient-to-br from-blue-100 to-indigo-200 overflow-hidden relative">
-                      <img
-                        src={species.image}
-                        alt={species.animal}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                    </div>
-
-                    {/* Content */}
-                    <div className="p-4">
-                      {/* Header */}
-                      <div className="flex items-start justify-between">
-                        <div>
-                          <h4 className="text-2xl font-bold text-slate-800 mb-3">
-                            {species.animal}
-                          </h4>
-                          <p className="text-sm italic text-slate-500 font-medium">
-                            {species.scientific_name}
-                          </p>
-                        </div>
-                        <span
-                          className={`px-4 py-2 rounded-full text-xs font-semibold border ${getConservationStatusColor(
-                            species.conservation_status
-                          )}`}
-                        >
-                          {species.conservation_status}
-                        </span>
+                {data.destination.wildlife.major_species.map(
+                  (species, index) => (
+                    <div
+                      key={index}
+                      className="bg-white/90 backdrop-blur-sm border border-blue-100 rounded-3xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/20 hover:border-blue-300 transition-all duration-500 group shadow-xl"
+                    >
+                      {/* Image */}
+                      <div className="aspect-video bg-gradient-to-br from-blue-100 to-indigo-200 overflow-hidden relative">
+                        <img
+                          src={species.image}
+                          alt={species.animal}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                       </div>
 
-                      {/* Description */}
-                      <p className="text-slate-600 leading-relaxed mb-2 text-sm line-clamp-3">
-                        {species.description}
-                      </p>
+                      {/* Content */}
+                      <div className="p-4">
+                        {/* Header */}
+                        <div className="flex items-start justify-between">
+                          <div>
+                            <h4 className="text-2xl font-bold text-slate-800 mb-3">
+                              {species.animal}
+                            </h4>
+                            <p className="text-sm italic text-slate-500 font-medium">
+                              {species.scientific_name}
+                            </p>
+                          </div>
+                          <span
+                            className={`px-4 py-2 rounded-full text-xs font-semibold border ${getConservationStatusColor(
+                              species.conservation_status
+                            )}`}
+                          >
+                            {species.conservation_status}
+                          </span>
+                        </div>
 
-                      {/* Stats Grid */}
-                      <div className="grid grid-cols-2 gap-4 mb-2">
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 p-4 rounded-xl">
+                        {/* Description */}
+                        <p className="text-slate-600 leading-relaxed mb-2 text-sm line-clamp-3">
+                          {species.description}
+                        </p>
+
+                        {/* Stats Grid */}
+                        <div className="grid grid-cols-2 gap-4 mb-2">
+                          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 p-4 rounded-xl">
+                            <p className="text-xs text-blue-600 font-semibold mb-2">
+                              Population
+                            </p>
+                            <p className="text-sm font-bold text-slate-800">
+                              {species.population}
+                            </p>
+                          </div>
+                          <div className="bg-gradient-to-br from-cyan-50 to-blue-50 border border-cyan-200 p-2 rounded-xl">
+                            <p className="text-xs text-cyan-600 font-semibold mb-2">
+                              Best Time
+                            </p>
+                            <p className="text-sm font-bold text-slate-800">
+                              {species.best_spotting_time}
+                            </p>
+                          </div>
+                        </div>
+
+                        {/* Zones */}
+                        <div className="mb-2">
                           <p className="text-xs text-blue-600 font-semibold mb-2">
-                            Population
+                            Safari Zones
                           </p>
-                          <p className="text-sm font-bold text-slate-800">
-                            {species.population}
-                          </p>
-                        </div>
-                        <div className="bg-gradient-to-br from-cyan-50 to-blue-50 border border-cyan-200 p-2 rounded-xl">
-                          <p className="text-xs text-cyan-600 font-semibold mb-2">
-                            Best Time
-                          </p>
-                          <p className="text-sm font-bold text-slate-800">
-                            {species.best_spotting_time}
-                          </p>
-                        </div>
-                      </div>
-
-                      {/* Zones */}
-                      <div className="mb-2">
-                        <p className="text-xs text-blue-600 font-semibold mb-2">
-                          Safari Zones
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                          {species.zones.map((zone, zoneIndex) => (
-                            <span
-                              key={zoneIndex}
-                              className="bg-gradient-to-r from-slate-100 to-blue-100 text-slate-700 px-4 py-2 rounded-xl text-xs border border-blue-200 font-medium"
-                            >
-                              {zone}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-
-                      {/* Interesting Facts */}
-                      <div className="border-t border-blue-100 pt-2">
-                        <p className="text-xs text-blue-600 font-semibold mb-3">
-                          Interesting Facts
-                        </p>
-                        <ul className="space-y-2">
-                          {species.interesting_facts
-                            .slice(0, 2)
-                            .map((fact, factIndex) => (
-                              <li
-                                key={factIndex}
-                                className="flex items-start gap-3 text-xs text-slate-600"
+                          <div className="flex flex-wrap gap-2">
+                            {species.zones.map((zone, zoneIndex) => (
+                              <span
+                                key={zoneIndex}
+                                className="bg-gradient-to-r from-slate-100 to-blue-100 text-slate-700 px-4 py-2 rounded-xl text-xs border border-blue-200 font-medium"
                               >
-                                <span className="w-2 h-2 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full mt-2 flex-shrink-0"></span>
-                                <span className="leading-relaxed">{fact}</span>
-                              </li>
+                                {zone}
+                              </span>
                             ))}
-                        </ul>
+                          </div>
+                        </div>
+
+                        {/* Interesting Facts */}
+                        <div className="border-t border-blue-100 pt-2">
+                          <p className="text-xs text-blue-600 font-semibold mb-3">
+                            Interesting Facts
+                          </p>
+                          <ul className="space-y-2">
+                            {species.interesting_facts
+                              .slice(0, 2)
+                              .map((fact, factIndex) => (
+                                <li
+                                  key={factIndex}
+                                  className="flex items-start gap-3 text-xs text-slate-600"
+                                >
+                                  <span className="w-2 h-2 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full mt-2 flex-shrink-0"></span>
+                                  <span className="leading-relaxed">
+                                    {fact}
+                                  </span>
+                                </li>
+                              ))}
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </div>
           )}
@@ -595,51 +591,53 @@ export default function DestinationPage({ params }) {
           {activeTabwildife === "mammals" && (
             <div className="max-w-7xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                {data.wildlife.other_mammals.map((mammal, index) => (
-                  <div
-                    key={index}
-                    className="bg-white/90 backdrop-blur-sm border border-blue-100 rounded-3xl overflow-hidden  hover:shadow-2xl hover:shadow-blue-500/20 hover:border-blue-300 transition-all duration-500 group shadow-xl"
-                  >
-                    <div className="aspect-video bg-gradient-to-br from-blue-100 to-indigo-200 overflow-hidden relative">
-                      <img
-                        src={mammal.image}
-                        alt={mammal.animal}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                    </div>
+                {data.destination.wildlife.other_mammals.map(
+                  (mammal, index) => (
+                    <div
+                      key={index}
+                      className="bg-white/90 backdrop-blur-sm border border-blue-100 rounded-3xl overflow-hidden  hover:shadow-2xl hover:shadow-blue-500/20 hover:border-blue-300 transition-all duration-500 group shadow-xl"
+                    >
+                      <div className="aspect-video bg-gradient-to-br from-blue-100 to-indigo-200 overflow-hidden relative">
+                        <img
+                          src={mammal.image}
+                          alt={mammal.animal}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                      </div>
 
-                    <div className="p-4">
-                      <h4 className="font-bold text-slate-800 mb-3 text-2xl">
-                        {mammal.animal}
-                      </h4>
-                      <p className="text-sm italic text-slate-500 mb-4 font-medium">
-                        {mammal.scientific_name}
-                      </p>
-                      <p className="text-sm text-slate-600 mb-4 line-clamp-3 leading-relaxed">
-                        {mammal.description}
-                      </p>
+                      <div className="p-4">
+                        <h4 className="font-bold text-slate-800 mb-3 text-2xl">
+                          {mammal.animal}
+                        </h4>
+                        <p className="text-sm italic text-slate-500 mb-4 font-medium">
+                          {mammal.scientific_name}
+                        </p>
+                        <p className="text-sm text-slate-600 mb-4 line-clamp-3 leading-relaxed">
+                          {mammal.description}
+                        </p>
 
-                      <div className="space-y-4 pb-4">
-                        <div className="flex items-center gap-4 text-sm">
-                          <span className="w-3 h-3 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex-shrink-0"></span>
-                          <span className="text-slate-600">
-                            Population:{" "}
-                            <span className="font-semibold text-slate-800">
-                              {mammal.population}
+                        <div className="space-y-4 pb-4">
+                          <div className="flex items-center gap-4 text-sm">
+                            <span className="w-3 h-3 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex-shrink-0"></span>
+                            <span className="text-slate-600">
+                              Population:{" "}
+                              <span className="font-semibold text-slate-800">
+                                {mammal.population}
+                              </span>
                             </span>
-                          </span>
-                        </div>
-                        <div className="flex items-center gap-4 text-sm">
-                          <span className="w-3 h-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex-shrink-0"></span>
-                          <span className="text-slate-600 font-medium">
-                            {mammal.habitat}
-                          </span>
+                          </div>
+                          <div className="flex items-center gap-4 text-sm">
+                            <span className="w-3 h-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex-shrink-0"></span>
+                            <span className="text-slate-600 font-medium">
+                              {mammal.habitat}
+                            </span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </div>
           )}
@@ -648,7 +646,7 @@ export default function DestinationPage({ params }) {
           {activeTabwildife === "birds" && (
             <div className="max-w-7xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                {data.wildlife.bird_species.map((bird, index) => (
+                {data.destination.wildlife.bird_species.map((bird, index) => (
                   <div
                     key={index}
                     className="bg-white/90 backdrop-blur-sm border border-blue-100 rounded-3xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/20 hover:border-blue-300 transition-all duration-500 group shadow-xl"
@@ -698,7 +696,7 @@ export default function DestinationPage({ params }) {
         <div className="max-w-7xl mx-auto mb-12">
           <div className="text-center mb-8">
             <h1 className="text-5xl font-bold bg-gradient-to-r from-amber-300 via-orange-400 to-red-500 bg-clip-text text-transparent mb-4">
-              {data.name} Safari Experience
+              Safari Experience
             </h1>
             <p className="text-slate-300 text-lg max-w-2xl mx-auto">
               Discover the majestic wilderness across distinct zones, each
@@ -737,7 +735,7 @@ export default function DestinationPage({ params }) {
         {activeTab === "zones" && (
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mb-8">
-              {data.safari_information.zones.map((zone, index) => (
+              {data.destination.safari_information.zones.map((zone, index) => (
                 <div
                   key={zone.zone_number}
                   className="bg-slate-800/60 backdrop-blur-md border border-slate-700 rounded-2xl p-6 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:border-amber-500/50"
@@ -849,7 +847,10 @@ export default function DestinationPage({ params }) {
                       Morning Safari
                     </h4>
                     <p className="text-slate-300 text-sm">
-                      {data.safari_information.timings.morning_safari}
+                      {
+                        data.destination.safari_information.timings
+                          .morning_safari
+                      }
                     </p>
                   </div>
 
@@ -858,7 +859,10 @@ export default function DestinationPage({ params }) {
                       Evening Safari
                     </h4>
                     <p className="text-slate-300 text-sm">
-                      {data.safari_information.timings.evening_safari}
+                      {
+                        data.destination.safari_information.timings
+                          .evening_safari
+                      }
                     </p>
                   </div>
 
@@ -867,7 +871,7 @@ export default function DestinationPage({ params }) {
                       Gate Opening
                     </h4>
                     <p className="text-slate-300 text-sm">
-                      {data.safari_information.timings.gate_opening}
+                      {data.destination.safari_information.timings.gate_opening}
                     </p>
                   </div>
                 </div>
@@ -880,7 +884,7 @@ export default function DestinationPage({ params }) {
                     </span>
                   </div>
                   <p className="text-red-300 text-sm">
-                    {data.safari_information.closed_period}
+                    {data.destination.safari_information.closed_period}
                   </p>
                 </div>
               </div>
@@ -899,7 +903,7 @@ export default function DestinationPage({ params }) {
                     </h4>
                     <p className="text-slate-300 text-sm">
                       {
-                        data.safari_information.booking_information
+                        data.destination.safari_information.booking_information
                           .advance_booking
                       }
                     </p>
@@ -910,7 +914,7 @@ export default function DestinationPage({ params }) {
                       Booking Platforms
                     </h4>
                     <ul className="space-y-1">
-                      {data.safari_information.booking_information.booking_platforms.map(
+                      {data.destination.safari_information.booking_information.booking_platforms.map(
                         (platform, i) => (
                           <li
                             key={i}
@@ -930,7 +934,7 @@ export default function DestinationPage({ params }) {
                     </h4>
                     <p className="text-slate-300 text-sm">
                       {
-                        data.safari_information.booking_information
+                        data.destination.safari_information.booking_information
                           .cancellation_policy
                       }
                     </p>
@@ -942,7 +946,7 @@ export default function DestinationPage({ params }) {
                     </h4>
                     <p className="text-amber-300 text-sm">
                       {
-                        data.safari_information.booking_information
+                        data.destination.safari_information.booking_information
                           .peak_season_booking
                       }
                     </p>
@@ -955,13 +959,13 @@ export default function DestinationPage({ params }) {
       </section>
 
       {/* Popular Destinations */}
-      {data?.famous_spots && (
+      {data?.destination?.famous_spots && (
         <section className="bg-gray-50">
           <h2 className="text-3xl font-bold text-center mb-12">
             Popular Destinations
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {data?.famous_spots?.map((spot, index) => (
+            {data?.destination?.famous_spots?.map((spot, index) => (
               <Card key={index} className="rounded-2xl shadow-lg">
                 <CardContent className="p-4">
                   <img
@@ -1004,10 +1008,10 @@ export default function DestinationPage({ params }) {
           {/* Activities Grid */}
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
-              {data.activities.map((activity, index) => (
+              {data.destination.activities.map((activity, index) => (
                 <div
                   key={index}
-                  className="group relative border border-white/20 rounded-3xl overflow-hidden transition-all duration-500 shadow-2xl hover:shadow-blue-500/20 bg-gradient-to-br from-blue-900/90 to-indigo-900/90"
+                  className="group relative bg-white border border-gray-200 rounded-3xl overflow-hidden transition-all duration-300 shadow-lg hover:shadow-xl hover:border-gray-300"
                 >
                   {/* Activity Icon Header */}
                   <div className="p-6 flex items-center justify-between">
@@ -1015,7 +1019,7 @@ export default function DestinationPage({ params }) {
                     <span
                       className={`px-3 py-1 rounded-full text-xs font-semibold border ${getDifficultyColor(
                         activity.difficulty
-                      )} bg-white/90`}
+                      )} bg-gray-50`}
                     >
                       {activity.difficulty}
                     </span>
@@ -1023,33 +1027,33 @@ export default function DestinationPage({ params }) {
 
                   {/* Content */}
                   <div className="px-8 pb-8">
-                    <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-cyan-300 transition-colors duration-300">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
                       {activity.name}
                     </h3>
 
-                    <p className="text-blue-100 leading-relaxed mb-6 text-sm">
+                    <p className="text-gray-600 leading-relaxed mb-6 text-sm">
                       {activity.description}
                     </p>
 
                     {/* Quick Info */}
                     <div className="grid grid-cols-2 gap-4 mb-6">
-                      <div className="flex items-center gap-2 text-sm text-blue-200">
-                        <Clock className="w-4 h-4 text-cyan-400" />
+                      <div className="flex items-center gap-2 text-sm text-gray-700">
+                        <Clock className="w-4 h-4 text-blue-500" />
                         <span>{activity.duration}</span>
                       </div>
-                      <div className="flex items-center gap-2 text-sm text-blue-200">
-                        <Users className="w-4 h-4 text-cyan-400" />
+                      <div className="flex items-center gap-2 text-sm text-gray-700">
+                        <Users className="w-4 h-4 text-blue-500" />
                         <span>{activity.group_size}</span>
                       </div>
                     </div>
 
                     {/* Cost */}
-                    <div className="bg-white/10 border border-white/20 rounded-2xl p-4 mb-6">
+                    <div className="bg-gray-50 border border-gray-200 rounded-2xl p-4 mb-6">
                       <div className="flex items-center justify-between">
-                        <span className="text-blue-200 text-sm">
+                        <span className="text-gray-600 text-sm">
                           Price Range
                         </span>
-                        <span className="text-white font-bold text-lg">
+                        <span className="text-gray-900 font-bold text-lg">
                           {activity.cost_range}
                         </span>
                       </div>
@@ -1057,26 +1061,26 @@ export default function DestinationPage({ params }) {
 
                     {/* Best Time */}
                     <div className="mb-6">
-                      <h4 className="text-cyan-300 font-semibold text-sm mb-2">
+                      <h4 className="text-blue-600 font-semibold text-sm mb-2">
                         Best Time
                       </h4>
-                      <p className="text-blue-100 text-sm">
+                      <p className="text-gray-600 text-sm">
                         {activity.best_time}
                       </p>
                     </div>
 
                     {/* Includes */}
                     <div className="mb-6">
-                      <h4 className="text-cyan-300 font-semibold text-sm mb-3">
+                      <h4 className="text-blue-600 font-semibold text-sm mb-3">
                         Includes
                       </h4>
                       <div className="space-y-2">
                         {activity.includes?.map((item, itemIndex) => (
                           <div
                             key={itemIndex}
-                            className="flex items-center gap-2 text-xs text-blue-200"
+                            className="flex items-center gap-2 text-xs text-gray-700"
                           >
-                            <CheckCircle className="w-3 h-3 text-emerald-400 flex-shrink-0" />
+                            <CheckCircle className="w-3 h-3 text-green-500 flex-shrink-0" />
                             <span>{item}</span>
                           </div>
                         ))}
@@ -1093,7 +1097,7 @@ export default function DestinationPage({ params }) {
                       </button>
 
                       {activity.booking_required && (
-                        <button className="w-full bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300">
+                        <button className="w-full bg-gray-100 hover:bg-gray-200 border border-gray-300 text-gray-700 font-semibold py-3 px-6 rounded-xl transition-all duration-300">
                           Book Now
                         </button>
                       )}
@@ -1108,145 +1112,175 @@ export default function DestinationPage({ params }) {
 
       {/* Accomodation */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
-        <h2 className="text-4xl font-extrabold text-center mb-14 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+        <h2 className="text-4xl font-extrabold text-center mb-14 text">
           Accommodation Options
         </h2>
-
-        {categories.map(({ key, title, gradient }) => {
-          const list = accommodation[key];
-          if (!list || list.length === 0) return null;
-
-          return (
-            <div key={key} className="mb-16">
-              {/* Category Heading */}
-              <h3
-                className={`text-2xl font-bold mb-8 inline-block bg-gradient-to-r ${gradient} bg-clip-text text-transparent`}
+        {/* Tabs */}
+        <div className="flex justify-center mb-12">
+          <div className="inline-flex bg-white border border-gray-200 rounded-full shadow-md overflow-hidden">
+            {Accomodationtabs.map((tab) => (
+              <button
+                key={tab.key}
+                onClick={() => setActiveTab(tab.key)}
+                className={`px-6 py-2 text-sm font-semibold transition-colors ${
+                  activeTab === tab.key
+                    ? "bg-blue-600 text-white"
+                    : "text-gray-600 hover:bg-blue-50"
+                }`}
               >
-                {title}
-              </h3>
+                {tab.label}
+              </button>
+            ))}
+          </div>
+        </div>
+        {/* Active Content */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {accommodations[activeTab]?.map((place, i) => (
+            <div
+              key={i}
+              className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden"
+            >
+              {/* Header */}
+              <div className="p-6 bg-gradient-to-r from-blue-50 to-blue-100 border-b border-gray-100">
+                <div className="flex justify-between items-start mb-3">
+                  <h3 className="text-xl font-bold text-gray-900">
+                    {place.name}
+                  </h3>
+                  <span className="px-3 py-1 bg-blue-600 text-white text-xs font-semibold rounded-full shadow-sm">
+                    {place.category}
+                  </span>
+                </div>
 
-              {/* Grid */}
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {list.map((place, index) => (
-                  <div
-                    key={index}
-                    className="group relative border border-white/20 rounded-3xl overflow-hidden
-                             backdrop-blur-xl bg-white/5 transition-all duration-500 
-                             shadow-xl hover:shadow-cyan-400/30 hover:-translate-y-2"
-                  >
-                    {/* Card Header */}
-                    <div className="p-6 border-b border-white/10">
-                      <h4 className="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors">
-                        {place.name}
-                      </h4>
-                      <p className="text-sm text-blue-200">{place.category}</p>
+                <div className="flex items-center gap-4 mb-3">
+                  {/* Rating */}
+                  {place.rating && (
+                    <div className="flex items-center">
+                      {[...Array(5)].map((_, index) => (
+                        <svg
+                          key={index}
+                          className={`w-4 h-4 ${
+                            index < Math.floor(place.rating)
+                              ? "text-yellow-400"
+                              : "text-gray-300"
+                          }`}
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                      <span className="ml-2 text-sm font-medium text-gray-700">
+                        {place.rating}
+                      </span>
                     </div>
+                  )}
 
-                    {/* Card Body */}
-                    <div className="px-6 py-5 space-y-4">
-                      {/* Rating */}
-                      <div className="flex items-center gap-2">
-                        <Star className="w-5 h-5 text-yellow-400" />
-                        <span className="text-white font-medium">
-                          {place.rating}
-                        </span>
-                      </div>
-
-                      {/* Price */}
-                      <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-white/10 rounded-2xl p-3 flex justify-between items-center">
-                        <span className="text-blue-200 text-sm">
-                          Price Range
-                        </span>
-                        <span className="text-white font-bold">
-                          {place.price_range}
-                        </span>
-                      </div>
-
-                      {/* Location */}
-                      {place.location && (
-                        <div className="flex items-center gap-2 text-sm text-blue-200">
-                          <MapPin className="w-4 h-4 text-cyan-400" />
-                          <span>{place.location}</span>
-                        </div>
-                      )}
-
-                      {/* Description */}
-                      <p className="text-blue-100 text-sm leading-relaxed">
-                        {place.description}
-                      </p>
-
-                      {/* Amenities */}
-                      {place.amenities && (
-                        <div>
-                          <h5 className="text-cyan-300 text-sm font-semibold mb-2">
-                            Amenities
-                          </h5>
-                          <ul className="space-y-1">
-                            {place.amenities.map((amenity, i) => (
-                              <li
-                                key={i}
-                                className="flex items-center gap-2 text-xs text-blue-200"
-                              >
-                                <CheckCircle className="w-3 h-3 text-emerald-400 flex-shrink-0" />
-                                {amenity}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-
-                      {/* Special Features */}
-                      {place.special_features && (
-                        <div>
-                          <h5 className="text-cyan-300 text-sm font-semibold mb-2">
-                            Special Features
-                          </h5>
-                          <ul className="space-y-1">
-                            {place.special_features.map((feature, i) => (
-                              <li
-                                key={i}
-                                className="flex items-center gap-2 text-xs text-blue-200"
-                              >
-                                <CheckCircle className="w-3 h-3 text-indigo-400 flex-shrink-0" />
-                                {feature}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-
-                      {/* Booking */}
-                      {place.booking_contact && (
-                        <div className="flex items-center gap-2 text-sm text-blue-200">
-                          <Phone className="w-4 h-4 text-cyan-400" />
-                          <span>{place.booking_contact}</span>
-                        </div>
-                      )}
-                      {place.booking_process && (
-                        <p className="text-xs text-blue-300">
-                          {place.booking_process}
-                        </p>
-                      )}
+                  {place.price_range && (
+                    <div className="text-lg font-bold text-blue-600">
+                      {place.price_range}
                     </div>
+                  )}
+                </div>
 
-                    {/* Card Footer - CTA */}
-                    <div className="p-6 border-t border-white/10">
-                      <button
-                        className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 
-                                 hover:from-cyan-600 hover:to-blue-600 
-                                 text-white font-semibold py-2 px-4 rounded-xl 
-                                 transition-all duration-300 transform hover:scale-105 shadow-md"
-                      >
-                        Book Now
-                      </button>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  {place.description}
+                </p>
+              </div>
+
+              {/* Details */}
+              <div className="p-6">
+                {place.location && (
+                  <div className="flex items-center gap-2 text-gray-600 mb-4">
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    <span className="text-sm">{place.location}</span>
+                  </div>
+                )}
+
+                {/* Amenities */}
+                {place.amenities && (
+                  <div className="mb-4">
+                    <h4 className="font-semibold text-gray-900 mb-2">
+                      Amenities
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {place.amenities.map((amenity, index) => (
+                        <span
+                          key={index}
+                          className="px-3 py-1 bg-blue-50 text-blue-700 text-xs rounded-full"
+                        >
+                          {amenity}
+                        </span>
+                      ))}
                     </div>
                   </div>
-                ))}
+                )}
+
+                {/* Special Features */}
+                {place.special_features && (
+                  <div className="mb-4">
+                    <h4 className="font-semibold text-gray-900 mb-2">
+                      Special Features
+                    </h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      {place.special_features.map((feature, index) => (
+                        <li key={index} className="flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 bg-blue-500 rounded-full"></div>
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                {/* Booking */}
+                {place.booking_process ? (
+                  <div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
+                    <h4 className="font-semibold text-blue-900 mb-1">
+                      Booking Process
+                    </h4>
+                    <p className="text-sm text-blue-700">
+                      {place.booking_process}
+                    </p>
+                  </div>
+                ) : place.booking_contact ? (
+                  <div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
+                    <h4 className="font-semibold text-blue-900 mb-1">
+                      Contact
+                    </h4>
+                    <p className="text-sm text-blue-700">
+                      {place.booking_contact}
+                    </p>
+                  </div>
+                ) : null}
+
+                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg">
+                  Book Now
+                </button>
               </div>
             </div>
-          );
-        })}
+          ))}
+        </div>
       </section>
+
+      {/* Practical Information */}
 
       {/* Best Time to Visit */}
       <section className="py-16 px-6 bg-gray-50">
@@ -1255,21 +1289,23 @@ export default function DestinationPage({ params }) {
         </h2>
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-lg">
-            {data?.description?.best_time_to_visit?.season}
+            {data?.destination?.description?.best_time_to_visit?.season}
           </p>
           <p className="text-gray-600">
-            Peak: {data?.description?.best_time_to_visit?.peak_season} |
-            Weather: {data?.description?.best_time_to_visit?.weather}
+            Peak:{" "}
+            {data?.destination?.description?.best_time_to_visit?.peak_season} |
+            Weather:{" "}
+            {data?.destination?.description?.best_time_to_visit?.weather}
           </p>
         </div>
       </section>
 
       {/* Travel Tips */}
-      {data?.tip && (
+      {data?.destination?.tip && (
         <section className="py-16 px-6 max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">Travel Tips</h2>
           <ul className="list-disc list-inside text-lg space-y-2 text-gray-700">
-            {data?.tips?.map((tip, i) => (
+            {data?.destination?.tips?.map((tip, i) => (
               <li key={i}>{tip}</li>
             ))}
           </ul>
@@ -1278,7 +1314,7 @@ export default function DestinationPage({ params }) {
 
       {/* Footer */}
       <footer className="py-8 text-center bg-gray-900 text-white mt-16">
-        <p>© 2025 Explore {data.name}. All rights reserved.</p>
+        <p>© 2025 Explore {data.destination.name}. All rights reserved.</p>
       </footer>
     </div>
   );

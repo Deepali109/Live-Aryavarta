@@ -1,18 +1,9 @@
-// import CategoryBasedData from "../data/categoryBasedData.json"; getDestinationByCategory
 // controllers/CategoryBasedController.js
-import { raw } from "express";
 import fs from "fs";
 import path from "path";
 
-const filePath = path.join(process.cwd(), "data", "categoryBasedData.json");
-
-// Load JSON
-let rawData = {};
-try {
-  rawData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-} catch (err) {
-  console.error("Error reading JSON:", err);
-}
+// const categoryPath = path.join(process.cwd(), "backend", "data", "categories");
+const categoryPath = path.join(process.cwd(), "data", "categories");
 
 // Helper to format destinations for frontend
 const formatDestination = (destination) => ({
@@ -35,64 +26,57 @@ const formatDestination = (destination) => ({
   rating: destination.rating?.overall || 0,
 });
 
-// Get all categories (overview)
-export const getAllCategories = (req, res) => {
-  if (!rawData.categories)
-    return res.status(500).json({ message: "No categories found" });
-
-  const categoriesOverview = Object.values(rawData.categories).map((cat) => ({
-    slug: cat.category_id,
-    name: cat.category_name,
-    description: cat.category_description,
-    destinationsCount: cat.destinations.length,
-  }));
-
-  res.json(categoriesOverview);
-};
-
-// Get category by slug
+// ✅ Get category by slug
 export const getDestinationByCategory = (req, res) => {
-  const { category } = req.params; // ✅ param name matches router
-  console.log("Requested category:", category);
+  const { category } = req.params;
+  const filePath = path.join(categoryPath, `${category}.json`);
 
-  if (!rawData.categories) {
-    return res.status(500).json({ message: "No categories found" });
-  }
-
-  const categoryData = rawData.categories[category]; // ✅ lookup by key
-  if (!categoryData) {
+  if (!fs.existsSync(filePath)) {
     return res.status(404).json({ message: "Category not found" });
   }
 
-  const destinations = categoryData.destinations.map(formatDestination);
+  try {
+    const rawData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    const destinations = rawData.destinations.map(formatDestination);
 
-  res.json({
-    categoryName: categoryData.category_name,
-    destinations,
-  });
+    res.json({
+      categoryName: rawData.category_name,
+      destinations,
+    });
+  } catch (err) {
+    res
+      .status(500)
+      .json({ message: "Error reading category file", error: err });
+  }
 };
 
-// get destination by id
-
+// ✅ Get destination by ID (search across all files)
+// controllers/CategoryBasedController.js
 export const getDestinationById = (req, res) => {
-  const { id } = req.params;
+  const { category, id } = req.params;
+  const filePath = path.join(categoryPath, `${category}.json`);
 
-  if (!rawData.categories) {
-    return res.status(500).json({ message: "No Category found" });
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).json({ message: "Category not found" });
   }
 
-  let foundDestination = null;
-  for (const categoryKey of Object.keys(rawData.categories)) {
-    const category = rawData.categories[categoryKey];
-    const destination = category.destinations.find((d) => d.id === id);
-    if (destination) {
-      foundDestination = { ...destination, category: category.category_name };
-      break;
+  try {
+    const rawData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    const destination = rawData.destinations.find((d) => d.id === id);
+
+    if (!destination) {
+      return res.status(404).json({ message: "Destination not found" });
     }
-  }
-  if (!foundDestination) {
-    return res.status(404).json({ message: "Destination not found" });
-  }
 
-  res.json(foundDestination);
+    // Return both a formatted version and the full raw object (so different pages can use what they need)
+    res.json({
+      // category: rawData.category_name || category,
+      destination, // the selected destination in full
+      // the entire category JSON file
+    });
+  } catch (err) {
+    res
+      .status(500)
+      .json({ message: "Error reading destination", error: err.toString() });
+  }
 };
